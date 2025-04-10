@@ -23,33 +23,33 @@ In qualità di inserzionista, scopri come condividere i tipi di pubblico con gli
 
 ## Condividere nuovi tipi di pubblico
 
-Per iniziare a condividere i tipi di pubblico, passa alla scheda **[!UICONTROL Condividi]** nell&#39;area di lavoro del progetto. Solo le **organizzazioni inserzioniste** possono condividere i tipi di pubblico per le campagne. In questo scheda, puoi esaminare e gestire i tipi di pubblico condivisi.
+Per iniziare a condividere i tipi di pubblico, passa alla scheda **[!UICONTROL Condividi]** nell&#39;area di lavoro del progetto. Solo le **organizzazioni inserzioniste** possono condividere i tipi di pubblico per le campagne. In questa scheda puoi rivedere e gestire i tipi di pubblico condivisi.
 
-Seleziona il **simbolo più (+)** o l&#39;opzione **[!UICONTROL Condividi pubblico]** se nessun pubblico precedente è stato condiviso, per iniziare il processo di condivisione del pubblico.
+Per iniziare il processo di condivisione del pubblico, seleziona il simbolo **Plus (+)** o l&#39;opzione **[!UICONTROL Condividi pubblico]** se non sono stati condivisi tipi di pubblico precedenti.
 
-![Visualizzazione predefinita senza pubblico condiviso.](/help/assets/collaborate/share/share-new-audiences.png)
+![Visualizzazione predefinita senza tipi di pubblico condivisi.](/help/assets/collaborate/share/share-new-audiences.png)
 
-Viene visualizzato un nuovo pannello in cui puoi selezionare i tipi di pubblico che desideri condividere con il tuo collaboratore.
+Viene visualizzato un nuovo pannello in cui è possibile selezionare i tipi di pubblico che si desidera condividere con il collaboratore.
 
-![Condividi nuovi tipi di pubblico workflow.](/help/assets/collaborate/share/share-audiences-workflow.png)
+![Condividi nuovo flusso di lavoro tipi di pubblico.](/help/assets/collaborate/share/share-audiences-workflow.png)
 
-### Selezionare i tipi di pubblico da condividere
+### Seleziona i tipi di pubblico da condividere
 
-Nella finestra di selezione del pubblico, puoi ricerca tipi di pubblico specifici da condividere immettendo il nome del pubblico nella barra dei ricerca. Seleziona **[!UICONTROL Sfoglia tipi di]** pubblico e utilizza le opzioni di ordinamento disponibili per trovare esattamente i tipi di pubblico di cui hai bisogno.
+Nella finestra di selezione del pubblico, puoi cercare tipi di pubblico specifici da condividere immettendo il nome del pubblico nella barra di ricerca. Seleziona **[!UICONTROL Sfoglia tipi di pubblico]** e utilizza le opzioni di ordinamento disponibili per trovare i tipi di pubblico esatti necessari.
 
-![Sfoglia visualizzazione Tipi di pubblico con l&#39;opzione Tipi di pubblico selezionati.](/help/assets/collaborate/share/browse-audiences-view.png)
+![Sfoglia visualizzazione tipi di pubblico con tipi di pubblico selezionati.](/help/assets/collaborate/share/browse-audiences-view.png)
 
-### Modifica tasti corrispondenti e impostare targeting opzioni
+### Modifica le chiavi di corrispondenza e imposta le opzioni di targeting
 
-Dopo aver selezionato i tipi di pubblico da condividere, ora puoi selezionare altre opzioni di configurazione per l&#39;attività di condivisione.
+Dopo aver selezionato i tipi di pubblico desiderati da condividere, ora puoi selezionare altre opzioni di configurazione per l’attività di condivisione.
 
-![Modifica tasti di corrispondenza e destinazione o sopprimere selettore evidenziato](/help/assets/collaborate/share/match-keys-and-targeting.png)
+![Il selettore di destinazione e le chiavi di corrispondenza sono evidenziati](/help/assets/collaborate/share/match-keys-and-targeting.png)
 
 Seleziona **[!UICONTROL Modifica chiavi di corrispondenza]** per indicare quali chiavi di corrispondenza devono essere utilizzate per le identità nel pubblico. Queste opzioni vengono ereditate dalle impostazioni selezionate al momento della configurazione iniziale della connessione tra collaboratori. Puoi rimuovere le chiavi di corrispondenza selezionate in quel momento se non sono applicabili a questa campagna specifica, ma a questo punto non puoi aggiungere nuove chiavi di corrispondenza.
 
 ![Modifica chiavi di corrispondenza.](/help/assets/collaborate/share/update-match-keys.png)
 
-Per ogni pubblico, scegli se desideri like che i membri di quel pubblico siano presi di mira o soppressi nella campagna. In particolare, i profili soppressi non faranno parte del pubblico attivato dall&#39;editore.
+Per ogni pubblico, seleziona se desideri che i membri del pubblico vengano targetizzati o soppressi nella campagna. I profili eliminati non faranno specificamente parte del pubblico attivato dall’editore.
 
 ### Impostare la frequenza e l&#39;intervallo di aggiornamento del pubblico
 
@@ -63,13 +63,13 @@ Se sei soddisfatto delle tue selezioni, seleziona **[!UICONTROL Condividi]** per
 
 >[!SUCCESS]
 >
->Ora puoi vedere una nuova attività di condivisione del **[!UICONTROL pubblico nel scheda Condivisione]** . Se necessario, puoi tornare indietro e modificare qualsiasi selezione effettuata.
+>Ora puoi visualizzare una nuova attività di condivisione del pubblico nella scheda **[!UICONTROL Condivisione]**. Se lo desideri, puoi tornare indietro e modificare qualsiasi selezione effettuata.
 
-## Visualizza tipi di pubblico attualmente condivisi
+## Visualizzare i tipi di pubblico attualmente condivisi
 
-**[!UICONTROL Nella scheda Condivisione]** è possibile visualizzare i tipi di pubblico attualmente condivisi tra i collaboratori, raggruppati in attività di condivisione del pubblico.
+Nella scheda **[!UICONTROL Condivisione]**, puoi visualizzare i tipi di pubblico attualmente condivisi tra i collaboratori, raggruppati in attività di condivisione del pubblico.
 
-![Panoramica dell&#39;scheda di condivisione.](/help/assets/collaborate/share/share-tab-overview.png)
+![Panoramica della scheda Condivisione.](/help/assets/collaborate/share/share-tab-overview.png)
 
 <!--
 
@@ -87,27 +87,27 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 -->
 
-All&#39;interno di ogni attività di condivisione del pubblico, puoi ottenere informazioni su ogni pubblico condiviso.
+All’interno di ogni attività di condivisione del pubblico, puoi ottenere informazioni su ogni pubblico condiviso.
 
 | Metrica | Descrizione |
 |---------|----------|
-| **[!UICONTROL Numero di identità]** | Indica il numero di profili per tutte le identità legate a questo pubblico, secondo l&#39;ultima valutazione del conteggio delle identità. Questi numeri vengono aggiornati ogni 24 ore. |
+| **[!UICONTROL Conteggio identità]** | Indica il numero di profili per tutte le identità associate a questo pubblico, in base all’ultima valutazione del conteggio delle identità. Questi numeri vengono aggiornati ogni 24 ore. |
 | **[!UICONTROL Identità sovrapposte]** | Indica il numero di identità sovrapposte tra i membri di questo pubblico e la popolazione totale di profili nell&#39;inventario del collaboratore. |
 | **[!UICONTROL Corrispondenza con suddivisione chiave]** | Mostra il conteggio delle identità per ogni identità utilizzata nel pubblico. Ad esempio, un conteggio di identità totale di 500.000 utenti potrebbe essere costituito da 400.000 utenti ai quali è stata applicata l’identità e-mail con hash e da 100.000 utenti ai quali è stata applicata un’identità ID mobile. Tieni presente che nell’esempio qui descritto, la stessa persona potrebbe essere presente nel pubblico due volte con la propria e-mail e l’identità dell’ID mobile. |
-| **[!UICONTROL Oggetto]** | **[!UICONTROL Sopprimere]** o **[!UICONTROL Target]**. Indica se i membri di un pubblico devono essere oggetto di targeting o esclusi dalle campagne. |
+| **[!UICONTROL Oggetto]** | **[!UICONTROL Elimina]** o **[!UICONTROL Destinazione]**. Indica se i membri di un pubblico devono essere oggetto di targeting o esclusi dalle campagne. |
 
-La pagina fornisce anche controlli per sospendere **[!UICONTROL la condivisione]** e **[!UICONTROL Modifica i tipi di]** pubblico.
+La pagina fornisce inoltre i controlli per **[!UICONTROL Sospendere la condivisione]** e **[!UICONTROL Modificare i tipi di pubblico]**.
 
 ## Modifica tipi di pubblico {#edit-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="Target o sopprimere il caso d&#39;uso"
->abstract="<p>Seleziona **Target** se desideri che ai profili del pubblico vengano mostrati annunci pubblicitari nella campagna.</p> <p>Selezionate **Elimina** se desiderate escludere i profili del pubblico dalla campagna messaggistica.</p>"
+>title="Targeting o eliminazione del caso d’uso"
+>abstract="<p>Seleziona **Target** se vuoi che i profili nel pubblico vengano mostrati come annunci nella campagna.</p> <p>Seleziona **Elimina** se desideri escludere i profili nel pubblico dai messaggi della campagna.</p>"
 
-Seleziona **[!UICONTROL Modifica tipi di]** pubblico per modificare i tipi di pubblico condivisi in un modulo di condivisione del pubblico, nonché per modificare diverse configurazioni relative al modo in cui i tipi di pubblico vengono condivisi.
+Seleziona **[!UICONTROL Modifica tipi di pubblico]** per modificare quali tipi di pubblico sono condivisi in un modulo di condivisione del pubblico e per modificare diverse configurazioni relative al modo in cui i tipi di pubblico vengono condivisi.
 
-![Visualizza della modalità di modifica dei tipi di pubblico](/help/assets/collaborate/share/edit-audiences-modal.png)
+![Visualizzazione del modale di modifica dei tipi di pubblico](/help/assets/collaborate/share/edit-audiences-modal.png)
 
 <!--
 
@@ -125,4 +125,4 @@ TODO: are there any limitations for frequency in the M1 release?
 
 ## Passaggi successivi
 
-Una volta che il editore riceve i tipi di pubblico condivisi, li [attiva](/help/guide/collaborate/activate.md) nelle pubblicità digitale campagne.
+Dopo che l&#39;editore avrà ricevuto i tipi di pubblico condivisi, adesso li [attiverà](/help/guide/collaborate/activate.md) nelle campagne pubblicitarie digitali.

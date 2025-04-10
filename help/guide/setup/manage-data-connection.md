@@ -25,15 +25,15 @@ Prima di gestire le connessioni dati qui, devi impostarle inizialmente durante i
 
 >[!IMPORTANT]
 >
->L’eliminazione di una connessione dati non è attualmente supportata nell’interfaccia utente di Real-Time CDP Collaboration. Per eliminare una connessione dati, contatta il tuo rappresentante Adobe o [crea un ticket di assistenza clienti](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support).
+>L’eliminazione di una connessione dati non è attualmente supportata nell’interfaccia utente di Real-Time CDP Collaboration. Per eliminare una connessione dati, contatta il tuo rappresentante Adobe o [crea un ticket di assistenza clienti](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Per visualizzare le connessioni dati esistenti, passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Tipi di pubblico]** e seleziona **[!UICONTROL Gestisci connessioni dati]**.
 
-![Area di lavoro di installazione con l&#39;opzione Gestisci connessioni dati evidenziata.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![Area di lavoro di installazione con l&#39;opzione Gestisci connessioni dati evidenziata.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
 Viene visualizzata una visualizzazione di tutte le connessioni dati attualmente impostate, con informazioni sul numero di tipi di pubblico in ciascuno di essi, l’origine della connessione dati e altro ancora. Selezionare **[!UICONTROL Visualizza connessione dati]** per visualizzare informazioni sulle chiavi di corrispondenza, la pianificazione e i tipi di pubblico che fanno parte di questa connessione dati.
 
-![Gestione delle connessioni dati nell&#39;area di lavoro con connessioni Visualizza connessioni dati evidenziate. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![Gestione delle connessioni dati nell&#39;area di lavoro con connessioni Visualizza connessioni dati evidenziate. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### Chiavi di corrispondenza {#match-keys}
 
@@ -48,7 +48,7 @@ Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i me
 
 Impossibile modificare le chiavi di corrispondenza utilizzate in questa connessione dati.
 
-![Area di lavoro connessioni dati con la sezione Chiavi di corrispondenza evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![Area di lavoro connessioni dati con la sezione Chiavi di corrispondenza evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Pianificazione {#scheduling}
 
@@ -59,13 +59,13 @@ Impossibile modificare le chiavi di corrispondenza utilizzate in questa connessi
 
 Non è possibile modificare le opzioni di pianificazione selezionate inizialmente per la connessione dati. Per ulteriori informazioni sulle opzioni di pianificazione, visualizzare la [sezione di pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nel documento del flusso di lavoro di importazione del pubblico.
 
-![Area di lavoro connessioni dati con la sezione Pianificazione evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+![Area di lavoro connessioni dati con la sezione Pianificazione evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Gestire i tipi di pubblico {#manage-audiences}
 
 Quando visualizzi l’elenco dei tipi di pubblico dalla connessione dati, puoi scegliere di visualizzarli, modificarne le categorie o rimuoverli dalla connessione dati.
 
-![Un&#39;area di lavoro connessioni dati con i tipi di pubblico evidenziati.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![Un&#39;area di lavoro connessioni dati con i tipi di pubblico evidenziati.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Passaggi successivi
 
