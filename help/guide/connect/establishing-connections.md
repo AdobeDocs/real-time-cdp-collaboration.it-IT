@@ -27,7 +27,7 @@ Ad alto livello, per stabilire una connessione tra un inserzionista e un editore
 4. L&#39;inserzionista invia le impostazioni di connessione, incluse le chiavi di corrispondenza e altre. Queste impostazioni di connessione rappresentano i termini della collaborazione all&#39;interno del prodotto.
 5. L&#39;editore accetta le impostazioni di connessione. Se lo si desidera, l&#39;editore può rifiutare le impostazioni di connessione iniziali e richiedere che l&#39;inserzionista invii le impostazioni di connessione riviste.
 
-![Diagramma di alto livello del processo di connessione inserzionista-editore.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png)
+![Diagramma di alto livello del processo di connessione inserzionista-editore.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 Una volta completati gli elementi di cui sopra, i collaboratori possono procedere a [creare un progetto](/help/guide/collaborate/manage-projects.md#create-project) per [eseguire rapporti di sovrapposizione](/help/guide/collaborate/discover.md) e avviare campagne pubblicitarie.
 
@@ -39,11 +39,11 @@ Una volta completati gli elementi di cui sopra, i collaboratori possono proceder
 
 Per impostare una connessione, selezionare **[!UICONTROL Connetti]** durante la navigazione nell&#39;inventario degli editori nella schermata di individuazione degli editori.
 
-![Connetti selettore](/help/assets/connect/establish-connection/connect-selection.png)
+![Connetti selettore](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 A questo punto, l’invito non è disponibile e puoi visualizzare in anteprima le impostazioni di connessione, ma non puoi modificarle. Puoi visualizzare l&#39;invito in sospeso nella scheda **[!UICONTROL Le mie connessioni]**. Lo stato della connessione è **[!UICONTROL Invito inviato]**.
 
-![Invito in sospeso inviato all&#39;editore visualizzato nella visualizzazione Connessioni personali.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![Invito in sospeso inviato all&#39;editore visualizzato nella visualizzazione Connessioni personali.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le impostazioni di connessione e inviarle al collaboratore per la revisione e l&#39;accettazione.
 
@@ -76,23 +76,23 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
-![Visualizzazione delle impostazioni di connessione nello stato di anteprima.](/help/assets/connect/establish-connection/preview-connection-settings.png)
+![Visualizzazione delle impostazioni di connessione nello stato di anteprima.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
 Una volta che la connessione è stata accettata dal collaboratore, è ora possibile avviare la configurazione delle impostazioni di connessione per la connessione. Le impostazioni di connessione definiscono i termini della collaborazione, ad esempio i casi d&#39;uso che verranno eseguiti insieme, le chiavi di corrispondenza che verranno utilizzate nei progetti e altro ancora.
 
 Per impostare e condividere le impostazioni di connessione con il tuo collaboratore, passa a **[!UICONTROL Le mie connessioni]**. Per qualsiasi connessione con stato **[!UICONTROL In sospeso]**, è possibile selezionare **[!UICONTROL Configura connessione]** per configurare le impostazioni di connessione.
 
-![La visualizzazione Connessioni personali con una connessione in sospeso e l&#39;opzione Configura connessione evidenziata.](/help/assets/connect/establish-connection/pending-connection.png)
+![La visualizzazione Connessioni personali con una connessione in sospeso e l&#39;opzione Configura connessione evidenziata.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Puoi modificare e definire i campi seguenti:
 
-![Configura visualizzazione connessione](/help/assets/connect/establish-connection/connection-view.png)
+![Configura visualizzazione connessione](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Casi d’uso
 
 I casi di utilizzo sono precompilati con tutti i casi di utilizzo disponibili. È possibile scegliere i casi d&#39;uso che la connessione utilizzerà selezionando **[!UICONTROL Modifica]** e disattivando quelli non desiderati. I casi d&#39;uso selezionati determineranno quali visualizzazioni e opzioni sono [disponibili nei tuoi progetti](../collaborate/manage-projects.md#project-use-cases).
 
-![Casi d’uso](/help/assets/connect/establish-connection/view-use-cases.png)
+![Casi d’uso](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
@@ -131,9 +131,9 @@ Se ricevi le impostazioni di connessione proposte dal tuo collaboratore, puoi **
 1. Passa a **[!UICONTROL Connetti]** > **[!UICONTROL Le mie connessioni]**.
 2. Selezionare **[!UICONTROL Visualizza connessione]** sulla scheda di connessione per accedere alla connessione che si desidera eliminare.
 3. Seleziona l&#39;icona Elimina ![icona Elimina](/help/assets/common/delete.svg) per visualizzare la finestra di conferma dell&#39;eliminazione della connessione.
-   ![Icona Elimina connessione evidenziata.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+   ![Icona Elimina connessione evidenziata.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. Confermare l&#39;eliminazione selezionando **[!UICONTROL Elimina]**.
-   ![Finestra di dialogo per confermare l&#39;eliminazione di una connessione. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+   ![Finestra di dialogo per confermare l&#39;eliminazione di una connessione. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

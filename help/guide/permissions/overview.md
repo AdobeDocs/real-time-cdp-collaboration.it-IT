@@ -19,7 +19,7 @@ ht-degree: 2%
 >
 > Se sei un utente finale che desidera accedere a Real-Time CDP Collaboration, rivolgiti al tuo amministratore di sistema o di prodotto per verificare se esiste un accesso. Se non sai chi sia l’amministratore di sistema, contatta il tuo rappresentante Adobe.
 
-Il controllo degli accessi per Real-Time Customer Data Platform (CDP) Collaboration viene fornito tramite Admin Console e le autorizzazioni in [Adobe Experience Cloud](https://experience.adobe.com/). In questa guida imparerai a fornire l’accesso a te stesso o ad altri membri del tuo team, a seconda del caso d’uso.
+Il controllo degli accessi per Real-Time Customer Data Platform (CDP) Collaboration viene fornito tramite Admin Console e le autorizzazioni in [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. In questa guida imparerai a fornire l’accesso a te stesso o ad altri membri del tuo team, a seconda del caso d’uso.
 
 ## Gerarchia di controllo di accesso {#hierarchy}
 

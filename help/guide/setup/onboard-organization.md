@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration e gestire vari aspetti dell’azienda. Questa pagina illustra i passaggi necessari per integrare un’organizzazione negli Adobi Real-Time CDP Collaboration, inclusa l’impostazione delle chiavi di corrispondenza, delle identità preferite e di altre opzioni.
 
-![Pagina di installazione](/help/assets/setup/manage-organization/my-organization.png)
+![Pagina di installazione](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Configurazione iniziale dell’organizzazione
 
@@ -27,7 +27,7 @@ Devi prima impostare l’organizzazione e i dettagli organizzativi. Passa a **[!
 >
 >Dopo aver impostato un account iniziale per l’utilizzo, puoi utilizzare lo stesso flusso di lavoro per impostare account aggiuntivi all’interno della stessa organizzazione.
 
-![Seleziona account per aggiungere una nuova organizzazione a Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png)
+![Seleziona account per aggiungere una nuova organizzazione a Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 Il flusso di lavoro per configurare l’organizzazione include le due pagine seguenti:
 
@@ -40,7 +40,7 @@ Il flusso di lavoro per configurare l’organizzazione include le due pagine seg
 
 ### Imposta dettagli {#set-up-details}
 
-![I passaggi relativi ai dettagli e ai casi d&#39;uso per configurare un&#39;organizzazione](/help/assets/setup/manage-organization/add-organization-details.png)
+![I passaggi relativi ai dettagli e ai casi d&#39;uso per configurare un&#39;organizzazione](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. Aggiungi un **[!UICONTROL nome organizzazione]** per la tua società.
 2. Aggiungi una **[!UICONTROL Descrizione]** sulla tua azienda.
@@ -48,7 +48,7 @@ Il flusso di lavoro per configurare l’organizzazione include le due pagine seg
 4. Seleziona il **[!UICONTROL Settore]** per la tua organizzazione. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
 5. Seleziona l&#39;**[!UICONTROL Area]** per la tua organizzazione. Nella versione corrente del prodotto, **[!UICONTROL Nord America]** è la selezione predefinita predefinita predefinita.
 6. <span class="preview"> Solo editore</span>: durante la configurazione di un&#39;organizzazione di editori, è necessario leggere e confermare che gli inserzionisti potranno individuarti nel catalogo di editori.
-   ![Messaggio di consenso specifico per il server di pubblicazione.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png)
+   ![Messaggio di consenso specifico per il server di pubblicazione.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
 7. Carica un **[!UICONTROL Logo]** per la tua azienda. Attualmente, sono supportate le immagini di tipo SVG.
 8. Seleziona un&#39;immagine per l&#39;immagine dell&#39;intestazione della società.
 
@@ -82,7 +82,7 @@ Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente,
 
 Seleziona le chiavi di corrispondenza che desideri utilizzare per riconciliare i membri del pubblico dell’editore e dell’inserzionista. Includi tutte le chiavi di corrispondenza utilizzabili dalla tua azienda. Pianifica per il futuro e seleziona le chiavi di corrispondenza che prevedi di utilizzare nelle campagne future per gli inserzionisti di editori. Se devi selezionare altre chiavi di corrispondenza per la tua organizzazione, puoi farlo in un secondo momento nel flusso di lavoro [modifica organizzazione](#edit-organization).
 
-![Passaggio di selezione chiavi corrispondenti.](/help/assets/setup/manage-organization/add-organization-match-keys.png)
+![Passaggio di selezione chiavi corrispondenti.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Successivamente, quando si impostano le connessioni, è possibile rimuovere le chiavi di corrispondenza indesiderate, ma non aggiungerne di nuove. Imposta la soglia del conteggio delle identità (conteggio minimo) per ogni chiave di corrispondenza selezionata. Le chiavi di corrispondenza con un conteggio inferiore al minimo non verranno visualizzate nei raggruppamenti di identità per alcuni casi d’uso.
 
@@ -111,15 +111,15 @@ Al termine, seleziona **[!UICONTROL Completa]** per completare il flusso di lavo
 
 Dopo aver inizialmente configurato l’organizzazione, puoi modificarne alcuni aspetti e dettagli in qualsiasi momento. Per modificare la tua organizzazione, seleziona **[!UICONTROL Modifica]** nella visualizzazione **[!UICONTROL Organizzazione]**.
 
-![Controllo modifica organizzazione evidenziato.](/help/assets/setup/manage-organization/edit-organization.png)
+![Controllo modifica organizzazione evidenziato.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
 A questo punto, è possibile aggiornare il nome, la descrizione, il logo e l&#39;immagine del profilo dell&#39;organizzazione.
 
-![Opzioni modificabili per le organizzazioni.](/help/assets/setup/manage-organization/editable-options.png)
+![Opzioni modificabili per le organizzazioni.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
 Puoi anche aggiornare i codici di corrispondenza selezionati inizialmente al momento dell’onboarding dell’organizzazione, nonché la soglia minima di identità corrispondenti ai codici di corrispondenza affinché siano visibili e utilizzabili in sovrapposizioni di pubblico e altre aree di prodotto. Seleziona **[!UICONTROL Modifica]** nella scheda **[!UICONTROL Chiavi corrispondenti]** per aggiungere altre chiavi di corrispondenza desiderate o aggiornare le soglie di identità.
 
-![Modifica chiavi di corrispondenza](/help/assets/setup/manage-organization/edit-match-keys.png)
+![Modifica chiavi di corrispondenza](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Passaggi successivi
 

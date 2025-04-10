@@ -21,21 +21,21 @@ I progetti sono il fulcro del flusso di lavoro in Real-Time CDP Collaboration. D
 >
 >I progetti devono in genere essere associati a una singola campagna.
 
-![Visualizzazione di tutti i progetti, non filtrata.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
+![Visualizzazione di tutti i progetti, non filtrata.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Puoi utilizzare i filtri per visualizzare solo i progetti avviati con alcuni collaboratori, come illustrato di seguito:
 
-![Visualizzazione filtrata dei progetti con un unico collaboratore.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png)
+![Visualizzazione filtrata dei progetti con un unico collaboratore.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Crea progetto {#create-project}
 
 Per creare un progetto, seleziona il simbolo Più **+** nell&#39;angolo superiore destro. Oppure, se si tratta del primo progetto, passa a **[!UICONTROL Collabora]** > **[!UICONTROL Progetti personali]** e seleziona **[!UICONTROL Crea progetto]**.
 
-![Selezionare il simbolo più o creare un progetto per impostare un nuovo progetto.](/help/assets/collaborate/manage-view-projects/create-project.png)
+![Selezionare il simbolo più o creare un progetto per impostare un nuovo progetto.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
 Quindi, seleziona il collaboratore con cui stai creando il progetto. Specifica un **[!UICONTROL nome progetto]** e una **[!UICONTROL descrizione]** per il progetto, seleziona un&#39;intestazione immagine per distinguere facilmente il progetto e conferma la selezione.
 
-![Opzioni necessarie per impostare un nuovo progetto](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
+![Opzioni necessarie per impostare un nuovo progetto](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
 Ora puoi visualizzare il nuovo progetto e i relativi dettagli.
 
@@ -49,4 +49,4 @@ Approfondisci i singoli progetti per eseguire rapporti di sovrapposizione, indiv
 | Individuazione del pubblico | Questo caso d&#39;uso consente di accedere alla sezione [Discover](/help/guide/collaborate/discover.md) e a tutte le funzionalità disponibili. |
 | Condivisione e attivazione del pubblico | Questo caso d&#39;uso concede l&#39;accesso alle sezioni [Condividi](/help/guide/collaborate/share.md) e [Attiva](/help/guide/collaborate/activate.md) (solo autore) e a tutte le funzionalità disponibili. |
 
-![Visualizzazione del progetto con le sezioni disponibili evidenziate.](/help/assets/collaborate/manage-view-projects/project-sections.png)
+![Visualizzazione del progetto con le sezioni disponibili evidenziate.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}

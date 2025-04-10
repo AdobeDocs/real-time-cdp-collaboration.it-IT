@@ -37,7 +37,7 @@ Come editore, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/
 
 Decidi quali dati del pubblico importare e quali tipi di pubblico rendere individuabili e visualizzabili per gli inserzionisti che desiderano connetterti nell&#39;area **[!UICONTROL Connetti]** del prodotto.
 
-Quando importi un pubblico in Real-Time CDP Collaboration, accertati di assegnare i tag e suddividerlo in categorie. Real-Time CDP Collaboration segue la tassonomia [IAB](https://www.iab.com/guidelines/content-taxonomy/) stabilita per la categorizzazione dei tipi di pubblico.
+Quando importi un pubblico in Real-Time CDP Collaboration, accertati di assegnare i tag e suddividerlo in categorie. Real-Time CDP Collaboration segue la tassonomia [IAB stabilita](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} per la categorizzazione dei tipi di pubblico.
 
 Scegli gli inserzionisti con cui vuoi collaborare e contatta l’inserzionista per discutere i termini di collaborazione al di fuori del prodotto. Una volta concordato un set di termini, attendi che l’inserzionista estenda un invito formale di connessione per connetterti. In genere, è necessario monitorare anche le richieste di connessione in sospeso da parte dei brand degli inserzionisti che desiderano collaborare con te nelle campagne. Rivedi le impostazioni di connessione proposte dal tuo potenziale collaboratore e accettale o modificale prima di iniziare la collaborazione.
 

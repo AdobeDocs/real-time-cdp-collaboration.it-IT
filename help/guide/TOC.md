@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisio
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 * Panoramica {#overview}
    * [Casi d’uso e vantaggi](./use-cases-benefits.md)
    * [Flusso di lavoro completo](./end-to-end-workflow.md)
-* Configurazione {#setup}
+* Configura {#setup}
    * [Panoramica della sezione di configurazione](./setup/setup-overview.md)
    * [Integrare e gestire l’organizzazione](./setup/onboard-organization.md)
    * [Importare e gestire i tipi di pubblico](./setup/onboard-audiences.md)
@@ -25,11 +25,11 @@ ht-degree: 21%
    * [Crosswalk delle identità](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Registri di audit](./setup/audit-logs.md)
-* Connettersi con l’editore o l’inserzionista {#connect}
+* Connetti con l&#39;editore o l&#39;inserzionista {#connect}
    * [Individua editori](./connect/discover-publishers.md)
    * [Scopri gli inserzionisti](./connect/discover-advertisers.md)
    * [Connessione con inserzionisti o editori](./connect/establishing-connections.md)
-* Collabora {#collaborate}
+* Collabora a {#collaborate}
    * [Gestione progetti](./collaborate/manage-projects.md)
    * [Individua](./collaborate/discover.md)
    * [Condividi](./collaborate/share.md)
@@ -39,7 +39,7 @@ ht-degree: 21%
    * [Panoramica](/help/guide/permissions/overview.md)
    * [Gestire l’accesso degli utenti](/help/guide/permissions/manage-user-access.md)
    * [Gestire i ruoli](/help/guide/permissions/manage-roles.md)
-* Casi d’uso di esempio {#use-cases}
+* Casi d&#39;uso di esempio {#use-cases}
    * [Misurazione campagne](./use-cases/campaign-measurement.md)
    * [Prospezione](./use-cases/prospecting.md)
    * [Retargeting](./use-cases/retargeting.md)

@@ -23,7 +23,7 @@ Utilizza la funzionalità dei registri di controllo in Real-Time CDP Collaborati
 
 ![Schermata di panoramica di alto livello della funzionalità dei registri di controllo](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Per informazioni più complete sui registri di audit, consulta la [documentazione dei registri di audit di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Per informazioni più complete sui registri di controllo, consulta la [documentazione dei registri di controllo di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accedere ai registri di audit
 

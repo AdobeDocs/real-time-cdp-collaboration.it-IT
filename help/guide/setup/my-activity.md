@@ -70,7 +70,7 @@ Collaboration Measurement – Credits are consumed as a function of the number o
 
 Per gestire in modo efficace il consumo di credito:
 
-1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html) per una tabella dei crediti di collaborazione utilizzati per ogni attività.
+1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti di collaborazione utilizzati per ogni attività.
 2. **Monitora regolarmente**: controlla spesso il dashboard attività per comprendere i pattern di utilizzo.
 3. **Traccia per connessione**: utilizzare il nome della connessione per identificare le relazioni che utilizzano più crediti.
 
