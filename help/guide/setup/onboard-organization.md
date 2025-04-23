@@ -4,9 +4,9 @@ description: Scopri come integrare e gestire vari aspetti dell’organizzazione 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Seleziona le chiavi di corrispondenza che desideri utilizzare per riconciliare i
 
 ![Passaggio di selezione chiavi corrispondenti.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Successivamente, quando si impostano le connessioni, è possibile rimuovere le chiavi di corrispondenza indesiderate, ma non aggiungerne di nuove. Imposta la soglia del conteggio delle identità (conteggio minimo) per ogni chiave di corrispondenza selezionata. Le chiavi di corrispondenza con un conteggio inferiore al minimo non verranno visualizzate nei raggruppamenti di identità per alcuni casi d’uso.
+Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Successivamente, quando si impostano le connessioni, è possibile rimuovere le chiavi di corrispondenza indesiderate, ma non aggiungerne di nuove.
 
 Le chiavi di corrispondenza disponibili in Real-Time CDP Collaboration possono essere di tre tipi:
 
