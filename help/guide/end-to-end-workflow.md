@@ -4,7 +4,7 @@ description: Comprendere il flusso di lavoro end-to-end dell’utilizzo di Real-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration consente agli inserzionisti e agli editori di collaborare alle campagne in base alla privacy. Leggi questa pagina per comprendere il flusso di lavoro per ottenere il massimo dal prodotto, in qualità di inserzionista o editore.
+Adobe Real-Time Customer Data Platform (CDP) Collaboration consente agli inserzionisti e agli editori di collaborare alle campagne in modo incentrato sulla privacy. Leggi questa pagina per comprendere il flusso di lavoro per ottenere il massimo dal prodotto, in qualità di inserzionista o editore.
 
 ## Flusso di lavoro end-to-end per gli inserzionisti {#advertiser}
 
@@ -37,7 +37,7 @@ Come editore, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/
 
 Decidi quali dati del pubblico importare e quali tipi di pubblico rendere individuabili e visualizzabili per gli inserzionisti che desiderano connetterti nell&#39;area **[!UICONTROL Connetti]** del prodotto.
 
-Quando importi un pubblico in Real-Time CDP Collaboration, accertati di assegnare i tag e suddividerlo in categorie. Real-Time CDP Collaboration segue la tassonomia [IAB stabilita](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} per la categorizzazione dei tipi di pubblico.
+Quando importi un pubblico in Real-Time CDP Collaboration, accertati di assegnare i tag e suddividerlo in categorie. Real-Time CDP Collaboration segue la tassonomia [IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} stabilita per la categorizzazione dei tipi di pubblico.
 
 Scegli gli inserzionisti con cui vuoi collaborare e contatta l’inserzionista per discutere i termini di collaborazione al di fuori del prodotto. Una volta concordato un set di termini, attendi che l’inserzionista estenda un invito formale di connessione per connetterti. In genere, è necessario monitorare anche le richieste di connessione in sospeso da parte dei brand degli inserzionisti che desiderano collaborare con te nelle campagne. Rivedi le impostazioni di connessione proposte dal tuo potenziale collaboratore e accettale o modificale prima di iniziare la collaborazione.
 

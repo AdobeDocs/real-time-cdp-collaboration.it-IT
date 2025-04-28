@@ -4,7 +4,7 @@ description: Scopri come integrare e gestire vari aspetti dell’organizzazione 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Una volta effettuata la selezione, utilizzare **[!UICONTROL Avanti]** per passar
 >title="ID partner supportati"
 >abstract="Gli ID partner associati ai profili consentono di espandere la portata a un determinato profilo."
 
-Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente, consentono agli inserzionisti e agli editori di lavorare insieme abilitando una sincronizzazione dei dati accurata e conforme alla privacy, che consente un targeting e una misurazione più precisi del pubblico.
+Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente, consentono agli inserzionisti e agli editori di lavorare insieme abilitando una sincronizzazione dei dati accurata e incentrata sulla privacy, consentendo un targeting e una misurazione più precisi del pubblico.
 
 ![Diapositiva con gli identificatori disponibili per la prima versione di Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
