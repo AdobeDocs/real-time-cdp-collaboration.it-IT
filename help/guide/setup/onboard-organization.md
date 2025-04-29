@@ -4,9 +4,9 @@ description: Scopri come integrare e gestire vari aspetti dell’organizzazione 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '853'
 ht-degree: 14%
 
 ---
@@ -52,10 +52,11 @@ Il flusso di lavoro per configurare l’organizzazione include le due pagine seg
 3. Seleziona il tuo **[!UICONTROL Ruolo aziendale]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi il documento [sul flusso di lavoro end-to-end](/help/guide/end-to-end-workflow.md) per vedere somiglianze e lievi differenze nel flusso di lavoro tra i due tipi di ruolo organizzativo.
 4. Seleziona il **[!UICONTROL Settore]** per la tua organizzazione. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
 5. Seleziona l&#39;**[!UICONTROL Area]** per la tua organizzazione. Nella versione corrente del prodotto, **[!UICONTROL Nord America]** è la selezione predefinita predefinita predefinita.
-6. <span class="preview"> Solo editore</span>: durante la configurazione di un&#39;organizzazione di editori, è necessario leggere e confermare che gli inserzionisti potranno individuarti nel catalogo di editori.
+6. Aggiungi **[!UICONTROL E-mail di contatto]** per la tua organizzazione. Deve essere un indirizzo e-mail basato su team o ruolo. Gli indirizzi e-mail personali non devono essere forniti.
+7. <span class="preview"> Solo editore</span>: durante la configurazione di un&#39;organizzazione di editori, è necessario leggere e confermare che gli inserzionisti potranno individuarti nel catalogo di editori.
    ![Messaggio di consenso specifico per il server di pubblicazione.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. Carica un **[!UICONTROL Logo]** per la tua azienda. Attualmente, sono supportate le immagini di tipo SVG.
-8. Seleziona un&#39;immagine per l&#39;immagine dell&#39;intestazione della società.
+8. Carica un **[!UICONTROL Logo]** per la tua azienda. Attualmente, sono supportate le immagini di tipo SVG.
+9. Seleziona un&#39;immagine per l&#39;immagine dell&#39;intestazione della società.
 
 Una volta effettuata la selezione, utilizzare **[!UICONTROL Avanti]** per passare alla pagina successiva e selezionare le chiavi di corrispondenza desiderate che l&#39;organizzazione deve utilizzare.
 
