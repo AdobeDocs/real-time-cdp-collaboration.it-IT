@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -40,7 +40,7 @@ Viene visualizzata una visualizzazione di tutte le connessioni dati attualmente 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Scegli le chiavi di corrispondenza più rilevanti per i tuoi casi d’uso e le linee guida sulla privacy."
+>abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Scegli le chiavi di corrispondenza più rilevanti per i tuoi casi d’uso e linee guida sulla privacy."
 
 Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Le chiavi di corrispondenza disponibili includono:
 
@@ -55,7 +55,7 @@ Impossibile modificare le chiavi di corrispondenza utilizzate in questa connessi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Pianificazione"
->abstract="In questa visualizzazione vengono visualizzate le opzioni di pianificazione selezionate inizialmente per la connessione dati."
+>abstract="Questa visualizzazione mostra le opzioni di pianificazione selezionate inizialmente per la connessione dati."
 
 Non è possibile modificare le opzioni di pianificazione selezionate inizialmente per la connessione dati. Per ulteriori informazioni sulle opzioni di pianificazione, visualizzare la [sezione di pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nel documento del flusso di lavoro di importazione del pubblico.
 

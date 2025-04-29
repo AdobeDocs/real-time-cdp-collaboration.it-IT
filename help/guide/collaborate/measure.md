@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -55,9 +55,9 @@ La vista dall’alto della pagina nella scheda di misurazione mostra un riepilog
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="Metriche nel tempo"
->abstract="Utilizza la visualizzazione metriche nel tempo per comprendere il numero totale di impression visualizzate per il tuo contenuto creativo durante il periodo della campagna. Puoi selezionare un massimo di due dimensioni da visualizzare nel rapporto."
+>abstract="Utilizza la vista delle metriche nel tempo per comprendere il numero totale di impression visualizzate per la creatività durante il periodo della campagna. Puoi selezionare un massimo di due dimensioni da visualizzare nel rapporto."
 
-Utilizza la visualizzazione metriche nel tempo per comprendere il numero totale di impression visualizzate per il tuo contenuto creativo durante il periodo della campagna. Puoi selezionare un massimo di due metriche da visualizzare e analizzare nel rapporto.
+Utilizza la vista delle metriche nel tempo per comprendere il numero totale di impression visualizzate per la creatività durante il periodo della campagna. Puoi selezionare un massimo di due metriche da visualizzare e analizzare nel rapporto.
 
 ![Visualizzazione metriche nel tempo.](/help/assets/collaborate/measure/metrics-over-time.png)
 

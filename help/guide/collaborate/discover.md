@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -46,27 +46,27 @@ Una volta soddisfatti i prerequisiti sopra indicati, puoi iniziare ad esplorare 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="Confronta i tipi di pubblico"
->abstract="Scopri le sovrapposizioni tra il pubblico dell’e quello del tuo collaboratore. Puoi regolare le impostazioni nel selettore a discesa per scoprire le sovrapposizioni tra uno o più tipi di pubblico rispetto a uno o più tipi di pubblico del tuo collaboratore."
+>abstract="Scopri le sovrapposizioni tra il tuo pubblico e quello del tuo collaboratore. Puoi regolare le impostazioni nel selettore a discesa per scoprire le sovrapposizioni tra uno o più tipi del tuo pubblico rispetto a uno o più tipi di pubblico del tuo collaboratore."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="Conteggio delle identità"
->abstract="Il numero di profili con l’identità selezionata che fanno parte del pubblico selezionato"
+>title="Conteggio identità personale"
+>abstract="Il numero di profili con l’identità selezionata che fanno parte del tuo pubblico selezionato"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Conteggio identità collaboratore"
->abstract="Il numero di profili con l&#39;identità selezionata che fanno parte del pubblico selezionato del collaboratore"
+>abstract="Il numero di profili con l’identità selezionata che fanno parte del pubblico selezionato del tuo collaboratore"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Conteggio identità sovrapposte"
->abstract="Il numero di profili con l’identità selezionata presenti sia nel pubblico che nel pubblico del tuo collaboratore"
+>abstract="Il numero di profili con l’identità selezionata presenti sia nel tuo pubblico sia in quello del tuo collaboratore"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Percentuale di sovrapposizione delle identità"
->abstract="La percentuale di profili che si sovrappongono tra il pubblico selezionato di e quello del collaboratore."
+>abstract="La percentuale di profili che si sovrappongono tra il tuo pubblico selezionato e quello del tuo collaboratore."
 
 Utilizza la scheda Confronta tipi di pubblico per ottenere informazioni approfondite sulla sovrapposizione tra i tipi di pubblico dell’utente e quelli del collaboratore. Puoi scegliere di confrontare una qualsiasi delle seguenti combinazioni di pubblico:
 
@@ -82,7 +82,7 @@ Le informazioni visualizzate si riferiscono a:
 | **[!UICONTROL Conteggio identità]** (tuo) | Il numero di profili con un’identità selezionata che fanno parte del pubblico selezionato. |
 | **[!UICONTROL Conteggio identità]** (tuo collaboratore) | Il numero di profili con un’identità selezionata che fanno parte del pubblico selezionato del tuo collaboratore. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di profili con un’identità selezionata presenti sia nel pubblico che nel pubblico del tuo collaboratore. |
-| **[!UICONTROL Percentuale di sovrapposizione]** | La percentuale di profili che si sovrappongono tra il pubblico selezionato di e quello del collaboratore. |
+| **[!UICONTROL Percentuale di sovrapposizione]** | La percentuale di profili che si sovrappongono tra il tuo pubblico selezionato e quello del tuo collaboratore. |
 | **[!UICONTROL Raggruppamento identità per chiave di corrispondenza]** | In base alle chiavi di corrispondenza su cui tu e il tuo collaboratore avete raggiunto un accordo per il progetto, puoi visualizzare la composizione delle identità nei calcoli di sovrapposizione in base alle singole chiavi di corrispondenza. |
 
 {style="table-layout:auto"}
@@ -91,12 +91,12 @@ Le informazioni visualizzate si riferiscono a:
 >
 >La percentuale di sovrapposizione potrebbe non essere sempre disponibile per tutti i tipi di pubblico. La visibilità dell&#39;indicatore della percentuale di sovrapposizione dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-## Tipi di pubblico rilevanti {#relevant-audiences}
+## Tipi di pubblico pertinenti {#relevant-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
->title="Tipi di pubblico rilevanti"
->abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico dell’editore potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico dell&#39;editore. <br><br> <b>La sovrapposizione di identità</b> rappresenta la sovrapposizione tra il pubblico dell&#39;editore consigliato e tutti i tipi di pubblico dell&#39;inserzionista. <br><br> <b>Sovrapposizione %</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico degli inserzionisti."
+>title="Tipi di pubblico pertinenti"
+>abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico dell’editore potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico dell’editore. <br><br> La <b>sovrapposizione delle identità</b> rappresenta la sovrapposizione tra il pubblico consigliato dell’editore e tutti i tipi di pubblico dell’inserzionista. <br><br> La <b>% di sovrapposizione</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico degli inserzionisti."
 
 La visualizzazione **[!UICONTROL Tipi di pubblico rilevanti]** nel modulo **[!UICONTROL Discover]** fornisce un elenco dei primi cinque tipi di pubblico in base alla percentuale di sovrapposizione. Questa funzione consente di identificare rapidamente i tipi di pubblico con la più alta sovrapposizione con i dati correnti, per indirizzare le campagne in modo più efficace.
 
@@ -106,12 +106,12 @@ La visualizzazione **[!UICONTROL Tipi di pubblico rilevanti]** nel modulo **[!UI
 
 ![Visualizzazione tipi di pubblico rilevanti](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## Individuare le sovrapposizioni {#discover-overlaps}
+## Scopri le sovrapposizioni {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Scopri le sovrapposizioni con i singoli tipi di pubblico"
->abstract="Ottieni informazioni sulla popolazione di questo pubblico e sulle sue sovrapposizioni con l&#39;universo di identità del collaboratore."
+>abstract="Ottieni informazioni sulla popolazione di questo pubblico e sulle relative sovrapposizioni con l’universo di identità del collaboratore."
 
 ![Rileva sovrapposizioni con diverse visualizzazioni del pubblico](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

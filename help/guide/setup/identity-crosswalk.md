@@ -9,7 +9,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 4%
+ht-degree: 22%
 
 ---
 
@@ -58,14 +58,14 @@ Dopo aver selezionato Experience Platform come origine delle tue crosswalks,
 
 Fornisci un nome e una descrizione per il crosswalk di identità che stai importando nel prodotto.
 
-### Seleziona chiave di unione {#select-join-key}
+### Selezionare una chiave di unione {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="Chiave di unione"
->abstract="Una chiave di join è un identificatore univoco utilizzato per associare e collegare record tra set di dati diversi. In questo modo è possibile associare con precisione i dati provenienti da diverse origini alla stessa persona o entità. Una qualsiasi delle intestazioni di colonna dal crosswalk selezionato può fungere da chiave di unione."
+>abstract="Una chiave di unione è un identificatore univoco utilizzato per associare e collegare record tra set di dati diversi. Permette di associare con precisione i dati provenienti da diverse origini alla stessa persona o entità. Una qualsiasi delle intestazioni di colonna dal crosswalk selezionato può fungere da chiave di unione."
 
-Una chiave di join è un identificatore univoco utilizzato per associare e collegare record tra set di dati diversi. In questo modo è possibile associare con precisione i dati provenienti da diverse origini alla stessa persona o entità. Selezionando la chiave di unione appropriata, puoi unire e riconciliare in modo efficace i dati, migliorando la precisione e la completezza delle campagne.
+Una chiave di unione è un identificatore univoco utilizzato per associare e collegare record tra set di dati diversi. Permette di associare con precisione i dati provenienti da diverse origini alla stessa persona o entità. Selezionando la chiave di unione appropriata, puoi unire e riconciliare in modo efficace i dati, migliorando la precisione e la completezza delle campagne.
 
 Una qualsiasi delle intestazioni di colonna dal crosswalk selezionato può fungere da chiave di unione.
 

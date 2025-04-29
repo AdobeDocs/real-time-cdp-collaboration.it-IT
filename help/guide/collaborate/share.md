@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -98,12 +98,12 @@ All’interno di ogni attività di condivisione del pubblico, puoi ottenere info
 
 La pagina fornisce inoltre i controlli per **[!UICONTROL Sospendere la condivisione]** e **[!UICONTROL Modificare i tipi di pubblico]**.
 
-## Modifica tipi di pubblico {#edit-audiences}
+## Modifica i tipi di pubblico {#edit-audiences}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="Targeting o eliminazione del caso d’uso"
->abstract="<p>Seleziona **Target** se vuoi che i profili nel pubblico vengano mostrati come annunci nella campagna.</p> <p>Seleziona **Elimina** se desideri escludere i profili nel pubblico dai messaggi della campagna.</p>"
+>title="Targeting o soppressione del caso d’uso"
+>abstract="<p>Se desideri che ai profili nel pubblico vengano mostrati gli annunci nella campagna, seleziona **Targeting**.</p> <p>Se desideri escludere i profili nel pubblico dai messaggi della campagna, seleziona **Soppressione**.</p>"
 
 Seleziona **[!UICONTROL Modifica tipi di pubblico]** per modificare quali tipi di pubblico sono condivisi in un modulo di condivisione del pubblico e per modificare diverse configurazioni relative al modo in cui i tipi di pubblico vengono condivisi.
 

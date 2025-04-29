@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -47,22 +47,22 @@ A questo punto, l’invito non è disponibile e puoi visualizzare in anteprima l
 
 Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le impostazioni di connessione e inviarle al collaboratore per la revisione e l&#39;accettazione.
 
-## Impostazioni di connessione {#connection-settings}
+## Impostazioni della connessione {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="Casi d’uso"
->abstract="I casi di utilizzo sono precompilati con tutte le opzioni. È possibile modificare i casi d’uso prima di inviare le impostazioni di connessione."
+>abstract="I casi d’uso sono precompilati con tutte le opzioni. Puoi modificare i casi d’uso prima di inviare le impostazioni di connessione."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza sono precompilate con quelle selezionate a livello di organizzazione. È possibile disattivare i tasti di corrispondenza che non si desidera utilizzare in questa connessione."
+>abstract="Le chiavi di corrispondenza sono precompilate con quelle selezionate a livello di organizzazione. Puoi disattivare le chiavi di corrispondenza che non desideri utilizzare in questa connessione."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
->title="Divisione credito"
->abstract="Questa sezione determina chi paga per le attività corrispondenti all’interno di Real-Time CDP Collaboration. Attualmente, è possibile configurare solo il caso di utilizzo di condivisione del pubblico."
+>title="Suddivisione del credito"
+>abstract="Questa sezione determina chi paga per le attività corrispondenti all’interno della collaborazione di Real-Time CDP. Attualmente, è possibile configurare solo il caso d’uso di condivisione del pubblico."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -72,7 +72,7 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Accordo legale"
->abstract="Verificare che esista un accordo di condivisione dei dati tra le due parti."
+>abstract="Verifica l’esistenza di un accordo di condivisione dei dati tra le due parti."
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 

@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Utilizza questa pagina come collegamento per comprendere tutte le metriche rilev
 Cosa troverai in questa pagina della documentazione:
 
 * [Importare tipi di pubblico in Real-Time CDP Collaboration](#import-audiences)
-* [Visualizza dashboard tipi di pubblico](#view-audiences-dashboard)
+* [Visualizza dashboard dei tipi di pubblico](#view-audiences-dashboard)
 * [Visualizzare singoli tipi di pubblico](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -45,14 +45,14 @@ Prima di poter condividere i tipi di pubblico con i collaboratori ed eseguire ca
 
 Dalla scheda **[!UICONTROL Tipi di pubblico]**, seleziona il simbolo Più **+** e **Pubblico**.
 
-### Seleziona connessione dati {#select-data-connection}
+### Selezionare la connessione dati {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
->title="Azioni marketing"
->abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L&#39;azione di marketing <strong>Data Collaboration</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L&#39;azione di marketing <strong>Data Science</strong> supporta l&#39;etichetta di utilizzo dati C9.</p> <p> <ul><li> Con la casella di controllo <em>enabled</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e vengono <strong>not</strong> inseriti in Real-Time CDP Collaboration.</li><li> Se la casella di controllo <em>è disabilitata</em>, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.</li></ul></p>"
+>title="Azioni di marketing"
+>abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Se la casella di controllo è <em>disabilitata</em>, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it" text="Panoramica sulle etichette di utilizzo dei dati"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Glossario delle etichette di utilizzo dei dati"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it" text="Glossario delle etichette di utilizzo dei dati"
 
 >[!IMPORTANT]
 >
@@ -89,12 +89,12 @@ Seleziona **[!UICONTROL Avanti]** dopo aver selezionato la sandbox desiderata.
 
 Successivamente, assicurati che le azioni di marketing corrette siano impostate sui dati importati. È inoltre necessario fornire il consenso per i dati importati da Real-Time CDP da utilizzare per la collaborazione sui dati.
 
-Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L&#39;azione di marketing **Data Collaboration** supporta le etichette di utilizzo dei dati C4, C5 e C9. L&#39;azione di marketing **Data Science** supporta l&#39;etichetta di utilizzo dati C9.
+Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Con la casella di controllo *enabled*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e vengono *not* inseriti in Real-Time CDP Collaboration.
-* Se la casella di controllo *è disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
+* Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
+* Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
@@ -115,34 +115,34 @@ Quindi, fornisci un nome e una descrizione per riconoscere questa connessione da
 
 -->
 
-### Mappa campi {#map-fields}
+### Mappare i campi {#map-fields}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
->title="Campi di origine"
->abstract="I campi Source sono spazi dei nomi e attributi di identità provenienti dall’implementazione esistente di Real-Time CDP. Puoi mapparli ai campi di destinazione definiti in Real-Time CDP Collaboration."
+>title="Campi origine"
+>abstract="I campi origine sono spazi dei nomi e attributi di identità provenienti dall’implementazione esistente di Real-Time CDP. Puoi mapparli ai campi di destinazione definiti in Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campi di destinazione"
->abstract="I campi di destinazione corrispondono alle chiavi di corrispondenza selezionate al momento dell’onboarding della società. Attualmente, le e-mail con hash sono le uniche chiavi di corrispondenza supportate."
+>abstract="I campi di destinazione corrispondono alle chiavi di corrispondenza selezionate al momento dell’onboarding dell’azienda. Attualmente, gli indirizzi e-mail con hash sono le uniche chiavi di corrispondenza supportate."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
->title="Applicar trasformazione"
->abstract="Durante l&#39;importazione di *campi senza hash* dall&#39;origine, utilizzare questa opzione per fare in modo che Real-Time CDP Collaboration applichi l&#39;hashing e trasformi i campi normali in campi con hashing."
+>title="Applica trasformazione"
+>abstract="Se importi dall’origine dei campi *senza hash*, utilizza questa opzione affinché Real-Time CDP Collaboration possa applicare l’hashing e trasformare i campi normali in campi con hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Spazio dei nomi delle identità"
 >abstract="Seleziona uno spazio dei nomi delle identità dagli spazi dei nomi di identità standard e personalizzati disponibili nella tua organizzazione Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Spazi dei nomi standard e di identità in Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard" text="Spazi dei nomi standard e di identità in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Attributi del profilo"
 >abstract="Seleziona gli attributi dallo schema di unione per la classe Profilo in Experience Platform. Questa vista mostra gli attributi presenti nello schema di unione e appartenenti alla classe Profilo individuale XDM."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Schema di unione in Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it" text="Schema di unione in Experience Platform"
 
 ![Schermata Mappa campi con i campi di origine mappati ai campi di destinazione.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ Dopo aver selezionato la sorgente del pubblico, scegli tipi di pubblico specific
 
 Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiunta di pubblico. Verifica che tutti i dettagli siano corretti e seleziona **[!UICONTROL Completa]** per finalizzare il processo.
 
-## Visualizza dashboard tipi di pubblico {#view-audiences-dashboard}
+## Visualizza dashboard dei tipi di pubblico {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identità mancanti"
->abstract="Il conteggio delle identità visualizza un `-` per circa le prime 24 ore dopo l&#39;importazione di un pubblico in Real-Time CDP Collaboration. Dopo questo intervallo di tempo, il conteggio delle identità si aggiornerà con il numero di profili presenti nel pubblico."
+>abstract="Il conteggio delle identità visualizza un `-` per circa 24 ore dopo l’importazione di un pubblico in Real-Time CDP Collaboration. Dopo questo intervallo di tempo, il conteggio delle identità viene aggiornato con il numero di profili presenti nel pubblico."
 
 Dopo aver importato i tipi di pubblico in Real-Time CDP Collaboration, puoi ottenere informazioni su di essi in una vista dashboard. La visualizzazione predefinita nella pagina **[!UICONTROL Tipi di pubblico]** mostra tutti i tipi di pubblico attualmente importati dall&#39;organizzazione in Real-Time CDP Collaboration.
 
@@ -309,7 +309,7 @@ Ulteriori informazioni sul pubblico sono disponibili e parzialmente modificabili
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identità"
->abstract="Ottieni una visualizzazione dettagliata delle identità che compongono il pubblico, nonché un conteggio totale di profili con le rispettive identità."
+>abstract="Ottieni una vista con raggruppamenti delle identità che compongono il pubblico, nonché un conteggio totale dei profili con le rispettive identità."
 
 Questa sezione indica il numero di profili presenti nel pubblico con una qualsiasi delle identità specificate al momento dell’importazione dei tipi di pubblico. La sezione contiene anche un raggruppamento delle identità in modo da poter individuare le identità che compongono il maggior numero possibile di persone appartenenti al pubblico.
 
@@ -318,7 +318,7 @@ Questa sezione indica il numero di profili presenti nel pubblico con una qualsia
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Categorie"
->abstract="Assegna tag ai tipi di pubblico per semplificarne l’organizzazione, il filtraggio e il recupero. Puoi assegnare a un pubblico più categorie di tag, che potrai utilizzare per filtrare i tipi di pubblico desiderati in altre aree del prodotto."
+>abstract="Assegna tag ai tipi di pubblico per semplificarne l’organizzazione, il filtraggio e il recupero. Puoi assegnare a un pubblico i tag di più categorie, e utilizzare quindi tali categorie per filtrare i tipi di pubblico desiderati in altre aree del prodotto."
 
 Per facilitare l’organizzazione, il filtraggio e il recupero del pubblico, puoi assegnare tag ai tipi di pubblico. Puoi assegnare tag a un pubblico con più categorie, quindi utilizzare questi tag per filtrare i tipi di pubblico desiderati nell&#39;area di prodotto [discovery](/help/guide/collaborate/discover.md) durante l&#39;esecuzione di report di sovrapposizione pubblico.
 
@@ -327,7 +327,7 @@ Per facilitare l’organizzazione, il filtraggio e il recupero del pubblico, puo
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accesso connessione"
->abstract="<p>Il pubblico può essere di tre tipi: pubblico, privato e personalizzato.</p><p> La loro disponibilità per l’utilizzo in progetti con collaboratori varia in base all’impostazione di accesso alla connessione. È sempre possibile cambiare l’accesso alla connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene condiviso con i collaboratori.</p>"
+>abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione. È sempre possibile cambiare l’accesso della connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene condiviso con i collaboratori.</p>"
 
 Seleziona se il pubblico deve essere privato per te o utilizzabile e individuabile nelle connessioni. Le tre opzioni disponibili sono:
 
@@ -339,14 +339,14 @@ Seleziona se il pubblico deve essere privato per te o utilizzabile e individuabi
 >
 >Indipendentemente dallo stato di accesso (pubblico, privato o personalizzato), la popolazione di qualsiasi pubblico contribuisce alla popolazione **[!UICONTROL Tutti i tipi di pubblico]** nella visualizzazione analisi di sovrapposizione individuazione pubblico. <br> ![Il pubblico **Tutti i tipi di pubblico** generato dal sistema nell&#39;analisi di sovrapposizione di Individuazione pubblico include i tipi di pubblico con tutti gli stati di accesso alla connessione (pubblico, privato, personalizzato).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "Il pubblico generato dal sistema **Tutti i tipi di pubblico** nell&#39;analisi di sovrapposizione **Individuazione pubblico** include i tipi di pubblico con tutti gli stati di accesso alla connessione (pubblico, privato, personalizzato)."){width="100" zoomable="yes"}
 
-La disponibilità del pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. È sempre possibile cambiare l’accesso alla connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene condiviso con i collaboratori.
+La disponibilità del pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. È sempre possibile cambiare l’accesso della connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene condiviso con i collaboratori.
 
 ### Visibilità dei metadati {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quale delle informazioni sui metadati del pubblico è visibile ad altre organizzazioni prima che si connettano all’organizzazione. </p> <p> **Il conteggio delle identità** controlla se il partner può visualizzare i conteggi delle identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. **La sovrapposizione del pubblico %** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra il proprio pubblico e quello dell&#39;utente."
+>abstract="<p>Indica quali informazioni sui metadati del pubblico sono visibili ad altre organizzazioni prima che si connettano alla tua organizzazione. </p> <p> Il **conteggio delle identità** controlla se il partner può visualizzare i conteggi delle identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
 
 >[!NOTE]
 >

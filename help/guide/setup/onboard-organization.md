@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -73,8 +73,8 @@ Una volta effettuata la selezione, utilizzare **[!UICONTROL Avanti]** per passar
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="ID di dispositivi di prime parti"
->abstract="Gli ID dispositivo di prime parti come ECID o indirizzi IP sono direttamente collegati ai dispositivi, che possono essere condivisi tra più individui. IPv4 è l’unico ID dispositivo di prime parti attualmente supportato."
+>title="ID dispositivo di prime parti"
+>abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono direttamente collegati ai dispositivi, che possono essere condivisi tra più persone. IPv4 è l’unico ID dispositivo di prime parti attualmente supportato."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -94,7 +94,7 @@ Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Success
 Le chiavi di corrispondenza disponibili in Real-Time CDP Collaboration possono essere di tre tipi:
 
 * ID persone di prime parti
-* ID di dispositivi di prime parti
+* ID dispositivo di prime parti
 * ID partner
 
 Le chiavi di corrispondenza disponibili per la prima versione di Real-Time CDP Collaboration sono:
