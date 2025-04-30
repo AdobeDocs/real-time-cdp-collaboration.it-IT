@@ -4,9 +4,9 @@ description: Segui le ultime versioni di Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**Ultimo aggiornamento**: marzo 2025.
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**Ultimo aggiornamento**: aprile 2025.
 
 Queste note sulla versione descrivono le funzionalità di Real-Time Customer Data Platform Collaboration. I rilasci di Real-Time CDP Collaboration funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Queste note sulla versione vengono aggiornate spesso, quindi assicurati di controllarle regolarmente.
 
-<!--
+## Aprile 2025 {#april-2025}
 
-## April 2025 {#april-2025}
-
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* Una nuova colonna **Input elaborati** è stata aggiunta alla tabella dell&#39;attività di consumo di credito. Questa colonna mostra il numero totale di input (ad esempio, ID o righe) elaborati per ogni attività. [Ulteriori informazioni](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Colonna elaborata degli input evidenziata nella visualizzazione Attività personale.](/help/assets/release-notes/2025/inputs-processed-column.png "Colonna elaborata degli input evidenziata nella visualizzazione Attività personale."){width="250" align="center" zoomable="yes"}
+* È stata aggiunta una nuova opzione e-mail di contatto per la creazione dell’account. In questo modo i collaboratori partner possono contattarti in base alle esigenze durante il processo di connessione. [Ulteriori informazioni](../setup/onboard-organization.md).
 
 ## Marzo 2025 {#march-2025}
 
