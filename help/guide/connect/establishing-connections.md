@@ -4,9 +4,9 @@ description: Dopo aver individuato i potenziali collaboratori, scopri come stabi
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Condivisione del pubblico"
 >abstract="La condivisione del pubblico è l’attività che una parte intraprende quando richiede che i dati corrispondenti vengano attivati dal proprio partner di collaborazione."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="Misurazione"
+>abstract="Questo caso d’uso consente di eseguire attività in Real-Time CDP Collaboration per generare rapporti sulle prestazioni delle campagne e informazioni approfondite."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
