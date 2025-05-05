@@ -2,7 +2,7 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Prima di gestire le connessioni dati qui, devi impostarle inizialmente durante i
 
 >[!IMPORTANT]
 >
->L’eliminazione di una connessione dati non è attualmente supportata nell’interfaccia utente di Real-Time CDP Collaboration. Per eliminare una connessione dati, contatta il tuo rappresentante Adobe o [crea un ticket di assistenza clienti](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>L’eliminazione di una connessione dati non è attualmente supportata nell’interfaccia utente di Real-Time CDP Collaboration. Per eliminare una connessione dati, contatta il tuo rappresentante Adobe o [crea un ticket di assistenza clienti](https://experienceleague.adobe.com/home?lang=it&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Per visualizzare le connessioni dati esistenti, passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Tipi di pubblico]** e seleziona **[!UICONTROL Gestisci connessioni dati]**.
 
