@@ -2,12 +2,12 @@
 title: Importare e gestire i tipi di pubblico
 description: Scopri come importare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 2c835ce72f09c450aa3467dc72980c9c627a0ab8
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 23%
+source-wordcount: '2666'
+ht-degree: 22%
 
 ---
 
@@ -91,15 +91,15 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
 * Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Azioni di marketing richieste per la collaborazione sui dati.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -211,7 +211,7 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
--->
+-->›
 
 ### Pianificazione {#schedule}
 
@@ -246,7 +246,7 @@ Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiun
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identità mancanti"
->abstract="Il conteggio delle identità visualizza un `-` per circa 24 ore dopo l’importazione di un pubblico in Real-Time CDP Collaboration. Dopo questo intervallo di tempo, il conteggio delle identità viene aggiornato con il numero di profili presenti nel pubblico."
+>abstract="Il conteggio delle identità sarà disponibile dopo il prossimo aggiornamento della connessione dati successivo alla pianificazione configurata. L’aggiornamento iniziale si verifica in genere entro 24 ore dalla configurazione della connessione dati. Gli aggiornamenti in corso seguiranno la pianificazione configurata. "
 
 Dopo aver importato i tipi di pubblico in Real-Time CDP Collaboration, puoi ottenere informazioni su di essi in una vista dashboard. La visualizzazione predefinita nella pagina **[!UICONTROL Tipi di pubblico]** mostra tutti i tipi di pubblico attualmente importati dall&#39;organizzazione in Real-Time CDP Collaboration.
 
@@ -257,7 +257,7 @@ Puoi visualizzare le seguenti informazioni rilevanti su ciascun pubblico:
 | Elemento | Descrizione |
 |----------|---------|
 | **[!UICONTROL Identità]** | Indica il numero di identità presenti nel pubblico. Tieni presente che se lo stesso profilo ha due o più identità e queste vengono utilizzate come chiavi di corrispondenza nel progetto, il profilo verrà visualizzato due volte nel conteggio. |
-| **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. Lo stato In sospeso indica che il pubblico è stato importato di recente e che i membri del pubblico devono ancora essere popolati. I tipi di pubblico importati di solito si popolano con profili entro 24 ore. |
+| **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. Lo stato In sospeso indica che il pubblico è stato importato di recente e che i membri del pubblico devono ancora essere popolati. I tipi di pubblico importati verranno compilati con profili dopo il prossimo aggiornamento della connessione dati successivo alla pianificazione configurata. L’aggiornamento iniziale si verifica in genere entro 24 ore dalla configurazione della connessione dati                                         . |
 | **[!UICONTROL Source]** | Indica l’origine da cui è stato importato il pubblico. Nell’attuale versione di Real-Time CDP Collaboration, Adobe Experience Platform è l’unica origine supportata. |
 | **[!UICONTROL Connessione dati]** | Ulteriori informazioni drill-down su da dove è stato importato questo pubblico. Ad esempio, quando importi un pubblico dall’origine di Experience Platform, le singole sandbox a cui la tua organizzazione ha accesso sono considerate connessioni dati. |
 | **[!UICONTROL Accesso alla connessione]** | Definisce se questo pubblico è privato o pubblico. I tipi di pubblico sono rilevabili nei rapporti di sovrapposizione e possono essere condivisi con i collaboratori. |
