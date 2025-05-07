@@ -2,12 +2,12 @@
 title: Onboarding e gestione dell’organizzazione
 description: Scopri come integrare e gestire vari aspetti dell’organizzazione in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -31,19 +31,19 @@ Devi prima impostare l’organizzazione e i dettagli organizzativi. Passa a **[!
 
 Il flusso di lavoro per configurare l’organizzazione include le due pagine seguenti:
 
-* [Imposta dettagli](#set-up-details)
+* [Configurare i dettagli](#set-up-details)
 * [Configura chiavi di corrispondenza](#set-up-match-keys)
 
 >[!IMPORTANT]
 >
 >Qualsiasi *chiave di corrispondenza* selezionata a livello di organizzazione verrà quindi ridotta al [livello di progetto](/help/guide/collaborate/manage-projects.md) nella collaborazione tra inserzionisti e editori. A livello di progetto, è quindi possibile rimuovere le chiavi di corrispondenza, ma è *impossibile* aggiungere altre chiavi non selezionate a livello di organizzazione in questa schermata.
 
-### Imposta dettagli {#set-up-details}
+### Configurare i dettagli {#set-up-details}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-mail di contatto"
->abstract="Fornire un&#39;e-mail basata su team o ruolo, ad esempio `collaboration@yourcompany.com`. Non utilizzare indirizzi e-mail personali o individuali."
+>abstract="Fornisci un’e-mail basata su team o ruolo, ad esempio `collaboration@yourcompany.com`. Non utilizzare indirizzi e-mail personali o individuali."
 
 ![I passaggi relativi ai dettagli e ai casi d&#39;uso per configurare un&#39;organizzazione](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
