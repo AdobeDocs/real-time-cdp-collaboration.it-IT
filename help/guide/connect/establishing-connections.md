@@ -2,11 +2,11 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
+source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '952'
 ht-degree: 13%
 
 ---
@@ -78,6 +78,11 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Accordo legale"
 >abstract="Verifica l’esistenza di un accordo di condivisione dei dati tra le due parti."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="Nomi inserzionisti"
+>abstract="Indica gli alias in base ai quali l&#39;inserzionista è noto all&#39;editore. "
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
