@@ -2,7 +2,7 @@
 title: Onboarding e gestione dell’organizzazione
 description: Scopri come integrare e gestire vari aspetti dell’organizzazione in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
