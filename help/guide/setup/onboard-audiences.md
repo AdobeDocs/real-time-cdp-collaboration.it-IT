@@ -2,12 +2,12 @@
 title: Importare e gestire i tipi di pubblico
 description: Scopri come importare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
 source-wordcount: '2685'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -91,15 +91,15 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
 * Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Azioni di marketing richieste per la collaborazione sui dati.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -256,7 +256,7 @@ Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiun
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Identità mancanti"
->abstract="Il conteggio delle identità sarà disponibile dopo il prossimo aggiornamento della connessione dati successivo alla pianificazione configurata. L’aggiornamento iniziale si verifica in genere entro 24 ore dalla configurazione della connessione dati. Gli aggiornamenti in corso seguiranno la pianificazione configurata. "
+>abstract="Il conteggio delle identità sarà disponibile dopo il successivo aggiornamento della connessione dati dopo la pianificazione configurata. L’aggiornamento iniziale si verifica in genere entro 24 ore dalla configurazione della connessione dati. Gli aggiornamenti ricorrenti seguiranno la pianificazione configurata. "
 
 Dopo aver importato i tipi di pubblico in Real-Time CDP Collaboration, puoi ottenere informazioni su di essi in una vista dashboard. La visualizzazione predefinita nella pagina **[!UICONTROL Tipi di pubblico]** mostra tutti i tipi di pubblico attualmente importati dall&#39;organizzazione in Real-Time CDP Collaboration.
 
