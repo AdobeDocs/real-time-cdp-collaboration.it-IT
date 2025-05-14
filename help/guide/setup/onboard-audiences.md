@@ -2,12 +2,12 @@
 title: Importare e gestire i tipi di pubblico
 description: Scopri come importare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
 source-wordcount: '2685'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -91,15 +91,15 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
 * Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Azioni di marketing richieste per la collaborazione sui dati.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -223,7 +223,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="Scadenza pubblico"
->abstract="Dettagli futuri relativi alla scadenza del pubblico."
+>abstract="Dettagli relativi alla scadenza del pubblico da definire."
 
 Pianifica quando iniziare e finire di popolare e aggiornare i tipi di pubblico. L’iscrizione al pubblico verrà aggiornata in base a questa pianificazione.
 
@@ -247,7 +247,7 @@ Dopo aver selezionato la sorgente del pubblico, scegli tipi di pubblico specific
 
 ![Seleziona la schermata del pubblico che mostra un elenco dei tipi di pubblico disponibili con caselle di controllo per selezionarli.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
 
-### Rivisione
+### Revisione
 
 Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiunta di pubblico. Verifica che tutti i dettagli siano corretti e seleziona **[!UICONTROL Completa]** per finalizzare il processo.
 
