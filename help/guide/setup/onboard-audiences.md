@@ -2,7 +2,7 @@
 title: Importare e gestire i tipi di pubblico
 description: Scopri come importare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
@@ -91,15 +91,15 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
 * Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
 
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Azioni di marketing richieste per la collaborazione sui dati.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -134,8 +134,8 @@ Quindi, fornisci un nome e una descrizione per riconoscere questa connessione da
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
->title="Spazio dei nomi delle identità"
->abstract="Seleziona uno spazio dei nomi delle identità dagli spazi dei nomi di identità standard e personalizzati disponibili nella tua organizzazione Experience Platform."
+>title="Spazi dei nomi delle identità"
+>abstract="Seleziona uno spazio dei nomi delle identità tra quelli standard e personalizzati disponibili nella tua organizzazione Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard" text="Spazi dei nomi standard e di identità in Experience Platform"
 
 >[!CONTEXTUALHELP]
