@@ -2,12 +2,12 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 16%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
->abstract="Indica gli alias in base ai quali l’inserzionista è noto all’editore. "
+>abstract="<p>Impostazione facoltativa. Indica il nome e l&#39;ID con cui l&#39;inserzionista è noto all&#39;editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l&#39;autore ha configurato più nomi, selezionarne uno dall&#39;elenco.</li><li>Se è configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista di Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crea un progetto"
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
@@ -127,6 +128,22 @@ Utilizzare la sezione della suddivisione del credito per determinare quale delle
 Prima di poter procedere con questa connessione, è necessario riconoscere l&#39;esistenza di un accordo di condivisione dei dati tra le due parti.
 
 ![Accordi legali.](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++Nomi inserzionisti
+
+In qualità di editore che lavora sulle impostazioni di connessione, puoi scegliere di aggiungere qualsiasi nome di inserzionista noto all’inserzionista nei tuoi sistemi. In qualità di editore, puoi aggiungere più nomi di inserzionista a una connessione, ad esempio nei casi in cui l’inserzionista con cui lavori sia presente in più aree geografiche. Successivamente, quando [crei un progetto](/help/guide/collaborate/manage-projects.md#create-project) al quale collaborare, tu o il tuo collaboratore potrete selezionare il nome dell&#39;inserzionista da associare al progetto.
+
+![Aggiungi nomi inserzionista modali.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+Ecco come funziona la selezione del nome dell’inserzionista durante la creazione di un progetto:
+
+1. **Nessun nome inserzionista impostato**: se non viene aggiunto alcun nome di inserzionista, per impostazione predefinita Real-Time CDP Collaboration utilizza il nome dell&#39;inserzionista come nome dell&#39;inserzionista.
+2. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Real-Time CDP Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
+3. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
+
+![Nomi inserzionisti.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
