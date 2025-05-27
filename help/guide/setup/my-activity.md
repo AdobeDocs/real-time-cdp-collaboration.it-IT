@@ -2,11 +2,11 @@
 title: Tracciare l’attività di consumo del credito
 description: Scopri come tenere traccia dell’attività di consumo del credito della tua organizzazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
+source-git-commit: 7e9e6ae51d9741891e916c0dfd5ec0047a995c21
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -53,27 +53,16 @@ Il dashboard attività visualizza un elenco completo di tutte le operazioni che 
 
 La colonna **[!UICONTROL Attività]** mostra diversi tipi di operazioni che richiedono credito.
 
-* **[!UICONTROL Gestione dell&#39;audience]**: i crediti vengono utilizzati quando i tipi di pubblico vengono importati in Real-Time CDP Collaboration. I crediti vengono utilizzati in funzione del numero di ID (in milioni) indicizzati all’interno di Real-Time CDP Collaboration per tutti i tipi di pubblico e della frequenza di tale indicizzazione (giornaliera, ogni tre giorni o settimanale) durante il periodo di fatturazione. Ulteriori informazioni sull&#39;[importazione e gestione dei tipi di pubblico](/help/guide/setup/onboard-audiences.md).
-* **[!UICONTROL Attivazione - Condivisione]** - I crediti vengono utilizzati in funzione del numero di ID attivati da Real-Time CDP Collaboration durante il periodo di fatturazione. Ulteriori informazioni su [condivisione](/help/guide/collaborate/share.md) e [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
-* **[!UICONTROL Attivazione - Uscita]** - I crediti vengono utilizzati in funzione del numero di ID attivati da Real-Time CDP Collaboration durante il periodo di fatturazione. Ulteriori informazioni su [condivisione](/help/guide/collaborate/share.md) e [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
-* **[!UICONTROL Sovrapposizioni pubblico]** - I crediti vengono utilizzati durante l&#39;analisi delle sovrapposizioni di pubblico tramite gli schizzi di dati. Gli schizzi di dati sono riepiloghi semplificati dei dati di pubblico che consentono di determinare quanto sono simili due tipi di pubblico, mantenendo al contempo la privacy dei dati. Ulteriori informazioni sulle [sovrapposizioni di pubblico nella scheda individuazione](/help/guide/collaborate/discover.md).
+* **[!UICONTROL Gestione dell&#39;audience]**: i crediti vengono utilizzati quando i tipi di pubblico provengono da Real-Time CDP Collaboration. I crediti vengono utilizzati in funzione del numero di ID (in milioni) indicizzati in Real-Time CDP Collaboration per tutti i tipi di pubblico e della frequenza di indicizzazione (giornaliera, ogni tre giorni o settimanale). Per ulteriori informazioni, consulta la guida [importazione e gestione dei tipi di pubblico](/help/guide/setup/onboard-audiences.md).
+* **[!UICONTROL Attivazione - Corrispondenza]** - I crediti vengono utilizzati in funzione del numero di ID corrispondenti e preparati per l&#39;attivazione. Per ulteriori informazioni, consulta la guida [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md).
+* **[!UICONTROL Attivazione - Uscita]** - I crediti vengono utilizzati come funzione del numero di ID inviati a una destinazione. Questo viene sempre addebitato al collaboratore che riceve il pubblico. Per ulteriori informazioni, consulta la guida [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Misurazione del pubblico]**: esegui attività in Real-Time CDP Collaboration per generare rapporti e informazioni sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale).
-
-
-<!--
-
-**[!UICONTROL Audience Overlaps]** – Credits are consumed as a function of the number of matched IDs across 2 or more shared audiences throughout the billing period. Read more about [audience overlaps in the discover tab](/help/guide/collaborate/discover.md).
-
-Collaboration Measurement – Credits are consumed as a function of the number of rows existing in campaign reports across all campaigns, and the frequency of that reporting (daily, every three days, or weekly).
-
--->
-
 
 ## Gestione del consumo di credito {#manage-credit-consumption}
 
 Per gestire in modo efficace il consumo di credito:
 
-1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Real-Time CDP Collaboration](https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti di collaborazione utilizzati per ogni attività.
+1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Real-Time CDP Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti di collaborazione utilizzati per ogni attività.
 2. **Monitora regolarmente**: controlla spesso il dashboard attività per comprendere i pattern di utilizzo.
 3. **Traccia per connessione**: utilizzare il nome della connessione per identificare le relazioni che utilizzano più crediti.
 
