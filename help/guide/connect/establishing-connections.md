@@ -2,12 +2,12 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
 >abstract="<p>Impostazione facoltativa. Indica il nome e l&#39;ID con cui l&#39;inserzionista è noto all&#39;editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l&#39;autore ha configurato più nomi, selezionarne uno dall&#39;elenco.</li><li>Se è configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista di Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crea un progetto"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crea un progetto"
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
@@ -111,23 +111,26 @@ I casi di utilizzo sono precompilati con tutti i casi di utilizzo disponibili. �
 
 Le chiavi di corrispondenza sono precompilate con quelle selezionate [a livello di organizzazione](/help/guide/setup/onboard-organization.md#set-up-match-keys). È possibile disattivare le chiavi di corrispondenza che non si desidera utilizzare in questa connessione, ma non è possibile aggiungere chiavi di corrispondenza non selezionate durante la configurazione dell&#39;organizzazione.
 
-![Corrispondenza chiavi](/help/assets/connect/establish-connection/match-keys.png)
+![Corrispondenza chiavi](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++Divisione del credito
 
-Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività.
+Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede una parte per coprire i costi, il caso d&#39;uso **[!UICONTROL Attivazione pubblico]** offre un&#39;opzione aggiuntiva per fare in modo che ogni parte copra i propri costi. Per informazioni sulla suddivisione dei costi, leggere la guida dei [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
 
-![Divisione crediti](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>Pubblico: l’uscita è sempre coperta dal collaboratore che riceve il pubblico, pertanto non è richiesta alcuna selezione.
 
+![Finestra di dialogo Divisione crediti con opzioni nell&#39;area di lavoro connessioni.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Accordi
 
 Prima di poter procedere con questa connessione, è necessario riconoscere l&#39;esistenza di un accordo di condivisione dei dati tra le due parti.
 
-![Accordi legali.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Accordi legali.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
