@@ -2,12 +2,12 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
 source-wordcount: '1272'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -82,8 +82,8 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
->abstract="<p>Impostazione facoltativa. Indica il nome e l&#39;ID con cui l&#39;inserzionista è noto all&#39;editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l&#39;autore ha configurato più nomi, selezionarne uno dall&#39;elenco.</li><li>Se è configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista di Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crea un progetto"
+>abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Creare un progetto"
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
