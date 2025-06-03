@@ -2,9 +2,9 @@
 title: Glossario
 description: Terminologia chiave per Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b929cf9d75b4fc844ba03799f07a5e372b8f9052
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 2%
@@ -33,7 +33,7 @@ L’archiviazione cloud è una soluzione di cloud computing che consente di memo
 
 Una richiesta di connessione è una richiesta formale inviata da un&#39;organizzazione a un&#39;altra per stabilire una connessione di condivisione dei dati. Una volta accettato, consente alle due parti di collaborare e condividere i dati sul pubblico in modo sicuro.
 
-### Impostazioni di connessione
+### Impostazioni della connessione
 
 Dopo aver accettato una richiesta di connessione, l&#39;iniziatore della richiesta invia le impostazioni di connessione al collaboratore per l&#39;approvazione. Queste impostazioni di connessione disciplinano il modo in cui i collaboratori collaborano sui progetti e includono le chiavi di corrispondenza da utilizzare, la proprietà della fatturazione e altro ancora.
 
