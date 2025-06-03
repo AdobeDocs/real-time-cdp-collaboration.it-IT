@@ -2,7 +2,7 @@
 title: Flusso di lavoro completo
 description: Comprendere il flusso di lavoro end-to-end dell’utilizzo di Real-Time CDP Collaboration come inserzionista o editore
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
