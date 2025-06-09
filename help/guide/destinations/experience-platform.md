@@ -2,11 +2,11 @@
 title: Configurare Adobe Experience Platform come destinazione
 description: Scopri come configurare e gestire Adobe Experience Platform come destinazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: f777b8249e31282f234d9d9798379c35ea8431ea
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 2%
+source-wordcount: '848'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home){target="_blank"}.
+Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Quindi, configura **[!UICONTROL Scadenza pubblico]**. Per impostazione predefini
 >title="Spazi dei nomi di destinazione"
 >abstract="Gli spazi dei nomi di destinazione specificano a quale spazio dei nomi di identità verrà mappata la chiave di corrispondenza in Adobe Experience Platform. Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash."
 
-Successivamente, devi creare una mappatura di attivazione per definire come verranno inviati i dati sul pubblico a Adobe Experience Platform. Puoi mappare ogni [chiave corrispondente](../setup/onboard-organization.md#set-up-match-keys) selezionata durante la creazione dell&#39;organizzazione su uno spazio dei nomi di destinazione. Gli spazi dei nomi di destinazione specificano a quale [spazio dei nomi identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} verrà mappata la chiave di corrispondenza in Adobe Experience Platform.
+Successivamente, devi creare una mappatura di attivazione per definire come verranno inviati i dati sul pubblico a Adobe Experience Platform. Puoi mappare ogni [chiave corrispondente](../setup/onboard-organization.md#set-up-match-keys) selezionata durante la creazione dell&#39;organizzazione su uno spazio dei nomi di destinazione. Gli spazi dei nomi di destinazione specificano a quale [spazio dei nomi identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} verrà mappata la chiave di corrispondenza in Adobe Experience Platform.
 
 >
 >
@@ -88,3 +88,9 @@ Dopo aver configurato Adobe Experience Platform come destinazione, puoi iniziare
 Dopo l&#39;attivazione, il pubblico sarà disponibile in [Audience Portal](#audience-portal) in Experience Platform con Real-Time CDP Collaboration come origine.  Questi tipi di pubblico possono quindi essere utilizzati nelle campagne e nel coinvolgimento dei clienti.
 
 ### Audience Portal {#audience-portal}
+
+Dopo aver configurato Adobe Experience Platform come destinazione, puoi visualizzare i tipi di pubblico attivati nel Portale pubblico. Audience Portal è un hub centrale all’interno di Adobe Experience Platform che consente di visualizzare e gestire i tipi di pubblico. Audience Portal ora fornisce Real-Time CDP Collaboration come origine per filtrare i tipi di pubblico.
+
+![Il portale del pubblico con Real-Time CDP Collaboration come origine nelle opzioni di filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
+
+Per ulteriori informazioni su Audience Portal, consulta la guida [Panoramica di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
