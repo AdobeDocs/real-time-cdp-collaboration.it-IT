@@ -55,7 +55,7 @@ Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confronta
 >title="Conteggio identità personale"
 >abstract="Il numero di ID univoci all’interno del pubblico selezionato, in base alle chiavi di corrispondenza concordate tra te e il tuo collaboratore per il progetto."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Conteggio identità collaboratore"
 >abstract="Il numero di ID univoci all’interno del pubblico del tuo collaboratore, in base alle chiavi di corrispondenza concordate tra te e il tuo collaboratore per il progetto."
