@@ -2,41 +2,30 @@
 title: Onboarding e gestione dell’organizzazione
 description: Scopri come integrare e gestire vari aspetti dell’organizzazione in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 19%
+source-wordcount: '861'
+ht-degree: 16%
 
 ---
 
-# Onboarding e gestione dell’organizzazione
+# Integrare e gestire l’organizzazione
 
 {{limited-availability-release-note}}
 
 Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration e gestire vari aspetti dell’azienda. Questa pagina illustra i passaggi necessari per integrare un’organizzazione negli Adobi Real-Time CDP Collaboration, inclusa l’impostazione delle chiavi di corrispondenza, delle identità preferite e di altre opzioni.
 
-![Pagina di installazione](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![L&#39;area di lavoro di configurazione dell&#39;organizzazione presenta le impostazioni correnti.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Configurazione iniziale dell’organizzazione
 
-Devi prima impostare l’organizzazione e i dettagli organizzativi. Passa a **[!UICONTROL Configurazione]** nella barra a sinistra, seleziona il simbolo **+** nell&#39;angolo in alto a destra, quindi seleziona **[!UICONTROL Account]**.
+Devi prima impostare l’organizzazione e i dettagli organizzativi. Se questa è la tua prima organizzazione, sarai indirizzato immediatamente attraverso il processo di onboarding, iniziando con la configurazione dei [dettagli account](#set-up-details).
 
->[!TIP]
->
->Dopo aver impostato un account iniziale per l’utilizzo, puoi utilizzare lo stesso flusso di lavoro per impostare account aggiuntivi all’interno della stessa organizzazione.
+Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nella barra a sinistra e seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro. Selezionare **[!UICONTROL Account]**.
 
-![Seleziona account per aggiungere una nuova organizzazione a Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-Il flusso di lavoro per configurare l’organizzazione include le due pagine seguenti:
-
-* [Configurare i dettagli](#set-up-details)
-* [Configura chiavi di corrispondenza](#set-up-match-keys)
-
->[!IMPORTANT]
->
->Qualsiasi *chiave di corrispondenza* selezionata a livello di organizzazione verrà quindi ridotta al [livello di progetto](/help/guide/collaborate/manage-projects.md) nella collaborazione tra inserzionisti e editori. A livello di progetto, è quindi possibile rimuovere le chiavi di corrispondenza, ma è *impossibile* aggiungere altre chiavi non selezionate a livello di organizzazione in questa schermata.
+![Area di lavoro di installazione con l&#39;opzione Account evidenziata.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Configurare i dettagli {#set-up-details}
 
@@ -45,18 +34,24 @@ Il flusso di lavoro per configurare l’organizzazione include le due pagine seg
 >title="E-mail di contatto"
 >abstract="Fornisci un’e-mail basata su team o ruolo, ad esempio `collaboration@yourcompany.com`. Non utilizzare indirizzi e-mail personali o individuali."
 
-![I passaggi relativi ai dettagli e ai casi d&#39;uso per configurare un&#39;organizzazione](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+Per iniziare a effettuare l’onboarding dell’organizzazione, devi prima impostare i dettagli dell’organizzazione. È necessario aggiungere le seguenti informazioni:
 
-1. Aggiungi un **[!UICONTROL nome organizzazione]** per la tua società.
-2. Aggiungi una **[!UICONTROL Descrizione]** sulla tua azienda.
-3. Seleziona il tuo **[!UICONTROL Ruolo aziendale]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi il documento [sul flusso di lavoro end-to-end](/help/guide/end-to-end-workflow.md) per vedere somiglianze e lievi differenze nel flusso di lavoro tra i due tipi di ruolo organizzativo.
-4. Seleziona il **[!UICONTROL Settore]** per la tua organizzazione. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
-5. Seleziona l&#39;**[!UICONTROL Area]** per la tua organizzazione. Nella versione corrente del prodotto, **[!UICONTROL Nord America]** è la selezione predefinita predefinita predefinita.
-6. Aggiungi **[!UICONTROL E-mail di contatto]** per la tua organizzazione. Deve essere un indirizzo e-mail basato su team o ruolo. Gli indirizzi e-mail personali non devono essere forniti.
-7. Carica un **[!UICONTROL Logo]** per la tua azienda. Attualmente, sono supportate le immagini di tipo SVG.
-8. Seleziona un&#39;immagine per l&#39;immagine dell&#39;intestazione della società.
+* Aggiungi un **[!UICONTROL nome organizzazione]** per la tua società.
+* Aggiungi una **[!UICONTROL Descrizione]** sulla tua azienda.
+* Seleziona il tuo **[!UICONTROL Ruolo aziendale]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi il documento [sul flusso di lavoro end-to-end](/help/guide/end-to-end-workflow.md) per vedere somiglianze e lievi differenze nel flusso di lavoro tra i due tipi di ruolo organizzativo.
+* Seleziona il **[!UICONTROL Settore]** per la tua organizzazione. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
+* Seleziona l&#39;**[!UICONTROL Area]** per la tua organizzazione. Nella versione corrente del prodotto, **[!UICONTROL Nord America]** è la selezione predefinita predefinita predefinita.
+* Aggiungi **[!UICONTROL E-mail di contatto]** per la tua organizzazione. Deve essere un indirizzo e-mail basato su team o ruolo. Gli indirizzi e-mail personali non devono essere forniti.
+* Carica un **[!UICONTROL Logo]** per la tua azienda. Attualmente, sono supportate le immagini di tipo SVG.
+* Seleziona un&#39;immagine per l&#39;immagine dell&#39;intestazione della società.
 
-Una volta effettuata la selezione, utilizzare **[!UICONTROL Avanti]** per passare alla pagina successiva e selezionare le chiavi di corrispondenza desiderate che l&#39;organizzazione deve utilizzare.
+>[!NOTE]
+>
+>Anche se puoi modificare la maggior parte di questi dettagli in qualsiasi momento, **[!UICONTROL Role]** e **[!UICONTROL Region]** non sono modificabili dopo la configurazione iniziale.
+
+![Viene visualizzata la sezione Imposta area di lavoro organizzazione con i dettagli.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+Al termine, utilizza **[!UICONTROL Avanti]** per passare alla pagina successiva e selezionare le chiavi di corrispondenza desiderate che la tua organizzazione utilizzerà.
 
 ### Configurare le chiavi di corrispondenza {#set-up-match-keys}
 
@@ -80,10 +75,9 @@ Una volta effettuata la selezione, utilizzare **[!UICONTROL Avanti]** per passar
 >title="ID partner supportati"
 >abstract="Gli ID partner associati ai profili consentono di espandere la portata a un determinato profilo."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Chiavi di corrispondenza dell’attivazione"
->abstract="Le chiavi di corrispondenza dell’attivazione vengono visualizzate in base alle chiavi di corrispondenza scelte dalla tua organizzazione."
+>[!IMPORTANT]
+>
+>Le chiavi di corrispondenza selezionate durante l&#39;impostazione dell&#39;organizzazione determineranno le chiavi di corrispondenza disponibili per le connessioni create con altre organizzazioni. Sebbene sia possibile rimuovere le chiavi di corrispondenza durante la configurazione della connessione, non è possibile aggiungerne di nuove in un secondo momento. È importante selezionare tutte le chiavi di corrispondenza che intendi utilizzare in campagne future durante la configurazione dell’organizzazione.
 
 Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente, consentono agli inserzionisti e agli editori di lavorare insieme abilitando una sincronizzazione dei dati accurata e incentrata sulla privacy, consentendo un targeting e una misurazione più precisi del pubblico.
 
@@ -91,7 +85,7 @@ Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente,
 
 Seleziona le chiavi di corrispondenza che desideri utilizzare per riconciliare i membri del pubblico dell’editore e dell’inserzionista. Includi tutte le chiavi di corrispondenza utilizzabili dalla tua azienda. Pianifica per il futuro e seleziona le chiavi di corrispondenza che prevedi di utilizzare nelle campagne future per gli inserzionisti di editori. Se devi selezionare altre chiavi di corrispondenza per la tua organizzazione, puoi farlo in un secondo momento nel flusso di lavoro [modifica organizzazione](#edit-organization).
 
-![Passaggio di selezione chiavi corrispondenti.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![Viene visualizzata la sezione Imposta area di lavoro organizzazione con chiavi corrispondenti.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Successivamente, quando si impostano le connessioni, è possibile rimuovere le chiavi di corrispondenza indesiderate, ma non aggiungerne di nuove.
 
@@ -105,30 +99,21 @@ Le chiavi di corrispondenza disponibili per la prima versione di Real-Time CDP C
 
 * E-mail con hash
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 Al termine, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;organizzazione.
 
 ## Modifica organizzazione {#edit-organization}
 
-Dopo aver inizialmente configurato l’organizzazione, puoi modificarne alcuni aspetti e dettagli in qualsiasi momento. Per modificare la tua organizzazione, seleziona **[!UICONTROL Modifica]** nella visualizzazione **[!UICONTROL Organizzazione]**.
+Dopo aver inizialmente configurato l’organizzazione, puoi modificarne alcuni aspetti e dettagli in qualsiasi momento. Per modificare l&#39;organizzazione, selezionare **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Organizzazione]** dell&#39;area di lavoro **[!UICONTROL Configurazione]**.
 
-![Controllo modifica organizzazione evidenziato.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![Area di lavoro di installazione con le opzioni Modifica e scheda Organizzazione personale evidenziate.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-A questo punto, è possibile aggiornare il nome, la descrizione, il logo e l&#39;immagine del profilo dell&#39;organizzazione.
+Ora puoi modificare i dettagli della tua organizzazione, ad eccezione di **[!UICONTROL Ruolo]** e **[!UICONTROL Area]**.
 
-![Opzioni modificabili per le organizzazioni.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![Finestra di dialogo Modifica dettagli organizzazione.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-Puoi anche aggiornare i codici di corrispondenza selezionati inizialmente al momento dell’onboarding dell’organizzazione, nonché la soglia minima di identità corrispondenti ai codici di corrispondenza affinché siano visibili e utilizzabili in sovrapposizioni di pubblico e altre aree di prodotto. Seleziona **[!UICONTROL Modifica]** nella scheda **[!UICONTROL Chiavi corrispondenti]** per aggiungere altre chiavi di corrispondenza desiderate o aggiornare le soglie di identità.
+Puoi anche aggiornare i codici di corrispondenza selezionati inizialmente al momento dell’onboarding dell’organizzazione. Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Chiavi corrispondenti]** per aggiungere altre chiavi di corrispondenza desiderate.
 
-![Modifica chiavi di corrispondenza](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![L&#39;area di lavoro del programma di installazione con l&#39;opzione Modifica evidenziata nella sezione delle chiavi di corrispondenza dell&#39;organizzazione.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Passaggi successivi
 

@@ -2,12 +2,12 @@
 title: Panoramica dell’installazione
 description: Comprendere tutte le opzioni e i flussi di lavoro disponibili nella sezione di configurazione di Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 5%
 
 ---
 
@@ -15,20 +15,15 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-La sezione di configurazione in Real-Time CDP Collaboration è il punto di partenza per aggiungere informazioni sulla società quando si inizia a utilizzare il prodotto. Questa schermata è anche il luogo in cui tornare per la gestione di varie risorse, come i dettagli dei tipi di pubblico o le chiavi di corrispondenza.
+La sezione di configurazione in Real-Time CDP Collaboration è il punto di partenza per aggiungere informazioni sulla società quando si inizia a utilizzare il prodotto.\
+
+![Area di lavoro di configurazione di un&#39;organizzazione, con una panoramica delle impostazioni correnti.](/help/assets/setup/set-up-overview.png){zoomable="yes"}
 
 Utilizza la funzionalità nella sezione di configurazione per:
 
-* [Onboarding e gestione di vari aspetti dell&#39;organizzazione](/help/guide/setup/onboard-organization.md) nell&#39;Adobe Real-Time CDP Collaboration
+* [Integrare e gestire l’organizzazione](/help/guide/setup/onboard-organization.md)
 * [Importare e gestire i tipi di pubblico](/help/guide/setup/onboard-audiences.md)
-* [Visualizzare connessioni dati](/help/guide/setup/manage-data-connection.md)
-* [Tracciare l’attività di riconoscimento crediti](/help/guide/setup/my-activity.md)
-* [Dati di misurazione integrati](/help/guide/setup/onboard-measurement-data.md) per le campagne pubblicitarie
-
-<!--
-
-* [Import and manage identity crosswalks](/help/guide/setup/identity-crosswalk.md) *(not part of the beta release)*
-
--->
-
-![Pagina di installazione](/help/assets/setup/setup-page.png)
+* [Gestisci connessioni dati](/help/guide/setup/manage-data-connection.md)
+* [Configurare e gestire le destinazioni](/help/guide/setup/manage-destinations.md)
+* [Tracciare l’attività di consumo del credito](/help/guide/setup/my-activity.md)
+* [Visualizzare i registri di audit](/help/guide/setup/audit-logs.md)

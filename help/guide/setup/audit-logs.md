@@ -2,9 +2,9 @@
 title: Registri di audit
 description: Scopri come utilizzare la funzionalità Registri di controllo in Real-Time CDP Collaboration per monitorare le attività e le modifiche degli utenti.
 audience: admin
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Utilizza la funzionalità dei registri di controllo in Real-Time CDP Collaborati
 
 ![Schermata di panoramica di alto livello della funzionalità dei registri di controllo](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Per informazioni più complete sui registri di audit, consulta la [documentazione dei registri di audit di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Per informazioni più complete sui registri di audit, consulta la [documentazione dei registri di audit di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Accedere ai registri di audit
 
@@ -61,7 +61,7 @@ I registri di audit acquisiscono informazioni dettagliate sulle attività degli 
 * **Risorsa**: risorsa modificata o creata.
 * **Timestamp**: l&#39;ora in cui è stata eseguita l&#39;azione.
 
-Questi registri creano un percorso completo di tutte le attività all’interno dell’istanza Real-Time CDP Collaboration, utile per la governance dei dati e la conformità alle normative. Ulteriori informazioni sulla gestione di [registri di controllo nell&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Questi registri creano un percorso completo di tutte le attività all’interno dell’istanza Real-Time CDP Collaboration, utile per la governance dei dati e la conformità alle normative. Ulteriori informazioni sulla gestione di [registri di controllo nell&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrare i registri di audit
 
@@ -74,7 +74,7 @@ L’interfaccia utente dei registri di controllo fornisce diversi filtri per fac
 * **Stato**: lo stato dell&#39;azione (ad esempio: consentito, negato).
 * **Intervallo date**: l&#39;intervallo di date per il quale si desidera visualizzare i registri.
 
-Ulteriori informazioni su [filtraggio dei registri di controllo](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Ulteriori informazioni su [filtraggio dei registri di controllo](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Esempio di utilizzo
 
@@ -104,7 +104,7 @@ La tabella seguente fornisce un riferimento di tutte le categorie e le azioni pe
 | **[!UICONTROL Connessione dati Collaboration]** | crea, aggiorna, elimina | Gestisci le connessioni dati per la collaborazione al fine di importare e gestire i tipi di pubblico, tra cui la creazione, l’aggiornamento e l’eliminazione di connessioni dati. Ulteriori informazioni sulla [gestione delle connessioni dati](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Entità dati Collaboration]** | crea, aggiorna, elimina | Gestisci le entità dati per la collaborazione, inclusa la creazione, l’aggiornamento e l’eliminazione di entità dati. In questo contesto, le entità dati si riferiscono ai tipi di pubblico. Ulteriori informazioni sull&#39;[importazione e gestione dei tipi di pubblico](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Progetto Collaboration]** | crea, aggiorna, elimina | Gestisci i progetti in collaborazione, tra cui creazione, aggiornamento ed eliminazione di progetti. Ulteriori informazioni sulla gestione di [progetti](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Modulo Collaboration]** | crea, aggiorna, elimina | Gestisci diversi moduli all’interno dei progetti di collaborazione, inclusa la creazione, l’aggiornamento e l’eliminazione di vari moduli nell’interfaccia utente. Ad esempio, la possibilità di [condividere tipi di pubblico](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Modulo Collaboration]** | crea, aggiorna, elimina | Gestisci diversi moduli all’interno dei progetti di collaborazione, inclusa la creazione, l’aggiornamento e l’eliminazione di vari moduli nell’interfaccia utente. Ad esempio, la possibilità di [attivare tipi di pubblico](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 

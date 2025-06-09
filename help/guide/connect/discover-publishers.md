@@ -2,11 +2,11 @@
 title: Individua editori
 description: In qualità di inserzionista, scopri come individuare potenziali editori con cui collaborare utilizzando Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Per individuare gli editori, vai alla scheda **[!UICONTROL Connetti]** > **[!UIC
 
 ![Individua pagina autori](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. Puoi anche visualizzare ed esaminare tutti i tipi di pubblico pubblici che l’editore ha deciso di condividere.
+Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Visualizza profilo autore](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

@@ -2,11 +2,11 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '401'
 ht-degree: 9%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-I progetti sono il fulcro del flusso di lavoro in Real-Time CDP Collaboration. Dopo aver individuato e collegato i collaboratori con cui desideri collaborare, è ora di creare un progetto. Utilizza lo spazio del progetto per eseguire calcoli di sovrapposizione per confrontare i tipi di pubblico con quelli del tuo collaboratore e scoprire tipi di pubblico rilevanti che puoi utilizzare nelle campagne. I tipi di pubblico vengono quindi condivisi tra i collaboratori, attivati dagli editori, ed entrambe le parti possono quindi visualizzare rapporti di misurazione sulle prestazioni del pubblico.
+I progetti sono il fulcro del flusso di lavoro in Real-Time CDP Collaboration. Dopo aver stabilito la connessione con i collaboratori, crea un progetto per eseguire i calcoli di sovrapposizione dei tipi di pubblico e scoprire i tipi di pubblico rilevanti per le campagne.
 
 >[!TIP]
 >
 >I progetti devono in genere essere associati a una singola campagna.
 
-![Visualizzazione di tutti i progetti, non filtrata.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![Il dashboard Collaborazione visualizza tutti i progetti correnti.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Puoi utilizzare i filtri per visualizzare solo i progetti avviati con alcuni collaboratori, come illustrato di seguito:
 
@@ -34,29 +34,32 @@ Puoi utilizzare i filtri per visualizzare solo i progetti avviati con alcuni col
 >title="Nome inserzionista"
 >abstract="Seleziona il nome dell’inserzionista dal menu a discesa. Le opzioni sono preconfigurate dall’editore nelle impostazioni di connessione per garantire la compatibilità con i suoi sistemi."
 
-Per creare un progetto, seleziona il simbolo Più **+** nell&#39;angolo superiore destro. Oppure, se si tratta del primo progetto, passa a **[!UICONTROL Collabora]** > **[!UICONTROL Progetti personali]** e seleziona **[!UICONTROL Crea progetto]**.
+Passa a **[!UICONTROL Collabora]** e quindi a **[!UICONTROL Progetti personali]**. Se si tratta del primo progetto, è possibile selezionare **[!UICONTROL Crea un progetto]**. In caso contrario, è possibile selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) per creare un nuovo progetto in qualsiasi momento.
 
 ![Selezionare il simbolo più o creare un progetto per impostare un nuovo progetto.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Quindi, selezionare le impostazioni seguenti:
+Viene visualizzata la finestra di dialogo **[!UICONTROL Crea progetto]**. Selezionare **[!UICONTROL Collaborator]** con cui si sta creando il progetto tramite il menu a discesa. Se sei un editore e hai impostato i nomi degli inserzionisti durante la configurazione della connessione, puoi selezionare **[!UICONTROL Nome inserzionista]**.
 
-* Collaboratore con cui stai creando il progetto
-* Selezionare un nome dell&#39;inserzionista se nelle impostazioni di connessione sono stati configurati più nomi dell&#39;inserzionista. In caso contrario, il nome dell’inserzionista viene preselezionato come nome dell’inserzionista. Oppure, se l’editore ha configurato un singolo nome dell’inserzionista nelle impostazioni di connessione, tale nome viene precompilato in questa selezione. [Ulteriori informazioni](/help/guide/connect/establishing-connections.md#connection-settings) sui nomi degli inserzionisti.
-* Fornisci un **[!UICONTROL nome progetto]** e una **[!UICONTROL descrizione]** per il progetto
-* Seleziona un’intestazione immagine per distinguere facilmente il progetto e conferma la selezione.
+>[!NOTE]
+>
+> Se hai configurato un singolo nome dell’inserzionista nelle impostazioni di connessione, questo viene visualizzato per impostazione predefinita. Se non è stato impostato alcun nome di inserzionista, il **[!UICONTROL Nome]** dell&#39;inserzionista viene preselezionato come **[!UICONTROL Nome inserzionista]**.
+
+![Finestra di dialogo Crea progetto con il collaboratore selezionato e il nome dell&#39;inserzionista evidenziato.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
+
+Quindi, aggiungi **[!UICONTROL Nome progetto]** e **[!UICONTROL Descrizione]** per il progetto. Quindi, seleziona un’immagine che rappresenti il progetto. Questa immagine aiuta a distinguere il progetto nella pagina di panoramica del progetto. Al termine, seleziona **[!UICONTROL Crea]** per creare il progetto.
 
 ![Opzioni necessarie per impostare un nuovo progetto](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-Ora puoi visualizzare il nuovo progetto e i relativi dettagli.
+Ora puoi visualizzare il nuovo progetto, i relativi dettagli e le sezioni disponibili in base ai casi d’uso selezionati durante la configurazione della connessione.
+
+![Area di lavoro panoramica progetto.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## Casi di utilizzo del progetto {#project-use-cases}
 
-Approfondisci i singoli progetti per eseguire rapporti di sovrapposizione, individuare e condividere i tipi di pubblico con il tuo collaboratore e visualizzare le informazioni di misurazione. Per visualizzare informazioni dettagliate su queste aree che costituiscono un singolo progetto, selezionare **[!UICONTROL Visualizza]**. La superficie del progetto è costituita da un massimo di quattro sezioni, ognuna delle quali offre un set completo di opzioni e controlli. Le sezioni di progetto disponibili dipendono dai casi d’uso selezionati nel processo di connessione, come segue:
+Nella panoramica del progetto vengono visualizzati i casi d’uso selezionati durante la configurazione della connessione. Questi casi d’uso definiscono le funzionalità disponibili nel progetto. I casi d’uso sono:
 
 | Caso d’uso | Sezione progetto |
 | --- | --- |
 | Misurazione campagne | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Measure](/help/guide/collaborate/measure.md) e a tutte le funzionalità disponibili. |
 | Individuazione del pubblico | Questo caso d&#39;uso consente di accedere alla sezione [Discover](/help/guide/collaborate/discover.md) e a tutte le funzionalità disponibili. |
-| Condivisione e attivazione del pubblico | Questo caso d&#39;uso concede l&#39;accesso alle sezioni [Condividi](/help/guide/collaborate/share.md) e [Attiva](/help/guide/collaborate/activate.md) (solo autore) e a tutte le funzionalità disponibili. |
-
-![Visualizzazione del progetto con le sezioni disponibili evidenziate.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
+| Attivazione pubblico | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Attiva](/help/guide/collaborate/activate.md) e a tutte le funzionalità disponibili. |

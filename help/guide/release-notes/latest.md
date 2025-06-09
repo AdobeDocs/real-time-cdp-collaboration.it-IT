@@ -2,11 +2,11 @@
 title: Note sulla versione più recente di Real-Time CDP Collaboration
 description: Segui le ultime versioni di Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ Queste note sulla versione descrivono le funzionalità di Real-Time Customer Dat
 
 ## Marzo 2025 {#march-2025}
 
-* Quando [importi tipi di pubblico](/help/guide/setup/onboard-audiences.md) in Real-Time CDP Collaboration, ora puoi impostare una frequenza di aggiornamento del pubblico da **ogni 1 a 6 giorni** per gestire meglio l&#39;attività di credito di [Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities). [Ulteriori informazioni](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico."){width="250" align="center" zoomable="yes"}
+* Quando [importi tipi di pubblico](/help/guide/setup/onboard-audiences.md) in Real-Time CDP Collaboration, ora puoi impostare una frequenza di aggiornamento del pubblico da **ogni uno a sei giorni** per gestire meglio l&#39;attività di credito di [Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities). [Ulteriori informazioni](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico."){width="250" align="center" zoomable="yes"}
 * Quando stabilisci una connessione con un collaboratore, ora puoi scegliere tra **casi d&#39;uso** predefiniti. Il caso d’uso selezionato determina le sezioni di progetto e le funzionalità del prodotto che diventano disponibili. [Ulteriori informazioni](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *Misurazione campagna* abilita la sezione del progetto **Misura**.
    * *L&#39;individuazione del pubblico* abilita la sezione del progetto **Discover**.
-   * *Condivisione e attivazione del pubblico* abilita le sezioni di progetto **Condividi** e **Attiva** *(solo autore)*. <br> ![Casi d&#39;uso evidenziati nella visualizzazione connessione.](/help/assets/release-notes/2025/use-cases.png "Casi d&#39;uso evidenziati nella visualizzazione connessione."){width="250" align="center" zoomable="yes"}
+   * *Attivazione pubblico* abilita le sezioni <br> del progetto **Attiva**
 * È ora possibile eliminare le connessioni con i collaboratori che non si desidera più utilizzare. [Ulteriori informazioni](/help/guide/connect/establishing-connections.md#delete-connections).
 
 
