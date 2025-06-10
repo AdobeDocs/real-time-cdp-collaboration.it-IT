@@ -2,12 +2,12 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ Per visualizzare le connessioni dati esistenti, passare a **[!UICONTROL Configur
 
 Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Non puoi modificare le chiavi di corrispondenza selezionate inizialmente per la connessione dati.
 
+>[!IMPORTANT]
+> 
+>Impossibile modificare le chiavi di corrispondenza dopo la creazione della connessione dati. Per aggiornare le chiavi di corrispondenza, è necessario creare una nuova connessione dati.
+
 Le chiavi di corrispondenza disponibili includono:
 
 - **E-mail con hash**
@@ -45,11 +49,27 @@ Le chiavi di corrispondenza disponibili includono:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Pianificazione"
->abstract="Questa visualizzazione mostra le opzioni di pianificazione selezionate inizialmente per la connessione dati."
+>abstract="Visualizza i dettagli di pianificazione per la connessione dati e, se necessario, modifica la frequenza di aggiornamento."
 
-Non è possibile modificare le opzioni di pianificazione selezionate inizialmente per la connessione dati. Per ulteriori informazioni sulle opzioni di pianificazione, visualizzare la [sezione di pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nel documento del flusso di lavoro di importazione del pubblico.
+Visualizza e gestisci le impostazioni di pianificazione per le connessioni dati. La pianificazione determina la frequenza con cui il pubblico viene aggiornato.
 
-![Area di lavoro connessioni dati con la sezione Pianificazione evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+Dopo aver creato una connessione dati, è possibile aggiornarne la frequenza di aggiornamento direttamente dalla sezione **[!UICONTROL Pianificazione]** dell&#39;area di lavoro connessione dati.
+
+>[!NOTE]
+>
+>Quando si selezionano i tipi di pubblico da Adobe Experience Platform, i tipi di pubblico diventano disponibili entro 24 ore dall’impostazione della connessione dati. Dopo l’importazione iniziale, i dati del pubblico vengono aggiornati in base alla frequenza definita.
+
+Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nella guida ai tipi di pubblico per l&#39;onboarding.
+
+![Area di lavoro di una connessione dati con la sezione Pianificazione evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### Modifica pianificazione {#edit-scheduling}
+
+Puoi modificare la frequenza di una connessione dati esistente per controllare meglio la frequenza con cui i tipi di pubblico vengono aggiornati. Per modificare la pianificazione, seleziona **[!UICONTROL Modifica]** dalla connessione dati nella scheda di pianificazione.
+
+Nella finestra di dialogo **[!UICONTROL Pianificazione]**, seleziona il menu a discesa per aggiornare la **[!UICONTROL Frequenza]**. Impostare la frequenza di aggiornamento in modo che venga eseguita ogni giorno oppure ogni due o sei giorni. Al termine, seleziona **[!UICONTROL Salva]** per applicare le modifiche.
+
+![Finestra di dialogo Pianificazione, in cui sono visualizzate le opzioni per impostare la frequenza e l&#39;intervallo di date.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Elimina connessione dati
 
