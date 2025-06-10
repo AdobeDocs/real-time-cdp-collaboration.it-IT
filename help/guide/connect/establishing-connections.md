@@ -2,11 +2,11 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
+source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1401'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,13 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >title="Nome inserzionista"
 >abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Real-Time CDP Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Creare un progetto"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_activation"
+>title="Attivazione pubblico"
+>abstract="Audience Activation consente di selezionare il collaboratore che può avviare l&#39;attivazione del pubblico."
+
+<!-- Move and update the above popover when bidirectional is active. -->
 
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
