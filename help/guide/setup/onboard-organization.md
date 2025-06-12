@@ -2,11 +2,11 @@
 title: Onboarding e gestione dell’organizzazione
 description: Scopri come integrare e gestire vari aspetti dell’organizzazione in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '886'
 ht-degree: 16%
 
 ---
@@ -33,6 +33,13 @@ Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nel
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-mail di contatto"
 >abstract="Fornisci un’e-mail basata su team o ruolo, ad esempio `collaboration@yourcompany.com`. Non utilizzare indirizzi e-mail personali o individuali."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="Connetti codice"
+>abstract="Il codice di connessione è un identificativo univoco per la tua organizzazione. Viene utilizzato per stabilire connessioni con altre organizzazioni in Real-Time CDP Collaboration."
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 Per iniziare a effettuare l’onboarding dell’organizzazione, devi prima impostare i dettagli dell’organizzazione. È necessario aggiungere le seguenti informazioni:
 
