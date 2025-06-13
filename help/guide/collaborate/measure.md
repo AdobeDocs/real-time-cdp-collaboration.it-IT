@@ -2,12 +2,12 @@
 title: Misurare le prestazioni
 description: Misura le prestazioni delle campagne su canali diversi. Scopri come utilizzare e interpretare vari rapporti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 13%
+source-wordcount: '634'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->L&#39;area di lavoro **[!UICONTROL Measure]** è disponibile solo se il caso di utilizzo **Campaign measurement** è stato abilitato [durante il processo di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./manage-projects.md#project-use-cases).
+>L&#39;area di lavoro **[!UICONTROL Measure]** è disponibile solo se il caso di utilizzo **Measurement** è stato abilitato [durante il processo di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./manage-projects.md#project-use-cases).
 
 Scopri i rapporti disponibili in Real-Time CDP Collaboration e come misurare e analizzare le prestazioni delle campagne di marketing su vari canali.
 
@@ -25,7 +25,7 @@ Scopri i rapporti disponibili in Real-Time CDP Collaboration e come misurare e a
 
 Prima di poter accedere ai rapporti di misurazione in Real-Time CDP Collaboration, è necessario:
 
-* [Connesso](/help/guide/connect/establishing-connections.md) a un inserzionista o editore desiderato con il caso d&#39;uso **Misurazione campagna** abilitato e ha iniziato a collaborare a [progetti](/help/guide/collaborate/manage-projects.md)
+* [Connesso](/help/guide/connect/establishing-connections.md) a un inserzionista o editore desiderato con il caso d&#39;uso **Misurazione** abilitato e ha iniziato a collaborare a [progetti](/help/guide/collaborate/manage-projects.md)
 * Esegui una campagna e [dati di misurazione caricati](/help/guide/setup/onboard-measurement-data.md) in Real-Time CDP Collaboration.
 
 <!--
@@ -38,7 +38,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 -->
 
-## Visualizza rapporti {#view-reports}
+## Visualizzazione dei rapporti {#view-reports}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
