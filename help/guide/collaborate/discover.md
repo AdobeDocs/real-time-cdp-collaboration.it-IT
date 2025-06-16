@@ -2,9 +2,9 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 11%
@@ -54,7 +54,7 @@ Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confronta
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Conteggio identità personale"
 >abstract="Il numero di ID univoci all’interno del pubblico selezionato, in base alle chiavi di corrispondenza concordate tra te e il tuo collaboratore per il progetto."
->
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Conteggio identità collaboratore"
