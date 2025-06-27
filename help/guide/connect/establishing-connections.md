@@ -2,12 +2,12 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -72,7 +72,7 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Misurazione"
->abstract="Esegui attività per generare report e informazioni sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale)."
+>abstract="Esegui attività per generare report e informazioni approfondite sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -87,8 +87,8 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
->title="Attivazione pubblico"
->abstract="Audience Activation consente di selezionare il collaboratore che può avviare l&#39;attivazione del pubblico."
+>title="Attivazione del pubblico"
+>abstract="L’attivazione del pubblico consente di selezionare il collaboratore che può avviarla."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

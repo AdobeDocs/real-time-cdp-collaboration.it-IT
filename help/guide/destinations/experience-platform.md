@@ -2,11 +2,12 @@
 title: Configurare Adobe Experience Platform come destinazione
 description: Scopri come configurare e gestire Adobe Experience Platform come destinazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: c36814b8dc975b5ea243688981481de49a8219fd
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
+source-git-commit: b79fad9257cfe2aafd27b81346ca45a00fcfdf76
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home){target="_blank"}.
+Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ Viene visualizzato il flusso di lavoro **[!UICONTROL Crea destinazione]**.
 
 ![Flusso di lavoro per la creazione della destinazione per Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
-### Configura sandbox {#configure-sandbox}
+### Configurare la sandbox {#configure-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
@@ -53,19 +54,19 @@ Quindi, configura **[!UICONTROL Scadenza pubblico]**. Per impostazione predefini
 
 ![La sezione Scadenza pubblico è evidenziata nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/audience-expiration.png)
 
-### Crea mappatura di attivazione {#create-activation-mapping}
+### Creare la mappatura di attivazione {#create-activation-mapping}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="Chiavi di corrispondenza dell’attivazione"
->abstract="Le chiavi di corrispondenza per l’attivazione vengono visualizzate in base alle chiavi di corrispondenza selezionate al momento della creazione dell’organizzazione."
+>abstract="Le chiavi di corrispondenza dell’attivazione vengono visualizzate in base a quelle selezionate al momento della creazione dell’organizzazione."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
 >title="Spazi dei nomi di destinazione"
 >abstract="Gli spazi dei nomi di destinazione specificano a quale spazio dei nomi di identità verrà mappata la chiave di corrispondenza in Adobe Experience Platform. Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash."
 
-Successivamente, devi creare una mappatura di attivazione per definire come verranno inviati i dati sul pubblico a Adobe Experience Platform. Puoi mappare ogni [chiave corrispondente](../setup/onboard-organization.md#set-up-match-keys) selezionata durante la creazione dell&#39;organizzazione su uno spazio dei nomi di destinazione. Gli spazi dei nomi di destinazione specificano a quale [spazio dei nomi identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} verrà mappata la chiave di corrispondenza in Adobe Experience Platform.
+Successivamente, devi creare una mappatura di attivazione per definire come verranno inviati i dati sul pubblico a Adobe Experience Platform. Puoi mappare ogni [chiave corrispondente](../setup/onboard-organization.md#set-up-match-keys) selezionata durante la creazione dell&#39;organizzazione su uno spazio dei nomi di destinazione. Gli spazi dei nomi di destinazione specificano a quale [spazio dei nomi identità](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} verrà mappata la chiave di corrispondenza in Adobe Experience Platform.
 
 >
 >
@@ -97,4 +98,4 @@ Dopo aver configurato Adobe Experience Platform come destinazione, puoi visualiz
 
 ![Il portale del pubblico con Real-Time CDP Collaboration come origine nelle opzioni di filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Per ulteriori informazioni su Audience Portal, consulta la guida [Panoramica di Audience Portal](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Per ulteriori informazioni su Audience Portal, consulta la guida [Panoramica di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

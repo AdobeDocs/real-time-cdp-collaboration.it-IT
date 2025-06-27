@@ -2,12 +2,12 @@
 title: Importare e gestire i tipi di pubblico
 description: Scopri come importare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing **Collaborazione sui dati** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **Data science** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è *abilitata*, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e *non* vengono inseriti in Real-Time CDP Collaboration.
 * Se la casella di controllo è *disabilitata*, i dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration non sono soggetti a restrizioni.
@@ -103,7 +103,7 @@ Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https:
 Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
 
 * [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Inoltre, seleziona le regole di predefinito da applicare ai dati importati in Real-Time CDP Collaboration.
 
@@ -204,7 +204,7 @@ Dopo aver selezionato la sorgente del pubblico, scegli tipi di pubblico specific
 
 ![Area di lavoro Aggiungi tipi di pubblico con un elenco dei tipi di pubblico disponibili.](/help/assets/setup/add-manage-audiences/select-audience.png)
 
-### Revisione
+### Rivedi
 
 Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiunta di pubblico. Verifica che tutti i dettagli siano corretti, quindi seleziona **[!UICONTROL Completa]** per completare la creazione della connessione dati.
 
@@ -280,7 +280,7 @@ Successivamente, puoi aggiornare le seguenti sezioni all’interno dell’area d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identità"
->abstract="Una vista di raggruppamento delle identità che compongono il pubblico, nonché un conteggio totale di profili con le rispettive identità."
+>abstract="Una vista con raggruppamenti delle identità che compongono il pubblico, nonché un conteggio totale dei profili con le rispettive identità."
 
 La sezione **[!UICONTROL Identità]** indica il numero di profili presenti nel pubblico con una qualsiasi delle identità selezionate al momento dell&#39;importazione del pubblico. La sezione contiene anche un raggruppamento delle identità in modo da poter individuare le identità che compongono il maggior numero possibile di persone appartenenti al pubblico.
 
@@ -308,7 +308,7 @@ Verrà visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che conse
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accesso connessione"
->abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione. È sempre possibile modificare l’accesso alla connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione dopo l’attivazione di un pubblico con i collaboratori.</p>"
+>abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione. È sempre possibile cambiare l’accesso della connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene attivato con i collaboratori.</p>"
 
 La disponibilità di un pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. Nella sezione **[!UICONTROL Accesso alla connessione]**, puoi selezionare se il pubblico deve essere privato o utilizzabile e individuabile nelle connessioni.
 
@@ -337,7 +337,7 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quale dei metadati del pubblico è visibile ad altre organizzazioni prima che si connettano all’organizzazione. </p> <p> Il **conteggio delle identità** controlla se il partner può visualizzare i conteggi delle identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
+>abstract="<p>Indica quali metadati del pubblico sono visibili ad altre organizzazioni prima che si connettano alla tua organizzazione. </p> <p> Il **conteggio delle identità** controlla se il partner può visualizzare i conteggi delle identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
 
 >[!NOTE]
 >
