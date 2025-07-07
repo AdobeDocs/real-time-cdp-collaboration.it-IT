@@ -1,17 +1,18 @@
 ---
 title: Guida introduttiva all’onboarding di Real-Time CDP Collaboration
-description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, il provisioning del pubblico, l’attivazione e la misurazione. Questa guida aiuta gli inserzionisti e gli editori a configurare le impostazioni di collaborazione e a iniziare a utilizzare i tipi di pubblico condivisi in modo sicuro ed efficiente.
+description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta gli inserzionisti e gli editori a configurare le impostazioni di collaborazione e a iniziare a utilizzare i tipi di pubblico condivisi in modo sicuro ed efficiente.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Guida introduttiva all’onboarding di Real-Time CDP Collaboration
 
-Inizia a usare Real-Time Customer Data Platform (CDP) Collaboration configurando l’organizzazione, eseguendo il provisioning dei tipi di pubblico e abilitando l’attivazione e la misurazione incentrate sulla privacy.
+Inizia a usare Real-Time CDP Collaboration configurando l’organizzazione, individuando i tipi di pubblico e abilitando l’attivazione e la misurazione incentrate sulla privacy.
 
 ## Prerequisiti
 
@@ -41,7 +42,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando l’interfaccia utente di Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’organizzazione Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Definisci il ruolo della tua organizzazione in Collaboration, fornisci risorse d
 
 - **Configura chiavi di corrispondenza** - Seleziona gli identificatori utilizzati per la corrispondenza del pubblico (attualmente, l&#39;e-mail con hash è l&#39;unica chiave di corrispondenza supportata).
 
-Una volta creata l’organizzazione e configurate le chiavi di branding e corrispondenza, l’organizzazione è pronta per iniziare il provisioning dei tipi di pubblico e l’attivazione dei dati.
+Una volta creata l’organizzazione e configurate le chiavi di branding e corrispondenza, l’organizzazione è pronta per iniziare a individuare il pubblico e ad attivare i dati.
 
 Per ulteriori informazioni sulla configurazione iniziale dell&#39;organizzazione, tra cui la definizione dei ruoli, il caricamento delle risorse di branding e la configurazione delle chiavi di corrispondenza, consulta il [documento di configurazione iniziale dell&#39;organizzazione](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -83,7 +84,7 @@ Guarda una procedura dettagliata sulla configurazione dell’inserzionista, che 
 
 ## Passaggio 3: tipi di pubblico di Source (da Experience Platform o da una sorgente cloud) {#source-audiences}
 
-Scegli uno o entrambi i seguenti archivi di dati per il pubblico di origine. Utilizza l’interfaccia utente di Collaboration o coordinati con Adobe per effettuare il provisioning dei tipi di pubblico in un formato che preservi la privacy.
+Scegli uno o entrambi i seguenti archivi di dati per il pubblico di origine. Utilizza l’interfaccia utente di Collaboration o coordina con Adobe per generare il pubblico in un formato che rispetti la privacy.
 
 ### Opzione A: Source da Experience Platform
 
@@ -99,7 +100,7 @@ Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflak
 >
 >In questa fase, tutti i tipi di pubblico nel file caricato provengono da origini complete. L’accesso a specifiche organizzazioni partner viene fornito separatamente tramite l’interfaccia utente di Collaboration.
 
-### Provisioning dei tipi di pubblico
+### Configurare i tipi di pubblico
 
 Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e governati per essere utilizzati nelle connessioni.
 
@@ -117,8 +118,8 @@ Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e govern
 >
 >**Numero massimo di tipi di pubblico per ruolo di collaboratore:**
 >
->- **Gli inserzionisti** possono eseguire il provisioning di un massimo di 25 tipi di pubblico.
->- **Gli editori** possono eseguire il provisioning di un massimo di 250 tipi di pubblico (ciascuno con un minimo di 5.000 ID).
+>- **Gli inserzionisti** possono creare fino a 25 tipi di pubblico.
+>- **Gli editori** possono creare fino a 250 tipi di pubblico (ciascuno con un minimo di 5.000 ID).
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Per visualizzare una procedura dettagliata su come fare riferimento a tipi di pu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Passaggio 4: attivare i tipi di pubblico (su Experience Platform o una destinazione cloud) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Utilizza l’interfaccia utente di Collaboration per attivare i tipi di pubblico
 
 ### Opzione A: Attivare Experience Platform
 
-Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Crea una destinazione**. Utilizza l&#39;interfaccia utente per impostare una destinazione Experience Platform (a livello di sandbox).
 - **Mappa chiavi corrispondenti** - Seleziona l&#39;identificatore (ad esempio, `hashedEmail`).
@@ -237,11 +238,17 @@ Dopo l’attivazione, verifica che i tipi di pubblico siano stati correttamente 
 
 Al termine della configurazione e del provisioning dei dati, l’organizzazione è ora pronta a connettersi con i collaboratori inviando o accettando inviti e inviando le impostazioni del progetto per l’approvazione. Questo processo di connessione prevede l&#39;invio o la ricezione di inviti, la revisione e l&#39;invio di impostazioni di connessione (ad esempio casi d&#39;uso e consumo di credito) e la conferma della relazione.
 
-Utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** dal menu di navigazione a sinistra nell&#39;interfaccia utente di Collaboration per sfogliare gli editori disponibili (al momento non è possibile sfogliare gli inserzionisti). Per una panoramica di questo flusso, vedere la [Guida alla connessione con inserzionisti o editori](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+In qualità di inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** dal menu di navigazione a sinistra nell&#39;interfaccia utente di Collaboration per sfogliare gli editori disponibili.
+
+>[!NOTE]
+>
+>Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
+
+Per una panoramica di questo flusso, vedere la [Guida alla connessione con inserzionisti o editori](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
-Ora hai completato l’onboarding e configurato l’organizzazione per una collaborazione sicura. Quindi, esplora le seguenti risorse per comprendere meglio i concetti di attivazione, misurazione e governance dei dati:
+Hai completato la configurazione iniziale e hai configurato l’organizzazione per una collaborazione sicura. Quindi, esplora le seguenti risorse per comprendere meglio i concetti di attivazione, misurazione e governance dei dati:
 
 - [Documentazione del flusso di lavoro di Audience Activation](./collaborate/activate.md)
 - [Casi di utilizzo della misurazione](./collaborate/measure.md)
