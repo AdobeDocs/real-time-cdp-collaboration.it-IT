@@ -42,7 +42,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando l’interfaccia utente di Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
 
 ## Passaggio 2: configurare l’organizzazione Real-Time CDP Collaboration {#set-up-your-organization}
 
