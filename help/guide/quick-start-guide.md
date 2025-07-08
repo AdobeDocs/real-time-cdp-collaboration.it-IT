@@ -122,7 +122,7 @@ Per visualizzare una procedura dettagliata su come fare riferimento a tipi di pu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ### Opzione B: Source da Snowflake o Amazon S3
 
@@ -144,7 +144,7 @@ Utilizza l’interfaccia utente di Collaboration per attivare i tipi di pubblico
 
 ### Opzione A: Attivare Experience Platform
 
-Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Crea una destinazione**. Utilizza l&#39;interfaccia utente per impostare una destinazione Experience Platform (a livello di sandbox).
 - **Mappa chiavi corrispondenti** - Seleziona l&#39;identificatore (ad esempio, `hashedEmail`).
