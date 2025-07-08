@@ -3,9 +3,9 @@ title: Guida introduttiva all’onboarding di Real-Time CDP Collaboration
 description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta gli inserzionisti e gli editori a configurare le impostazioni di collaborazione e a iniziare a utilizzare i tipi di pubblico condivisi in modo sicuro ed efficiente.
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Prima di iniziare, assicurati di avere i seguenti elementi:
 - [Ruoli creati per la tua organizzazione e assegnati agli utenti](./permissions/manage-roles.md).
 - Accesso alle risorse di branding, ad esempio il nome, il logo e il banner dell’organizzazione.
 - Una [strategia chiave di corrispondenza definita](./setup/onboard-organization.md#set-up-match-keys) (attualmente, l&#39;e-mail con hash è l&#39;unica chiave di corrispondenza supportata).
-- (Facoltativo) Se non utilizzi Experience Platform come destinazione, accedi a un’origine cloud supportata (Amazon S3 o Snowflake).
+- (Facoltativo) Accedi a un’origine cloud supportata (Amazon S3 o Snowflake) se non utilizzi Experience Platform per la gestione dell’audience.
 
 ## Passaggio 1: completare la configurazione basata sui ruoli {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando l’interfaccia utente di Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’organizzazione Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le aut
 
 Prima di poter aggiungere tipi di pubblico, devi configurare l’organizzazione in Collaboration. Questo governa come si presenta e si comporta l’organizzazione nell’interfaccia.
 
-Se non disponi dell’accesso come amministratore ad Experience Platform, contatta l’amministratore della tua organizzazione per ottenere assistenza per completare la configurazione.
+Se non disponi dell’accesso necessario, fai riferimento al passaggio 1 o contatta l’amministratore della tua organizzazione per assistenza al completamento della configurazione.
 
-Definisci il ruolo della tua organizzazione in Collaboration, fornisci risorse di branding e configura chiavi di corrispondenza per allineare i tipi di pubblico tra le connessioni. Quindi, completa i passaggi seguenti per finalizzare la configurazione e preparare la tua organizzazione a interagire con le connessioni.
+Definisci il ruolo della tua organizzazione in Collaboration, fornisci risorse di branding e configura chiavi di corrispondenza per allineare i tipi di pubblico tra le connessioni.
 
 >[!NOTE]
 >
->Puoi creare uno o più collaboratori (ad esempio i profili dell’inserzionista o dell’editore) durante la configurazione. Alcuni campi, ad esempio le risorse di branding e l&#39;e-mail di contatto, possono essere aggiornati successivamente nell&#39;area di lavoro **[!UICONTROL Impostazioni]**. È possibile rimuovere le chiavi di corrispondenza a livello di progetto, ma non aggiungerle, quindi pianificale con attenzione.
+>Puoi creare uno o più collaboratori (ad esempio i profili dell’inserzionista o dell’editore) durante la configurazione. Alcuni campi, ad esempio le risorse di branding e l&#39;e-mail di contatto, possono essere aggiornati successivamente nell&#39;area di lavoro **[!UICONTROL Impostazioni]**.
 
 - **Assegna un ruolo** - Determina se l&#39;organizzazione funge da inserzionista, editore o entrambi. Il tuo ruolo definisce le funzionalità di collaborazione disponibili, ad esempio l’avvio della condivisione di tipi di pubblico (inserzionista) o la disponibilità di tipi di pubblico (editore). Per ulteriori informazioni sull&#39;impatto dei ruoli sul flusso di lavoro di collaborazione, consulta la [Guida del flusso di lavoro end-to-end](./end-to-end-workflow.md).
 - **Risorse di branding** - Aggiungi quanto segue al tuo account:
    - Marchio (massimo 100 caratteri)
    - Descrizione del marchio (massimo 1.000 caratteri)
    - Logo del marchio (SVG &lt;20 KB, idealmente quadrato)
-   - Banner del marchio (JPG 2688x1536 o simile)
-- **E-mail di contatto** - Fornisci un&#39;e-mail aziendale che i collaboratori potranno utilizzare dopo aver stabilito una connessione.
 
   >[!NOTE]
   >
   >Se stai creando un account publisher e desideri che sia visibile al pubblico nel catalogo delle connessioni di Collaboration, contatta il rappresentante del tuo account Adobe. Gli account dell’editore richiedono un banner personalizzato per il marchio (JPG 2688x1536); questo file può essere condiviso direttamente con il tuo rappresentante.
 
+- **E-mail di contatto** - Fornisci un&#39;e-mail aziendale che i collaboratori potranno utilizzare dopo aver stabilito una connessione.
 - **Configura chiavi di corrispondenza** - Seleziona gli identificatori utilizzati per la corrispondenza del pubblico (attualmente, l&#39;e-mail con hash è l&#39;unica chiave di corrispondenza supportata).
-
-Una volta creata l’organizzazione e configurate le chiavi di branding e corrispondenza, l’organizzazione è pronta per iniziare a individuare il pubblico e ad attivare i dati.
 
 Per ulteriori informazioni sulla configurazione iniziale dell&#39;organizzazione, tra cui la definizione dei ruoli, il caricamento delle risorse di branding e la configurazione delle chiavi di corrispondenza, consulta il [documento di configurazione iniziale dell&#39;organizzazione](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -84,23 +81,13 @@ Guarda una procedura dettagliata sulla configurazione dell’inserzionista, che 
 
 ## Passaggio 3: tipi di pubblico di Source (da Experience Platform o da una sorgente cloud) {#source-audiences}
 
-Scegli uno o entrambi i seguenti archivi di dati per il pubblico di origine. Utilizza l’interfaccia utente di Collaboration o coordina con Adobe per generare il pubblico in un formato che rispetti la privacy.
+Una volta creata l’organizzazione e configurate le chiavi di branding e corrispondenza, puoi iniziare a selezionare i tipi di pubblico. Scegliere uno dei seguenti metodi di determinazione origine in base all&#39;archivio dati e alle esigenze aziendali.
 
 ### Opzione A: Source da Experience Platform
 
-[Utilizza l&#39;interfaccia utente delle destinazioni di Collaboration per collegare una sandbox che contiene tipi di pubblico](./setup/onboard-audiences.md). Utilizza questo metodo self-service per fare riferimento a segmenti di pubblico esistenti dall&#39;interno della tua istanza di Experience Platform.
+[Utilizza l&#39;interfaccia utente di Collaboration per collegare una sandbox che contiene tipi di pubblico](./setup/onboard-audiences.md). Utilizza questo metodo self-service per fare riferimento a segmenti di pubblico esistenti dall&#39;interno della tua istanza di Experience Platform.
 
-### Opzione B: Source da Snowflake o Amazon S3
-
-Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflake]), prepara i dati del pubblico utilizzando il seguente [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Una volta completata la configurazione o in caso di domande, contatta il rappresentante del tuo account Adobe per finalizzarla. Questo metodo non è self-service e richiede l’assistenza di Adobe.
-
->[!IMPORTANT]
->
->I file del pubblico basati su cloud devono seguire lo schema richiesto descritto in Audience Specification PDF. I file devono includere identificatori con hash (SHA256 minuscolo), campi di metadati obbligatori come `segment_name` e `activation_id` e utilizzare formati supportati come CSV o Parquet. Adobe non normalizza i dati prima dell’attivazione. Il TTL viene applicato in base alla durata del pubblico.
->
->In questa fase, tutti i tipi di pubblico nel file caricato provengono da origini complete. L’accesso a specifiche organizzazioni partner viene fornito separatamente tramite l’interfaccia utente di Collaboration.
-
-### Configurare i tipi di pubblico
+#### Configurare i tipi di pubblico
 
 Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e governati per essere utilizzati nelle connessioni.
 
@@ -135,7 +122,17 @@ Per visualizzare una procedura dettagliata su come fare riferimento a tipi di pu
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+In alternativa, consulta il documento su [rendere i tipi di pubblico disponibili in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+
+### Opzione B: Source da Snowflake o Amazon S3
+
+Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflake]), prepara i dati del pubblico utilizzando il seguente [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Una volta completata la configurazione o in caso di domande, contatta il rappresentante del tuo account Adobe per finalizzarla. Questo metodo non è self-service e richiede l’assistenza di Adobe.
+
+>[!IMPORTANT]
+>
+>I file del pubblico basati su cloud devono seguire lo schema richiesto descritto in Audience Specification PDF. I file devono includere identificatori con hash (SHA256 minuscolo), campi di metadati obbligatori come `segment_name` e `activation_id` e utilizzare formati supportati come CSV o Parquet. Adobe non normalizza i dati prima dell’attivazione. Il TTL viene applicato in base alla durata del pubblico.
+>
+>In questa fase, tutti i tipi di pubblico nel file caricato provengono da origini complete. L’accesso a specifiche organizzazioni partner viene fornito separatamente tramite l’interfaccia utente di Collaboration.
 
 ## Passaggio 4: attivare i tipi di pubblico (su Experience Platform o una destinazione cloud) {#activate-audiences}
 
@@ -147,7 +144,7 @@ Utilizza l’interfaccia utente di Collaboration per attivare i tipi di pubblico
 
 ### Opzione A: Attivare Experience Platform
 
-Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience Platform come destinazione](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Crea una destinazione**. Utilizza l&#39;interfaccia utente per impostare una destinazione Experience Platform (a livello di sandbox).
 - **Mappa chiavi corrispondenti** - Seleziona l&#39;identificatore (ad esempio, `hashedEmail`).
@@ -156,16 +153,9 @@ Completa i seguenti passaggi descritti nella guida [Configurare Adobe Experience
 
 ### Opzione B: Attivare su cloud
 
-Per attivare i tipi di pubblico in una destinazione cloud (ad esempio [!DNL AWS S3] o [!DNL Snowflake]), contatta il rappresentante del tuo account Adobe per avviare il processo di configurazione. Dovrai fornire i dettagli della destinazione, ad esempio il percorso del file, le credenziali e il formato di file previsto. Durante l&#39;installazione, è inoltre necessario specificare una chiave di corrispondenza (ad esempio, `hashedEmail`) e definire il TTL e la frequenza di aggiornamento desiderati. Una volta completata la configurazione, Adobe esegue il provisioning della destinazione e assicura che i dati vengano consegnati correttamente.
+Per configurare una destinazione cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflake]), contatta il rappresentante del tuo account Adobe per avviare il processo di configurazione. A seconda della destinazione cloud, dovrai fornire i dettagli della destinazione cloud come il percorso del file, le credenziali, i localizzatori dell’account, ecc. Una volta fornite le informazioni richieste, Adobe configurerà la configurazione della destinazione cloud.
 
 I dati del pubblico inviati a una destinazione cloud seguono uno schema predefinito. Per una descrizione dettagliata dei campi e del formato richiesti, scarica la [Guida di Collaboration Audience Activation](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-### Differenze chiave
-
-L’elenco seguente evidenzia le differenze tra le opzioni di Experience Platform e di attivazione cloud:
-
-- Le attivazioni per Experience Platform sono completamente self-service e visibili nel Portale dell’audience.
-- Le destinazioni cloud richiedono il coordinamento di Adobe e non sono visibili nell’interfaccia utente.
 
 ## Passaggio 5: impostare la misurazione (facoltativo) {#set-up-measurement}
 
@@ -227,13 +217,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
 
-## Verifica
-
-Dopo l’attivazione, verifica che i tipi di pubblico siano stati correttamente consegnati o resi disponibili nella destinazione appropriata.
-
-- Verifica che i tipi di pubblico vengano visualizzati nel Portale pubblico (per l’attivazione di Experience Platform).
-- Conferma la corretta consegna cloud tramite i registri di destinazione esterni o la conferma.
-
 ## Passaggio 6: Connettersi con i collaboratori {#connect-with-collaborators}
 
 Al termine della configurazione e del provisioning dei dati, l’organizzazione è ora pronta a connettersi con i collaboratori inviando o accettando inviti e inviando le impostazioni del progetto per l’approvazione. Questo processo di connessione prevede l&#39;invio o la ricezione di inviti, la revisione e l&#39;invio di impostazioni di connessione (ad esempio casi d&#39;uso e consumo di credito) e la conferma della relazione.
@@ -244,7 +227,7 @@ In qualità di inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connet
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [Guida alla connessione con inserzionisti o editori](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [Guida alla connessione con inserzionisti o editori](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
