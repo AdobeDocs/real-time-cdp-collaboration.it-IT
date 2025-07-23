@@ -21,7 +21,7 @@ Per individuare gli editori, vai alla scheda **[!UICONTROL Connetti]** > **[!UIC
 
 ![Dashboard Discover Publishers nell&#39;area di lavoro Connect.](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [&#128279;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Dettagli di un singolo editore](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
