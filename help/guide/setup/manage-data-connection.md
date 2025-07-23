@@ -2,12 +2,12 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '597'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 ## Panoramica
 
-Utilizza le connessioni dati in Real-Time CDP Collaboration per importare tipi di pubblico da varie sorgenti. Scopri come gestire le chiavi di corrispondenza e pianificare le importazioni di dati per le connessioni dati esistenti. Inoltre, potrai filtrare i tipi di pubblico in base a attributi diversi per ottenere informazioni più granulari.
+Utilizza le connessioni dati in Real-Time CDP Collaboration per indirizzare il pubblico da varie piattaforme. Scopri come gestire le chiavi di corrispondenza e pianificare l’aggiornamento dei dati per le connessioni dati esistenti. Inoltre, potrai filtrare i tipi di pubblico in base a attributi diversi per ottenere informazioni più granulari.
 
 ## Visualizzare connessioni dati
 
@@ -59,7 +59,7 @@ Dopo aver creato una connessione dati, è possibile aggiornarne la frequenza di 
 >
 >Quando si selezionano i tipi di pubblico da Adobe Experience Platform, i tipi di pubblico diventano disponibili entro 24 ore dall’impostazione della connessione dati. Dopo l’importazione iniziale, i dati del pubblico vengono aggiornati in base alla frequenza definita.
 
-Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nella guida ai tipi di pubblico per l&#39;onboarding.
+Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nella guida alla configurazione dei tipi di pubblico.
 
 ![Area di lavoro di una connessione dati con la sezione Pianificazione evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Puoi modificare la frequenza di una connessione dati esistente per controllare m
 
 Nella finestra di dialogo **[!UICONTROL Pianificazione]**, seleziona il menu a discesa per aggiornare la **[!UICONTROL Frequenza]**. Impostare la frequenza di aggiornamento in modo che venga eseguita ogni giorno oppure ogni due o sei giorni. Al termine, seleziona **[!UICONTROL Salva]** per applicare le modifiche.
 
-![Finestra di dialogo Pianificazione, in cui sono visualizzate le opzioni per impostare la frequenza e l&#39;intervallo di date.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![Finestra di dialogo Pianificazione, in cui sono visualizzate le opzioni per impostare la frequenza e l&#39;intervallo di date.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Elimina connessione dati
 
-L’eliminazione di una connessione dati rimuoverà tutti i tipi di pubblico sottostanti, le impostazioni associate e l’utilizzo nella piattaforma. Questa azione non può essere annullata.
+L’eliminazione di una connessione dati rimuoverà tutti i tipi di pubblico sottostanti, le impostazioni associate e l’utilizzo in Collaboration. Questa azione non può essere annullata.
 
 Per eliminare una connessione dati esistente, selezionare l&#39;icona Elimina (![icona Elimina](/help/assets/common/delete.svg)) nell&#39;area di lavoro di una singola connessione dati.
 

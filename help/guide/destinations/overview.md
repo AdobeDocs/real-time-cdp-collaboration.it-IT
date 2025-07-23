@@ -2,11 +2,12 @@
 title: Panoramica delle designazioni
 description: Scopri le destinazioni in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Le destinazioni sono integrazioni utilizzate per inviare pubblici mirati a piattaforme esterne. Queste integrazioni consentono di attivare tipi di pubblico su vari canali e piattaforme di marketing da utilizzare nelle campagne e nel coinvolgimento dei clienti.
 
-Attualmente, le destinazioni sono disponibili solo per gli editori in Real-Time CDP Collaboration. Gli editori possono configurare le destinazioni per inviare tipi di pubblico a piattaforme esterne, come Adobe Experience Platform, da utilizzare nelle campagne. Gli inserzionisti possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata dell&#39;editore.
+Attualmente, le destinazioni sono disponibili solo per gli editori in Adobe Real-Time CDP Collaboration. Gli editori possono configurare le destinazioni per inviare tipi di pubblico a piattaforme esterne, come Adobe Experience Platform, da utilizzare nelle campagne. Gli inserzionisti possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata dell&#39;editore.
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ Per configurare una destinazione, passare a **[!UICONTROL Configurazione]** e se
 
 >[!NOTE]
 >
-> Attualmente, in Real-Time CDP Collaboration è disponibile solo Adobe Experience Platform come destinazione self-service. Se ti interessa configurare una destinazione come Amazon S3 o Snowflake, contatta il tuo rappresentante Adobe.
+> Attualmente, in Collaboration è disponibile solo Adobe Experience Platform come destinazione self-service. Se ti interessa configurare una destinazione come Amazon S3 o Snowflake, contatta il tuo rappresentante Adobe.
 
 ![La scheda Destinazioni personali nell&#39;area di lavoro di installazione mostra le destinazioni disponibili.](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ Per iniziare a configurare una destinazione, selezionare l&#39;opzione **[!UICON
 
 ### Destinazioni disponibili {#available-destinations}
 
-Le seguenti destinazioni sono disponibili per la configurazione in Real-Time CDP Collaboration. Per visualizzare la guida alla configurazione per quella destinazione, seleziona il nome della destinazione nella tabella seguente. Se ti interessa configurare una destinazione non attualmente disponibile, contatta il tuo rappresentante Adobe.
+Le seguenti destinazioni sono disponibili per la configurazione in Collaboration. Per visualizzare la guida alla configurazione per quella destinazione, seleziona il nome della destinazione nella tabella seguente. Se ti interessa configurare una destinazione non attualmente disponibile, contatta il tuo rappresentante Adobe.
 
 | Destinazione | Disponibilità |
 | --- | --- |

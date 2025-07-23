@@ -2,9 +2,9 @@
 title: Flusso di lavoro completo
 description: Comprendere il flusso di lavoro end-to-end dell’utilizzo di Real-Time CDP Collaboration come inserzionista o editore
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration consente agli inserzi
 
 ## Flusso di lavoro end-to-end per gli inserzionisti {#advertiser}
 
-Come inserzionista, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-organization.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per inviare e quindi modificare le impostazioni della tua società, aggiungere le chiavi di corrispondenza preferite con cui lavorerai e decidere quali dati inserire. Nella prima versione, il prodotto ti consente di [importare tipi di pubblico](/help/guide/setup/onboard-audiences.md) solo da Adobe Experience Platform.
+Come inserzionista, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-account.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per inviare e quindi modificare le impostazioni della tua società, aggiungere le chiavi di corrispondenza preferite con cui lavorerai e decidere quali dati inserire. Nella prima versione, il prodotto ti consente di [importare tipi di pubblico](/help/guide/setup/onboard-audiences.md) solo da Adobe Experience Platform.
 
 ![Rileva, attiva e misura per gli inserzionisti.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -33,7 +33,7 @@ Il passaggio finale nel ciclo di collaborazione è [measurement](/help/guide/col
 
 ## Flusso di lavoro end-to-end dell&#39;editore {#publisher}
 
-Come editore, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-organization.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per modificare varie impostazioni aziendali.
+Come editore, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-account.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per modificare varie impostazioni aziendali.
 
 Decidi quali dati del pubblico importare e quali tipi di pubblico rendere individuabili e visualizzabili per gli inserzionisti che desiderano connetterti nell&#39;area **[!UICONTROL Connetti]** del prodotto.
 

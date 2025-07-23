@@ -2,12 +2,12 @@
 title: Tracciare l’attività di consumo del credito
 description: Scopri come tenere traccia dell’attività di consumo del credito della tua organizzazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 5%
 
 ---
 
@@ -31,15 +31,15 @@ Per accedere all&#39;attività di consumo del credito stimata, passa a **[!UICON
 
 >[!TIP]
 >
->La visualizzazione **[!UICONTROL La mia attività]** non include informazioni sulle azioni dell&#39;utente in parti diverse dell&#39;interfaccia utente di Real-Time Collaboration CDP. Utilizza la funzionalità [registri di controllo](/help/guide/setup/audit-logs.md) per ottenere tali informazioni.
+>La visualizzazione **[!UICONTROL La mia attività]** non include informazioni sulle azioni dell&#39;utente in diverse parti dell&#39;interfaccia utente di Collaboration. Utilizza la funzionalità [registri di controllo](/help/guide/setup/audit-logs.md) per ottenere tali informazioni.
 
 ## Comprendere il dashboard delle attività {#understand-dashboard}
 
-Il dashboard attività visualizza un elenco completo di tutte le operazioni che richiedono credito all’interno dell’organizzazione. Ogni riga rappresenta un’attività distinta e fornisce informazioni chiave sull’utilizzo del credito:
+Il pannello attività visualizza un elenco completo di tutte le operazioni che richiedono credito all’interno del tuo account. Ogni riga rappresenta un’attività distinta e fornisce informazioni chiave sull’utilizzo del credito:
 
 >[!NOTE]
 >
->Le attività di **[!UICONTROL Gestione dell&#39;audience]** non sono associate a un altro collaboratore, pertanto le colonne **[!UICONTROL ID connessione]** e **[!UICONTROL Nome connessione]** per questi tipi di attività indicano un valore **[!UICONTROL N/A]**.
+>Le attività di **[!UICONTROL Gestione dell&#39;audience]** non sono associate a un altro collaboratore, pertanto le colonne **[!UICONTROL ID connessione]** e **[!UICONTROL Nome connessione]** per questi tipi di attività indicano un valore **[!UICONTROL -]**.
 
 | Colonna | Descrizione |
 |------------|--------------|
@@ -49,7 +49,7 @@ Il dashboard attività visualizza un elenco completo di tutte le operazioni che 
 | **[!UICONTROL Attività]** | Tipo di attività eseguita, ad esempio **Activation - Matching**, **Activation - Egress** o **Audience Management**. |
 | **[!UICONTROL Input elaborati]** | Il numero totale di input (ad esempio, ID o righe) elaborati per l’attività. |
 | **[!UICONTROL Totale crediti utilizzati]** | Numero totale di crediti utilizzati dall&#39;attività. |
-| **[!UICONTROL La mia condivisione di credito]** | Parte dei crediti utilizzati per l&#39;attività della tua organizzazione. |
+| **[!UICONTROL La mia condivisione di credito]** | La porzione del tuo account dei crediti utilizzati per l&#39;attività. |
 
 {style="table-layout:auto"}
 
@@ -57,23 +57,15 @@ Il dashboard attività visualizza un elenco completo di tutte le operazioni che 
 
 La colonna **[!UICONTROL Attività]** mostra diversi tipi di operazioni che richiedono credito.
 
-* **[!UICONTROL Gestione dell&#39;audience]**: i crediti vengono utilizzati quando i tipi di pubblico provengono da Real-Time CDP Collaboration. I crediti vengono utilizzati in funzione del numero di ID (in milioni) indicizzati in Real-Time CDP Collaboration per tutti i tipi di pubblico e della frequenza di indicizzazione (giornaliera, ogni tre giorni o settimanale). Per ulteriori informazioni, consulta la guida [importazione e gestione dei tipi di pubblico](/help/guide/setup/onboard-audiences.md).
+* **[!UICONTROL Gestione dell&#39;audience]**: i crediti vengono utilizzati quando i tipi di pubblico provengono da Collaboration. I crediti vengono utilizzati in funzione del numero di ID (in milioni) indicizzati in Collaboration per tutti i tipi di pubblico e della frequenza di indicizzazione (giornaliera, ogni tre giorni o settimanale). Per ulteriori informazioni, consulta la guida [sourcing e gestione dei tipi di pubblico](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Attivazione - Corrispondenza]** - I crediti vengono utilizzati in funzione del numero di ID corrispondenti e preparati per l&#39;attivazione. Per ulteriori informazioni, consulta la guida [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md).
 * **[!UICONTROL Attivazione - Uscita]** - I crediti vengono utilizzati come funzione del numero di ID inviati a una destinazione. Questo viene sempre addebitato al collaboratore che riceve il pubblico. Per ulteriori informazioni, consulta la guida [attivazione di tipi di pubblico](/help/guide/collaborate/activate.md).
-* **[!UICONTROL Misurazione]** - Esegui attività in Real-Time CDP Collaboration per generare report e informazioni sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale).
+* **[!UICONTROL Misurazione]** - Esegui attività in Collaboration per generare report e informazioni sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale).
 
 ## Gestione del consumo di credito {#manage-credit-consumption}
 
 Per gestire in modo efficace il consumo di credito:
 
-1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Real-Time CDP Collaboration](https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti di collaborazione utilizzati per ogni attività.
+1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti utilizzati per ogni attività.
 2. **Monitora regolarmente**: controlla spesso il dashboard attività per comprendere i pattern di utilizzo.
-3. **Traccia per connessione**: utilizzare il nome della connessione per identificare le relazioni che utilizzano più crediti.
-
-<!--
-
-## Pagination and navigation
-
-The activity list is paginated to improve performance and readability. Use the navigation controls at the bottom of the table to move between pages and adjust how many records you can view at once.
-
--->
+3. **Traccia per connessione**: utilizzare il nome della connessione per identificare le connessioni che utilizzano più crediti.

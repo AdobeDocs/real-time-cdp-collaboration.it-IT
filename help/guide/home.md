@@ -2,11 +2,11 @@
 title: Panoramica
 description: Scopri come utilizzare Adobe Real-Time Customer Data Platform (CDP) Collaboration per scoprire, attivare e misurare i tipi di pubblico di alto valore senza affidarsi a cookie di terze parti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Panoramica
 
-Con Adobe Real-Time Customer Data Platform (CDP) Collaboration puoi scoprire, attivare e misurare i tipi di pubblico di alto valore senza affidarti a cookie di terze parti. Questa soluzione consente la collaborazione avanzata dei dati tra inserzionisti e editori, aiutandoti a creare esperienze cliente personalizzate e di forte impatto in un ambiente centralizzato e incentrato sulla privacy.
+Ad Adobe Real-Time CDP Collaboration, puoi scoprire, attivare e misurare i tipi di pubblico di alto valore senza affidarti a cookie di terze parti. Questa soluzione consente la collaborazione avanzata di dati tra inserzionisti e editori, aiutandoti a creare esperienze cliente personalizzate e di forte impatto in un ambiente centralizzato incentrato sulla privacy.
 
 ![Pagina di configurazione di Real-Time CDP Collaboration, in cui viene visualizzata un&#39;organizzazione.](/help/assets/overview/set-up.png){zoomable="yes"}
 
@@ -31,7 +31,7 @@ Gli editori possono accedere in modo sicuro e attivare il pubblico degli inserzi
 
 ## Comprendere le prestazioni aggregate delle campagne
 
-Utilizza gli strumenti di misurazione collaborativa per monitorare l’impatto delle campagne. Gli editori possono segnalare le prestazioni della campagna ai brand, contribuendo a migliorare gli annunci attuali e futuri e ad adeguare la spesa pubblicitaria. Gli inserzionisti possono condividere informazioni approfondite sul coinvolgimento e sulla conversione incentrate sulla privacy, integrare dati sull’esposizione, sul canale e sulla conversione e utilizzare i partner di misurazione preferiti per ottenere informazioni complete. Tieni presente che parte dell’automazione della misurazione non è disponibile nella prima versione.
+Utilizza gli strumenti di misurazione collaborativa per monitorare l’impatto delle campagne. Gli editori possono segnalare le prestazioni della campagna agli inserzionisti, aiutandoli a migliorare gli annunci attuali e futuri e ad adeguare la spesa pubblicitaria. Gli inserzionisti possono condividere informazioni approfondite sul coinvolgimento e sulla conversione incentrate sulla privacy, integrare dati sull’esposizione, sul canale e sulla conversione e utilizzare i partner di misurazione preferiti per ottenere informazioni complete. Tieni presente che parte dell’automazione della misurazione non è disponibile nella prima versione.
 
 ## Incentrato sulla privacy
 
@@ -39,15 +39,13 @@ I controlli incorporati garantiscono il rispetto dei requisiti di governance e p
 
 ## Introduzione {#get-started}
 
-Per iniziare a utilizzare Real-Time CDP Collaboration, gli amministratori di sistema devono concedere a se stessi, agli amministratori di prodotto e agli utenti finali l’accesso. Esistono più passaggi richiesti a seconda dell’utente e del livello di accesso richiesto. Per iniziare, consulta la [panoramica sul controllo degli accessi](/help/guide/permissions/overview.md){target="_blank"}.
+Per iniziare a utilizzare Collaboration, gli amministratori di sistema devono concedere a se stessi, agli amministratori di prodotto e agli utenti finali l’accesso. Esistono più passaggi richiesti a seconda dell’utente e del livello di accesso richiesto. Per iniziare, consulta la [panoramica sul controllo degli accessi](/help/guide/permissions/overview.md){target="_blank"}.
 
-Una volta ottenuto l’accesso, puoi configurare l’organizzazione e collegare le origini dati ad Adobe Real-Time CDP Collaboration per importare i tipi di pubblico. Per iniziare, leggi il flusso di lavoro end-to-end dell&#39;[inserzionista e editore](/help/guide/end-to-end-workflow.md).
-
-<!-- Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.  -->
+Una volta ottenuto l’accesso, puoi configurare l’account e creare la connessione dati per diventare un pubblico di sourcing. Per iniziare, leggi il flusso di lavoro end-to-end dell&#39;[inserzionista e editore](/help/guide/end-to-end-workflow.md).
 
 ## Risorse
 
-Esplora il [glossario](/help/guide/glossary.md) per informazioni dettagliate sui termini utilizzati nel prodotto. Per supporto, accedi alla pagina [Assistenza clienti](https://experienceleague.adobe.com/home?lang=it&amp;support-tab=open-ticket#support){target="_blank"} di Adobe.
+Esplora il [glossario](/help/guide/glossary.md) per informazioni dettagliate sui termini utilizzati nel prodotto. Per supporto, accedi alla pagina [Assistenza clienti](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} di Adobe.
 
 ## Contattaci
 

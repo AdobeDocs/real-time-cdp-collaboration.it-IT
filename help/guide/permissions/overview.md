@@ -2,11 +2,11 @@
 title: Panoramica sul controllo degli accessi
 description: Scopri come accedere ad Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
+source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '954'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Se sei un utente finale che desidera accedere a Real-Time CDP Collaboration, rivolgiti al tuo amministratore di sistema o di prodotto per verificare se esiste un accesso. Se non sai chi sia l’amministratore di sistema, contatta il tuo rappresentante Adobe.
+> Se sei un utente finale che desidera accedere ad Adobe Real-Time CDP Collaboration, rivolgiti al tuo amministratore di sistema o di prodotto per verificare se è disponibile l’accesso. Se non sai chi sia l’amministratore di sistema, contatta il tuo rappresentante Adobe.
 
-Il controllo degli accessi per Real-Time Customer Data Platform (CDP) Collaboration viene fornito tramite Admin Console e le autorizzazioni in [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. In questa guida imparerai a fornire l’accesso a te stesso o ad altri membri del tuo team, a seconda del caso d’uso.
+Il controllo degli accessi per Adobe Real-Time CDP Collaboration viene fornito tramite Admin Console e le autorizzazioni in [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. In questa guida imparerai a fornire l’accesso a te stesso o ad altri membri del tuo team, a seconda del caso d’uso.
 
 ## Gerarchia di controllo di accesso {#hierarchy}
 
-Per configurare il controllo degli accessi a Real-Time CDP Collaboration, **è necessario** disporre dei privilegi di amministratore di sistema o di prodotto. Un amministratore di sistema non ha restrizioni e viene fornito durante il processo di onboarding. Nel frattempo, un amministratore di prodotto può fornire funzioni amministrative per tutti i prodotti a cui è stato assegnato. Un amministratore di sistema deve concedere a un amministratore di prodotto l’accesso amministrativo e ai prodotti.
+Per configurare il controllo degli accessi a Collaboration, **è necessario** disporre dei privilegi di amministratore di sistema o di prodotto. Un amministratore di sistema non ha restrizioni e viene fornito durante il processo di onboarding. Nel frattempo, un amministratore di prodotto può fornire funzioni amministrative per tutti i prodotti a cui è stato assegnato. Un amministratore di sistema deve concedere a un amministratore di prodotto l’accesso amministrativo e ai prodotti.
 
 Queste guide descrivono come configurare l’accesso per gli amministratori di sistema, gli amministratori di prodotto e gli utenti finali. Fai riferimento alla tabella seguente per comprendere la differenza chiave tra i ruoli.
 
@@ -43,7 +43,7 @@ Per ulteriori informazioni sui ruoli amministrativi, visita il [Centro assistenz
 
 ## Prodotti aggiuntivi {#products}
 
-Prima di poter concedere l&#39;accesso a Real-Time CDP Collaboration, devi accedere a più prodotti, a seconda del [caso d&#39;uso](#use-cases). Le guide per il controllo degli accessi possono essere utilizzate con più interfacce utente man mano che si procede, ognuna delle quali può servire a uno scopo specifico all&#39;interno del processo di configurazione degli accessi. Consulta la tabella seguente per informazioni più approfondite sulle finalità di utilizzo dei singoli prodotti.
+Prima di poter concedere l&#39;accesso a Collaboration, devi accedere a più prodotti, a seconda del [caso d&#39;uso](#use-cases). Le guide per il controllo degli accessi possono essere utilizzate con più interfacce utente man mano che si procede, ognuna delle quali può servire a uno scopo specifico all&#39;interno del processo di configurazione degli accessi. Consulta la tabella seguente per informazioni più approfondite sulle finalità di utilizzo dei singoli prodotti.
 
 | Prodotto | Usa |
 | --- | --- |
@@ -53,7 +53,7 @@ Prima di poter concedere l&#39;accesso a Real-Time CDP Collaboration, devi acced
 
 ## Dove iniziare {#use-cases}
 
-Ora che conosci meglio i ruoli utente e amministrativo, nonché i diversi prodotti Experience Cloud, puoi iniziare a dare accesso a Real-Time CDP Collaboration. Ci sono due fattori principali che influenzano i passaggi da intraprendere:
+Ora che conosci meglio i ruoli utente e amministrativo, nonché i diversi prodotti Experience Cloud, puoi iniziare a dare accesso a Collaboration. Ci sono due fattori principali che influenzano i passaggi da intraprendere:
 
 - se si sta assegnando l&#39;accesso amministratore o utente finale
 - se gli utenti hanno già accesso al prodotto Experience Platform
@@ -67,28 +67,28 @@ Consulta il grafico seguente per determinare chi è necessario per configurare i
 | Caso d’uso | Ruolo richiesto | Dove iniziare |
 | --- | --- | --- | 
 | Utente privilegiato senza accesso al prodotto Experience Platform esistente. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
-| Utente con privilegi avanzati per un amministratore di sistema Experience Platform esistente **con** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema. | [Configura accesso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Utente con privilegi avanzati per un amministratore di sistema Experience Platform esistente **con** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema. | [Configura accesso a Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Utente con privilegi avanzati per un amministratore di sistema Experience Platform esistente **senza** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
-| Privilegi di amministratore di prodotto e accesso a Real-Time CDP Collaboration per un nuovo amministratore di prodotto. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
-| Accesso a Real-Time CDP Collaboration per un amministratore di prodotto Experience Platform esistente **con** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
-| Accesso a Real-Time CDP Collaboration per un amministratore di prodotto Experience Platform esistente **senza** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso utente](./manage-user-access.md#user-access) |
-| Accesso a Real-Time CDP Collaboration per un nuovo utente finale. | Un amministratore di sistema o di prodotto. | [Configura accesso utente](./manage-user-access.md#user-access) |
-| Accesso Real-Time CDP Collaboration per un utente esistente con accesso Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Privilegi di amministratore di prodotto e accesso a Collaboration per un nuovo amministratore di prodotto. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
+| Accesso a Collaboration per un amministratore di prodotto Experience Platform esistente **con** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso a Collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Accesso a Collaboration per un amministratore di prodotto Experience Platform esistente **senza** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso utente](./manage-user-access.md#user-access) |
+| Accesso a Collaboration per un nuovo utente finale. | Un amministratore di sistema o di prodotto. | [Configura accesso utente](./manage-user-access.md#user-access) |
+| Accesso Collaboration per un utente esistente con accesso Experience Platform. | Un amministratore di sistema o di prodotto. | [Configura accesso a Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}
 
 ## Autorizzazioni aggiuntive
 
-Dopo aver ottenuto l’accesso a Real-Time CDP Collaboration, potrebbe essere necessario disporre di alcune autorizzazioni Experience Platform aggiuntive per funzionalità specifiche.
+Dopo aver ottenuto l’accesso a Collaboration, potrebbe essere necessario disporre di alcune autorizzazioni Experience Platform aggiuntive per funzionalità specifiche.
 
-### Importazione del pubblico {#audience-importation}
+### Origine pubblico {#audience-sourcing}
 
-Prima di poter iniziare a condividere i tipi di pubblico con i collaboratori, è necessario importare i tipi di pubblico in Real-Time CDP Collaboration. Attualmente, l’unica connessione dati supportata per l’importazione di tipi di pubblico è Experience Platform. Per iniziare, agli utenti che gestiscono l&#39;onboarding del pubblico dovrà essere assegnato un ruolo contenente le seguenti **autorizzazioni per le risorse di gestione dei profili**:
+Prima di poter iniziare a inviare tipi di pubblico ai collaboratori, è necessario assegnarli a Collaboration. Attualmente, l’unica connessione dati self-service supportata per l’importazione dei tipi di pubblico è Experience Platform. Per iniziare, agli utenti che gestiscono l&#39;onboarding del pubblico dovrà essere assegnato un ruolo contenente le seguenti **[!UICONTROL autorizzazioni per le risorse di gestione dei profili]**:
 
 | Autorizzazione | Descrizione |
 | ---- | ---- |
-| Visualizzare segmenti | Consente all’utente di visualizzare l’elenco dei tipi di pubblico disponibili in una sandbox. |
-| Visualizza profili | Consente all&#39;utente di visualizzare i campi disponibili per la mappatura ai campi di collaborazione. |
+| [!UICONTROL Visualizza segmenti] | Consente all’utente di visualizzare l’elenco dei tipi di pubblico disponibili in una sandbox. |
+| [!UICONTROL Visualizza profili] | Consente all&#39;utente di visualizzare i campi disponibili per la mappatura ai campi di collaborazione. |
 
 Di seguito è riportato un ruolo di esempio con le autorizzazioni di cui sopra aggiunte. Per ulteriori informazioni sulla creazione o l&#39;assegnazione di ruoli, fare riferimento alla guida [gestione ruoli](./manage-roles.md).
 
@@ -96,8 +96,8 @@ Di seguito è riportato un ruolo di esempio con le autorizzazioni di cui sopra a
 
 >[!NOTE]
 >
->Gli utenti possono lavorare con i tipi di pubblico in Real-Time CDP Collaboration dopo essere stati importati senza nessuna delle autorizzazioni di cui sopra.
+>Gli utenti possono lavorare con i tipi di pubblico in Collaboration dopo che sono stati acquistati senza alcuna delle autorizzazioni di cui sopra.
 
 ## Passaggi successivi
 
-Una volta stabilito da dove iniziare, segui il collegamento del caso d’uso per iniziare a configurare l’accesso. Se desideri ulteriori informazioni sulla configurazione dell&#39;accesso a Real-Time CDP Collaboration come amministratore oltre a questi casi d&#39;uso, consulta la [guida alla gestione dell&#39;accesso utente](manage-user-access.md). Per informazioni sui ruoli e sulla loro parte nella configurazione dell&#39;accesso ai vari componenti di Real-Time CDP Collaboration, consulta la guida [gestisci ruoli](manage-roles.md).
+Una volta stabilito da dove iniziare, segui il collegamento del caso d’uso per iniziare a configurare l’accesso. Se desideri ulteriori informazioni sulla configurazione dell&#39;accesso a Collaboration come amministratore oltre a questi casi d&#39;uso, consulta la [guida alla gestione dell&#39;accesso utente](manage-user-access.md). Per informazioni sui ruoli e sulla loro parte nella configurazione dell&#39;accesso ai vari componenti di Collaboration, consulta la guida [gestisci ruoli](manage-roles.md).

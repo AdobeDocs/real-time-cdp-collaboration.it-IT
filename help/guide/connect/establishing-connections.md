@@ -2,12 +2,12 @@
 title: Connessione con inserzionisti o editori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-Prima che i collaboratori (in genere un inserzionista e un editore) possano lavorare insieme sulle campagne, devono stabilire una connessione. Questa connessione consente loro di attivare tipi di pubblico, creare progetti ed eseguire rapporti sulle prestazioni della campagna.
+Prima che i collaboratori possano lavorare insieme sulle campagne, devono stabilire una connessione. Questa connessione consente loro di attivare tipi di pubblico, creare progetti ed eseguire rapporti sulle prestazioni della campagna.
 
 ## Flusso di lavoro di alto livello
 
@@ -33,15 +33,15 @@ Una volta completati gli elementi di cui sopra, i collaboratori possono proceder
 
 >[!IMPORTANT]
 >
->Una volta stabilita la connessione tra due collaboratori, le impostazioni di connessione non possono più essere riviste.
+>Una volta stabilita la connessione tra due collaboratori, le impostazioni di connessione non possono essere modificate.
 
 ## Invia invito {#send-invite}
 
-Per impostare una connessione, selezionare **[!UICONTROL Connetti]** durante la navigazione nell&#39;inventario degli editori nella schermata di individuazione degli editori.
+Per impostare una connessione, selezionare **[!UICONTROL Connetti]** durante l&#39;esplorazione dell&#39;inventario degli editori nell&#39;area di lavoro **[!UICONTROL Individua editori]**.
 
 ![Dashboard di connessione con l&#39;opzione Connetti evidenziata in un editore specifico.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-Dopo l’invio dell’invito, puoi visualizzare in anteprima (ma non modificare) le impostazioni di connessione. Visualizza gli inviti in sospeso nella scheda **[!UICONTROL Le mie connessioni]**. Lo stato della connessione è **[!UICONTROL Invito inviato]**.
+Dopo l’invio dell’invito, puoi visualizzare in anteprima (ma non modificare) le impostazioni di connessione. Visualizza invito in sospeso visualizzato nella scheda **[!UICONTROL Le mie connessioni]**. Lo stato della connessione è **[!UICONTROL Invito inviato]**.
 
 ![Invito in sospeso inviato all&#39;editore visualizzato nella visualizzazione Connessioni personali.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Suddivisione del credito"
->abstract="Questa sezione determina chi paga per le attività corrispondenti all’interno di Real-Time CDP Collaboration."
+>abstract="Questa sezione determina chi paga per le attività corrispondenti all’interno di Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
->abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Real-Time CDP Collaboration.</li></ul>"
+>abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista di Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Creare un progetto"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ Una volta che il collaboratore accetta l&#39;invito, è possibile configurare le
 Dopo l’invio dell’invito, puoi visualizzare in anteprima le impostazioni di connessione. L’invito deve essere accettato prima di poter completare la configurazione della connessione.
 
 ![Visualizzazione delle impostazioni di connessione nello stato di anteprima.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Impostazioni di connessione inserzionista {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ I casi di utilizzo sono precompilati con tutte le opzioni disponibili. Per perso
 
 +++Corrispondenza chiavi
 
-Le chiavi di corrispondenza sono precompilate con quelle selezionate durante [la configurazione dell&#39;organizzazione](/help/guide/setup/onboard-organization.md#set-up-match-keys). È possibile disattivare i tasti di corrispondenza che non si desidera utilizzare, ma non è possibile aggiungere i tasti di corrispondenza che non sono stati selezionati durante la configurazione dell&#39;organizzazione.
+Le chiavi di corrispondenza sono precompilate con quelle selezionate durante [la configurazione dell&#39;organizzazione](/help/guide/setup/onboard-account.md#set-up-match-keys). È possibile disattivare i tasti di corrispondenza che non si desidera utilizzare, ma non è possibile aggiungere i tasti di corrispondenza che non sono stati selezionati durante la configurazione dell&#39;organizzazione.
 
 ![Impostazioni chiave di corrispondenza nell&#39;area di lavoro delle impostazioni di connessione.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ Ecco come funziona la selezione del nome dell’inserzionista durante la creazio
 
 Se le impostazioni di connessione proposte sono soddisfacenti, selezionare **[!UICONTROL Accetta]** per stabilire la connessione. Se desideri richiedere modifiche alle impostazioni di connessione, seleziona **[!UICONTROL Rifiuta]**. Il collaboratore può quindi rivedere le impostazioni di connessione e inviarle nuovamente per la revisione.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Elimina connessioni {#delete-connections}
 
-È possibile eliminare le connessioni con i collaboratori che non si desidera continuare a utilizzare. Per eliminare le connessioni esistenti, passare a **[!UICONTROL Connetti]**. Gli inserzionisti dovrebbero quindi passare a **[!UICONTROL Le mie connessioni]**. Selezionare **[!UICONTROL Visualizza connessione]** sulla scheda di connessione per aprire la connessione che si desidera eliminare.
+È possibile eliminare le connessioni con i collaboratori che non si desidera continuare a utilizzare. Per eliminare le connessioni esistenti, passare a **[!UICONTROL Connetti]**. In qualità di editore, verrà visualizzata la connessione esistente. In qualità di inserzionista, devi quindi passare a **[!UICONTROL Le mie connessioni]**.
+
+Selezionare **[!UICONTROL Visualizza connessione]** nella scheda di connessione che si desidera eliminare.
 
 ![L&#39;opzione Visualizza connessione è evidenziata nella visualizzazione Connessioni personali.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 

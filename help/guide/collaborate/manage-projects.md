@@ -2,11 +2,11 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-I progetti sono il fulcro del flusso di lavoro in Real-Time CDP Collaboration. Dopo aver stabilito la connessione con i collaboratori, crea un progetto per eseguire i calcoli di sovrapposizione dei tipi di pubblico e scoprire i tipi di pubblico rilevanti per le campagne.
+I progetti sono il fulcro del flusso di lavoro in Adobe Real-Time CDP Collaboration. Dopo aver stabilito la connessione con i collaboratori, crea un progetto per eseguire i calcoli di sovrapposizione dei tipi di pubblico e scoprire i tipi di pubblico rilevanti per le campagne.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Puoi utilizzare i filtri per visualizzare solo i progetti avviati con alcuni col
 ![Visualizzazione filtrata dei progetti con un unico collaboratore.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Crea progetto {#create-project}
+
+Per creare un progetto, devi prima [stabilire una connessione](/help/guide/connect/establishing-connections.md) con un collaboratore. Una volta stabilita la connessione, puoi creare un progetto con quel collaboratore.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -62,4 +64,4 @@ Nella panoramica del progetto vengono visualizzati i casi d’uso selezionati du
 | --- | --- |
 | Misurazione campagne | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Measure](/help/guide/collaborate/measure.md) e a tutte le funzionalità disponibili. |
 | Individuazione del pubblico | Questo caso d&#39;uso consente di accedere alla sezione [Discover](/help/guide/collaborate/discover.md) e a tutte le funzionalità disponibili. |
-| Attivazione pubblico | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Attiva](/help/guide/collaborate/activate.md) e a tutte le funzionalità disponibili. |
+| Attivazione del pubblico | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Attiva](/help/guide/collaborate/activate.md) e a tutte le funzionalità disponibili. |

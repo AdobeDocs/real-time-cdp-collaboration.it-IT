@@ -2,12 +2,12 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Dopo la [creazione di un progetto](/help/guide/collaborate/manage-projects.md), 
 >
 >Tutti gli [schizzi di dati](/help/guide/glossary.md#sketches) non aggiornati o non aggiornati verranno eliminati dopo 7 giorni. In questo caso, i dati visualizzati nei vari rapporti di sovrapposizione di questa pagina diventano pari a zero e la condivisione dei tipi di pubblico non è più disponibile per questi tipi di pubblico scaduti. Gli schizzi di dati vengono aggiornati automaticamente per i tipi di pubblico con [pianificazione di aggiornamento attiva](/help/guide/setup/onboard-audiences.md#schedule).
 
-Le chiavi di corrispondenza utilizzate per individuare e confrontare i tipi di pubblico sono impostate [durante il processo di connessione](/help/guide/connect/establishing-connections.md#connection-settings). I tasti di corrispondenza consentono di calcolare la sovrapposizione tra i tipi di pubblico e possono essere attivati e disattivati. Per modificare le chiavi di corrispondenza, selezionare l&#39;opzione **[!UICONTROL Modifica chiavi di corrispondenza]**. Questo
+Le chiavi di corrispondenza utilizzate per individuare e confrontare i tipi di pubblico sono impostate [durante il processo di connessione](/help/guide/connect/establishing-connections.md#connection-settings). I tasti di corrispondenza consentono di calcolare la sovrapposizione tra i tipi di pubblico e possono essere attivati e disattivati. Per modificare le chiavi di corrispondenza, selezionare l&#39;opzione **[!UICONTROL Modifica chiavi di corrispondenza]**.
 
 ![Area di lavoro della scheda Rileva, in cui sono visualizzate le informazioni sul pubblico.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,11 +37,11 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica chiavi di corri
 
 Per iniziare a utilizzare la scheda **[!UICONTROL Discover]** all&#39;interno del progetto, è necessario disporre di:
 
-* [Tipi di pubblico importati](/help/guide/setup/onboard-audiences.md) nella tua organizzazione
+* [Pubblico di origine](/help/guide/setup/onboard-audiences.md) nel tuo account
 * [Connesso](/help/guide/connect/establishing-connections.md) con un collaboratore con il caso d&#39;uso **Individuazione pubblico** abilitato
 * [Ha creato un progetto](/help/guide/collaborate/manage-projects.md) tra te e un collaboratore
 
-Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confrontare la sovrapposizione tra te e il pubblico del tuo collaboratore.
+Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confrontare le sovrapposizioni tra te e il pubblico del tuo collaboratore.
 
 ## Confronta i tipi di pubblico {#compare-audiences}
 
@@ -86,7 +86,7 @@ Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguen
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >La percentuale di sovrapposizione potrebbe non essere sempre disponibile per tutti i tipi di pubblico. La visibilità dell&#39;indicatore della percentuale di sovrapposizione dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
@@ -95,7 +95,7 @@ Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguen
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Tipi di pubblico pertinenti"
->abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico dell’editore potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico dell’editore. <br><br> La <b>sovrapposizione delle identità</b> rappresenta la sovrapposizione tra il pubblico consigliato dell’editore e tutti i tipi di pubblico dell’inserzionista. <br><br> La <b>% di sovrapposizione</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico degli inserzionisti."
+>abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico del collaboratore. <br><br> <b>La sovrapposizione di identità</b> rappresenta la sovrapposizione tra il pubblico consigliato e tutti i tipi di pubblico. <br><br> <b>Sovrapposizione %</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico."
 
 La sezione **[!UICONTROL Tipi di pubblico rilevanti]** nella scheda **[!UICONTROL Scopri]** fornisce un elenco dei primi cinque tipi di pubblico in base alla percentuale di sovrapposizione tra il pubblico del collaboratore e tutti i tipi di pubblico. Questa funzione consente di identificare rapidamente i tipi di pubblico con la sovrapposizione più elevata, per indirizzare le campagne in modo più efficace. Passa da un pubblico all’altro utilizzando i selettori di pagina in alto a destra della sezione.
 
@@ -117,10 +117,6 @@ La sezione **[!UICONTROL Tipi di pubblico rilevanti]** visualizza le seguenti in
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->La visibilità dei tipi di pubblico del collaboratore dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se il tuo collaboratore ha impostato tutti i tipi di pubblico su privato, questa sezione non mostra alcun pubblico.
-
 ## Scopri le sovrapposizioni {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ Per modificare la selezione del pubblico, seleziona **[!UICONTROL Cambia pubblic
 
 ![Area di lavoro di individuazione con l&#39;opzione Cambia pubblico evidenziata.](/help/assets/collaborate/discover/change-audience.png)
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica pubblico]**, in cui è possibile confrontare un pubblico specifico con i tipi di pubblico del collaboratore. Seleziona i tipi di pubblico desiderati o cancella le selezioni per selezionare tutti i tipi di pubblico, quindi seleziona **[!UICONTROL Salva]**.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica pubblico]**, in cui è possibile selezionare un pubblico specifico da confrontare con quelli del collaboratore. Seleziona i tipi di pubblico desiderati o cancella le selezioni per selezionare tutti i tipi di pubblico, quindi seleziona **[!UICONTROL Salva]**.
 
 ![Finestra di dialogo Modifica pubblico nell&#39;area di lavoro di individuazione.](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -148,7 +144,7 @@ Dopo aver selezionato i tipi di pubblico desiderati, nella sezione **[!UICONTROL
 
 | Metrica | Descrizione |
 |---------|----------|
-| **[!UICONTROL Conteggio identità]** | Il nome degli ID univoci all’interno del pubblico. |
+| **[!UICONTROL Conteggio identità]** | Il numero di ID univoci all’interno del pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci che si sovrappongono tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di identità sovrapposte tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Categorie di pubblico]** | Le categorie assegnate al pubblico dal collaboratore. |
