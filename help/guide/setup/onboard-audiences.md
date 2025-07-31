@@ -2,12 +2,12 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '2897'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -90,7 +90,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -119,7 +119,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Campi origine"
->abstract="I campi Source sono spazi dei nomi e attributi di identità derivati dall’implementazione di Experience Platform. Puoi mapparli ai campi di destinazione definiti in Collaboration."
+>abstract="I campi di origine sono spazi dei nomi e attributi di identità provenienti dalla tua implementazione di Experience Platform. Puoi mapparli ai campi di destinazione definiti in Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -129,7 +129,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Applica trasformazione"
->abstract="Quando si individuano i campi *senza hash*, utilizzare questa opzione per fare in modo che Collaboration applichi l&#39;hashing e trasformi i campi normali in campi con hashing."
+>abstract="Se si ottengono campi *senza hash*, utilizza questa opzione affinché Collaboration possa applicare l’hashing e trasformare i campi normali in campi con hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -331,7 +331,7 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quale dei metadati del pubblico è visibile agli altri collaboratori prima che si connettano con te o all’interno delle visualizzazioni del progetto.</p> <p> **Il conteggio delle identità** controlla se il tuo collaboratore può visualizzare i conteggi delle identità per i tuoi tipi di pubblico quando visualizza i report di sovrapposizione nella scheda individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
+>abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> Il **conteggio identità** controlla se il collaboratore può visualizzare i conteggi identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
 
 >[!NOTE]
 >

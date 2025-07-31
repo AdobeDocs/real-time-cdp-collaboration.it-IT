@@ -2,12 +2,12 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -32,12 +32,12 @@ Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nel
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="E-mail di contatto"
->abstract="Fornisci un&#39;e-mail basata su team o ruolo, ad esempio **collaboration@yourcompany.com**. Non utilizzare indirizzi e-mail personali o individuali."
+>abstract="Fornisci un’e-mail basata su team o ruolo, ad esempio **collaboration@yourcompany.com**. Non utilizzare indirizzi e-mail personali o individuali."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="Codice di connessione"
->abstract="Il codice di connessione è un identificativo univoco per il tuo account. Viene utilizzato per stabilire connessioni con altri collaboratori in Real-Time CDP Collaboration."
+>abstract="Il codice di connessione è un identificatore univoco per il tuo account. Viene utilizzato per stabilire connessioni con altri collaboratori in Real-Time CDP Collaboration."
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 
@@ -64,7 +64,7 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo marchio."
+>abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

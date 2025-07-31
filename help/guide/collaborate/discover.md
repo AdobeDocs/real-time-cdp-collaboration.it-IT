@@ -2,12 +2,12 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguen
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Tipi di pubblico pertinenti"
->abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico del collaboratore. <br><br> <b>La sovrapposizione di identità</b> rappresenta la sovrapposizione tra il pubblico consigliato e tutti i tipi di pubblico. <br><br> <b>Sovrapposizione %</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico."
+>abstract="In base alle percentuali di sovrapposizione, questi tipi di pubblico potrebbero essere adatti alla tua campagna. <br><br> Il <b>conteggio identità</b> è la dimensione del pubblico del collaboratore. <br><br> La <b>sovrapposizione delle identità</b> rappresenta la sovrapposizione tra il pubblico consigliato e tutti i tuoi tipi di pubblico. <br><br> La <b>% di sovrapposizione</b> rappresenta il numero di identità sovrapposte diviso per la dimensione di <i>tutti</i> i tipi di pubblico."
 
 La sezione **[!UICONTROL Tipi di pubblico rilevanti]** nella scheda **[!UICONTROL Scopri]** fornisce un elenco dei primi cinque tipi di pubblico in base alla percentuale di sovrapposizione tra il pubblico del collaboratore e tutti i tipi di pubblico. Questa funzione consente di identificare rapidamente i tipi di pubblico con la sovrapposizione più elevata, per indirizzare le campagne in modo più efficace. Passa da un pubblico all’altro utilizzando i selettori di pagina in alto a destra della sezione.
 
