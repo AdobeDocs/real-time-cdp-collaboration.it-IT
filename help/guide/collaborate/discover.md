@@ -2,9 +2,9 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 >
 >L&#39;area di lavoro **[!UICONTROL Discover]** è disponibile solo se il caso di utilizzo **Audience Discovery** è stato abilitato [durante il processo di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./manage-projects.md#project-use-cases).
 
-Dopo la [creazione di un progetto](/help/guide/collaborate/manage-projects.md), puoi confrontare i tuoi tipi di pubblico con i tuoi collaboratori. Questo consente di identificare i tipi di pubblico rilevanti per le campagne e di decidere quali inviare agli editori per l’attivazione.
+Dopo la [creazione di un progetto](/help/guide/collaborate/manage-projects.md), puoi confrontare i tuoi tipi di pubblico con i tuoi collaboratori. Questo consente di identificare i tipi di pubblico rilevanti per le campagne e decidere quali inviare ai collaboratori per l’attivazione.
 
 >[!IMPORTANT]
 >

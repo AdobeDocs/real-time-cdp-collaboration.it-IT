@@ -1,19 +1,19 @@
 ---
 title: Guida rapida di Real-Time CDP Collaboration
-description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta gli inserzionisti e gli editori a configurare le impostazioni di collaborazione e a iniziare a utilizzare i tipi di pubblico condivisi in modo sicuro ed efficiente.
+description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta i collaboratori a configurare le impostazioni di connessione per iniziare a utilizzare i propri tipi di pubblico in modo sicuro ed efficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Guida rapida di Real-Time CDP Collaboration
 
-
+{{limited-availability-release-note}}
 
 Inizia a usare Real-Time CDP Collaboration configurando l’organizzazione, individuando i tipi di pubblico e abilitando l’attivazione e la misurazione incentrate sulla privacy.
 
@@ -31,10 +31,6 @@ Prima di iniziare, assicurati di avere i seguenti elementi:
 
 ## Passaggio 1: completare la configurazione basata sui ruoli {#complete-role-based-setup}
 
->[!NOTE]
->
->Questo passaggio si applica sia agli inserzionisti che agli editori.
-
 I ruoli di accesso della tua organizzazione determinano ciò che gli utenti possono vedere e fare in Collaboration. Prima di procedere, assicurati che le autorizzazioni basate sul ruolo siano configurate correttamente per garantire l’accesso e la visibilità appropriati nella piattaforma.
 
 **Risorse:**
@@ -45,13 +41,9 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
-
->[!NOTE]
->
->Questo passaggio si applica sia agli inserzionisti che agli editori.
 
 Prima di poter individuare i tipi di pubblico, è necessario configurare l’account in Collaboration. Questo governa il modo in cui apparisci e gli elementi a cui hai accesso nell’interfaccia.
 
@@ -63,7 +55,7 @@ Definisci il ruolo del tuo account in Collaboration, fornisci risorse di brandin
 >
 >Puoi creare uno o più account (ad esempio un inserzionista e un editore) durante la configurazione. Alcuni campi, ad esempio le risorse di branding e l&#39;e-mail di contatto, possono essere aggiornati successivamente nell&#39;area di lavoro **[!UICONTROL Impostazioni]**.
 
-- **Assegna un ruolo** - Determina se il tuo account è un inserzionista o un editore. Il tuo ruolo definisce le funzionalità disponibili in Collaboration. Per ulteriori informazioni sull&#39;impatto dei ruoli sul flusso di lavoro di collaborazione, consulta la [guida del flusso di lavoro end-to-end](./end-to-end-workflow.md).
+- **Assegna un ruolo** - Determina se il tuo account è un inserzionista o un editore. Il tuo ruolo definisce le funzionalità disponibili in Collaboration. Per ulteriori informazioni sull&#39;impatto dei ruoli sul flusso di lavoro di collaborazione, consulta la guida [roles](./overview/roles.md).
 - **Risorse di branding** - Aggiungi quanto segue al tuo account:
    - Nome account (massimo 100 caratteri)
    - Descrizione (massimo 1.000 caratteri)
@@ -125,7 +117,7 @@ Per visualizzare una procedura dettagliata su come individuare i tipi di pubblic
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collaboration](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Opzione B: Source da Snowflake o Amazon S3
 
@@ -138,10 +130,6 @@ Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflak
 >In questa fase, tutti i tipi di pubblico nel file caricato provengono da origini complete. L&#39;impostazione [visibilità pubblico](/help/guide/setup/onboard-audiences.md#metadata-visibility) determina se i collaboratori possono visualizzare il pubblico e viene gestita tramite l&#39;interfaccia utente di Collaboration.
 
 ## Passaggio 4: attivare i tipi di pubblico (su Experience Platform o una destinazione cloud) {#activate-audiences}
-
->[!NOTE]
->
->Questo passaggio si applica sia agli inserzionisti che agli editori.
 
 Quindi, attiva i tipi di pubblico nell’istanza di Experience Platform o in una destinazione cloud.
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Al termine dell&#39;installazione, l&#39;organizzazione è ora pronta a connettersi con i collaboratori inviando o accettando inviti e inviando le impostazioni del progetto per l&#39;approvazione. Questo processo di connessione prevede l&#39;invio o la ricezione di inviti, la revisione e l&#39;invio di impostazioni di connessione (ad esempio casi d&#39;uso e consumo di credito) e la conferma della connessione.
 
-Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel menu di navigazione a sinistra per sfogliare gli editori disponibili.
+Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel menu di navigazione a sinistra per sfogliare gli editori disponibili. In alternativa, i collaboratori possono connettersi tra loro direttamente tramite [inviti di connessione privati](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida per la connessione con inserzionisti o editori](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 

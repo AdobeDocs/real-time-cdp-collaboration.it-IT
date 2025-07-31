@@ -2,11 +2,11 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '936'
 ht-degree: 18%
 
 ---
@@ -39,13 +39,11 @@ Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nel
 >title="Codice di connessione"
 >abstract="Il codice di connessione è un identificatore univoco per il tuo account. Viene utilizzato per stabilire connessioni con altri collaboratori in Real-Time CDP Collaboration."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#39;account. È necessario aggiungere le seguenti informazioni:
 
 * Aggiungi un **[!UICONTROL nome account]** che rappresenti chiaramente il tuo marchio.
 * Aggiungi una **[!UICONTROL Descrizione]** del tuo marchio. Questo è facoltativo, ma aiuta gli altri collaboratori a comprendere meglio il tuo marchio.
-* Seleziona il tuo **[!UICONTROL Ruolo]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi il documento [sul flusso di lavoro end-to-end](/help/guide/end-to-end-workflow.md) per vedere somiglianze e lievi differenze nel flusso di lavoro tra i due tipi di ruolo organizzativo.
+* Seleziona il tuo **[!UICONTROL Ruolo]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi la guida [roles](/help/guide/overview/roles.md) per vedere somiglianze e leggere differenze nel flusso di lavoro tra i due tipi di ruolo account.
 <!-- The above will need to be updated when I update things for B2B -->
 * Seleziona **[!UICONTROL Settore]** per il tuo account. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
 * L&#39;**[!UICONTROL Area]** viene impostata automaticamente in base al tuo account Adobe Experience Cloud. Questo non può essere modificato in alcun momento.

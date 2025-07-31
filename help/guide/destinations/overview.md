@@ -2,11 +2,11 @@
 title: Panoramica delle designazioni
 description: Scopri le destinazioni in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 6%
 
 Le destinazioni sono integrazioni utilizzate per inviare pubblici mirati a piattaforme esterne. Queste integrazioni consentono di attivare tipi di pubblico su vari canali e piattaforme di marketing da utilizzare nelle campagne e nel coinvolgimento dei clienti.
 
-Attualmente, le destinazioni sono disponibili solo per gli editori in Adobe Real-Time CDP Collaboration. Gli editori possono configurare le destinazioni per inviare tipi di pubblico a piattaforme esterne, come Adobe Experience Platform, da utilizzare nelle campagne. Gli inserzionisti possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata dell&#39;editore.
+I collaboratori possono configurare le destinazioni per l’invio di tipi di pubblico a piattaforme esterne, ad esempio Adobe Experience Platform, da utilizzare nelle campagne. I collaboratori possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata della connessione. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Attualmente, quando gli inserzionisti attivano i tipi di pubblico all’interno del progetto, vengono inviati automaticamente alla destinazione configurata dell’editore. In qualità di editore, **devi** configurare una destinazione *prima* che il tuo collaboratore attivi un pubblico. Se non è configurata alcuna destinazione, il pubblico verrà inviato all&#39;utente e sarà visibile nella scheda **[!UICONTROL Attiva]** all&#39;interno di un progetto, ma non verrà attivato.
+>Attualmente, quando i collaboratori attivano i tipi di pubblico all’interno di un progetto, vengono inviati automaticamente alla destinazione configurata della connessione. **devi** configurare una destinazione prima che il tuo collaboratore possa attivare i tipi di pubblico all&#39;interno di un progetto.
 
 ## Configurare le destinazioni {#configure-destinations}
 
-Per configurare una destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Designazioni personali]**. Qui puoi visualizzare tutte le destinazioni disponibili.
+Per configurare una destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Destinazioni personali]**. Qui puoi visualizzare tutte le destinazioni disponibili.
 
 >[!NOTE]
 >

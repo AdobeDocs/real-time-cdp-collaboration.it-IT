@@ -2,12 +2,12 @@
 title: Misurare le prestazioni
 description: Misura le prestazioni delle campagne su canali diversi. Scopri come utilizzare e interpretare vari rapporti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ Scopri i rapporti disponibili in Adobe Real-Time CDP Collaboration e come misura
 
 Prima di poter accedere ai rapporti di misurazione in Collaboration, è necessario:
 
-* [Connesso](/help/guide/connect/establishing-connections.md) a un inserzionista o editore desiderato con il caso d&#39;uso **Misurazione** abilitato e ha iniziato a collaborare a [progetti](/help/guide/collaborate/manage-projects.md)
+* [Connesso](/help/guide/connect/establishing-connections.md) con un collaboratore con il caso d&#39;uso **Misurazione** abilitato e ha iniziato a collaborare a [progetti](/help/guide/collaborate/manage-projects.md)
 * Esegui una campagna e [dati di misurazione caricati](/help/guide/setup/onboard-measurement-data.md) in Collaboration.
 
 <!--
@@ -104,9 +104,3 @@ Con l’avanzare della campagna e l’aumentare del numero di impression, verifi
 Scopri quale mezzo sta guidando le impression per la tua creatività. Questo può aiutarti a decidere dove investire la spesa pubblicitaria nelle campagne future.
 
 ![Impression per posizionamento.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Passaggi successivi
-
-![Rileva, attiva e misura per gli inserzionisti.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-Nello spirito della ciclicità dell’immagine precedente, utilizza le informazioni ottenute visualizzando i rapporti per pianificare la tua prossima campagna. Se necessario, in qualità di inserzionista, torna alla scoperta di diversi editori ed esegui le sovrapposizioni per scoprire tipi di pubblico diversi per le tue campagne successive.

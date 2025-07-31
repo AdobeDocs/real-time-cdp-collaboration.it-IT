@@ -2,11 +2,11 @@
 title: Individua editori
 description: In qualità di inserzionista, scopri come individuare potenziali editori con cui collaborare utilizzando Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 2%
 
 Scopri e collegati con potenziali editori in Adobe Real-Time CDP Collaboration. Questa guida fornisce informazioni su come identificare i collaboratori ideali e utilizzare i relativi tipi di pubblico per migliorare le campagne di marketing.
 
+>[!NOTE]
+>
+>Attualmente, l&#39;area di lavoro **[!UICONTROL Individua editori]** è disponibile solo per gli inserzionisti.
+
 Per individuare gli editori, vai alla scheda **[!UICONTROL Connetti]** > **[!UICONTROL Scopri gli editori]**.
 
 ![Dashboard Discover Publishers nell&#39;area di lavoro Connect.](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [&#128279;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Dettagli di un singolo editore](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 

@@ -2,11 +2,11 @@
 title: Crosswalk delle identità
 description: Scopri tutte le informazioni sui crosswalk di identità in Real-Time CDP Collaboration, tra cui come inserire i crosswalk di identità da origini diverse e come gestirli
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 Scopri tutte le informazioni sui crosswalk di identità in Real-Time CDP Collaboration, tra cui come inserire i crosswalk di identità da origini diverse e come gestire i crosswalk di identità.
 
 I crosswalk di identità facilitano il collegamento sicuro e conforme alla privacy delle identità dei clienti su più set di dati e piattaforme. Utilizzando gli identificatori con hash, Real-Time CDP Collaboration garantisce che gli utenti possano sincronizzare e riconciliare le identità senza esporre informazioni personali identificabili (PII, Personal Identifiable Information). Ciò consente una visione unificata del cliente per una migliore collaborazione e attività di marketing mirate.
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 Come primo passo, devi importare le crosswalk di identità in Real-Time CDP Collaboration. Per importare le crosswalk di identità in Real-Time CDP Collaboration, leggi la sezione seguente:
 
@@ -71,7 +66,7 @@ Una qualsiasi delle intestazioni di colonna dal crosswalk selezionato può funge
 
 Selezionare la chiave di join desiderata per la tabella del percorso incrociato e selezionare **[!UICONTROL Avanti]** per procedere al passaggio successivo.
 
-### Revisione
+### Rivedi
 
 Controlla le selezioni effettuate nelle schermate precedenti. Una volta effettuata la selezione, seleziona **[!UICONTROL Avanti]** per completare il flusso di lavoro.
 
