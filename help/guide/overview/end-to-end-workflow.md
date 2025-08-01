@@ -1,52 +1,62 @@
 ---
-title: Flusso di lavoro completo
-description: Comprendere il flusso di lavoro end-to-end dell’utilizzo di Real-Time CDP Collaboration come inserzionista o editore
+title: Flusso di lavoro end-to-end
+description: Comprendi il flusso di lavoro end-to-end dell’utilizzo di Real-Time CDP Collaboration in base al tuo modello di collaborazione.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
 
-# Flusso di lavoro completo
+# Flusso di lavoro end-to-end
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration consente agli inserzionisti e agli editori di collaborare alle campagne in modo incentrato sulla privacy. Leggi questa pagina per comprendere il flusso di lavoro per ottenere il massimo dal prodotto, in qualità di inserzionista o editore.
+Ad Adobe Real-Time CDP Collaboration, il flusso di lavoro end-to-end varia in base al modello di collaborazione scelto. Il flusso di lavoro illustra i passaggi necessari per la configurazione e l&#39;esecuzione di un progetto di collaborazione, dalla creazione di account e di tipi di pubblico, alla creazione di connessioni e alla creazione di progetti. Comprendere questo flusso di lavoro è essenziale per sfruttare in modo efficace le funzionalità della piattaforma per raggiungere i tuoi obiettivi di marketing.
 
-## Flusso di lavoro end-to-end per gli inserzionisti {#advertiser}
+## Introduzione
 
-Come inserzionista, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-account.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per inviare e quindi modificare le impostazioni della tua società, aggiungere le chiavi di corrispondenza preferite con cui lavorerai e decidere quali dati inserire. Nella prima versione, il prodotto ti consente di [importare tipi di pubblico](/help/guide/setup/onboard-audiences.md) solo da Adobe Experience Platform.
+Prima di iniziare, assicurati di avere una solida comprensione di questi concetti chiave:
 
-![Rileva, attiva e misura per gli inserzionisti.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **Modelli Collaboration**: questi modelli definiscono il modo in cui i collaboratori collaborano. Esistono due modelli distinti: [inserzionista-editore](./collaboration-patterns.md#advertiser-to-publisher) e [da marchio a marchio](./collaboration-patterns.md#brand-to-brand).
+- **Ruoli account**: i ruoli account determinano le funzionalità all&#39;interno della piattaforma. Devono allinearsi agli obiettivi, al marchio e agli obiettivi della tua organizzazione. Sono disponibili due ruoli account: [inserzionista](./roles.md#advertiser) e [editore](./roles.md#publisher).
+- **Casi d&#39;uso**: i casi d&#39;uso definiscono i modi in cui puoi sfruttare Collaboration per raggiungere i tuoi obiettivi di marketing. Esistono tre casi di utilizzo di collaborazione: [Discover](./use-cases.md#discover), [Activate](./use-cases.md#activate) e [Measure](./use-cases.md#measure).
 
-Utilizzare la scheda [individuazione per trovare gli editori](/help/guide/connect/discover-publishers.md) che si desidera utilizzare per le campagne. Contatta l’editore e discuti i termini di collaborazione al di fuori del prodotto. Una volta concordata una serie di termini, puoi [inviare un invito alla connessione](/help/guide/connect/establishing-connections.md) e proporre impostazioni di collaborazione per la connessione con l&#39;editore.
+Questa guida utilizza tre collaboratori fittizi per illustrare il flusso di lavoro end-to-end:
 
-Dopo che l’editore ha accettato la richiesta di connessione, è ora di esplorare i tipi di pubblico che si sovrappongono tra la tua organizzazione e quelli della propria. Configura un progetto per una campagna e [esegui rapporti di sovrapposizione](/help/guide/collaborate/discover.md) per scoprire i tipi di pubblico migliori per la tua prossima campagna pubblicitaria, a seconda del caso di utilizzo della collaborazione: targeting, eliminazione e altri.
+- **[!UICONTROL Luma]**: un marchio di abbigliamento sportivo. Sono un inserzionista che vuole raggiungere tipi di pubblico specifici tramite campagne di marketing mirate.
+- **[!UICONTROL Tubo TV]**: provider di streaming digitale. Sono un editore che fornisce dati sul pubblico per l’utilizzo da parte degli inserzionisti.
+- **[!UICONTROL Abbigliamento adatto]**: altra marca di abbigliamento sportivo. Si tratta di un secondo inserzionista che desidera collaborare per condividere i dati sul pubblico e le informazioni per migliorare le attività di marketing.
 
-Una volta individuati i tipi di pubblico ideali, è necessario [attivarli](/help/guide/collaborate/activate.md).
+## Flusso di lavoro da inserzionista a editore {#advertiser-to-publisher-workflow}
 
-Il passaggio finale nel ciclo di collaborazione è [measurement](/help/guide/collaborate/measure.md). Per misurare o conoscere i risultati aziendali, carica dati di misurazione come registri di annunci ed esegui i rapporti forniti nel programma per comprendere le prestazioni dei tipi di pubblico.
+[!UICONTROL Luma], una società di vendita al dettaglio di atletica, desidera stabilire una connessione con [!UICONTROL TV Tube], un provider di streaming digitale, per raggiungere tipi di pubblico specifici tramite campagne di marketing mirate.
 
-## Flusso di lavoro end-to-end dell&#39;editore {#publisher}
+Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo di inserzionista, mentre [!UICONTROL TV Tube] crea un account con il ruolo di editore.
 
-Come editore, inizia con [l&#39;onboarding della tua azienda](/help/guide/setup/onboard-account.md) in Real-Time CDP Collaboration. Utilizza la [pagina di configurazione](/help/guide/setup/setup-overview.md) per modificare varie impostazioni aziendali.
+Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL TV Tube] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Solo [!UICONTROL TV Tube] attiverà i tipi di pubblico per le campagne di marketing, pertanto è necessario [configurare una destinazione](../setup/manage-destinations.md).
 
-Decidi quali dati del pubblico importare e quali tipi di pubblico rendere individuabili e visualizzabili per gli inserzionisti che desiderano connetterti nell&#39;area **[!UICONTROL Connetti]** del prodotto.
+Una volta che entrambi i collaboratori hanno configurato i loro account, sono pronti a [creare una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma. [!UICONTROL Luma] utilizza la funzionalità [scopri editori](../connect/discover-publishers.md) per trovare [!UICONTROL TV Tube] e avviare una richiesta di connessione. Dopo che [!UICONTROL TV Tube] ha accettato la richiesta di connessione, [!UICONTROL Luma] configura le impostazioni di connessione per definire la modalità di collaborazione. [!UICONTROL TV Tube] accetta la richiesta di connessione per stabilire un collegamento sicuro tra i due marchi.
 
-Quando importi un pubblico in Real-Time CDP Collaboration, accertati di assegnare i tag e suddividerlo in categorie. Real-Time CDP Collaboration segue la tassonomia [IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} stabilita per la categorizzazione dei tipi di pubblico.
+Una volta stabilita la connessione, [!UICONTROL Luma] [crea un progetto](../collaborate/manage-projects.md) per avviare la collaborazione con [!UICONTROL TV Tube]. Durante la configurazione del progetto, scelgono i casi di utilizzo di collaborazione più adatti ai loro obiettivi: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) e [Measure](../collaborate/measure.md).
 
-Scegli gli inserzionisti con cui vuoi collaborare e contatta l’inserzionista per discutere i termini di collaborazione al di fuori del prodotto. Una volta concordato un set di termini, attendi che l’inserzionista estenda un invito formale di connessione per connetterti. In genere, è necessario monitorare anche le richieste di connessione in sospeso da parte dei brand degli inserzionisti che desiderano collaborare con te nelle campagne. Rivedi le impostazioni di connessione proposte dal tuo potenziale collaboratore e accettale o modificale prima di iniziare la collaborazione.
+[!UICONTROL Luma] sfrutta il caso d&#39;uso [Discover](../collaborate/discover.md) per ottenere informazioni approfondite sui dati del pubblico di [!UICONTROL TV Tube]. Una volta che [!UICONTROL Luma] ha identificato i segmenti del pubblico di destinazione, [attiva](../collaborate/activate.md) questi tipi di pubblico.
 
-Dopo aver accettato la richiesta di connessione, è ora di esplorare i tipi di pubblico sovrapposti tra te e il tuo collaboratore. L’inserzionista imposterà un progetto per una campagna ed eseguirà rapporti di sovrapposizione tra il proprio pubblico e quello dell’utente, in base agli obiettivi desiderati: ricerca di potenziali clienti, eliminazione e altro ancora.
+Dopo aver attivato i tipi di pubblico, [!UICONTROL TV Tube] esegue campagne di marketing mirate e carica i dati in [Misura](../collaborate/measure.md) i risultati per valutare l&#39;efficacia della campagna.
 
-Una volta che l’inserzionista scopre i tipi di pubblico ideali per eseguire il targeting di una campagna e li invia a te, puoi attivarli e dare il via alla campagna.
+## Flusso di lavoro da marchio a marchio {#brand-to-brand-workflow}
 
-Il passaggio finale nel ciclo di collaborazione è la misurazione. Per conoscere l’andamento delle campagne, come passaggio finale, carica dati di misurazione come registri di annuncio ed esegui i rapporti forniti nel programma per comprendere le prestazioni dei tipi di pubblico.
+[!UICONTROL Fit Apparel], un marchio di abbigliamento sportivo, desidera collaborare con [!UICONTROL Luma], un altro marchio di abbigliamento sportivo, per condividere dati e approfondimenti sul pubblico per attività di marketing avanzate.
 
-## Passaggi successivi
+Dopo aver stabilito i propri account, sia [!UICONTROL Adatta abbigliamento] che [!UICONTROL Luma] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Sia [!UICONTROL Adatta abbigliamento] che [!UICONTROL Luma] attiveranno i tipi di pubblico per le campagne di marketing, pertanto entrambi devono [configurare una destinazione](../setup/manage-destinations.md).
 
-Dopo aver compreso il flusso di lavoro end-to-end di alto livello basato sul ruolo aziendale, leggi circa [casi d&#39;uso di esempio](/help/guide/overview/use-cases.md) supportati nel prodotto.
+Dopo aver ottenuto i tipi di pubblico, [!UICONTROL Adatta abbigliamento] e [!UICONTROL Luma] [formano una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma per condividere in modo sicuro i dati sul pubblico. A tale scopo, è necessario utilizzare la funzionalità [invito alla connessione privata](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] condivide il proprio codice di connessione con [!UICONTROL Adatta abbigliamento], che lo utilizza per avviare una richiesta di connessione. Dopo che [!UICONTROL Luma] ha accettato la richiesta di connessione, [!UICONTROL Adatta abbigliamento] configura le impostazioni di connessione per definire la modalità di collaborazione. Nella configurazione, [!UICONTROL Adatta abbigliamento] specifica che entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing. Per completare la connessione, [!UICONTROL Luma] accetta la richiesta di stabilire un collegamento sicuro tra i due brand.
+
+Una volta stabilita la connessione, [!UICONTROL Adatta abbigliamento] [crea un progetto](../collaborate/manage-projects.md) per avviare la collaborazione con [!UICONTROL Luma]. Durante la configurazione del progetto, scelgono i casi di utilizzo di collaborazione più adatti ai loro obiettivi: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) e [Measure](../collaborate/measure.md).
+
+Sia [!UICONTROL Abbigliamento adatto] che [!UICONTROL Luma] possono utilizzare il caso d&#39;uso [Discover](../collaborate/discover.md) per ottenere informazioni approfondite sui dati del pubblico dell&#39;altra parte. Dopo aver identificato segmenti di pubblico importanti, [Attiva](../collaborate/activate.md) i tipi di pubblico scelti per le campagne di marketing.
+
+Infine, dopo aver eseguito le campagne, entrambi i brand caricano i dati in [Misura](../collaborate/measure.md) i risultati e valutano l&#39;efficacia della loro collaborazione.

@@ -2,11 +2,11 @@
 title: Panoramica
 description: Scopri come utilizzare Adobe Real-Time Customer Data Platform (CDP) Collaboration per scoprire, attivare e misurare i tipi di pubblico di alto valore senza affidarsi a cookie di terze parti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,11 @@ I controlli incorporati garantiscono il rispetto dei requisiti di governance e p
 
 Per iniziare a utilizzare Collaboration, gli amministratori di sistema devono concedere a se stessi, agli amministratori di prodotto e agli utenti finali l’accesso. Esistono più passaggi richiesti a seconda dell’utente e del livello di accesso richiesto. Per iniziare, consulta la [panoramica sul controllo degli accessi](/help/guide/permissions/overview.md){target="_blank"}.
 
-Una volta ottenuto l’accesso, puoi configurare l’account e creare la connessione dati per diventare un pubblico di sourcing. Per iniziare, leggi il flusso di lavoro end-to-end dell&#39;[inserzionista e editore](/help/guide/overview/end-to-end-workflow.md).
+Una volta ottenuto l’accesso, puoi configurare l’account e creare la connessione dati per diventare un pubblico di sourcing. Per iniziare, leggi il [flusso di lavoro end-to-end](/help/guide/overview/end-to-end-workflow.md).
 
 ## Risorse
 
-Esplora il [glossario](/help/guide/glossary.md) per informazioni dettagliate sui termini utilizzati nel prodotto. Per supporto, accedi alla pagina [Assistenza clienti](https://experienceleague.adobe.com/home?lang=it&support-tab=open-ticket#support){target="_blank"} di Adobe.
+Esplora il [glossario](/help/guide/glossary.md) per informazioni dettagliate sui termini utilizzati nel prodotto. Per supporto, accedi alla pagina [Assistenza clienti](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} di Adobe.
 
 ## Contattaci
 
