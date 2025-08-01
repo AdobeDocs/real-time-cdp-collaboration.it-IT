@@ -2,9 +2,9 @@
 title: Stabilimento di connessioni
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ Nel modello da inserzionista a editore, un inserzionista individua un editore co
 Per stabilire una connessione tra un inserzionista e un editore, sono necessari i seguenti passaggi:
 
 1. [Individua editori](#discover-publishers): l&#39;inserzionista identifica i potenziali editori con cui collaborare.
-2. [Invia invito](#send-invite): l&#39;inserzionista invia un invito di connessione all&#39;editore selezionato.
-3. [Accetta invito](#accept-invite): l&#39;editore rivede e accetta l&#39;invito.
-4. [Configura impostazioni di connessione](#configure-connection-settings): l&#39;inserzionista configura le impostazioni di connessione e le invia all&#39;editore per la revisione.
-5. [Conferma impostazioni di connessione](#establish-connection): l&#39;editore esamina le impostazioni di connessione e le accetta o le rifiuta. Se accettata, la connessione viene stabilita. Se viene rifiutato, l’editore può fornire un feedback per le revisioni al di fuori del prodotto. L&#39;inserzionista può quindi rivedere le impostazioni e inviarle nuovamente per la revisione.
+1. [Invia invito](#send-invite): l&#39;inserzionista invia un invito di connessione all&#39;editore selezionato.
+1. [Accetta invito](#accept-invite): l&#39;editore rivede e accetta l&#39;invito.
+1. [Configura impostazioni di connessione](#configure-connection-settings): l&#39;inserzionista configura le impostazioni di connessione e le invia all&#39;editore per la revisione.
+1. [Conferma impostazioni di connessione](#establish-connection): l&#39;editore esamina le impostazioni di connessione e le accetta o le rifiuta. Se accettata, la connessione viene stabilita. Se viene rifiutato, l’editore può fornire un feedback per le revisioni al di fuori del prodotto. L&#39;inserzionista può quindi rivedere le impostazioni e inviarle nuovamente per la revisione.
 
 Una volta accettate le impostazioni di connessione, la connessione viene stabilita e i collaboratori sono pronti a [creare un progetto](/help/guide/collaborate/manage-projects.md#create-project) per iniziare a collaborare alle campagne.
 
@@ -65,14 +65,14 @@ Per iniziare, un collaboratore invia un invito di connessione privato a un altro
 Il processo di connessione tra due marchi prevede diversi passaggi. Prima di avviare il processo di connessione, è necessario soddisfare alcuni prerequisiti:
 
 1. Due marchi comunicano al di fuori del prodotto per discutere il potenziale collegamento.
-2. I marchi [creano account](/help/guide/setup/onboard-account.md) in Collaboration, se non lo hanno già fatto, assicurandosi di selezionare il tipo di ruolo appropriato (inserzionista o editore).
+1. I marchi [creano account](/help/guide/setup/onboard-account.md) in Collaboration, se non lo hanno già fatto, assicurandosi di selezionare il tipo di ruolo appropriato (inserzionista o editore).
 
-Una volta soddisfatti i prerequisiti, il processo di connessione può iniziare. Le seguenti fasi delineano il processo:
+   Una volta soddisfatti i prerequisiti, il processo di connessione può iniziare. Le seguenti fasi delineano il processo:
 
 1. [Invia invito di connessione privata](#send-private-connection-invite): un collaboratore invia un invito di connessione privata a un altro collaboratore.
-2. [Accetta invito di connessione privata](#accept-private-connection-invite): il destinatario rivede e accetta l&#39;invito di connessione privata.
-3. [Configura impostazioni di connessione](#configure-connection-settings): il proprietario configura le impostazioni di connessione e le invia al destinatario per la revisione e l&#39;accettazione.
-4. [Conferma impostazioni di connessione](#establish-connection): il destinatario esamina le impostazioni di connessione e le accetta o le rifiuta.
+1. [Accetta invito di connessione privata](#accept-private-connection-invite): il destinatario rivede e accetta l&#39;invito di connessione privata.
+1. [Configura impostazioni di connessione](#configure-connection-settings): il proprietario configura le impostazioni di connessione e le invia al destinatario per la revisione e l&#39;accettazione.
+1. [Conferma impostazioni di connessione](#establish-connection): il destinatario esamina le impostazioni di connessione e le accetta o le rifiuta.
 
 Una volta accettate le impostazioni di connessione, la connessione viene stabilita e i collaboratori sono pronti a [creare un progetto](/help/guide/collaborate/manage-projects.md#create-project) per iniziare a collaborare alle campagne.
 
@@ -310,8 +310,8 @@ Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 Durante la creazione di un progetto, il nome dell’inserzionista verrà precompilato in base alle seguenti impostazioni stabilite durante la connessione    :
 
 1. **Nessun nome inserzionista impostato**: se non viene aggiunto alcun nome di inserzionista, per impostazione predefinita Collaboration utilizza il nome dell&#39;inserzionista come nome dell&#39;inserzionista.
-2. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
-3. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
+1. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
+1. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
 
 >[!NOTE]
 >
