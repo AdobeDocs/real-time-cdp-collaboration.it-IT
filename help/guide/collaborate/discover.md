@@ -2,9 +2,9 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ Vengono effettuati calcoli del punteggio dell’indice, che possono essere utili
 | Maschi 25-34 | ((700k / 1,3M) / (12M / 50M)) * 100 | 224 | Puntando a questo pubblico, hai il 124% di probabilità in più di raggiungere i proprietari di SUV rispetto alla linea di base. |
 | Appassionati di tecnologia | ((500k / 1,3M) / (8M / 50M)) * 100 | 240 | Puntando a questo pubblico, hai il 140% di probabilità in più di raggiungere i proprietari di SUV rispetto alla linea di base. |
 
+{style="table-layout:auto"}
+
 Per comprendere meglio in che modo i punteggi dell’indice influiranno sulla campagna, oltre ai punteggi vengono fornite fasce di rilevanza.
 
 ### Bande di rilevanza {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ Per consentire un facile confronto tra diversi tipi di pubblico e campagne, Coll
 | 80 &lt; i &lt; 120 | Canale | La sovrapposizione è prevalente nel pubblico di destinazione e nel pubblico, a indicare una relazione tipica. I clienti che utilizzano questo pubblico hanno una probabilità media di raggiungere il loro pubblico di destinazione. |
 | 120 &lt; i &lt; 140 | Alto | La sovrapposizione è più prevalente nel pubblico di destinazione rispetto al pubblico, mostrando una forte relazione. È più probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
 | i > 140 | Molto alto | La sovrapposizione è molto più prevalente nel pubblico di destinazione rispetto al pubblico, il che riflette una relazione molto forte. È molto più probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
+
+{style="table-layout:auto"}
 
 Nella sezione scoprire le sovrapposizioni, il punteggio dell’indice del pubblico visualizzerà la banda di rilevanza insieme al punteggio. La partitura sarà codificata con un colore per indicare la banda di rilevanza, facilitando l’identificazione immediata della forza della relazione. Le bande di rilevanza molto bassa e bassa sono visualizzate in arancione, le bande di rilevanza media in nero e le bande di rilevanza alta e molto alta in verde.
 
