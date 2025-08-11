@@ -2,12 +2,12 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
-source-wordcount: '2897'
-ht-degree: 18%
+source-wordcount: '2985'
+ht-degree: 17%
 
 ---
 
@@ -90,7 +90,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -331,7 +331,7 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> Il **conteggio identità** controlla se il collaboratore può visualizzare i conteggi identità per i tipi di pubblico quando visualizza i report di sovrapposizione nella scheda di individuazione. La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo."
+>abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> **Il conteggio delle identità** controlla se il tuo collaboratore può visualizzare i conteggi delle identità per i tuoi tipi di pubblico quando visualizza i report di sovrapposizione nella scheda individuazione.</p><p> La **% di sovrapposizione del pubblico** controlla se i collaboratori sono in grado di individuare percentuali di sovrapposizione tra i propri tipi di pubblico e e il tuo.</p><p> **[!UICONTROL L&#39;indice del pubblico]** controlla se i collaboratori possono visualizzare l&#39;indice del pubblico all&#39;interno di un progetto. Questa funzionalità è disponibile solo se sono presenti tre o più tipi di pubblico attivi.</p> <br> Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato."
 
 >[!NOTE]
 >
@@ -346,6 +346,12 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**,
 **[!UICONTROL Mostra conteggio identità]**: questa impostazione controlla se il tuo collaboratore può visualizzare i conteggi delle identità per i tuoi tipi di pubblico quando [visualizzi i report di sovrapposizione nella scheda di individuazione](/help/guide/collaborate/discover.md#discover-overlaps) all&#39;interno di un progetto.
 
 **[!UICONTROL Mostra sovrapposizione pubblico %]**: questa impostazione controlla se i collaboratori sono in grado di [individuare percentuali di sovrapposizione](/help/guide/collaborate/discover.md#compare-audiences) tra i propri tipi di pubblico e i tipi di pubblico.
+
+**[!UICONTROL Indice pubblico]**: se è impostato su true, i collaboratori possono visualizzare il [indice pubblico](/help/guide/collaborate/discover.md#audience-index-score) all&#39;interno di un progetto. Questa funzionalità è disponibile solo se sono presenti tre o più tipi di pubblico attivi.
+
+>[!NOTE]
+>
+>Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato.
 
 ![Viene visualizzata la finestra di dialogo Visibilità metadati con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 

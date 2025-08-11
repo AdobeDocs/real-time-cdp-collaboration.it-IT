@@ -2,12 +2,12 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 20%
+source-wordcount: '2068'
+ht-degree: 12%
 
 ---
 
@@ -82,13 +82,16 @@ Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguen
 | **[!UICONTROL Conteggio identità]** (tuo collaboratore) | Il numero di ID univoci all’interno del pubblico del collaboratore. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci presenti sia nel pubblico dell’utente che in quello del collaboratore. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di profili che si sovrappongono tra il tuo pubblico selezionato e quello del tuo collaboratore. |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). I punteggi dell’indice del pubblico non sono disponibili quando si esegue il confronto con la linea di base del collaboratore (tutti i tipi di pubblico). |
 | **[!UICONTROL Raggruppamento identità per chiave di corrispondenza]** | La suddivisione delle identità per ogni chiave di corrispondenza scelta nel progetto, in base ai tipi di pubblico selezionati per ogni collaboratore. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->La percentuale di sovrapposizione potrebbe non essere sempre disponibile per tutti i tipi di pubblico. La visibilità dell&#39;indicatore della percentuale di sovrapposizione dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>La percentuale di sovrapposizione e il punteggio dell’indice del pubblico potrebbero non essere sempre disponibili per tutti i tipi di pubblico. La visibilità della percentuale di sovrapposizione e del punteggio dell&#39;indice del pubblico dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+Se il tuo collaboratore non ha abilitato l’indice del pubblico o la percentuale di sovrapposizione, il pubblico non avrà alcun dato di confronto disponibile.
 
 ## Tipi di pubblico pertinenti {#relevant-audiences}
 
@@ -103,19 +106,22 @@ La sezione **[!UICONTROL Tipi di pubblico rilevanti]** nella scheda **[!UICONTRO
 
 >[!NOTE]
 >
->La visibilità dei tipi di pubblico del collaboratore dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se il tuo collaboratore ha impostato tutti i tipi di pubblico su privato, questa sezione non mostra alcun pubblico.
+>La visibilità dei tipi di pubblico del collaboratore dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione accesso connessione](/help/guide/setup/onboard-audiences.md#connection-access) e nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se il tuo collaboratore ha impostato tutti i tipi di pubblico su privato, questa sezione non mostra alcun pubblico.
 
 La sezione **[!UICONTROL Tipi di pubblico rilevanti]** visualizza le seguenti informazioni per ogni pubblico consigliato:
 
 | Metrica | Descrizione |
 |---------|----------|
-| **[!UICONTROL Conteggio identità]** | Il nome degli ID univoci all’interno del pubblico. |
+| **[!UICONTROL Conteggio identità]** | Il numero di ID univoci all’interno del pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci che si sovrappongono tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di identità sovrapposte tra il pubblico consigliato e tutti i tipi di pubblico. |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
 | **[!UICONTROL Categorie di pubblico]** | Le categorie assegnate al pubblico dal collaboratore. |
 | **[!UICONTROL Corrispondenza chiavi]** | Le chiavi di corrispondenza selezionate dal collaboratore per il pubblico. |
 
 {style="table-layout:auto"}
+
+Se il punteggio dell’indice del pubblico è abilitato per uno dei tipi di pubblico del tuo collaboratore, i tipi di pubblico rilevanti saranno basati sul punteggio dell’indice del pubblico e tutti i tipi di pubblico in cui l’indice del pubblico non è stato abilitato non saranno inclusi. I tipi di pubblico rilevanti in base al punteggio dell’indice di pubblico sono ordinati in modo che venga visualizzato per primo il punteggio dell’indice più alto. Se l’indice del pubblico non è abilitato per nessuno dei tipi di pubblico del tuo collaboratore, i tipi di pubblico rilevanti saranno basati sulla percentuale di sovrapposizione.
 
 ## Scopri le sovrapposizioni {#discover-overlaps}
 
@@ -130,7 +136,9 @@ Scopri le sovrapposizioni per ottenere informazioni su come i tipi di pubblico s
 
 >[!NOTE]
 >
->La visibilità dei tipi di pubblico del collaboratore dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se il tuo collaboratore ha impostato tutti i tipi di pubblico su privato, questa sezione non mostra alcun pubblico.
+>La visibilità dei tipi di pubblico del collaboratore dipende dall&#39;impostazione scelta dal collaboratore per un pubblico nella [sezione accesso connessione](/help/guide/setup/onboard-audiences.md#connection-access) e nella [sezione visibilità metadati](/help/guide/setup/onboard-audiences.md#metadata-visibility). Se il tuo collaboratore ha impostato tutti i tipi di pubblico su privato, questa sezione non mostra alcun pubblico.
+
+Se il tuo collaboratore non ha abilitato l’indice del pubblico o la percentuale di sovrapposizione, il pubblico non verrà visualizzato.
 
 Per modificare la selezione del pubblico, seleziona **[!UICONTROL Cambia pubblico]**.
 
@@ -147,10 +155,54 @@ Dopo aver selezionato i tipi di pubblico desiderati, nella sezione **[!UICONTROL
 | **[!UICONTROL Conteggio identità]** | Il numero di ID univoci all’interno del pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci che si sovrappongono tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di identità sovrapposte tra il pubblico consigliato e tutti i tipi di pubblico. |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
 | **[!UICONTROL Categorie di pubblico]** | Le categorie assegnate al pubblico dal collaboratore. |
 | **[!UICONTROL Corrispondenza chiavi]** | Le chiavi di corrispondenza selezionate dal collaboratore per il pubblico. |
 
 {style="table-layout:auto"}
+
+## Punteggio indice pubblico {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Punteggio indice pubblico"
+>abstract="I punteggi dell’indice del pubblico sono una metrica sfumata che mostra quanto fortemente un pubblico si relaziona a un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Il punteggio dell’indice non elaborato si traduce in fasce di rilevanza, che classificano i punteggi dell’indice di pubblico da molto basso a molto alto. Questo consente di valutare rapidamente la forza della relazione tra il pubblico e il pubblico del collaboratore."
+
+I punteggi dell’indice del pubblico sono una metrica sfumata che mostra quanto fortemente un pubblico si relaziona a un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Questo consente di contestualizzare gli approfondimenti sul pubblico e identificare tipi di pubblico ad alto potenziale per la ricerca di potenziali clienti e il targeting delle campagne.
+
+Il punteggio dell’indice viene calcolato con la seguente formula:
+
+![Formula per il calcolo del punteggio dell&#39;indice.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Immaginate che un produttore di automobili voglia lanciare una campagna pubblicitaria con un grande editore di televisori a colori per un nuovo modello di SUV. Il produttore di automobili dispone di dati su chi attualmente possiede un modello simile e vuole utilizzarlo per trovare ulteriori prospettive per convertirli in clienti. Il produttore dell&#39;auto esamina il pubblico dell&#39;editore di televisori a colori per trovare un pubblico rilevante che corrisponda molto ai proprietari di SUV attuali.
+
+![Pubblico dell&#39;inserzionista dell&#39;auto rispetto a pubblico dell&#39;editore del CTV.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Vengono effettuati calcoli del punteggio dell’indice, che possono essere utilizzati per determinare il probabile successo della campagna:
+
+| Pubblico editore CTV | Formula | Punteggio indice (i) | Interpretazione |
+|------------------------|-------------|----------------|----------------|
+| Linea di base (tutti i tipi di pubblico) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Questo funge da linea di base rispetto alla quale vengono confrontati gli altri tipi di pubblico del tuo collaboratore. |
+| Binge Watchers | (500k / 1,3M) / (20M / 50M)) * 100 | 96 | Se si esegue il targeting di questo pubblico, si ha il 4% di probabilità in meno di raggiungere i proprietari di SUV rispetto alla linea di base. |
+| Amanti della commedia | ((200 k / 1,3 M) / (6 M / 50 M)) * 100 | 128 | Se si esegue il targeting di questo pubblico, si ha il 28% di probabilità in più di raggiungere i proprietari di SUV rispetto alla linea di base. |
+| Maschi 25-34 | ((700k / 1,3M) / (12M / 50M)) * 100 | 224 | Puntando a questo pubblico, hai il 124% di probabilità in più di raggiungere i proprietari di SUV rispetto alla linea di base. |
+| Appassionati di tecnologia | ((500k / 1,3M) / (8M / 50M)) * 100 | 240 | Puntando a questo pubblico, hai il 140% di probabilità in più di raggiungere i proprietari di SUV rispetto alla linea di base. |
+
+Per comprendere meglio in che modo i punteggi dell’indice influiranno sulla campagna, oltre ai punteggi vengono fornite fasce di rilevanza.
+
+### Bande di rilevanza {#audience-index-relevance-bands}
+
+Per consentire un facile confronto tra diversi tipi di pubblico e campagne, Collaboration traduce i punteggi dell’indice in bande di rilevanza (da molto basso a molto alto). Questo consente di valutare rapidamente la forza della relazione tra il pubblico e il pubblico del collaboratore.
+
+| Punteggio indice (i) | Banda di rilevanza | Descrizione |
+|---------|----------|-----------|
+| i &lt; 60 | Molto basso | La sovrapposizione è molto meno prevalente nel pubblico di destinazione rispetto al pubblico, il che indica una relazione molto debole. I clienti che utilizzano questo pubblico hanno meno probabilità di raggiungere il pubblico di destinazione. |
+| 60 &lt; i &lt; 80 | Basso | La sovrapposizione è un po’ meno prevalente nel pubblico di destinazione rispetto al pubblico, il che suggerisce una relazione debole. È meno probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
+| 80 &lt; i &lt; 120 | Canale | La sovrapposizione è prevalente nel pubblico di destinazione e nel pubblico, a indicare una relazione tipica. I clienti che utilizzano questo pubblico hanno una probabilità media di raggiungere il loro pubblico di destinazione. |
+| 120 &lt; i &lt; 140 | Alto | La sovrapposizione è più prevalente nel pubblico di destinazione rispetto al pubblico, mostrando una forte relazione. È più probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
+| i > 140 | Molto alto | La sovrapposizione è molto più prevalente nel pubblico di destinazione rispetto al pubblico, il che riflette una relazione molto forte. È molto più probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
+
+Nella sezione scoprire le sovrapposizioni, il punteggio dell’indice del pubblico visualizzerà la banda di rilevanza insieme al punteggio. La partitura sarà codificata con un colore per indicare la banda di rilevanza, facilitando l’identificazione immediata della forza della relazione. Le bande di rilevanza molto bassa e bassa sono visualizzate in arancione, le bande di rilevanza media in nero e le bande di rilevanza alta e molto alta in verde.
 
 ## Passaggi successivi
 
