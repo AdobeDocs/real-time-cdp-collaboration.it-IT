@@ -2,12 +2,12 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -161,14 +161,14 @@ Dopo aver selezionato i tipi di pubblico desiderati, nella sezione **[!UICONTROL
 
 {style="table-layout:auto"}
 
-## Punteggio indice pubblico {#audience-index-score}
+## Punteggio indice del pubblico {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="Punteggio indice pubblico"
->abstract="I punteggi dell’indice del pubblico sono una metrica sfumata che mostra quanto fortemente un pubblico si relaziona a un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Il punteggio dell’indice non elaborato si traduce in fasce di rilevanza, che classificano i punteggi dell’indice di pubblico da molto basso a molto alto. Questo consente di valutare rapidamente la forza della relazione tra il pubblico e il pubblico del collaboratore."
+>title="Punteggio indice del pubblico"
+>abstract="I punteggi dell’indice del pubblico sono una metrica dettagliata che mostra il livello di relazione di un pubblico rispetto a un altro, in base a conteggi e sovrapposizioni sottostanti del pubblico . Il punteggio dell’indice non elaborato si traduce in fasce di rilevanza, che classificano i punteggi dell’indice del pubblico da molto basso a molto alto. Questo consente di valutare rapidamente il livello di relazione tra il tuo pubblico e il pubblico del tuo collaboratore."
 
-I punteggi dell’indice del pubblico sono una metrica sfumata che mostra quanto fortemente un pubblico si relaziona a un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Questo consente di contestualizzare gli approfondimenti sul pubblico e identificare tipi di pubblico ad alto potenziale per la ricerca di potenziali clienti e il targeting delle campagne.
+I punteggi dell’indice del pubblico sono una metrica dettagliata che mostra il livello di relazione di un pubblico rispetto a un altro, in base a conteggi e sovrapposizioni sottostanti del pubblico . Questo consente di contestualizzare gli approfondimenti sul pubblico e identificare tipi di pubblico ad alto potenziale per la ricerca di potenziali clienti e il targeting delle campagne.
 
 Il punteggio dell’indice viene calcolato con la seguente formula:
 
@@ -194,7 +194,7 @@ Per comprendere meglio in che modo i punteggi dell’indice influiranno sulla ca
 
 ### Bande di rilevanza {#audience-index-relevance-bands}
 
-Per consentire un facile confronto tra diversi tipi di pubblico e campagne, Collaboration traduce i punteggi dell’indice in bande di rilevanza (da molto basso a molto alto). Questo consente di valutare rapidamente la forza della relazione tra il pubblico e il pubblico del collaboratore.
+Per consentire un facile confronto tra diversi tipi di pubblico e campagne, Collaboration traduce i punteggi dell’indice in bande di rilevanza (da molto basso a molto alto). Questo consente di valutare rapidamente il livello di relazione tra il tuo pubblico e il pubblico del tuo collaboratore.
 
 | Punteggio indice (i) | Banda di rilevanza | Descrizione |
 |---------|----------|-----------|
