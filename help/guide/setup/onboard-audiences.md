@@ -2,12 +2,12 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 19%
+source-wordcount: '3277'
+ht-degree: 15%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 {{limited-availability-release-note}}
 
 I tipi di pubblico sono gruppi specifici di utenti o clienti segmentati in base a vari attributi. Questi consentono ai collaboratori di collaborare su marketing mirato ed esperienze personalizzate per campagne pubblicitarie più efficaci. Questa guida illustra come individuare il pubblico in Real-Time CDP Collaboration, visualizzare la dashboard dei tipi di pubblico e gestire i singoli tipi di pubblico.
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa pagina della documentazione:
-
-* [Tipi di pubblico di Source in Collaboration](#source-audiences)
-* [Visualizza dashboard dei tipi di pubblico](#view-audiences-dashboard)
-* [Visualizzare singoli tipi di pubblico](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Tipi di pubblico di Source in Collaboration {#source-audiences}
 
@@ -90,7 +80,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -214,10 +204,13 @@ Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiun
 
 Dopo aver determinato l&#39;origine dei tipi di pubblico, nell&#39;area di lavoro **[!UICONTROL Tipi di pubblico personali]** vengono visualizzati tutti i tipi di pubblico attualmente assegnati a Collaboration.
 
+![L&#39;area di lavoro I miei tipi di pubblico visualizza tutti i tipi di pubblico originati.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Ogni pubblico contiene una panoramica delle seguenti informazioni:
 
 | Elemento | Descrizione |
 |----------|---------|
+| **[!UICONTROL Nome]** | Il nome del pubblico. |
 | **[!UICONTROL Identità]** | Indica il numero di identità presenti nel pubblico. Tieni presente che se lo stesso profilo ha due o più identità e queste vengono utilizzate come chiavi di corrispondenza nel progetto, il profilo verrà visualizzato due volte nel conteggio. |
 | **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. Uno stato **[!UICONTROL In sospeso]** indica che il pubblico è stato originato di recente e che le identità non sono ancora state popolate. I tipi di pubblico di origine verranno compilati con profili dopo l’aggiornamento iniziale, che in genere si verifica entro 24 ore dalla configurazione della connessione dati. |
 | **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
@@ -225,8 +218,6 @@ Ogni pubblico contiene una panoramica delle seguenti informazioni:
 | **[!UICONTROL Accesso alla connessione]** | Definisce se il pubblico è privato o pubblico. I tipi di pubblico sono rilevabili nei rapporti di sovrapposizione e possono essere attivati all’interno di un progetto. |
 | **[!UICONTROL Creato]** | Indica quando il pubblico è stato inizialmente originato in Collaboration. |
 | **[!UICONTROL Ultimo aggiornamento]** | Indica la data e l’ora dell’ultimo aggiornamento del pubblico in Collaboration. Non si riferisce all’ultimo aggiornamento del pubblico, ma piuttosto all’ultima modifica della configurazione o dei metadati del pubblico. |
-
-![L&#39;area di lavoro Il mio pubblico mostra tutti i tipi di pubblico originati.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 Per eseguire azioni rapide su un pubblico, seleziona i puntini di sospensione **...** accanto al nome del pubblico. Sono disponibili le seguenti opzioni:
 
@@ -237,7 +228,7 @@ Per eseguire azioni rapide su un pubblico, seleziona i puntini di sospensione **
 
 ## Visualizzare singoli tipi di pubblico {#view-individual-audiences}
 
-Per visualizzare ulteriori informazioni e modificare le configurazioni per un singolo pubblico, seleziona il pubblico dall&#39;area di lavoro **[!UICONTROL Tipi di pubblico]**. L’area di lavoro pubblico visualizza informazioni dettagliate sul pubblico selezionato, inclusi dettagli, identità, categorie, accesso alla connessione e impostazioni di visibilità dei metadati.
+Per visualizzare e aggiornare le informazioni per un singolo pubblico, seleziona il pubblico dall&#39;area di lavoro **[!UICONTROL Tipi di pubblico]**. L’area di lavoro pubblico visualizza informazioni dettagliate sul pubblico selezionato, inclusi dettagli, identità, categorie, accesso alla connessione e impostazioni di visibilità dei metadati.
 
 ### Dettagli del pubblico
 
@@ -255,32 +246,22 @@ Per ogni singolo pubblico vengono visualizzate le seguenti informazioni:
 
 ![Area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Inoltre, nell’area di lavoro del pubblico sono disponibili i seguenti controlli:
-
-* **[!UICONTROL Elimina]**: rimuovi il pubblico dalla connessione dati.
-* **[!UICONTROL Modifica]**: modifica il nome o la descrizione del pubblico.
-
-![Area di lavoro di un singolo pubblico con l&#39;opzione Modifica ed Elimina evidenziata.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-Successivamente, puoi aggiornare le seguenti sezioni all’interno dell’area di lavoro del pubblico:
-
-* [Identità](#identities)
-* [Categorie](#categories)
-* [Accesso connessione](#connection-access)
-* [Visibilità dei metadati](#metadata-visibility)
-
-### Identità {#identities}
+#### Identità {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identità"
->abstract="Una vista con raggruppamenti delle identità che compongono il pubblico, nonché un conteggio totale dei profili con le rispettive identità."
+>abstract="Una vista di raggruppamento delle identità che compongono il pubblico, separate da una chiave di corrispondenza."
 
-La sezione **[!UICONTROL Identità]** indica il numero di profili presenti nel pubblico con una qualsiasi delle identità selezionate al momento dell&#39;assegnazione dell&#39;origine al pubblico. La sezione contiene anche un raggruppamento delle identità in modo da poter individuare le identità che compongono il maggior numero possibile di persone appartenenti al pubblico.
+La sezione **[!UICONTROL Identità]** indica il numero di identità presenti nel pubblico. La sezione contiene anche una suddivisione delle identità per chiave di corrispondenza per aiutarti a comprendere la composizione del pubblico.
 
 ![Sezione Identità dell&#39;area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Categorie {#categories}
+Passando il puntatore del mouse sulle singole sezioni del raggruppamento della chiave di corrispondenza si ottiene un conteggio accurato delle identità per la chiave pertinente.
+
+![Sezione Identità dell&#39;area di lavoro di un singolo pubblico con raggruppamento di chiave di corrispondenza visualizzato.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Categorie {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ Verrà visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che conse
 
 ![Viene visualizzata la finestra di dialogo Categorie con le categorie disponibili.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Accesso connessione {#connection-access}
+#### Accesso connessione {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accesso connessione"
->abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione. È sempre possibile cambiare l’accesso della connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione una volta che un pubblico viene attivato con i collaboratori.</p>"
+>abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La loro disponibilità per l’utilizzo in progetti con collaboratori varia in base all’impostazione di accesso alla connessione.</p>"
 
-La disponibilità di un pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. Nella sezione **[!UICONTROL Accesso alla connessione]**, puoi selezionare se il pubblico deve essere privato o pubblico. Il pubblico pubblico è utilizzabile e individuabile nelle connessioni.
+La disponibilità di un pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. Nella sezione **[!UICONTROL Accesso alla connessione]**, puoi selezionare se il pubblico deve essere privato, pubblico o disponibile solo per connessioni specifiche. Il pubblico pubblico è utilizzabile e individuabile nelle connessioni.
 
 Per aggiornare l&#39;accesso alla connessione del pubblico, seleziona l&#39;opzione **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Accesso alla connessione]**.
 
@@ -324,9 +305,9 @@ Seleziona l&#39;opzione di accesso alla connessione desiderata, quindi seleziona
 >
 >Indipendentemente dallo stato di accesso (pubblico, privato o personalizzato), la popolazione di qualsiasi pubblico contribuisce alla popolazione **[!UICONTROL Tutti i tipi di pubblico]** nella sezione **[!UICONTROL Confronta tipi di pubblico]** all&#39;interno di un progetto.
 
-La disponibilità del pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione. È sempre possibile cambiare l’accesso alla connessione da privato a pubblico, ma non è possibile ripristinare tale impostazione dopo l’attivazione di un pubblico.
+La disponibilità del pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione.
 
-### Visibilità dei metadati {#metadata-visibility}
+#### Visibilità dei metadati {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 
 La visibilità dei metadati indica la visibilità dei metadati di un pubblico per altri collaboratori prima che si connettano con te o all’interno di diverse visualizzazioni del progetto. Per aggiornare la visibilità dei metadati del pubblico, seleziona l&#39;opzione **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Visibilità metadati]**.
 
-![Sezione visibilità metadati dell&#39;area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![Sezione visibilità metadati dell&#39;area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**, che consente di configurare le impostazioni di visibilità per il pubblico. È possibile configurare due impostazioni di visibilità dei metadati per ogni pubblico:
 
@@ -354,6 +335,52 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**,
 >Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato.
 
 ![Viene visualizzata la finestra di dialogo Visibilità metadati con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Modificare più tipi di pubblico {#edit-audiences}
+
+Puoi modificare più tipi di pubblico alla volta dal dashboard Pubblico. A questo scopo, seleziona i tipi di pubblico da modificare selezionando le caselle accanto ai relativi nomi. Dopo aver selezionato i tipi di pubblico, puoi eseguire azioni utilizzando le opzioni disponibili nel menu Modifica.
+
+![Area di lavoro I miei tipi di pubblico con due tipi di pubblico selezionati e il menu Modifica evidenziato.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Visibilità della modifica in blocco dei metadati {#bulk-edit-metadata-visibility}
+
+Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica visibilità metadati]** dal menu Modifica.
+
+![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica visibilità metadati evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**, che consente di configurare le impostazioni di visibilità per i tipi di pubblico selezionati. Per impostazione predefinita, non viene selezionata alcuna opzione. Scegli le opzioni da applicare a tutti i tipi di pubblico selezionati, quindi seleziona **[!UICONTROL Salva]**.
+
+![Viene visualizzata la finestra di dialogo Visibilità metadati con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Accesso alla connessione per modifica in blocco {#bulk-edit-connection-access}
+
+Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica accesso alla connessione]** dal menu Modifica.
+
+![L&#39;area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica accesso alla connessione evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Accesso alla connessione]**, che consente di configurare le impostazioni di accesso per i tipi di pubblico selezionati. Per impostazione predefinita, verrà selezionata l&#39;opzione **[!UICONTROL Pubblico privato]**. Scegli le opzioni da applicare a tutti i tipi di pubblico selezionati, quindi seleziona **[!UICONTROL Salva]**.
+
+![Viene visualizzata la finestra di dialogo Accesso alla connessione con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Modifica in blocco di nomi e descrizioni del pubblico {#bulk-edit-audience-names-descriptions}
+
+Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica nome e descrizione]** dal menu Modifica.
+
+![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica nome e descrizione evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Nome e descrizione]**, che consente di configurare il nome e la descrizione per ogni pubblico selezionato. Per impostazione predefinita, i nomi e le descrizioni correnti vengono visualizzati per ogni pubblico. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
+
+![Viene visualizzata la finestra di dialogo Nome e descrizione con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Categorie di modifica in blocco {#bulk-edit-categories}
+
+Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica categorie]** dal menu Modifica.
+
+![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica categorie evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che consente di configurare le categorie per ogni pubblico selezionato. Per impostazione predefinita, non viene selezionata alcuna categoria. Per selezionare una categoria, selezionare innanzitutto la categoria principale, quindi selezionare le sottocategorie che si desidera includere. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
+
+![Viene visualizzata la finestra di dialogo Categorie con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Passaggi successivi
 
