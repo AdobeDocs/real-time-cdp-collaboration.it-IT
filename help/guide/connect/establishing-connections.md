@@ -2,11 +2,11 @@
 title: Stabilimento di connessioni
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 
 ![Area di lavoro impostazioni connessione.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Impostazioni della connessione {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -214,11 +212,6 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 >abstract="Esegui attività per generare report e informazioni approfondite sulle prestazioni della campagna. I crediti vengono utilizzati in base al numero di righe nei rapporti sulle campagne in tutte le campagne e alla frequenza di reporting (giornaliera, ogni tre giorni o settimanale)."
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Accordo legale"
->abstract="Verifica l’esistenza di un accordo di condivisione dei dati tra le due parti."
-
->[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
 >abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Collaboration.</li></ul>"
@@ -231,7 +224,7 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 
 Puoi configurare le seguenti impostazioni di connessione:
 
-+++Attivazione pubblico
++++Attivazione del pubblico
 
 >[!IMPORTANT]
 >
@@ -259,7 +252,7 @@ Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** ne
 
 +++
 
-+++Corrispondenza chiavi
++++Chiavi di corrispondenza
 
 Le chiavi di corrispondenza vengono compilate automaticamente con quelle selezionate durante [la configurazione dell&#39;account](/help/guide/setup/onboard-account.md#set-up-match-keys). È possibile disattivare i tasti di corrispondenza che non si desidera utilizzare, ma non è possibile aggiungere i tasti di corrispondenza che non sono stati selezionati durante la configurazione dell&#39;account.
 
@@ -269,7 +262,7 @@ Per personalizzare le chiavi di corrispondenza, seleziona **[!UICONTROL Modifica
 
 +++
 
-+++Divisione del credito
++++Suddivisione del credito
 
 Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede una parte per coprire i costi, il caso d&#39;uso **[!UICONTROL Attivazione - Corrispondenza]** offre un&#39;opzione aggiuntiva per consentire a ciascuna parte di coprire i propri costi. Per informazioni sulla suddivisione dei costi, leggere la guida dei [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -283,15 +276,7 @@ Per impostare la divisione del credito, selezionare **[!UICONTROL Modifica]** ne
 
 +++
 
-+++Accordi
-
-Devi confermare che esiste un accordo legale tra te e il tuo collaboratore. Questo accordo delinea i termini della condivisione dei dati e della collaborazione. È possibile selezionare la casella di controllo **[!UICONTROL Conferma e conferma]** per confermare l&#39;esistenza dell&#39;accordo.
-
-![La sezione Contratto legale viene evidenziata e confermata nell&#39;area di lavoro connessione.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
-+++Nomi inserzionisti
++++Nome inserzionista
 
 >[!NOTE]
 >
@@ -310,8 +295,8 @@ Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 Durante la creazione di un progetto, il nome dell’inserzionista verrà precompilato in base alle seguenti impostazioni stabilite durante la connessione    :
 
 1. **Nessun nome inserzionista impostato**: se non viene aggiunto alcun nome di inserzionista, per impostazione predefinita Collaboration utilizza il nome dell&#39;inserzionista come nome dell&#39;inserzionista.
-1. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
-1. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
+2. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
+3. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ Successivamente, il destinatario deve rivedere le impostazioni di connessione pr
 
 Esaminare le impostazioni proposte dal collaboratore. È possibile accettare o rifiutare le impostazioni di connessione. Se si rifiutano le impostazioni di connessione, sarà necessario comunicare con il collaboratore le modifiche che si desidera apportare all&#39;esterno del prodotto. Le informazioni di contatto del collaboratore vengono visualizzate nella sezione **[!UICONTROL Contatto]** dell&#39;area di lavoro delle impostazioni di connessione. Il proprietario può quindi rivedere le impostazioni di connessione e inviarle nuovamente per la revisione.
 
-Se si è soddisfatti delle impostazioni di connessione proposte, è necessario confermare che è in vigore un accordo legale tra l&#39;utente e il collaboratore. Selezionare la casella di controllo **[!UICONTROL Conferma e conferma]** per confermare l&#39;esistenza dell&#39;accordo.
-
-![La sezione relativa all&#39;accordo legale è evidenziata nell&#39;area di lavoro delle impostazioni di connessione.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![Area di lavoro delle impostazioni di connessione con l&#39;opzione Accetta e rifiuta evidenziata.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 Inoltre, se sei un editore che si connette con un inserzionista, ora puoi aggiungere i nomi degli inserzionisti nelle impostazioni di connessione. Per ulteriori informazioni su questo processo, vedere la sezione [impostazioni di connessione](#connection-settings).
 
