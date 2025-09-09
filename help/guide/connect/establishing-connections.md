@@ -2,11 +2,11 @@
 title: Stabilimento di connessioni
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chiavi di corrispondenza"
 >abstract="Le chiavi di corrispondenza sono precompilate con le chiavi di corrispondenza comuni che tu e il tuo collaboratore avete selezionato a livello di account. Puoi disattivare le chiavi di corrispondenza che non desideri utilizzare in questa connessione."
->additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chiavi di corrispondenza account"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chiavi di corrispondenza account"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** ne
 ![Impostazioni dei casi d&#39;uso nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Chiavi di corrispondenza {#match-keys}
+
+>[!IMPORTANT]
+>
+>Quando si attivano tipi di pubblico in cui vengono utilizzate più chiavi di corrispondenza, se una o più chiavi di corrispondenza non presenta sovrapposizioni, nessun conteggio di pubblico o scende al di sotto della soglia, l’intera attivazione non riuscirà. Prima di attivare i tipi di pubblico, assicurati che abbiano una sovrapposizione sufficiente e che raggiungano la soglia minima di 1000 ID per tutte le chiavi di corrispondenza.
 
 Le chiavi di corrispondenza vengono compilate automaticamente con le chiavi di corrispondenza comuni selezionate da te e dal tuo collaboratore durante la [configurazione degli account](/help/guide/setup/onboard-account.md#set-up-match-keys). Verranno visualizzate solo le chiavi che tu e il tuo collaboratore avete selezionato **e** in comune.
 

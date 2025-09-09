@@ -2,11 +2,11 @@
 title: Attiva tipi di pubblico
 description: Scopri come attivare i tipi di pubblico in Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ Viene aperto il flusso di lavoro attiva tipi di pubblico, in cui è possibile se
 In **[!UICONTROL Sfoglia tipi di pubblico]**, puoi visualizzare **[!UICONTROL Conteggio identità]**, **[!UICONTROL Identità sovrapposte]** e **[!UICONTROL Sovrapposizione %]** per ogni pubblico.
 
 ![Finestra di dialogo Sfoglia tipi di pubblico che mostra i tipi di pubblico disponibili.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>Quando si attivano tipi di pubblico in cui vengono utilizzate più chiavi di corrispondenza, se una o più chiavi di corrispondenza non presenta sovrapposizioni, nessun conteggio di pubblico o scende al di sotto della soglia, l’intera attivazione non riuscirà. Prima di attivare i tipi di pubblico, assicurati che abbiano una sovrapposizione sufficiente e che raggiungano la soglia minima di 1000 ID per tutte le chiavi di corrispondenza.
 
 Selezionare il pubblico da attivare nelle campagne, quindi selezionare **[!UICONTROL Salva]**. Il pubblico è ora visualizzato ed è possibile visualizzare **[!UICONTROL il conteggio delle identità]**, **[!UICONTROL le identità sovrapposte]** e **[!UICONTROL la sovrapposizione %]** per il pubblico selezionato.
 
