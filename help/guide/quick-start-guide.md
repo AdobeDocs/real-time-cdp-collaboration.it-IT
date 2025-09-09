@@ -2,11 +2,11 @@
 title: Guida rapida di Real-Time CDP Collaboration
 description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta i collaboratori a configurare le impostazioni di connessione per iniziare a utilizzare i propri tipi di pubblico in modo sicuro ed efficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Prima di iniziare, assicurati di avere i seguenti elementi:
 - [Accesso eseguito per gli utenti finali](./permissions/manage-user-access.md).
 - [Ruoli creati per la tua organizzazione e assegnati agli utenti](./permissions/manage-roles.md).
 - Accesso alle risorse di branding, ad esempio il nome, il logo e il banner dell’organizzazione.
-- Una [strategia chiave di corrispondenza definita](./setup/onboard-account.md#set-up-match-keys) (attualmente, l&#39;e-mail con hash è l&#39;unica chiave di corrispondenza supportata).
+- Una [strategia chiave di corrispondenza definita](./setup/onboard-account.md#set-up-match-keys)
 - (Facoltativo) Accedi a un’origine cloud supportata (Amazon S3 o Snowflake) se non utilizzi Experience Platform per la gestione dell’audience.
 
 ## Passaggio 1: completare la configurazione basata sui ruoli {#complete-role-based-setup}
@@ -41,7 +41,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Definisci il ruolo del tuo account in Collaboration, fornisci risorse di brandin
 >Se desideri essere visibile al pubblico nel catalogo delle connessioni di Collaboration durante la creazione di un account publisher, contatta il rappresentante del tuo account Adobe. Gli account dell’editore richiedono un banner personalizzato per il marchio (JPG 2688x1536); questo file può essere condiviso direttamente con il tuo rappresentante.
 
 - **E-mail di contatto** - Fornisci un&#39;e-mail aziendale che i collaboratori potranno utilizzare dopo aver stabilito una connessione.
-- **Configura chiavi di corrispondenza** - Seleziona gli identificatori utilizzati per la corrispondenza del pubblico (attualmente, l&#39;e-mail con hash è l&#39;unica chiave di corrispondenza supportata).
+- **Configura chiavi di corrispondenza** - Seleziona gli identificatori utilizzati per la corrispondenza del pubblico.
 
 Per ulteriori informazioni sulla configurazione iniziale dell&#39;account, tra cui la definizione dei ruoli, il caricamento delle risorse di branding e la configurazione delle chiavi di corrispondenza, consulta la [guida alla configurazione iniziale dell&#39;account](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
@@ -107,7 +107,8 @@ Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e govern
 >
 >**Corrispondenza con i requisiti chiave:**
 >
->Tutte le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo** e **con hash SHA256**.\
+>Tutte le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo**
+>>Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.\
 >Se fornisci valori con hash che utilizzano caratteri maiuscoli, Collaboration li converte automaticamente in minuscoli.\
 >Se l&#39;origine contiene **identificatori di testo normale**, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]** per applicare l&#39;hashing. Questa opzione è disponibile solo quando si selezionano i tipi di pubblico da Experience Platform e non è supportata per le origini basate su cloud.
 >
@@ -221,7 +222,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 

@@ -2,12 +2,12 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ Per visualizzare le connessioni dati esistenti, passare a **[!UICONTROL Configur
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Scegli le chiavi di corrispondenza più rilevanti per i tuoi casi d’uso e linee guida sulla privacy."
+>abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Le chiavi di corrispondenza mostrate di seguito sono i campi di destinazione a cui hai mappato i campi sorgente."
 
-Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Non puoi modificare le chiavi di corrispondenza selezionate inizialmente per la connessione dati.
-
->[!IMPORTANT]
-> 
->Impossibile modificare le chiavi di corrispondenza dopo la creazione della connessione dati. Per aggiornare le chiavi di corrispondenza, è necessario creare una nuova connessione dati.
-
-Le chiavi di corrispondenza disponibili includono:
-
-- **E-mail con hash**
+Le chiavi di corrispondenza sono i campi di destinazione [sui quali hai mappato i campi di origine](./onboard-audiences.md#map-fields). Non puoi modificare le chiavi di corrispondenza selezionate inizialmente per la connessione dati. Per aggiornare le chiavi di corrispondenza, è necessario creare una nuova connessione dati. Per ulteriori informazioni sul funzionamento delle chiavi di corrispondenza, consulta la guida [chiavi di corrispondenza](./onboard-account.md#set-up-match-keys).
 
 ![Area di lavoro connessioni dati con la sezione Chiavi di corrispondenza evidenziata.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Dopo aver creato una connessione dati, è possibile aggiornarne la frequenza di 
 
 >[!NOTE]
 >
->Quando si selezionano i tipi di pubblico da Adobe Experience Platform, i tipi di pubblico diventano disponibili entro 24 ore dall’impostazione della connessione dati. Dopo l’importazione iniziale, i dati del pubblico vengono aggiornati in base alla frequenza definita.
+>Quando si selezionano i tipi di pubblico da Adobe Experience Platform, i tipi di pubblico diventano disponibili entro 24 ore dall’impostazione della connessione dati. Dopo l’origine iniziale, i dati del pubblico vengono aggiornati in base alla frequenza definita.
 
 Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificazione](/help/guide/setup/onboard-audiences.md#schedule) nella guida alla configurazione dei tipi di pubblico.
 
@@ -66,6 +58,8 @@ Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificaz
 #### Modifica pianificazione {#edit-scheduling}
 
 Puoi modificare la frequenza di una connessione dati esistente per controllare meglio la frequenza con cui i tipi di pubblico vengono aggiornati. Per modificare la pianificazione, seleziona **[!UICONTROL Modifica]** dalla connessione dati nella scheda di pianificazione.
+
+La pianificazione influirà su tutti i tipi di pubblico originati dalla connessione dati.
 
 Nella finestra di dialogo **[!UICONTROL Pianificazione]**, seleziona il menu a discesa per aggiornare la **[!UICONTROL Frequenza]**. Impostare la frequenza di aggiornamento in modo che venga eseguita ogni giorno oppure ogni due o sei giorni. Al termine, seleziona **[!UICONTROL Salva]** per applicare le modifiche.
 

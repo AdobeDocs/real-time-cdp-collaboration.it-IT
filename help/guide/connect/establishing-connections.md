@@ -2,12 +2,12 @@
 title: Stabilimento di connessioni
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza sono precompilate con quelle selezionate a livello di organizzazione. Puoi disattivare le chiavi di corrispondenza che non desideri utilizzare in questa connessione."
+>abstract="Le chiavi di corrispondenza sono precompilate con le chiavi di corrispondenza comuni che tu e il tuo collaboratore avete selezionato a livello di account. Puoi disattivare le chiavi di corrispondenza che non desideri utilizzare in questa connessione."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chiavi di corrispondenza account"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 
 Puoi configurare le seguenti impostazioni di connessione:
 
-+++Attivazione del pubblico
+##### Attivazione del pubblico {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
 ![Finestra di dialogo di attivazione del pubblico con l&#39;opzione Salva nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Casi d’uso
+##### Casi d’uso {#use-cases}
 
 I casi di utilizzo vengono compilati automaticamente con tutte le opzioni disponibili. I casi d’uso selezionati determinano quali visualizzazioni e opzioni sono disponibili all’interno dei tuoi progetti. Per ulteriori informazioni, consulta la guida ai [casi d&#39;uso del progetto](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
@@ -250,19 +249,23 @@ Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** ne
 
 ![Impostazioni dei casi d&#39;uso nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Chiavi di corrispondenza {#match-keys}
 
-+++Chiavi di corrispondenza
+Le chiavi di corrispondenza vengono compilate automaticamente con le chiavi di corrispondenza comuni selezionate da te e dal tuo collaboratore durante la [configurazione degli account](/help/guide/setup/onboard-account.md#set-up-match-keys). Verranno visualizzate solo le chiavi che tu e il tuo collaboratore avete selezionato **e** in comune.
 
-Le chiavi di corrispondenza vengono compilate automaticamente con quelle selezionate durante [la configurazione dell&#39;account](/help/guide/setup/onboard-account.md#set-up-match-keys). È possibile disattivare i tasti di corrispondenza che non si desidera utilizzare, ma non è possibile aggiungere i tasti di corrispondenza che non sono stati selezionati durante la configurazione dell&#39;account.
+![L&#39;area di lavoro delle impostazioni di connessione con la sezione delle chiavi di corrispondenza evidenziata mostra le chiavi di corrispondenza comuni.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+Quando il proprietario della connessione sta configurando le impostazioni di connessione, può [modificare le chiavi di corrispondenza dell&#39;account](../setup/onboard-account.md#edit-match-keys) per includere altre chiavi di corrispondenza. Dopo aver attivato altri tasti di corrispondenza nelle impostazioni del tuo account, questi tasti di corrispondenza saranno disponibili per l’attivazione nelle impostazioni di connessione se sono stati selezionati anche dal tuo collaboratore. Le chiavi di corrispondenza aggiunte una volta avviato il processo di connessione non si popolano automaticamente e devono essere attivate manualmente.
 
 Per personalizzare le chiavi di corrispondenza, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Chiavi di corrispondenza]** e disattiva le chiavi di corrispondenza che non desideri utilizzare in questa connessione. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Impostazioni chiave di corrispondenza nell&#39;area di lavoro delle impostazioni di connessione.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Viene aperta l&#39;area di lavoro delle impostazioni di connessione con la finestra di dialogo della sezione relativa alle chiavi di corrispondenza in cui viene visualizzata una chiave di corrispondenza disattivata.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Dopo che il collaboratore ha accettato le impostazioni di connessione, le chiavi di corrispondenza verranno bloccate e non potranno essere modificate.
 
-+++Suddivisione del credito
+##### Suddivisione del credito {#credit-split}
 
 Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede una parte per coprire i costi, il caso d&#39;uso **[!UICONTROL Attivazione - Corrispondenza]** offre un&#39;opzione aggiuntiva per consentire a ciascuna parte di coprire i propri costi. Per informazioni sulla suddivisione dei costi, leggere la guida dei [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -274,9 +277,7 @@ Per impostare la divisione del credito, selezionare **[!UICONTROL Modifica]** ne
 
 ![Finestra di dialogo Divisione crediti con opzioni nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Nome inserzionista
+##### Nome inserzionista {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Durante la creazione di un progetto, il nome dell’inserzionista verrà precomp
 > Dopo aver inviato le impostazioni di connessione, non è più possibile aggiungere o modificare i nomi degli inserzionisti.
 
 ![L&#39;area di lavoro delle impostazioni di connessione con la sezione Nomi inserzionisti è stata compilata.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 Dopo aver effettuato le selezioni, selezionare **[!UICONTROL Invia]** per inviare le impostazioni suggerite al destinatario per la revisione.
 

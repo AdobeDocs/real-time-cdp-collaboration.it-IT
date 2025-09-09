@@ -2,9 +2,9 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ Per comprendere meglio in che modo i punteggi dell’indice influiranno sulla ca
 Per consentire un facile confronto tra diversi tipi di pubblico e campagne, Collaboration traduce i punteggi dell’indice in bande di rilevanza (da molto basso a molto alto). Questo consente di valutare rapidamente il livello di relazione tra il tuo pubblico e il pubblico del tuo collaboratore.
 
 | Punteggio indice (i) | Banda di rilevanza | Descrizione |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Molto basso | La sovrapposizione è molto meno prevalente nel pubblico di destinazione rispetto al pubblico, il che indica una relazione molto debole. I clienti che utilizzano questo pubblico hanno meno probabilità di raggiungere il pubblico di destinazione. |
 | 60 &lt; i &lt; 80 | Basso | La sovrapposizione è un po’ meno prevalente nel pubblico di destinazione rispetto al pubblico, il che suggerisce una relazione debole. È meno probabile che i clienti che utilizzano questo pubblico raggiungano il pubblico di destinazione. |
 | 80 &lt; i &lt; 120 | Canale | La sovrapposizione è prevalente nel pubblico di destinazione e nel pubblico, a indicare una relazione tipica. I clienti che utilizzano questo pubblico hanno una probabilità media di raggiungere il loro pubblico di destinazione. |

@@ -2,12 +2,12 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '1361'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,6 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 * Aggiungi un **[!UICONTROL nome account]** che rappresenti chiaramente il tuo marchio.
 * Aggiungi una **[!UICONTROL Descrizione]** del tuo marchio. Questo è facoltativo, ma aiuta gli altri collaboratori a comprendere meglio il tuo marchio.
 * Seleziona il tuo **[!UICONTROL Ruolo]**. È possibile selezionare tra **[!UICONTROL Inserzionista]** e **[!UICONTROL Editore]**. Leggi la guida [roles](/help/guide/overview/roles.md) per vedere somiglianze e leggere differenze nel flusso di lavoro tra i due tipi di ruolo account.
-<!-- The above will need to be updated when I update things for B2B -->
 * Seleziona **[!UICONTROL Settore]** per il tuo account. Alcuni esempi includono **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicazioni]** o **[!UICONTROL Servizi finanziari]**.
 * L&#39;**[!UICONTROL Area]** viene impostata automaticamente in base al tuo account Adobe Experience Cloud. Questo non può essere modificato in alcun momento.
 * Aggiungi un **[!UICONTROL indirizzo e-mail di contatto]** per il tuo account. Deve essere un indirizzo e-mail basato su team o ruolo. Gli indirizzi e-mail personali non devono essere forniti.
@@ -62,64 +61,111 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i membri tra tipi di pubblico di diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
+>abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i profili di pubblico da diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID persone di prime parti"
->abstract="Gli ID di persone di prime parti, come indirizzi e-mail con hash o numeri di telefono, sono direttamente collegati a un singolo profilo. Gli ID attualmente supportati sono e-mail con hash e numeri di telefono."
+>abstract="Gli ID di persone di prime parti, come indirizzi e-mail con hash, numeri di telefono con hash o ID del sistema di gestione delle relazioni con i clienti, sono collegati direttamente a un singolo profilo."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID dispositivo di prime parti"
->abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono direttamente collegati ai dispositivi, che possono essere condivisi tra più persone. IPv4 è l’unico ID dispositivo di prime parti attualmente supportato."
+>abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente ai dispositivi, che possono essere condivisi tra più singoli utenti. IPv4 è l’unico ID dispositivo di prime parti attualmente supportato."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID partner supportati"
->abstract="Gli ID partner associati ai profili consentono di espandere la portata a un determinato profilo."
+>abstract="Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID partner non sono collegati direttamente a un singolo profilo."
+
+![Chiavi di corrispondenza supportate.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Le chiavi di corrispondenza selezionate durante la configurazione dell&#39;account determineranno le chiavi di corrispondenza disponibili per le connessioni create con altri collaboratori. Anche se è possibile rimuovere le chiavi di corrispondenza durante la configurazione della connessione, non è possibile aggiungere nuove chiavi di corrispondenza. È importante selezionare **tutte** le chiavi di corrispondenza che intendi utilizzare nelle campagne future durante la configurazione dell&#39;account.
+>Le chiavi di corrispondenza selezionate durante la configurazione dell&#39;account determineranno le chiavi di corrispondenza disponibili all&#39;interno delle connessioni. Sebbene sia possibile [rimuovere le chiavi di corrispondenza indesiderate](../connect/establishing-connections.md#connection-settings) durante la configurazione della connessione, non è possibile aggiungere le chiavi di corrispondenza dopo che è stata stabilita una connessione. È importante selezionare **tutte** le chiavi di corrispondenza che si intende utilizzare nelle campagne future durante la configurazione dell&#39;account.
 
-Le chiavi di corrispondenza, come indirizzi e-mail, ID dispositivo o ID cliente, aiutano i collaboratori a lavorare insieme consentendo una sincronizzazione dei dati accurata e incentrata sulla privacy, consentendo un targeting e una misurazione più precisi del pubblico.
+Le chiavi di corrispondenza aiutano i collaboratori a collaborare, consentendo una sincronizzazione dei dati accurata e incentrata sulla privacy, consentendo un targeting e una misurazione più precisi del pubblico. Le chiavi di corrispondenza selezionate durante la configurazione dell’account determineranno quali chiavi di corrispondenza saranno disponibili nelle connessioni future. Vengono inoltre utilizzati per [mappare i campi](./onboard-audiences.md#map-fields) dalla connessione dati ai campi di destinazione in Collaboration durante l&#39;individuazione dei tipi di pubblico.
 
-![Diapositiva con gli identificatori disponibili per la prima versione di Collaboration.](/help/assets/setup/manage-account/available-identifiers.png)
+Seleziona le chiavi di corrispondenza da utilizzare per la riconciliazione dei profili di pubblico. Pianifica per il futuro e includi tutte le chiavi di corrispondenza con cui lavorare e che puoi anticipare utilizzando nelle campagne future. Se in un secondo momento dovrai selezionare altre chiavi di corrispondenza per il tuo account, potrai farlo nel flusso di lavoro [modifica account](#edit-account). Tuttavia, le eventuali chiavi di corrispondenza aggiunte dopo la configurazione iniziale non saranno disponibili per l’utilizzo nelle connessioni esistenti.
 
-<!-- Eventually replace this image above to match branding better. -->
+#### Chiavi di corrispondenza supportate {#supported-match-keys}
 
-Seleziona le chiavi di corrispondenza da utilizzare per la riconciliazione dei profili di pubblico. Includi tutte le chiavi di corrispondenza utilizzabili. Pianifica per il futuro e seleziona le chiavi di corrispondenza che prevedi di utilizzare nelle campagne future. Se in un secondo momento dovrai selezionare altre chiavi di corrispondenza per il tuo account, potrai farlo nel flusso di lavoro [modifica account](#edit-account).
+Collaboration supporta tre tipi di chiavi di corrispondenza: ID persone di prime parti, ID dispositivo di prime parti e ID partner. Tutte le chiavi di corrispondenza devono soddisfare i seguenti requisiti:
 
-Seleziona fino a cinque chiavi di corrispondenza che intendi utilizzare. Successivamente, quando si impostano le connessioni, è possibile rimuovere le chiavi di corrispondenza indesiderate, ma non aggiungerne di nuove.
+* Le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo**
+* Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.
+* Se fornisci valori con hash che utilizzano caratteri maiuscoli, Collaboration li converte automaticamente in minuscoli.
+* Se l&#39;origine contiene **identificatori di testo normale**, utilizza l&#39;opzione **[!UICONTROL Applica trasformazione]** durante la [configurazione della connessione dati](./manage-data-connection.md#match-keys) per applicare l&#39;hashing. Questa opzione è disponibile solo quando si selezionano i tipi di pubblico da Experience Platform e non è supportata per le origini basate su cloud.
 
-Esistono tre tipi di chiavi di corrispondenza disponibili:
+##### ID persone di prime parti
 
-* ID persone di prime parti
-* ID dispositivo di prime parti
-* ID partner
+Gli ID persona di prime parti sono direttamente collegati a un singolo profilo. Gli ID attualmente supportati sono:
 
->[!IMPORTANT]
+* **[!UICONTROL E-mail con hash]**
+* **[!UICONTROL Telefono con hash]**
+* **[!UICONTROL ID CRM]**
+* **[!UICONTROL ID fedeltà]**
+<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+##### ID dispositivo di prime parti
+
+Gli ID dispositivo di prime parti sono identificatori collegati a un dispositivo specifico. Gli ID attualmente supportati sono:
+
+* **[!UICONTROL Hash IPv4]**: indirizzi IPv4 con hash
+
+##### ID partner
+
+Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID attualmente supportati sono:
+
+* **[!UICONTROL ID Adobe]**
+
+>[!NOTE]
 >
->Attualmente, l’unica chiave di corrispondenza supportata è l’e-mail con hash.
+>L&#39;integrazione di Adobe con [!DNL Adfixus] associa i [!UICONTROL ID Adfixus] univoci per ciascun account a un formato con codifica Adobe comune. Queste mappature vengono utilizzate per identificare sovrapposizioni tra collaboratori. Quando si attivano tipi di pubblico con **[!UICONTROL Adfixus ID]**, vengono utilizzati gli ID originali. Il formato codificato da Adobe non lascia mai Collaboration.
 
-Al termine, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;organizzazione.
+Quando selezioni **[!UICONTROL Adfixus ID]**, dovrai fornire l&#39;ID corrispondente dal tuo partner esterno nella sezione **[!UICONTROL Credenziali account]**. Questa opzione sarà disponibile solo *dopo* l&#39;attivazione di **[!UICONTROL Adfixus ID]**. Immetti il tuo ID Adfixus nel campo **[!UICONTROL ID account]**, assicurandoti di verificare due volte la precisione del valore.
 
-![Viene visualizzata la sezione Imposta area di lavoro organizzazione con chiavi corrispondenti.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![La finestra di dialogo Corrispondenza chiavi con Adfixus ID è attivata ed è evidenziata la sezione Credenziali account.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+
+Dopo aver selezionato tutte le chiavi di corrispondenza desiderate, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;account.
+
+![Viene visualizzata la sezione Imposta area di lavoro account con chiavi di corrispondenza.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Modifica account {#edit-account}
 
-Dopo aver configurato l’account, puoi modificarne alcuni aspetti e dettagli in qualsiasi momento. Per modificare l&#39;account, selezionare **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Account personale]** dell&#39;area di lavoro **[!UICONTROL Configurazione]**.
+Dopo aver configurato l’account, puoi modificare i dettagli e le chiavi di corrispondenza in qualsiasi momento.
+
+### Modifica dettagli {#edit-details}
+
+Puoi modificare la maggior parte dei dettagli del tuo account in qualsiasi momento, ad eccezione del **[!UICONTROL Ruolo]**. L’area geografica viene impostata automaticamente in base al tuo account Adobe Experience Cloud e non può essere modificata.
+
+Per modificare l&#39;account, selezionare **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Account personale]** dell&#39;area di lavoro **[!UICONTROL Configurazione]**.
 
 ![Area di lavoro di installazione con la scheda Account personale e l&#39;opzione Modifica evidenziate.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-Ora puoi modificare i dettagli del tuo account, ad eccezione del **[!UICONTROL Ruolo]**. Tieni presente che l’area geografica viene impostata automaticamente in base al tuo account Adobe Experience Cloud e non può essere modificata in alcun momento.
+Ora puoi modificare i dettagli del tuo account. Aggiorna i campi che desideri modificare, quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
 
 ![Finestra di dialogo Modifica dettagli account.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-Puoi anche aggiornare i codici di corrispondenza selezionati inizialmente al momento dell’onboarding dell’organizzazione. Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Chiavi corrispondenti]** per aggiungere altre chiavi di corrispondenza desiderate.
+### Modifica chiavi di corrispondenza {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>La modifica delle chiavi di corrispondenza non influirà sulle connessioni esistenti. Una volta stabilita una connessione, i tasti di corrispondenza selezionati durante la configurazione della connessione vengono corretti. È importante selezionare **tutte** le chiavi di corrispondenza che si intende utilizzare nelle campagne future durante la configurazione dell&#39;account.
+
+Puoi anche aggiornare le chiavi di corrispondenza selezionate inizialmente durante la creazione dell’account. Queste chiavi di corrispondenza determineranno le chiavi di corrispondenza disponibili per le connessioni future.
+
+Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Corrispondenza chiavi]**.
 
 ![L&#39;area di lavoro del programma di installazione con l&#39;opzione Modifica evidenziata nella sezione delle chiavi di corrispondenza dell&#39;account.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**. Attiva e disattiva le chiavi di corrispondenza o aggiorna l&#39;**[!UICONTROL ID account]** per il tuo [!UICONTROL ID Adfixus], quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
+
+>[!IMPORTANT]
+>
+>La modifica di [!UICONTROL Adfixus ID] non attiverà un aggiornamento di [schizzo dati](../glossary.md#sketches) per le connessioni dati esistenti utilizzando la chiave di corrispondenza. Una volta tracciati i dati, eventuali modifiche al tuo [!UICONTROL Adfixus ID] non verranno applicate fino al prossimo aggiornamento del pubblico in base alle impostazioni della [pianificazione della connessione dati](./manage-data-connection.md#scheduling). Se sono necessarie modifiche prima del prossimo aggiornamento, è possibile eliminare e ricreare la connessione dati.
+
+![Finestra di dialogo Corrispondenza chiavi con l&#39;opzione Salva evidenziata.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
 ## Passaggi successivi
 
