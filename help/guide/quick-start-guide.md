@@ -108,7 +108,7 @@ Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e govern
 >**Corrispondenza con i requisiti chiave:**
 >
 >Tutte le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo**
->>Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.\
+>&#x200B;>Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.\
 >Se fornisci valori con hash che utilizzano caratteri maiuscoli, Collaboration li converte automaticamente in minuscoli.\
 >Se l&#39;origine contiene **identificatori di testo normale**, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]** per applicare l&#39;hashing. Questa opzione è disponibile solo quando si selezionano i tipi di pubblico da Experience Platform e non è supportata per le origini basate su cloud.
 >
@@ -222,7 +222,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
