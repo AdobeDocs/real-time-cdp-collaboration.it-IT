@@ -2,18 +2,33 @@
 title: Aggiungere e gestire i dati di misurazione
 description: Scopri come aggiungere i dati di misurazione a Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 9%
 
 ---
 
-# Aggiungere e gestire i dati di misurazione
+# Aggiungere e gestire i dati di misurazione {#add-and-manage-measurement-data}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_onboard_measurement_data"
+>title="Maggiori informazioni"
+>abstract=""
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_data_target_fields"
+>title="Campi di destinazione"
+>abstract="Segnaposto per i campi di destinazione della misurazione."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_data_source_fields"
+>title="Campi origine"
+>abstract="Segnaposto per i campi di origine della misurazione."
 
 {{limited-availability-release-note}}
 
