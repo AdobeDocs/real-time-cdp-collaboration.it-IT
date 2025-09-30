@@ -2,7 +2,7 @@
 title: Individua collaboratori
 description: In qualità di inserzionista, scopri come individuare potenziali collaboratori con cui lavorare utilizzando Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 source-git-commit: ae35f62580ff3d0485dcf99f3638f68d21cc38a2
 workflow-type: tm+mt

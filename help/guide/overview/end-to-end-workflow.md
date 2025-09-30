@@ -2,7 +2,7 @@
 title: Flusso di lavoro end-to-end
 description: Comprendi il flusso di lavoro end-to-end dell’utilizzo di Real-Time CDP Collaboration in base al tuo modello di collaborazione.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
