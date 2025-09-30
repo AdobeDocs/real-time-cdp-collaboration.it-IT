@@ -2,11 +2,11 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 7%
 
 ---
@@ -62,6 +62,11 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chiavi di corrispondenza"
 >abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i profili di pubblico da diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="chiavi di corrispondenza"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
