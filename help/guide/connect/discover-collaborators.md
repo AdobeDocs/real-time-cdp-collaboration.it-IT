@@ -25,7 +25,7 @@ Per individuare i collaboratori, passare alla scheda **[!UICONTROL Connetti]** >
 
 ![Il dashboard [!UICONTROL Individua collaboratori] nell&#39;area di lavoro [!UICONTROL Connetti].](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
-Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+Seleziona **[!UICONTROL Visualizza editore]** per ulteriori informazioni sull&#39;editore. È inoltre possibile visualizzare ed esaminare tutti i tipi di pubblico impostati come pubblici dall&#39;editore [&#128279;](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ![Dettagli di un singolo editore](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 
