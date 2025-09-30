@@ -2,12 +2,12 @@
 title: Stabilimento di connessioni
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="Sovrapposizione degli ID esposti degli annunci"
+>title="ID annuncio esposto e sovrapposto"
 >abstract="Rappresenta il numero di &quot;ID risolti&quot; dal pubblico caricato che sono stati esposti a un annuncio tramite Amazon Ads."
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Raggruppamento per prodotto annuncio Amazon"
+>title="Raggruppamento per annuncio pubblicitario Amazon"
 >abstract="Raggruppamento degli &quot;ID sovrapposti esposti agli annunci&quot; raggiunti dal prodotto sponsorizzato da Amazon Ads e/o dal DSP di Amazon Ads."
 
 {{limited-availability-release-note}}
@@ -58,13 +58,13 @@ Per informazioni su come stabilire una connessione, leggere la sezione seguente 
 
 ![Diagramma di alto livello del processo di connessione inserzionista-editore.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-Nel modello da inserzionista a editore, un inserzionista individua un editore con cui desidera collaborare tramite l&#39;area di lavoro **[!UICONTROL Discover publishers]** e invia un invito alla connessione. L’editore rivede quindi l’invito e lo accetta, consentendo all’inserzionista di proporre le impostazioni di connessione. Una volta che l&#39;editore accetta le impostazioni di connessione, la connessione viene stabilita ed entrambi i collaboratori possono iniziare a lavorare insieme ai progetti.
+Nel modello da inserzionista a editore, un inserzionista individua un editore con cui desidera collaborare tramite l&#39;area di lavoro **[!UICONTROL Individua collaboratori]** e invia un invito alla connessione. L’editore rivede quindi l’invito e lo accetta, consentendo all’inserzionista di proporre le impostazioni di connessione. Una volta che l&#39;editore accetta le impostazioni di connessione, la connessione viene stabilita ed entrambi i collaboratori possono iniziare a lavorare insieme ai progetti.
 
 ### Panoramica di alto livello
 
 Per stabilire una connessione tra un inserzionista e un editore, sono necessari i seguenti passaggi:
 
-1. [Individua editori](#discover-publishers): l&#39;inserzionista identifica i potenziali editori con cui collaborare.
+1. [Individua editori](#discover-collaborators): l&#39;inserzionista identifica i potenziali collaboratori con cui lavorare.
 1. [Invia invito](#send-invite): l&#39;inserzionista invia un invito di connessione all&#39;editore selezionato.
 1. [Accetta invito](#accept-invite): l&#39;editore rivede e accetta l&#39;invito.
 1. [Configura impostazioni di connessione](#configure-connection-settings): l&#39;inserzionista configura le impostazioni di connessione e le invia all&#39;editore per la revisione.
@@ -108,25 +108,25 @@ Una volta accettate le impostazioni di connessione, la connessione viene stabili
 
 L&#39;area di lavoro **[!UICONTROL Connetti]** consente di gestire le connessioni con i collaboratori, inviare inviti di connessione e consentire agli inserzionisti di sfogliare la directory di pubblicazione. L’area di lavoro è divisa in due schede principali:
 
-### Individua editori {#discover-publishers}
+### Individua collaboratori {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Solo gli inserzionisti possono individuare gli editori utilizzando l&#39;area di lavoro **[!UICONTROL Individua editori]**. Per informazioni sulla connessione con i collaboratori indipendentemente dal loro ruolo, consulta la sezione [connessione brand-to-brand](#brand-to-brand-connection).
+>Solo gli inserzionisti possono individuare gli editori utilizzando l&#39;area di lavoro **[!UICONTROL Individua collaboratori]**. Per informazioni sulla connessione con i collaboratori indipendentemente dal loro ruolo, consulta la sezione [connessione brand-to-brand](#brand-to-brand-connection).
 
-Per individuare gli editori, passare all&#39;area di lavoro **[!UICONTROL Individua editori]** nella scheda **[!UICONTROL Connetti]**. Qui puoi sfogliare l’elenco degli editori disponibili utilizzando i controlli di impaginazione nella parte inferiore dell’area di lavoro. Per ulteriori informazioni sull&#39;area di lavoro **[!UICONTROL Individua autori]**, vedere la guida [individua autori](/help/guide/connect/discover-publishers.md).
+Per individuare gli editori, passare all&#39;area di lavoro **[!UICONTROL Individua i collaboratori]** nella scheda **[!UICONTROL Connetti]**. Qui puoi sfogliare l’elenco degli editori disponibili utilizzando i controlli di impaginazione nella parte inferiore dell’area di lavoro. Per ulteriori informazioni sull&#39;area di lavoro **[!UICONTROL Individua collaboratori]**, vedere la guida [individua collaboratori](/help/guide/connect/discover-collaborators.md).
 
-![Nell&#39;area di lavoro Individua editori viene visualizzato un elenco degli editori disponibili.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![Nell&#39;area di lavoro Individua collaboratori viene visualizzato un elenco degli editori disponibili.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Invia invito {#send-invite}
 
 >[!IMPORTANT]
 >
->Questa sezione descrive il processo con cui gli inserzionisti inviano inviti di connessione agli editori tramite l&#39;area di lavoro **[!UICONTROL Discover publishers]**. Per informazioni sulla creazione di connessioni tra brand indipendentemente dai ruoli, leggi la sezione [connessione brand-to-brand](#brand-to-brand-connection) o visita la sezione [invito connessione privata](#private-connection-invite).
+>In questa sezione viene descritto il processo con cui gli inserzionisti inviano inviti di connessione agli editori tramite l&#39;area di lavoro **[!UICONTROL Individua collaboratori]**. Per informazioni sulla creazione di connessioni tra brand indipendentemente dai ruoli, leggi la sezione [connessione brand-to-brand](#brand-to-brand-connection) o visita la sezione [invito connessione privata](#private-connection-invite).
 
 Dopo aver identificato un editore con cui vuoi collaborare, seleziona l&#39;opzione **[!UICONTROL Connetti]** nella scheda dell&#39;editore. Questa azione avvia il processo di connessione.
 
-![L&#39;opzione Connetti è evidenziata in un editore specifico nell&#39;area di lavoro Individua editori.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![L&#39;opzione Connetti è evidenziata in un editore specifico nell&#39;area di lavoro Individua collaboratori.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Viene visualizzata una finestra di dialogo in cui viene richiesto di inviare un invito alla connessione all&#39;editore. Seleziona **[!UICONTROL Invia invito]** per continuare.
 
@@ -223,7 +223,7 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Chiavi di corrispondenza"
 >abstract="Le chiavi di corrispondenza sono precompilate con le chiavi di corrispondenza comuni che tu e il tuo collaboratore avete selezionato a livello di account. Puoi disattivare le chiavi di corrispondenza che non desideri utilizzare in questa connessione."
->additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chiavi di corrispondenza account"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Chiavi di corrispondenza account"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"

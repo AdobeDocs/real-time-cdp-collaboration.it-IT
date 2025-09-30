@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 66db8aa03d779b4b81021b6d502613a7f13d0771
+source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 34%
+source-wordcount: '119'
+ht-degree: 35%
 
 ---
 
@@ -30,8 +30,7 @@ ht-degree: 34%
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Registri di audit](./setup/audit-logs.md)
 * Stabilimento di connessioni {#connect}
-   * [Individua editori](./connect/discover-publishers.md)
-   * [Scopri gli inserzionisti](./connect/discover-advertisers.md)
+   * [Individua collaboratori](./connect/discover-collaborators.md)
    * [Stabilimento di connessioni](./connect/establishing-connections.md)
 * Collabora {#collaborate}
    * [Gestione progetti](./collaborate/manage-projects.md)
