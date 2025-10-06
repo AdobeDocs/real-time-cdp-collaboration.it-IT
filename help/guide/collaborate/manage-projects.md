@@ -2,12 +2,12 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ Quindi, aggiungi **[!UICONTROL Nome progetto]** e **[!UICONTROL Descrizione]** p
 Ora puoi visualizzare il nuovo progetto, i relativi dettagli e le sezioni disponibili in base ai casi d’uso selezionati durante la configurazione della connessione.
 
 ![Area di lavoro panoramica progetto.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Casi di utilizzo del progetto {#project-use-cases}
-
-Nella panoramica del progetto vengono visualizzati i casi d’uso selezionati durante la configurazione della connessione. Questi casi d’uso definiscono le funzionalità disponibili nel progetto. I casi d’uso sono:
-
-| Caso d’uso | Sezione progetto |
-| --- | --- |
-| Misurazione campagne | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Measure](/help/guide/collaborate/measure.md) e a tutte le funzionalità disponibili. |
-| Individuazione del pubblico | Questo caso d&#39;uso consente di accedere alla sezione [Discover](/help/guide/collaborate/discover.md) e a tutte le funzionalità disponibili. |
-| Attivazione del pubblico | Questo caso d&#39;uso concede l&#39;accesso alla sezione [Attiva](/help/guide/collaborate/activate.md) e a tutte le funzionalità disponibili. |

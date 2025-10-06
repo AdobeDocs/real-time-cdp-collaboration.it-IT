@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 33%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 35%
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Registri di audit](./setup/audit-logs.md)
 * Stabilimento di connessioni {#connect}
+   * [Overview.md](./connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
-   * [Stabilimento di connessioni](./connect/establishing-connections.md)
+   * [Stabilire connessioni collaboratore](./connect/establishing-connections.md)
+   * [Gestire le connessioni](./connect/manage-connections.md)
+   * Connessioni alla piattaforma Advertising {#ad-platform-connections}
+      * [Panoramica](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collabora {#collaborate}
+   * [Panoramica](./collaborate/overview.md)
    * [Gestione progetti](./collaborate/manage-projects.md)
-   * [Scopri](./collaborate/discover.md)
-   * [Attiva](./collaborate/activate.md)
-   * [Misura](./collaborate/measure.md)
+   * Connessioni di Collaborator {#collaborator-connections}
+      * [Scopri](./collaborate/discover.md)
+      * [Attiva](./collaborate/activate.md)
+      * [Misura](./collaborate/measure.md)
+   * Connessioni alla piattaforma Advertising {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Destinazioni {#destinations}
    * [Panoramica](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
