@@ -2,7 +2,7 @@
 title: Panoramica delle connessioni
 description: Scopri le connessioni in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
 source-wordcount: '754'

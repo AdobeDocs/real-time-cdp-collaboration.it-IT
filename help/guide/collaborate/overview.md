@@ -2,7 +2,7 @@
 title: Panoramica sulla collaborazione
 description: Scopri come collaborare in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
 source-wordcount: '190'

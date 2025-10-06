@@ -2,7 +2,7 @@
 title: Gestire le connessioni
 description: Scopri come gestire le connessioni in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: d6f0c5add0c0c69e5aed36cef77630ed5f7d1908
 workflow-type: tm+mt
 source-wordcount: '326'

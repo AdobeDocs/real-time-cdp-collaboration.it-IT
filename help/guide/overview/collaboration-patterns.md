@@ -2,7 +2,7 @@
 title: I modelli di collaborazione in Adobe Real-Time CDP Collaboration.
 description: Comprendere i due modelli di collaborazione in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
 source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
