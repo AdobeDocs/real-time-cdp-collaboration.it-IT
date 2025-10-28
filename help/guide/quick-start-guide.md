@@ -2,9 +2,9 @@
 title: Guida rapida di Real-Time CDP Collaboration
 description: Scopri come integrare la tua organizzazione in Real-Time CDP Collaboration, inclusa la configurazione di ruoli e organizzazioni, l’origine del pubblico, l’attivazione e la misurazione. Questa guida aiuta i collaboratori a configurare le impostazioni di connessione per iniziare a utilizzare i propri tipi di pubblico in modo sicuro ed efficiente.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
+source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
@@ -41,7 +41,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?learn=on&enablevpops&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
 
@@ -108,7 +108,7 @@ Configura il modo in cui i tipi di pubblico vengono preparati, abbinati e govern
 >**Corrispondenza con i requisiti chiave:**
 >
 >Tutte le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo**
->&#x200B;>Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.\
+>>Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.\
 >Se fornisci valori con hash che utilizzano caratteri maiuscoli, Collaboration li converte automaticamente in minuscoli.\
 >Se l&#39;origine contiene **identificatori di testo normale**, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]** per applicare l&#39;hashing. Questa opzione è disponibile solo quando si selezionano i tipi di pubblico da Experience Platform e non è supportata per le origini basate su cloud.
 >
@@ -122,7 +122,15 @@ In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collab
 
 ### Opzione B: Source da Snowflake o Amazon S3
 
-Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflake]), prepara i dati del pubblico utilizzando il seguente [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Una volta completata la configurazione o in caso di domande, contatta il rappresentante del tuo account Adobe per finalizzarla. Questo metodo non è self-service e richiede l’assistenza di Adobe.
+Per configurare un&#39;origine cloud (ad esempio, [!DNL AWS S3] o [!DNL Snowflake]), prepara i dati del pubblico utilizzando il seguente [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf). Una volta completata la configurazione o in caso di domande, contatta il rappresentante del tuo account Adobe per finalizzarla. Questo metodo non è self-service e richiede l’assistenza di Adobe.
+
+<!-- Add in the below in final draft: 
+
+To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
+
+[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
+
+If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
 
 >[!IMPORTANT]
 >
@@ -222,7 +230,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
