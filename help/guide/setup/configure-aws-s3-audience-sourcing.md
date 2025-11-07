@@ -1,9 +1,7 @@
 ---
 title: Configura [!DNL Amazon S3] per Audience Sourcing
 description: Scopri come configurare e collegare l'archiviazione  [!DNL Amazon S3]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
-hide: true
-hidefromtoc: true
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -188,7 +186,7 @@ In visualizzazione griglia o tabella, selezionare un elemento riga o **[!UICONTR
 
 Utilizza questa visualizzazione per confermare la configurazione del pubblico e le impostazioni di visibilità prima di utilizzarlo nei progetti di collaborazione.
 
-Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visualizzare la connessione dati S3 {#view-s3-connection}
 
