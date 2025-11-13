@@ -2,12 +2,12 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,11 @@ Puoi utilizzare i filtri per visualizzare solo i progetti avviati con alcuni col
 ![Visualizzazione filtrata dei progetti con un unico collaboratore.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Crea progetto {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Nome inserzionista (Amazon Marketing Cloud)"
+>abstract="Per le connessioni Amazon Marketing Cloud (AMC), questo campo rappresenta l’istanza AMC a cui il tuo account di accesso di Amazon Ads ha accesso. Non riflette il nome di un inserzionista. Se l’istanza richiesta non è elencata, contatta il tuo amministratore Amazon Marketing Cloud per richiedere l’accesso."
 
 Per creare un progetto, devi prima [stabilire una connessione](/help/guide/connect/establishing-connections.md) con un collaboratore. Una volta stabilita la connessione, puoi creare un progetto con quel collaboratore.
 
