@@ -1,10 +1,10 @@
 ---
 title: Configura [!DNL Amazon S3] per Audience Sourcing
 description: Scopri come configurare e collegare l'archiviazione  [!DNL Amazon S3]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,12 @@ Seleziona **[!UICONTROL Amazon S3]** come connessione dati, seguito da **[!UICON
 
 ### Verifica i requisiti del file del pubblico {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Preparazione dei dati per l’onboarding"
+>abstract="Leggi la guida alle specifiche di Audience Sourcing per scoprire come formattare e strutturare i dati sul pubblico da Amazon S3 per Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulta la guida"
+
 Viene visualizzata una finestra di dialogo che spiega come devono essere strutturati i file del pubblico. Utilizza il collegamento alla **[[!UICONTROL specifica di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** per scoprire come formattare e strutturare i dati del pubblico da [!DNL Amazon S3] per consentire a Collaboration di leggerli correttamente.
 
 >[!IMPORTANT]
@@ -87,6 +93,11 @@ Le considerazioni principali includono:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Formato percorso cartella"
 >abstract="Immetti il percorso della cartella (prefisso) nel bucket [!DNL Amazon S3] in cui sono archiviati i file del pubblico.<br><ul><li>Non avviate i tracciati con una barra (/).</li><li>Includi una barra finale alla fine del percorso.</li><ul><br>Esempio valido: `base/path/`<br>Esempio non valido: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Aggiungere un pubblico per Amazon S3"
+>abstract="Per collegare il tuo archivio Amazon S3, autorizza l’utente del servizio Adobe a recuperare i dati sul pubblico per l’elaborazione. Segui i passaggi descritti in Experience League per concedere ad Adobe l’accesso al tuo archivio Amazon S3."
 
 Quindi, fornisci le credenziali [!DNL Amazon S3] per connettere il bucket S3 a Collaboration.
 
@@ -186,7 +197,7 @@ In visualizzazione griglia o tabella, selezionare un elemento riga o **[!UICONTR
 
 Utilizza questa visualizzazione per confermare la configurazione del pubblico e le impostazioni di visibilità prima di utilizzarlo nei progetti di collaborazione.
 
-Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visualizzare la connessione dati S3 {#view-s3-connection}
 
