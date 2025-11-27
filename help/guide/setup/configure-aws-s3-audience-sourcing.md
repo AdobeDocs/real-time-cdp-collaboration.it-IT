@@ -197,7 +197,7 @@ In visualizzazione griglia o tabella, selezionare un elemento riga o **[!UICONTR
 
 Utilizza questa visualizzazione per confermare la configurazione del pubblico e le impostazioni di visibilità prima di utilizzarlo nei progetti di collaborazione.
 
-Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
+Per ulteriori informazioni, consulta la [Documentazione del dashboard tipi di pubblico](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard).
 
 ## Visualizzare la connessione dati S3 {#view-s3-connection}
 
