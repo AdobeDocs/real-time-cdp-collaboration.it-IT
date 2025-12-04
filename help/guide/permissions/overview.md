@@ -2,9 +2,9 @@
 title: Panoramica sul controllo degli accessi
 description: Scopri come accedere ad Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Per configurare il controllo degli accessi a Collaboration, **è necessario** di
 Queste guide descrivono come configurare l’accesso per gli amministratori di sistema, gli amministratori di prodotto e gli utenti finali. Fai riferimento alla tabella seguente per comprendere la differenza chiave tra i ruoli.
 
 | Ruolo | Descrizione |
-| --- | --- | 
+| --- | --- |
 | Amministratore di sistema | L’utente con privilegi avanzati per l’organizzazione. Possono eseguire tutte le attività amministrative nell’Admin Console e disporre delle autorizzazioni necessarie per delegare funzioni amministrative ad altri utenti. |
 | Amministratore del prodotto | Amministra i prodotti loro assegnati e tutte le funzioni amministrative associate, ad esempio l’aggiunta di utenti alle organizzazioni, l’aggiunta o la rimozione di utenti dai profili di prodotto e l’aggiunta o la rimozione di altri amministratori di prodotto da un prodotto. |
 | Utente finale | Gli utenti dell’organizzazione che utilizzano i prodotti. |
@@ -65,7 +65,7 @@ Consulta il grafico seguente per determinare chi è necessario per configurare i
 > Per utente con privilegi avanzati si intende il livello massimo di accesso che l&#39;amministratore di sistema può ottenere. Un utente con privilegi avanzati può eseguire tutte le attività amministrative e le funzionalità utente. Un amministratore di sistema non dispone di funzionalità di prodotto pronte all’uso e deve fornire a se stesso l’accesso appropriato, come illustrato nel grafico seguente.
 
 | Caso d’uso | Ruolo richiesto | Dove iniziare |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Utente privilegiato senza accesso al prodotto Experience Platform esistente. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
 | Utente con privilegi avanzati per un amministratore di sistema Experience Platform esistente **con** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema. | [Configura accesso a Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Utente con privilegi avanzati per un amministratore di sistema Experience Platform esistente **senza** accesso all&#39;interfaccia utente di Experience Platform. | Un amministratore di sistema. | [Configurare l&#39;accesso amministratore del prodotto](./manage-user-access.md#admin-access) |
