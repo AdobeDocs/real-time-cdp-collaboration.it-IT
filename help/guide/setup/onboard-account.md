@@ -2,9 +2,9 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 7%
@@ -122,15 +122,15 @@ Gli ID dispositivo di prime parti sono identificatori collegati a un dispositivo
 
 Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID attualmente supportati sono:
 
-* **[!UICONTROL ID Adobe]**
+* **[!UICONTROL ID AdFixus]**
 
 >[!NOTE]
 >
->L&#39;integrazione di Adobe con [!DNL Adfixus] associa i [!UICONTROL ID Adfixus] univoci per ciascun account a un formato con codifica Adobe comune. Queste mappature vengono utilizzate per identificare sovrapposizioni tra collaboratori. Quando si attivano tipi di pubblico con **[!UICONTROL Adfixus ID]**, vengono utilizzati gli ID originali. Il formato codificato da Adobe non lascia mai Collaboration.
+>L&#39;integrazione di Adobe con [!DNL AdFixus] associa gli [!UICONTROL ID AdFixus] univoci per ciascun account a un formato con codifica Adobe comune. Queste mappature vengono utilizzate per identificare sovrapposizioni tra collaboratori. Quando si attivano tipi di pubblico con **[!UICONTROL ID AdFixus]**, vengono utilizzati gli ID originali. Il formato codificato da Adobe non lascia mai Collaboration.
 
-Quando selezioni **[!UICONTROL Adfixus ID]**, dovrai fornire l&#39;ID corrispondente dal tuo partner esterno nella sezione **[!UICONTROL Credenziali account]**. Questa opzione sarà disponibile solo *dopo* l&#39;attivazione di **[!UICONTROL Adfixus ID]**. Immetti il tuo ID Adfixus nel campo **[!UICONTROL ID account]**, assicurandoti di verificare due volte la precisione del valore.
+Quando selezioni **[!UICONTROL ID AdFixus]**, dovrai fornire l&#39;ID corrispondente dal tuo partner esterno nella sezione **[!UICONTROL Credenziali account]**. Questa opzione sarà disponibile solo *dopo* l&#39;attivazione di **[!UICONTROL ID AdFixus]**. Immetti l&#39;ID AdFixus nel campo **[!UICONTROL ID account]**, assicurandoti di verificare la precisione del valore.
 
-![La finestra di dialogo Corrispondenza chiavi con Adfixus ID è attivata ed è evidenziata la sezione Credenziali account.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![La finestra di dialogo Corrispondenza chiavi con ID AdFixus è attivata ed è evidenziata la sezione Credenziali account.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 Dopo aver selezionato tutte le chiavi di corrispondenza desiderate, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;account.
 
@@ -164,11 +164,11 @@ Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Corrispondenza c
 
 ![L&#39;area di lavoro del programma di installazione con l&#39;opzione Modifica evidenziata nella sezione delle chiavi di corrispondenza dell&#39;account.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**. Attiva e disattiva le chiavi di corrispondenza o aggiorna l&#39;**[!UICONTROL ID account]** per il tuo [!UICONTROL ID Adfixus], quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**. Attiva e disattiva le chiavi di corrispondenza o aggiorna l&#39;**[!UICONTROL ID account]** per l&#39;[!UICONTROL ID AdFixus], quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
 
 >[!IMPORTANT]
 >
->La modifica di [!UICONTROL Adfixus ID] non attiverà un aggiornamento di [schizzo dati](../glossary.md#sketches) per le connessioni dati esistenti utilizzando la chiave di corrispondenza. Una volta tracciati i dati, eventuali modifiche al tuo [!UICONTROL Adfixus ID] non verranno applicate fino al prossimo aggiornamento del pubblico in base alle impostazioni della [pianificazione della connessione dati](./manage-data-connection.md#scheduling). Se sono necessarie modifiche prima del prossimo aggiornamento, è possibile eliminare e ricreare la connessione dati.
+>La modifica del [!UICONTROL ID AdFixus] non attiverà un aggiornamento di [schizzo dati](../glossary.md#sketches) per le connessioni dati esistenti utilizzando la chiave di corrispondenza. Una volta tracciati i dati, eventuali modifiche al tuo [!UICONTROL ID AdFixus] non verranno applicate fino al prossimo aggiornamento del pubblico in base alle impostazioni della [pianificazione della connessione dati](./manage-data-connection.md#scheduling). Se sono necessarie modifiche prima del prossimo aggiornamento, è possibile eliminare e ricreare la connessione dati.
 
 ![Finestra di dialogo Corrispondenza chiavi con l&#39;opzione Salva evidenziata.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
