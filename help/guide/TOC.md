@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 23025b0f4cd853f671ac8cc5ef3696cac03d20a4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 28%
 
 ---
 
@@ -22,15 +22,17 @@ ht-degree: 30%
 * Configurazione {#setup}
    * [Panoramica della sezione di configurazione](./setup/setup-overview.md)
    * [Integrare e gestire l’account](./setup/onboard-account.md)
-   * [Source e gestire i tipi di pubblico](./setup/onboard-audiences.md)
-   * [Configurare Amazon S3 per l’audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
-   * [Configurare le autorizzazioni di AWS per Audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+   * Source e gestire i tipi di pubblico {#source-audiences}
+      * [Configurare AEP per l’audience sourcing](./setup/onboard-audiences.md)
+      * [Configurare le autorizzazioni di AWS per Audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [Configurare Amazon S3 per l’audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
+      * [Carica file CSV per Audience sourcing](./setup/upload-csv-audience-sourcing.md)
    * [Gestisci connessioni dati](./setup/manage-data-connection.md)
    * [Configurare e gestire le destinazioni](./setup/manage-destinations.md)
    * [Tracciare l’attività di consumo del credito](/help/guide/setup/my-activity.md)
    * [Crosswalk delle identità](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
-   * [Registri di audit](./setup/audit-logs.md)
+   * [Registri di controllo](./setup/audit-logs.md)
 * Stabilimento di connessioni {#connect}
    * [Overview.md](./connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
