@@ -2,12 +2,12 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 7%
+source-wordcount: '1373'
+ht-degree: 6%
 
 ---
 
@@ -76,7 +76,7 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID dispositivo di prime parti"
->abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente ai dispositivi, che possono essere condivisi tra più singoli utenti. IPv4 è l’unico ID dispositivo di prime parti attualmente supportato."
+>abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più individui."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -117,6 +117,8 @@ Gli ID persona di prime parti sono direttamente collegati a un singolo profilo. 
 Gli ID dispositivo di prime parti sono identificatori collegati a un dispositivo specifico. Gli ID attualmente supportati sono:
 
 * **[!UICONTROL Hash IPv4]**: indirizzi IPv4 con hash
+* **[!UICONTROL IDFA]**: l&#39;identificatore per gli inserzionisti (IDFA) utilizzato nei dispositivi Apple iOS
+* **[!UICONTROL GAID]**: ID inserzionista Google utilizzato nei dispositivi Android
 
 ##### ID partner
 
