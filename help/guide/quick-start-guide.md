@@ -2,9 +2,9 @@
 title: Guida rapida e configurazione di Real-Time CDP Collaboration
 description: Scopri come configurare Real-Time CDP Collaboration, ruoli e account, tipi di pubblico di origine, attivare i dati e connettersi con i partner in modo sicuro.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
+source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -41,7 +41,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
 
@@ -122,7 +122,7 @@ In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collab
 
 ### Opzione B: Source da Snowflake o Amazon S3
 
-Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake] o [!DNL Amazon S3], preparare i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)
+Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake] o [!DNL Amazon S3], preparare i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
 
 È possibile configurare [!DNL Amazon S3] come origine dati autonoma. Per istruzioni di installazione, consulta la [Guida all&#39;approvvigionamento di Amazon S3](./setup/configure-aws-s3-audience-sourcing.md)
 
@@ -226,7 +226,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
