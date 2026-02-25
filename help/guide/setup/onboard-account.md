@@ -2,12 +2,12 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 6%
+source-wordcount: '1359'
+ht-degree: 7%
 
 ---
 
@@ -156,23 +156,25 @@ Ora puoi modificare i dettagli del tuo account. Aggiorna i campi che desideri mo
 
 ### Modifica chiavi di corrispondenza {#edit-match-keys}
 
->[!IMPORTANT]
->
->La modifica delle chiavi di corrispondenza non influirà sulle connessioni esistenti. Una volta stabilita una connessione, i tasti di corrispondenza selezionati durante la configurazione della connessione vengono corretti. È importante selezionare **tutte** le chiavi di corrispondenza che si intende utilizzare nelle campagne future durante la configurazione dell&#39;account.
-
 Puoi anche aggiornare le chiavi di corrispondenza selezionate inizialmente durante la creazione dell’account. Queste chiavi di corrispondenza determineranno le chiavi di corrispondenza disponibili per le connessioni future.
 
 Seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Corrispondenza chiavi]**.
 
 ![L&#39;area di lavoro del programma di installazione con l&#39;opzione Modifica evidenziata nella sezione delle chiavi di corrispondenza dell&#39;account.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**. Attiva e disattiva le chiavi di corrispondenza o aggiorna l&#39;**[!UICONTROL ID account]** per l&#39;[!UICONTROL ID AdFixus], quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**. Attiva le chiavi di corrispondenza o aggiorna l&#39;**[!UICONTROL ID account]** per l&#39;[!UICONTROL ID AdFixus], quindi seleziona **[!UICONTROL Salva]** per confermare le modifiche.
 
 >[!IMPORTANT]
 >
 >La modifica del [!UICONTROL ID AdFixus] non attiverà un aggiornamento di [schizzo dati](../glossary.md#sketches) per le connessioni dati esistenti utilizzando la chiave di corrispondenza. Una volta tracciati i dati, eventuali modifiche al tuo [!UICONTROL ID AdFixus] non verranno applicate fino al prossimo aggiornamento del pubblico in base alle impostazioni della [pianificazione della connessione dati](./manage-data-connection.md#scheduling). Se sono necessarie modifiche prima del prossimo aggiornamento, è possibile eliminare e ricreare la connessione dati.
+>
+>Al momento, le chiavi di corrispondenza non possono essere rimosse una volta aggiunte al tuo account.
 
 ![Finestra di dialogo Corrispondenza chiavi con l&#39;opzione Salva evidenziata.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+Una finestra di dialogo di completamento verifica che le chiavi di corrispondenza dell’account siano state aggiornate correttamente.
+
+![Una finestra di dialogo di conferma dell&#39;esito positivo delle chiavi di corrispondenza dell&#39;account è stata aggiornata correttamente.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Passaggi successivi
 
