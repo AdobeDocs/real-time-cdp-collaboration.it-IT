@@ -2,7 +2,7 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -86,7 +86,7 @@ Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguen
 | **[!UICONTROL Conteggio identità]** (tuo collaboratore) | Il numero di ID univoci all’interno del pubblico del collaboratore. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci presenti sia nel pubblico dell’utente che in quello del collaboratore. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di profili che si sovrappongono tra il tuo pubblico selezionato e quello del tuo collaboratore. |
-| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). I punteggi dell’indice del pubblico non sono disponibili quando si esegue il confronto con la linea di base del collaboratore (tutti i tipi di pubblico). |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base a conteggi dei pubblici e sovrapposizioni sottostanti. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). I punteggi dell’indice del pubblico non sono disponibili quando si esegue il confronto con la linea di base del collaboratore (tutti i tipi di pubblico). |
 | **[!UICONTROL Raggruppamento identità per chiave di corrispondenza]** | La suddivisione delle identità corrispondenti per ogni chiave di corrispondenza scelta nel progetto, in base ai tipi di pubblico selezionati per ogni collaboratore. |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ La sezione **[!UICONTROL Tipi di pubblico rilevanti]** visualizza le seguenti in
 | **[!UICONTROL Conteggio identità]** | Il numero di ID univoci all’interno del pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci che si sovrappongono tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di identità sovrapposte tra il pubblico consigliato e tutti i tipi di pubblico. |
-| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base a conteggi dei pubblici e sovrapposizioni sottostanti. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
 | **[!UICONTROL Categorie di pubblico]** | Le categorie assegnate al pubblico dal collaboratore. |
 | **[!UICONTROL Corrispondenza chiavi]** | Le chiavi di corrispondenza selezionate dal collaboratore per il pubblico. |
 
@@ -159,7 +159,7 @@ Dopo aver selezionato i tipi di pubblico desiderati, nella sezione **[!UICONTROL
 | **[!UICONTROL Conteggio identità]** | Il numero di ID univoci all’interno del pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di ID univoci che si sovrappongono tra il pubblico consigliato e tutti i tipi di pubblico. |
 | **[!UICONTROL Sovrapposizione %]** | La percentuale di identità sovrapposte tra il pubblico consigliato e tutti i tipi di pubblico. |
-| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base ai conteggi del pubblico sottostante e alle sovrapposizioni. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
+| **[!UICONTROL Indice pubblico]** | Un punteggio che indica quanto fortemente un pubblico si relaziona con un altro in base a conteggi dei pubblici e sovrapposizioni sottostanti. Per ulteriori informazioni sul significato dei punteggi, consulta la sezione [Punteggio indice pubblico](#audience-index-score). |
 | **[!UICONTROL Categorie di pubblico]** | Le categorie assegnate al pubblico dal collaboratore. |
 | **[!UICONTROL Corrispondenza chiavi]** | Le chiavi di corrispondenza selezionate dal collaboratore per il pubblico. |
 
