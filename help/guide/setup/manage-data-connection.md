@@ -2,11 +2,11 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1149'
 ht-degree: 3%
 
 ---
@@ -60,6 +60,12 @@ Per ulteriori informazioni sulla pianificazione, consulta la [sezione pianificaz
 Leggi le sezioni seguenti per scoprire come aggiornare le chiavi di corrispondenza e le impostazioni di pianificazione di una connessione dati esistente.
 
 ### Modifica chiavi di corrispondenza {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Arricchimento"
+>abstract="La disattivazione dell’arricchimento non è supportata. In alternativa, puoi modificare le chiavi di unione per l’arricchimento."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Arricchimento"
 
 >[!IMPORTANT]
 >
