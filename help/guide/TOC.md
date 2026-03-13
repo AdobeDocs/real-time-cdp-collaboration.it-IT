@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 469c1e650235e15d7b09650d3affa3c8c7563b09
+source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 27%
+source-wordcount: '179'
+ht-degree: 32%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 27%
       * [Carica file CSV per Audience sourcing](./setup/upload-csv-audience-sourcing.md)
    * [Gestisci connessioni dati](./setup/manage-data-connection.md)
    * [Configurare e gestire le destinazioni](./setup/manage-destinations.md)
-   * [Tracciare l’attività di consumo del credito](/help/guide/setup/my-activity.md)
+   * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
    * [Crosswalk delle identità](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Registri di controllo](./setup/audit-logs.md)
 * Stabilimento di connessioni {#connect}
-   * [Overview.md](./connect/overview.md)
+   * [Panoramica.md](./connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
    * [Stabilire connessioni collaboratore](./connect/establishing-connections.md)
    * [Gestire le connessioni](./connect/manage-connections.md)
@@ -51,14 +51,15 @@ ht-degree: 27%
       * [Misura](./collaborate/measure.md)
    * Connessioni alla piattaforma Advertising {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [Creare rapporti di misurazione AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinazioni {#destinations}
    * [Panoramica](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Autorizzazioni {#permissions}
    * [Panoramica](./permissions/overview.md)
-   * [Gestire l’accesso degli utenti](./permissions/manage-user-access.md)
+   * [Gestire l&#39;accesso degli utenti](./permissions/manage-user-access.md)
    * [Gestire i ruoli](./permissions/manage-roles.md)
 * Riferimenti {#reference}
-   * [Domande comuni e suggerimenti per la risoluzione dei problemi](./faqs/common-questions.md)
+   * [Domande frequenti e suggerimenti per la risoluzione dei problemi](./faqs/common-questions.md)
    * [Glossario](./glossary.md)
 * [Note sulla versione più recente](./release-notes/latest.md)
