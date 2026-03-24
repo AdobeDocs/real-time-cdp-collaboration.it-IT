@@ -1,96 +1,96 @@
 ---
-title: Source e gestire i tipi di pubblico
-description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
+title: Fondere e gestire i gruppi di destinatari
+description: Scopri come attirare e gestire i destinatari in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: d554ce3921211bc0d726b88f410410cdccc1a937
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 13%
+source-wordcount: '3631'
+ht-degree: 17%
 
 ---
 
-# Source e gestire i tipi di pubblico
+# Fondere e gestire i gruppi di destinatari
 
 {{limited-availability-release-note}}
 
-I tipi di pubblico sono gruppi specifici di utenti o clienti segmentati in base a vari attributi. Questi consentono ai collaboratori di collaborare su marketing mirato ed esperienze personalizzate per campagne pubblicitarie più efficaci. Questa guida illustra come individuare il pubblico in Real-Time CDP Collaboration, visualizzare la dashboard dei tipi di pubblico e gestire i singoli tipi di pubblico.
+I gruppi di destinatari sono gruppi specifici di utenti o clienti segmentati in base a vari attributi. Questi consentono ai collaboratori di collaborare su marketing mirato ed esperienze personalizzate per campagne pubblicitarie più efficaci. In questa guida viene descritto come assegnare i gruppi di destinatari a Real-Time CDP Collaboration, visualizzare il dashboard dei gruppi di destinatari e gestire i singoli gruppi di destinatari.
 
-## Tipi di pubblico di Source in Collaboration {#source-audiences}
+## Fonda i gruppi di destinatari nella collaborazione {#source-audiences}
 
 >[!IMPORTANT]
 >
->Per originare i tipi di pubblico, l&#39;utente deve essere assegnato a un ruolo contenente due autorizzazioni per la gestione dei profili: **[!UICONTROL Visualizza profili]** e **[!UICONTROL Visualizza segmenti]**. Per informazioni sull&#39;assegnazione delle autorizzazioni necessarie, fare riferimento alla [guida di audience sourcing](../permissions/overview.md#audience-sourcing) in autorizzazioni.
+>Per generare gruppi di destinatari, l&#39;utente deve essere assegnato a un ruolo contenente due autorizzazioni per la gestione dei profili: **[!UICONTROL Visualizza profili]** e **[!UICONTROL Visualizza segmenti]**. Per informazioni sull&#39;assegnazione delle autorizzazioni necessarie, consultare la guida [Audience sourcing](../permissions/overview.md#audience-sourcing) nelle autorizzazioni.
 
-Prima di poter attivare i tipi di pubblico con i collaboratori ed eseguire calcoli di sovrapposizione, è necessario che i tipi di pubblico vengano inseriti in Collaboration. Per sorgente i tipi di pubblico, segui i passaggi del flusso di lavoro descritti nella sezione seguente.
+Prima di poter attivare i gruppi di destinatari con i collaboratori ed eseguire calcoli di sovrapposizione, è necessario che tali gruppi di destinatari siano inclusi in Collaborazione. Per generare i gruppi di destinatari, segui i passaggi del flusso di lavoro nella sezione seguente.
 
-Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICONTROL Configurazione]**, selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e quindi selezionare **[!UICONTROL Pubblico]**. Se questo è il tuo primo pubblico, puoi anche selezionare l&#39;opzione **[!UICONTROL Aggiungi]**.
+Nella scheda **[!UICONTROL Aule personali]** dell&#39;area di lavoro **[!UICONTROL Configurazione]**, selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e quindi seleziona **[!UICONTROL Pubblico]**. Se questo è il tuo primo pubblico, puoi anche selezionare l&#39;opzione **[!UICONTROL Aggiungi]**.
 
-![Area di lavoro Tipi di pubblico personali con le opzioni Aggiungi e Tipi di pubblico evidenziate.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
+![Area di lavoro Audiences personali con l&#39;opzione Aggiungi e l&#39;opzione Audiences evidenziata.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### Selezionare la connessione dati {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Azioni di marketing"
->abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Con la casella di controllo <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere originati in Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati in Experience Platform con le etichette di cui sopra vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Quando la casella di controllo è <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it" text="Panoramica sulle etichette di utilizzo dei dati"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it" text="Glossario delle etichette di utilizzo dei dati"
 
 >[!IMPORTANT]
 >
->Dopo aver stabilito nella prima connessione dati e ottenuto il primo pubblico, puoi ottenere più tipi di pubblico dalla connessione dati esistente. Quando aggiungi altri tipi di pubblico, inizierai dal passaggio [seleziona pubblico](#select-audiences), in quanto la connessione dati è già stata stabilita.
+>Dopo aver stabilito la prima connessione dati e aver determinato l&#39;origine del primo gruppo di destinatari, è possibile creare più gruppi di destinatari dalla connessione dati esistente. Quando si aggiungono altri gruppi di destinatari, si inizierà dal passaggio [Seleziona gruppo di destinatari](#select-audiences), poiché la connessione dati è già stata stabilita.
 
-Una connessione dati è l&#39;origine dei dati da cui si estraggono i tipi di pubblico. Attualmente, l’unica connessione dati supportata è Adobe Experience Platform.
+Una connessione dati è l&#39;origine dei dati da cui si estraggono i gruppi di destinatari. Attualmente, l’unica connessione dati supportata è Adobe Experience Platform.
 
-Tutte le impostazioni configurate per la connessione dati vengono applicate a tutti i tipi di pubblico originati da questa connessione dati.
+Tutte le impostazioni configurate per la connessione dati vengono applicate a tutti i gruppi di destinatari provenienti da questa connessione dati.
 
 >[!TIP]
 >
->È disponibile un flusso di lavoro separato in cui è possibile visualizzare e modificare le connessioni dati. Per ulteriori informazioni, seguire la [guida alla gestione delle connessioni dati](/help/guide/setup/manage-data-connection.md).
+>Esiste un flusso di lavoro separato in cui è possibile visualizzare e modificare le connessioni dati. Per ulteriori informazioni, seguire la guida [gestione delle connessioni dati](/help/guide/setup/manage-data-connection.md).
 
-Per iniziare ad aggiungere la tua connessione dati, seleziona **[!UICONTROL Aggiungi una nuova connessione dati]**, quindi seleziona **[!UICONTROL Avanti]**.
+Per iniziare ad aggiungere la connessione dati, seleziona **[!UICONTROL Aggiungi nuova connessione dati]**, quindi seleziona **[!UICONTROL Avanti]**.
 
-![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Aggiungi una nuova connessione dati evidenziata.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
+![Area di lavoro Aggiungi gruppi di destinatari con l&#39;opzione Aggiungi nuova connessione dati evidenziata.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### Seleziona origine dati
 
-Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili includono:
+Successivamente, scegli l&#39;origine per la connessione dati. Le fonti disponibili includono:
 
-* **Adobe Experience Platform**: seleziona questa opzione per richiamare i tipi di pubblico da Adobe Experience Platform.
-* **File CSV**: carica un file CSV contenente i dati del pubblico per acquisire dati in modo rapido e semplice. Per iniziare, consulta la guida [Caricare il file CSV per l&#39;audience sourcing](./upload-csv-audience-sourcing.md).
-* **Amazon Web Services**: collegati all&#39;archiviazione Amazon S3 per generare i dati del pubblico direttamente dai bucket S3. Per istruzioni dettagliate, consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
-* **Snowflake** (versione futura): utilizza il data warehouse di Snowflake per estrarre facilmente i dati sul pubblico.
-* **Piattaforma Google Cloud** (versione futura): connettiti al tuo Google Cloud Storage per sorgente i dati del pubblico direttamente dai bucket GCS.
+* **Adobe Experience Platform**: selezionate questa opzione per richiamare il pubblico da Adobe Experience Platform.
+* **File CSV**: carica un file CSV contenente i dati del pubblico per l&#39;acquisizione rapida e immediata dei dati. Per iniziare, consulta la guida [Caricare file CSV per l&#39;origine del pubblico](./upload-csv-audience-sourcing.md).
+* **Amazon Web Services**: connettiti all’archiviazione Amazon S3 per ottenere i dati del pubblico direttamente dai bucket S3. Consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) per istruzioni dettagliate.
+* **Snowflake** (versione futura): utilizza il data warehouse di Snowflake per richiamare senza problemi i dati del pubblico.
+* **Piattaforma cloud Google** (versione futura): connettiti all’archiviazione cloud Google per ottenere i dati del pubblico direttamente dai secchi GCS.
 
-Seleziona l&#39;origine dati e quindi **[!UICONTROL Successivo]**.
+Seleziona l&#39;origine dati, quindi scegli **[!UICONTROL Avanti]**.
 
-![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Adobe Experience Platform evidenziata.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
+![Area di lavoro Aggiungi gruppi di destinatari con l&#39;opzione Adobe Experience Platform evidenziata.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Seleziona sandbox
 
-Dopo aver selezionato l’origine dati, devi selezionare la sandbox che include i tipi di pubblico che desideri utilizzare per Collaboration. Seleziona la sandbox dall&#39;elenco delle sandbox disponibili, quindi seleziona **[!UICONTROL Successivo]**
+Dopo aver selezionato l’origine dati, è necessario selezionare l’ambiente sandbox che include i gruppi di destinatari da utilizzare per la collaborazione. Seleziona la sandbox dall’elenco dei sandbox disponibili, quindi seleziona **[!UICONTROL Avanti]**
 
-![L&#39;area di lavoro Aggiungi tipi di pubblico con una sandbox selezionata.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
+![L&#39;area di lavoro Aggiungi gruppi di destinatari con una sandbox selezionata.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Criteri di governance e azioni di applicazione {#governance-policy-and-enforcement-actions}
 
-Successivamente, assicurati che le azioni di marketing corrette siano impostate sui dati di origine. È inoltre necessario fornire il consenso per i dati provenienti da Experience Platform da utilizzare per la collaborazione sui dati.
+Successivamente, devi assicurarti che le azioni di marketing corrette siano impostate sui dati di origine. L’Utente è inoltre tenuto a fornire il consenso affinché i dati provenienti da Experienci Platform siano utilizzati per la collaborazione sui dati.
 
-Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
+Utilizzare le azioni di marketing per controllare i dati dei gruppi di destinatari da inserire in Collaboration dall&#39;Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle [etichette di utilizzo dei dati C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
-* Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
+* Quando la casella di controllo è ***abilitata***, tutti i dati etichettati nell&#39;Experience Platform come descritto in precedenza vengono esclusi e **non** portati in collaborazione.
+* Con la casella di controllo ***disabilitata***, non esistono restrizioni sui dati provenienti da Experienci Platform.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
+Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione dell&#39;Experience Platform:
 
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Panoramica sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [Glossario delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
-Inoltre, seleziona le regole di consenso da applicare ai dati originati in Collaboration.
+Inoltre, vorrai selezionare le regole di consenso da applicare ai dati provenienti da Collaboration.
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico nella sezione Criteri di governance e azioni efficaci.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
@@ -130,7 +130,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Attributi del profilo"
->abstract="Seleziona gli attributi dallo schema di unione per la classe Profilo in Experience Platform. Questa vista mostra gli attributi presenti nello schema di unione e appartenenti alla classe XDM Individual Profile."
+>abstract="Seleziona gli attributi dallo schema di unione per la classe Profilo in Experience Platform. Questa vista mostra gli attributi presenti nello schema di unione e appartenenti alla classe XDM Profilo individuale."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it" text="Schema di unione in Experience Platform"
 
 Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la configurazione dell’account.
@@ -147,7 +147,7 @@ Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collab
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
@@ -161,11 +161,11 @@ Per iniziare la mappatura dei campi, seleziona il campo di origine vuoto accanto
 
 ![Finestra di dialogo Seleziona campo di origine con le opzioni e-mail visualizzate.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** a per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Selezionare un campo di origine e-mail senza hash, quindi selezionare **[!UICONTROL Applica trasformazione]**.
+Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizza l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** in per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Seleziona un campo di origine e-mail senza hash, quindi seleziona **[!UICONTROL Applica trasformazione]**.
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con i campi di origine e-mail mappati al campo di destinazione, con Applica trasformazione attivata per uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continua ad aggiungere coppie di mappatura per ciascun campo di destinazione. Se non desideri utilizzare una chiave di corrispondenza, puoi rimuoverla utilizzando l&#39;icona Elimina (![icona Elimina](/help/assets/icons/delete.png)) accanto al campo. Se la chiave di corrispondenza viene rimossa, non potrai utilizzarla quando esegui l’origine di tipi di pubblico dalla connessione.
+Continua ad aggiungere coppie di mappatura per ciascun campo di destinazione. Se non desideri utilizzare una chiave di corrispondenza, puoi rimuoverla utilizzando l&#39;icona Elimina (![Icona Elimina](/help/assets/icons/delete.png)) accanto al campo. Se la chiave di corrispondenza viene rimossa, non potrai utilizzarla quando esegui l’origine di tipi di pubblico dalla connessione.
 
 ![Area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Elimina evidenziata accanto a un campo di destinazione.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
@@ -181,29 +181,29 @@ Successivamente, pianifica quando iniziare e finire di popolare i tipi di pubbli
 
 >[!IMPORTANT]
 >
->Regolando la frequenza degli aggiornamenti del pubblico sarà possibile gestire l&#39;attività di credito di [Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities), calcolata per aggiornamento dell&#39;audience. La selezione di una frequenza più elevata può influire sull’aggiornamento dei dati disponibili per i rapporti di individuazione del pubblico e l’attivazione del pubblico.
+>Regolando la frequenza degli aggiornamenti del pubblico sarà possibile gestire la [attività di credito di Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities), calcolata per aggiornamento dell&#39;audience. La selezione di una frequenza più elevata può influire sull’aggiornamento dei dati disponibili per i rapporti di individuazione del pubblico e l’attivazione del pubblico.
 
 Seleziona la frequenza di aggiornamento del pubblico dal menu a discesa **[!UICONTROL Frequenza]**.
 
 ![L&#39;area di lavoro Aggiungi pianificazione tipi di pubblico con il menu a discesa Frequenza aperto.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
-Selezionare quindi l&#39;**[!UICONTROL intervallo di date]**. La data di inizio è la data in cui il pubblico inizierà a essere popolato con profili e la data di fine è la data in cui il pubblico smetterà di aggiornarsi.
+Quindi, seleziona l&#39;**[!UICONTROL Intervallo date]**. La data di inizio è la data in cui il pubblico inizierà a essere popolato con profili e la data di fine è la data in cui il pubblico smetterà di aggiornarsi.
 
 ![L&#39;area di lavoro Aggiungi pianificazione tipi di pubblico con l&#39;opzione Intervallo date visualizzata.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Dopo la data di fine nell’intervallo di date, tutti i tipi di pubblico originati da questa connessione dati cesseranno di essere aggiornati. Per rinnovare la connessione, seguire la [guida alla gestione della connessione dati](/help/guide/setup/manage-data-connection.md).
+>Dopo la data di fine nell’intervallo di date, tutti i tipi di pubblico originati da questa connessione dati cesseranno di essere aggiornati. Per rinnovare la connessione, segui la guida [Gestisci connessione dati](/help/guide/setup/manage-data-connection.md).
 
 ### Seleziona tipi di pubblico {#select-audiences}
 
-Dopo aver selezionato la sorgente del pubblico, scegli tipi di pubblico specifici da includere. Utilizza le opzioni di ricerca e filtro per trovare i tipi di pubblico rilevanti dalla connessione dati. Seleziona il pubblico desiderato, quindi seleziona **[!UICONTROL Successivo]**.
+Dopo aver selezionato la sorgente del pubblico, scegli tipi di pubblico specifici da includere. Utilizza le opzioni di ricerca e filtro per trovare i tipi di pubblico rilevanti dalla connessione dati. Seleziona il pubblico desiderato, quindi seleziona **[!UICONTROL Avanti]**.
 
 ![Area di lavoro Aggiungi tipi di pubblico con un elenco dei tipi di pubblico disponibili.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### Rivedi
 
-Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiunta di pubblico. Verifica che tutti i dettagli siano corretti, quindi seleziona **[!UICONTROL Completa]** per completare la creazione della connessione dati.
+Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiunta di pubblico. Assicurati che tutti i dettagli siano corretti, quindi seleziona **[!UICONTROL Completa]** per completare la creazione della connessione dati.
 
 ![Area di lavoro Aggiungi tipi di pubblico con tutte le configurazioni selezionate visualizzate.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
@@ -214,7 +214,7 @@ Rivedi tutte le configurazioni e le impostazioni prima di finalizzare l’aggiun
 >title="Identità mancanti"
 >abstract="Il conteggio delle identità sarà disponibile dopo il successivo aggiornamento della connessione dati dopo la pianificazione configurata. L’aggiornamento iniziale si verifica in genere entro 24 ore dalla configurazione della connessione dati. Gli aggiornamenti ricorrenti seguiranno la pianificazione configurata."
 
-Dopo aver determinato l&#39;origine dei tipi di pubblico, nell&#39;area di lavoro **[!UICONTROL Tipi di pubblico personali]** vengono visualizzati tutti i tipi di pubblico attualmente assegnati a Collaboration.
+Dopo aver determinato l&#39;origine dei tipi di pubblico, nell&#39;area di lavoro **[!UICONTROL Tipi di pubblico personali]** vengono visualizzati tutti i tipi di pubblico attualmente associati all&#39;origine in Collaboration.
 
 ![L&#39;area di lavoro I miei tipi di pubblico visualizza tutti i tipi di pubblico originati.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
@@ -235,14 +235,14 @@ Ogni pubblico contiene una panoramica delle seguenti informazioni:
 
 Per eseguire azioni rapide su un pubblico, seleziona i puntini di sospensione **...** accanto al nome del pubblico. Sono disponibili le seguenti opzioni:
 
-* **[!UICONTROL Modifica categorie]** ti consente di aggiungere al pubblico tag di categoria diversi. Per ulteriori informazioni, consulta la sezione [categorie](#categories) di seguito.
+* **[!UICONTROL Modifica categorie]** ti consente di aggiungere al pubblico tag di categorie diversi. Per ulteriori informazioni, consulta la sezione [categorie](#categories) di seguito.
 * **[!UICONTROL Elimina]** eliminerà il pubblico dalla connessione dati.
 
-![Nell&#39;area di lavoro I miei tipi di pubblico è aperta l&#39;area di lavoro con il menu con i puntini di sospensione e sono evidenziate le opzioni Modifica categorie ed Elimina.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
+![L&#39;area di lavoro I miei tipi di pubblico con il menu con i puntini di sospensione aperto ed evidenziate le opzioni Modifica categorie ed Elimina.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## Visualizzare singoli tipi di pubblico {#view-individual-audiences}
 
-Per visualizzare e aggiornare le informazioni per un singolo pubblico, seleziona il pubblico dall&#39;area di lavoro **[!UICONTROL Tipi di pubblico]**. L’area di lavoro pubblico visualizza informazioni dettagliate sul pubblico selezionato, inclusi dettagli, identità, categorie, accesso alla connessione e impostazioni di visibilità dei metadati.
+Per visualizzare e aggiornare le informazioni per un singolo pubblico, seleziona il pubblico dall&#39;area di lavoro **[!UICONTROL I miei tipi di pubblico]**. L’area di lavoro pubblico visualizza informazioni dettagliate sul pubblico selezionato, inclusi dettagli, identità, categorie, accesso alla connessione e impostazioni di visibilità dei metadati.
 
 ### Dettagli del pubblico
 
@@ -254,7 +254,7 @@ Per ogni singolo pubblico vengono visualizzate le seguenti informazioni:
 | **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
 | **[!UICONTROL Connessione dati]** | La connessione dati da cui proviene il pubblico. |
 | **[!UICONTROL Ultimo aggiornamento]** | Indica la data e l’ora dell’ultimo aggiornamento del pubblico in Collaboration. Non si riferisce all’ultimo aggiornamento del pubblico, ma piuttosto all’ultima modifica della configurazione o dei metadati del pubblico |
-| **[!UICONTROL Ultimo aggiornamento eseguito da]** | Indica l’ultimo utente che ha aggiornato il pubblico. |
+| **[!UICONTROL Ultimo aggiornamento di]** | Indica l’ultimo utente che ha aggiornato il pubblico. |
 | **[!UICONTROL Creato]** | Indica quando il pubblico è stato inizialmente originato in Collaboration. |
 | **[!UICONTROL Creato da]** | Indica l’utente che ha originato il pubblico in Collaboration. |
 
@@ -282,9 +282,9 @@ Passando il puntatore del mouse sulle singole sezioni del raggruppamento della c
 >title="Categorie"
 >abstract="Assegna tag ai tipi di pubblico per semplificarne l’organizzazione, il filtraggio e il recupero. Puoi assegnare a un pubblico i tag di più categorie, e utilizzare quindi tali categorie per filtrare i tipi di pubblico desiderati in altre aree del prodotto."
 
-Per facilitare l’organizzazione, il filtraggio e il recupero del pubblico, puoi assegnare tag ai tipi di pubblico. Puoi assegnare tag a un pubblico con più categorie, quindi utilizzare questi tag per filtrare i tipi di pubblico desiderati nell&#39;area di prodotto [discovery](/help/guide/collaborate/discover.md) durante l&#39;esecuzione di report di sovrapposizione pubblico.
+Per facilitare l’organizzazione, il filtraggio e il recupero del pubblico, puoi assegnare tag ai tipi di pubblico. Puoi assegnare tag a un pubblico con più categorie e quindi utilizzare questi tag per filtrare i tipi di pubblico desiderati nell&#39;area di prodotto [individuazione](/help/guide/collaborate/discover.md), durante l&#39;esecuzione di report di sovrapposizione pubblico.
 
-Per aggiungere categorie, selezionare l&#39;opzione **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Categorie]**.
+Per aggiungere categorie, seleziona l&#39;opzione **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Categorie]**.
 
 ![Sezione Categorie dell&#39;area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
@@ -296,7 +296,7 @@ Verrà visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che conse
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accesso connessione"
->abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione.</p>"
+>abstract="<p>Esistono tre tipi di pubblico: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione.</p>"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_access"
@@ -309,7 +309,7 @@ Per aggiornare l&#39;accesso alla connessione del pubblico, seleziona l&#39;opzi
 
 ![Sezione di accesso alla connessione dell&#39;area di lavoro di un singolo pubblico.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Accesso connessione]**, con tre opzioni di accesso alla connessione disponibili:
+Viene visualizzata la finestra di dialogo **[!UICONTROL Accesso alla connessione]**, con tre opzioni di accesso alla connessione disponibili:
 
 * **[!UICONTROL Pubblico privato]**. Questi tipi di pubblico sono *non* disponibili per l&#39;utilizzo in report di sovrapposizione o per l&#39;attivazione in connessioni con collaboratori. Anche se i tipi di pubblico non sono disponibili per i collaboratori per la visualizzazione o l&#39;utilizzo, la popolazione dei tipi di pubblico contribuisce comunque alla popolazione totale nella visualizzazione **[!UICONTROL Tutti i tipi di pubblico]** nella sezione [confronta tipi di pubblico](/help/guide/collaborate/discover.md#compare-audiences). Modifica l’impostazione su public (pubblico) o custom (personalizzato) per utilizzare i tipi di pubblico nelle connessioni con i collaboratori.
 * **[!UICONTROL Pubblico pubblico]**. Questi tipi di pubblico sono disponibili per l’utilizzo in rapporti di sovrapposizione e per l’attivazione in connessioni con qualsiasi collaboratore.
@@ -321,7 +321,7 @@ Seleziona l&#39;opzione di accesso alla connessione desiderata, quindi seleziona
 
 >[!IMPORTANT]
 >
->Indipendentemente dallo stato di accesso (pubblico, privato o personalizzato), la popolazione di qualsiasi pubblico contribuisce alla popolazione **[!UICONTROL Tutti i tipi di pubblico]** nella sezione **[!UICONTROL Confronta tipi di pubblico]** all&#39;interno di un progetto.
+>Indipendentemente dallo stato di accesso (pubblico, privato o personalizzato), la popolazione di qualsiasi pubblico contribuisce alla popolazione **[!UICONTROL Tutti i tipi di pubblico]** nella sezione **[!UICONTROL Confronta tipi di pubblico]** di un progetto.
 
 La disponibilità del pubblico da utilizzare nei progetti con collaboratori varia in base all’impostazione di accesso alla connessione.
 
@@ -330,11 +330,11 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> **Conteggio identità** controlla se il collaboratore può visualizzare i conteggi delle identità per il tuo pubblico nei rapporti di sovrapposizione nella scheda Individuazione.</p><p> **Sovrapposizione pubblico (% )** controlla se i collaboratori possono individuare le percentuali di sovrapposizione tra il loro pubblico e il tuo.</p><p> **[!UICONTROL Indice del pubblico]** controlla se i collaboratori possono vedere l’indice del pubblico all’interno di un progetto. Questa funzionalità è disponibile solo se sono presenti almeno tre tipi di pubblico attivi.</p> <br> Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato."
+>abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> **Conteggio identità** controlla se il collaboratore può visualizzare i conteggi delle identità per il tuo pubblico nei rapporti di sovrapposizione, nella scheda Individuazione.</p><p> **Sovrapposizione pubblico (% )** controlla se i collaboratori possono individuare le percentuali di sovrapposizione tra il loro pubblico e il tuo.</p><p> **[!UICONTROL Indice del pubblico]** controlla se i collaboratori possono vedere l’indice del pubblico all’interno di un progetto. Questa funzionalità è disponibile solo se sono presenti almeno tre tipi di pubblico attivi.</p> <br> Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato."
 
 >[!NOTE]
 >
->Se tutti i tipi di pubblico del tuo collaboratore sono impostati su privato, la sezione **[!UICONTROL Tipi di pubblico rilevanti]** di un progetto nell&#39;area di lavoro **[!UICONTROL Discover]** sarà vuota. Per ulteriori informazioni, leggere la guida di [individuazione](/help/guide/collaborate/discover.md#relevant-audiences).
+>Se tutti i tipi di pubblico del tuo collaboratore sono impostati su privato, la sezione **[!UICONTROL Tipi di pubblico rilevanti]** di un progetto nell&#39;area di lavoro **[!UICONTROL Discover]** sarà vuota. Per ulteriori informazioni, consulta la [guida all&#39;individuazione](/help/guide/collaborate/discover.md#relevant-audiences).
 
 La visibilità dei metadati indica la visibilità dei metadati di un pubblico per altri collaboratori prima che si connettano con te o all’interno di diverse visualizzazioni del progetto. Per aggiornare la visibilità dei metadati del pubblico, seleziona l&#39;opzione **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Visibilità metadati]**.
 
@@ -342,9 +342,9 @@ La visibilità dei metadati indica la visibilità dei metadati di un pubblico pe
 
 Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**, che consente di configurare le impostazioni di visibilità per il pubblico. È possibile configurare due impostazioni di visibilità dei metadati per ogni pubblico:
 
-**[!UICONTROL Mostra conteggio identità]**: questa impostazione controlla se il tuo collaboratore può visualizzare i conteggi delle identità per i tuoi tipi di pubblico quando [visualizzi i report di sovrapposizione nella scheda di individuazione](/help/guide/collaborate/discover.md#discover-overlaps) all&#39;interno di un progetto.
+**[!UICONTROL Mostra conteggio identità]**: questa impostazione controlla se il tuo collaboratore può visualizzare i conteggi delle identità per il pubblico quando [visualizza i report di sovrapposizione nella scheda di individuazione](/help/guide/collaborate/discover.md#discover-overlaps) all&#39;interno di un progetto.
 
-**[!UICONTROL Mostra sovrapposizione pubblico %]**: questa impostazione controlla se i collaboratori sono in grado di [individuare percentuali di sovrapposizione](/help/guide/collaborate/discover.md#compare-audiences) tra i propri tipi di pubblico e i tipi di pubblico.
+**[!UICONTROL Mostra % sovrapposizione pubblico]**: questa impostazione controlla se i collaboratori sono in grado di [individuare percentuali di sovrapposizione](/help/guide/collaborate/discover.md#compare-audiences) tra il proprio pubblico e quello dell&#39;utente.
 
 **[!UICONTROL Indice pubblico]**: se è impostato su true, i collaboratori possono visualizzare il [indice pubblico](/help/guide/collaborate/discover.md#audience-index-score) all&#39;interno di un progetto. Questa funzionalità è disponibile solo se sono presenti almeno tre tipi di pubblico attivi.
 
@@ -358,11 +358,11 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**,
 
 Puoi modificare più tipi di pubblico alla volta dal dashboard Pubblico. A questo scopo, seleziona i tipi di pubblico da modificare selezionando le caselle accanto ai relativi nomi. Dopo aver selezionato i tipi di pubblico, puoi eseguire azioni utilizzando le opzioni disponibili nel menu Modifica.
 
-![Area di lavoro I miei tipi di pubblico con due tipi di pubblico selezionati e il menu Modifica evidenziato.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+![Area di lavoro I miei tipi di pubblico con due tipi di pubblico selezionati ed evidenziato il menu Modifica.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
 
 ### Visibilità della modifica in blocco dei metadati {#bulk-edit-metadata-visibility}
 
-Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica visibilità metadati]** dal menu Modifica.
+Con il pubblico selezionato nel dashboard del pubblico, seleziona **[!UICONTROL Modifica visibilità metadati]** dal menu Modifica.
 
 ![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica visibilità metadati evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
 
@@ -374,7 +374,7 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Visibilità metadati]**,
 
 Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica accesso alla connessione]** dal menu Modifica.
 
-![L&#39;area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica accesso alla connessione evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica accesso alla connessione evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
 
 Viene visualizzata la finestra di dialogo **[!UICONTROL Accesso alla connessione]**, che consente di configurare le impostazioni di accesso per i tipi di pubblico selezionati. Per impostazione predefinita, verrà selezionata l&#39;opzione **[!UICONTROL Pubblico privato]**. Scegli le opzioni da applicare a tutti i tipi di pubblico selezionati, quindi seleziona **[!UICONTROL Salva]**.
 
@@ -382,24 +382,24 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Accesso alla connessione
 
 ### Modifica in blocco di nomi e descrizioni del pubblico {#bulk-edit-audience-names-descriptions}
 
-Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica nome e descrizione]** dal menu Modifica.
+Con il pubblico selezionato nel dashboard del pubblico, seleziona **[!UICONTROL Modifica nome e descrizione]** dal menu Modifica.
 
 ![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica nome e descrizione evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Nome e descrizione]**, che consente di configurare il nome e la descrizione per ogni pubblico selezionato. Per impostazione predefinita, i nomi e le descrizioni correnti vengono visualizzati per ogni pubblico. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Nome e descrizione]** che consente di configurare il nome e la descrizione per ogni pubblico selezionato. Per impostazione predefinita, i nomi e le descrizioni correnti vengono visualizzati per ogni pubblico. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
 
-![Viene visualizzata la finestra di dialogo Nome e descrizione con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+![Finestra di dialogo Nome e descrizione con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
 
 ### Categorie di modifica in blocco {#bulk-edit-categories}
 
-Con i tipi di pubblico selezionati nel dashboard del pubblico, seleziona **[!UICONTROL Modifica categorie]** dal menu Modifica.
+Con il pubblico selezionato nel dashboard del pubblico, seleziona **[!UICONTROL Modifica categorie]** dal menu Modifica.
 
 ![Area di lavoro I miei tipi di pubblico con l&#39;opzione Modifica categorie evidenziata.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che consente di configurare le categorie per ogni pubblico selezionato. Per impostazione predefinita, non viene selezionata alcuna categoria. Per selezionare una categoria, selezionare innanzitutto la categoria principale, quindi selezionare le sottocategorie che si desidera includere. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Categorie]** che consente di configurare le categorie per ogni pubblico selezionato. Per impostazione predefinita, non viene selezionata alcuna categoria. Per selezionare una categoria, selezionare innanzitutto la categoria principale, quindi selezionare le sottocategorie che si desidera includere. Apporta le modifiche e seleziona **[!UICONTROL Salva]**.
 
-![Viene visualizzata la finestra di dialogo Categorie con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
+![Finestra di dialogo Categorie con le opzioni disponibili.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Passaggi successivi
 
-Dopo aver individuato i tipi di pubblico, è ora di individuare i collaboratori con cui [connettersi](/help/guide/connect/establishing-connections.md) per collaborare ai progetti.
+Dopo aver individuato i tipi di pubblico, è ora di scoprire i collaboratori con cui [connettersi](/help/guide/connect/establishing-connections.md) per collaborare ai progetti.

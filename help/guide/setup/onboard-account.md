@@ -2,12 +2,12 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 7%
+source-wordcount: '1393'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Scopri come impostare l’account in Real-Time CDP Collaboration per prepararti 
 
 La prima volta che accedi a Collaboration ti viene richiesto di configurare l’account. Si tratta di un processo una tantum che consente di configurare i dettagli dell’account e le chiavi di corrispondenza. Se questo è il primo account della tua organizzazione, sarai indirizzato immediatamente attraverso il processo di onboarding, a partire dalla configurazione di [dettagli account](#set-up-details).
 
-Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nella barra a sinistra e seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro. Selezionare **[!UICONTROL Account]**.
+Per aggiungere altre organizzazioni, passa a **[!UICONTROL Configurazione]** nella barra a sinistra e seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) nell’angolo superiore destro. Selezionare **[!UICONTROL Account]**.
 
 ![Area di lavoro di installazione con la scheda Account personale e l&#39;opzione Account evidenziate.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
@@ -61,7 +61,7 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i profili di pubblico da diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
+>abstract="Le chiavi di corrispondenza sono identificatori utilizzati per riconciliare i profili del pubblico provenienti da diverse origini dati. Includi tutte le chiavi di corrispondenza utilizzabili dal tuo brand."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_setup_match_keys"
@@ -71,17 +71,17 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID persone di prime parti"
->abstract="Gli ID di persone di prime parti, come indirizzi e-mail con hash, numeri di telefono con hash o ID del sistema di gestione delle relazioni con i clienti, sono collegati direttamente a un singolo profilo."
+>abstract="Gli ID di persone di prime parti, come indirizzi e-mail e numeri di telefono con hash o ID del sistema CRM, sono collegati direttamente a un profilo individuale."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID dispositivo di prime parti"
->abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più individui."
+>abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più persone."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID partner supportati"
->abstract="Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID partner non sono collegati direttamente a un singolo profilo."
+>abstract="Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID partner non sono collegati direttamente a un profilo individuale."
 
 ![Chiavi di corrispondenza supportate.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 

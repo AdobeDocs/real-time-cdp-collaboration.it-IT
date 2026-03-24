@@ -2,12 +2,12 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 3%
+source-wordcount: '1168'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ Per visualizzare le connessioni dati esistenti, passare a **[!UICONTROL Configur
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Chiavi di corrispondenza"
->abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Le chiavi di corrispondenza mostrate di seguito sono i campi di destinazione a cui hai mappato i campi sorgente."
+>abstract="Le chiavi di corrispondenza determinano il modo in cui verranno abbinati i dati provenienti da origini diverse. Le chiavi di corrispondenza mostrate di seguito sono i campi di destinazione a cui hai mappato i campi di origine."
 
 Le chiavi di corrispondenza sono i campi di destinazione [sui quali hai mappato i campi di origine](./onboard-audiences.md#map-fields). Per ulteriori informazioni sul funzionamento delle chiavi di corrispondenza, consulta la guida [chiavi di corrispondenza](./onboard-account.md#set-up-match-keys).
 
