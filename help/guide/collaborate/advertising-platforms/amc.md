@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Scopri come collaborare con Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
@@ -57,7 +57,7 @@ Nella sezione **[!UICONTROL Scopri]**, puoi confrontare il pubblico AMC con tutt
 
 >[!IMPORTANT]
 >
->I dati sul pubblico vengono elaborati dai tipi di pubblico caricati nel tuo account [!DNL Amazon Ads]. Per scoprire come inviare e utilizzare la funzione Destinazioni di Experience Platform per inviare il tuo pubblico al tuo account [!DNL Amazon Ads], leggi la guida [Connessione Amazon Ads](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>I dati sul pubblico vengono elaborati dai tipi di pubblico caricati nel tuo account [!DNL Amazon Ads]. Per scoprire come inviare e utilizzare la funzione Destinazioni di Experience Platform per inviare il tuo pubblico al tuo account [!DNL Amazon Ads], leggi la guida [Connessione Amazon Ads](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Sezione Discover di un progetto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
