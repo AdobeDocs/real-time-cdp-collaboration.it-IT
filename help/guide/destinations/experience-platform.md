@@ -71,7 +71,7 @@ Quindi, configura **[!UICONTROL Scadenza pubblico]**. Per impostazione predefini
 >title="Spazi dei nomi di destinazione"
 >abstract="Gli spazi dei nomi di destinazione specificano a quale spazio dei nomi di identità verrà mappata la chiave di corrispondenza in Adobe Experience Platform. Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash."
 
-Per impostazione predefinita, tutte le chiavi di corrispondenza abilitate per l’account sono incluse nella mappatura di attivazione. Se non desideri mappare direttamente una chiave di corrispondenza a uno spazio dei nomi di destinazione, puoi utilizzare l’opzione della chiave collegata per sostituirla con una chiave di corrispondenza diversa. Per ulteriori informazioni sulle chiavi collegate, consulta la sezione [ di seguito](#linked-keys).
+Per impostazione predefinita, tutte le chiavi di corrispondenza abilitate per l’account sono incluse nella mappatura di attivazione. Se non desideri mappare direttamente una chiave di corrispondenza a uno spazio dei nomi di destinazione, puoi utilizzare l’opzione della chiave collegata per sostituirla con una chiave di corrispondenza diversa. Per ulteriori informazioni sulle chiavi collegate, consulta la sezione [&#x200B; di seguito](#linked-keys).
 
 #### Mappare gli spazi dei nomi di destinazione {#map-target-namespaces}
 
@@ -79,7 +79,7 @@ Per mappare ogni chiave di corrispondenza a uno spazio dei nomi di destinazione,
 
 >[!IMPORTANT]
 >
->Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash. Ad esempio, la chiave di corrispondenza dell&#39;e-mail con hash **** deve essere mappata allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail(SHA256, in minuscolo)]** in Adobe Experience Platform. Non è possibile mappare la chiave di corrispondenza dell&#39;**[!UICONTROL e-mail con hash]** allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail]**, poiché questo spazio dei nomi non supporta valori con hash.
+>Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash. Ad esempio, la chiave di corrispondenza dell&#39;e-mail con hash **&#x200B;**&#x200B;deve essere mappata allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail(SHA256, in minuscolo)]** in Adobe Experience Platform. Non è possibile mappare la chiave di corrispondenza dell&#39;**[!UICONTROL e-mail con hash]** allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail]**, poiché questo spazio dei nomi non supporta valori con hash.
 
 ![Finestra di dialogo Seleziona campo di origine con l&#39;opzione Seleziona evidenziata.](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
