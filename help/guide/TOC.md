@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
+source-git-commit: 6d2691e8024a8f4c1a91e5fa4e6d00d322dde13a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 32%
+source-wordcount: '195'
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 32%
    * [Crosswalk delle identità](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Registri di controllo](./setup/audit-logs.md)
+   * Configurazione di Real-Time CDP Collaboration Starter {#starter-setup}
+      * [Configurare l’accesso amministratore](./setup/starter-admin-access.md)
+      * [Configurare i controlli delle autorizzazioni](./setup/starter-permission-controls.md)
+      * [Utilizzo e consumo del credito](./setup/starter-credit-usage.md)
 * Stabilimento di connessioni {#connect}
    * [Panoramica.md](./connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
@@ -57,9 +61,9 @@ ht-degree: 32%
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Autorizzazioni {#permissions}
    * [Panoramica](./permissions/overview.md)
-   * [Gestire l&#39;accesso degli utenti](./permissions/manage-user-access.md)
+   * [Gestire l’accesso degli utenti](./permissions/manage-user-access.md)
    * [Gestire i ruoli](./permissions/manage-roles.md)
 * Riferimenti {#reference}
-   * [Domande frequenti e suggerimenti per la risoluzione dei problemi](./faqs/common-questions.md)
+   * [Domande comuni e suggerimenti per la risoluzione dei problemi](./faqs/common-questions.md)
    * [Glossario](./glossary.md)
 * [Note sulla versione più recente](./release-notes/latest.md)
