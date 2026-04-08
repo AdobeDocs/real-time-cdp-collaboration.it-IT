@@ -2,11 +2,12 @@
 title: Configura [!DNL Snowflake] per Audience Sourcing
 description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Share]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 1%
+source-wordcount: '1229'
+ht-degree: 2%
 
 ---
 
@@ -54,6 +55,12 @@ Selezionare **[!UICONTROL Snowflake]** come connessione dati, quindi **[!UICONTR
 ![Schermata di selezione della connessione dati con [!DNL Snowflake] disponibile come opzione selezionabile.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### Rivedi file pubblico {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Preparazione dei dati per l’onboarding"
+>abstract="Leggi la guida alle specifiche di Audience Sourcing per scoprire come formattare e strutturare i dati sul pubblico da Snowflake per Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulta la guida"
 
 Viene visualizzata una finestra di dialogo in cui vengono illustrati i requisiti di [!DNL Snowflake Share] e del file del pubblico [!DNL Snowflake] prima che sia possibile iniziare a creare l&#39;origine. Assicurati che [!DNL Snowflake Share] sia stato creato con il nome di condivisione, l&#39;identificatore dell&#39;account, lo schema e la visualizzazione corretti. Per verificare che i dati del pubblico siano formattati e strutturati correttamente per l&#39;utilizzo in Collaboration, consulta la **[[!UICONTROL guida alle specifiche di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 
