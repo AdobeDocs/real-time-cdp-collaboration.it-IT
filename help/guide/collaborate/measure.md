@@ -2,12 +2,12 @@
 title: Misurare le prestazioni
 description: Misura le prestazioni delle campagne su canali diversi. Scopri come utilizzare e interpretare vari rapporti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 6%
+source-wordcount: '2612'
+ht-degree: 5%
 
 ---
 
@@ -239,3 +239,81 @@ Infine, controlla le impostazioni e seleziona **[!UICONTROL Crea]** per pianific
 Una volta disponibile, puoi visualizzare il report in qualsiasi momento nella scheda **[!UICONTROL Misura]** nell&#39;area di lavoro del progetto.
 
 ![Nella schermata Crea report di misurazione sono evidenziate le informazioni e l&#39;opzione Crea.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Modifica rapporto di misurazione {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>È possibile modificare le impostazioni di un rapporto di misurazione solo se è pianificata l&#39;esecuzione futura. Per i rapporti già eseguiti, le impostazioni non possono essere modificate.
+
+Aggiorna le impostazioni di un rapporto di misurazione per garantire che fornisca l’analisi corretta della campagna in un periodo specifico ed esegua in una data desiderata.
+
+Per iniziare, passare all&#39;area di lavoro del rapporto di misurazione che si desidera aggiornare. Selezionare l&#39;icona Modifica (![icona Modifica](/help/assets/icons/edit.png)) accanto all&#39;icona Elimina.
+
+![Area di lavoro report di misurazione con l&#39;icona Modifica evidenziata.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>Nella scheda **[!UICONTROL Misura]**, passa alla sezione del report che desideri modificare. Seleziona l&#39;icona Modifica (![icona Modifica](/help/assets/icons/edit.png)) accanto a **[!UICONTROL Visualizza report completo]** per aggiornarne le impostazioni.
+>![Scheda Misura che evidenzia l&#39;icona Modifica all&#39;interno di una sezione di report.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+La finestra di dialogo **[!UICONTROL Modifica report di misurazione]** viene visualizzata con le impostazioni correnti del report nelle sezioni seguenti:
+
+* [**Dettagli fatturazione**](#billing-details): visualizza informazioni sui crediti durante l&#39;esecuzione dei report di misurazione. Non è richiesta alcuna configurazione.
+* [**Dettagli campagna**](#campaign-details): visualizza le impostazioni per l&#39;inserzionista, l&#39;ID campagna, il periodo di reporting e un nome di report intuitivo.
+* [**Dettagli report**](#report-details): visualizza le impostazioni per il tipo di report, la data di esecuzione del report e le opzioni di configurazione specifiche per i report di attribuzione.
+
+![La finestra di dialogo Modifica report di misurazione mostra le impostazioni correnti nelle sezioni Dettagli fatturazione, Dettagli campagna e Dettagli report.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Modifica dettagli campagna {#edit-campaign-details}
+
+Nella finestra di dialogo **[!UICONTROL Modifica report di misurazione]**, utilizza i menu a discesa **[!UICONTROL ID inserzionista (nome)]** e **[!UICONTROL ID campagna]** per modificare l&#39;inserzionista e l&#39;ID campagna per il report.
+
+![Viene aperta la finestra di dialogo Modifica report di misurazione che evidenzia il menu a discesa ID campagna.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+Quindi, selezionare **[!UICONTROL Intervallo date report]** e utilizzare il calendario per modificare le date di inizio e di fine del report.
+
+![Viene aperta la finestra di dialogo Modifica report di misurazione che evidenzia il calendario dell&#39;intervallo di date del report.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Inserisci un nome di rapporto descrittivo aggiornato per acquisire le modifiche recenti. Questo ti aiuta a riconoscere e trovare questo rapporto in futuro.
+
+![La finestra di dialogo Modifica report di misurazione evidenzia il nome del report descrittivo aggiornato.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Modifica dettagli report {#edit-report-details}
+
+Per pianificare il report per una data diversa, passare alla sezione **[!UICONTROL Dettagli report]**. Selezionare l&#39;opzione della data di esecuzione corrente, quindi utilizzare il calendario per scegliere la data desiderata.
+
+![La finestra di dialogo Modifica report di misurazione evidenzia il calendario della data di esecuzione del report.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+In qualità di inserzionista, puoi selezionare o rimuovere il tipo di report **[!UICONTROL Attribuzione]** oltre a **[!UICONTROL Riepilogo campagna]**. Se scegli **[!UICONTROL Attribuzione]**, il rapporto di attribuzione include sia le metriche di riepilogo delle campagne standard che approfondimenti attribuzione. Per ulteriori informazioni sui tipi di report **Riepilogo campagna** e **Attribuzione**, consulta la sezione [Crea report di misurazione](#create-measurement-report).
+
+>[!IMPORTANT]
+>
+>Se sei un **editore**, il tipo di report predefinito è **[!UICONTROL Riepilogo campagna]** e non può essere modificato in questo momento.
+
+* Se scegli **[!UICONTROL Attribuzione]** come tipo di report, devi compilare i campi obbligatori nella sezione **[!UICONTROL Attribuzione]**. Per istruzioni di configurazione, consulta la sezione [Dettagli del rapporto di attribuzione](#report-details-attribution).
+* Se in precedenza hai configurato le impostazioni di attribuzione durante la creazione del rapporto, puoi scegliere di modificare l’intervallo di lookback (misurato in giorni) e selezionare gli eventi di conversione su cui generare il rapporto.
+
+Per aggiornare **[!UICONTROL Intervallo di lookback in giorni]**, immettere un valore numerico o regolarlo con le opzioni di incremento/decremento. Quindi, seleziona gli eventi di conversione su cui desideri generare il rapporto. È possibile scegliere fino a **3** conversioni dall&#39;elenco disponibile.
+
+![La finestra di dialogo Modifica report di misurazione evidenzia gli eventi di conversione aggiornati.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+Al termine, controlla gli aggiornamenti e seleziona **[!UICONTROL Modifica]** per applicare le modifiche.
+
+![Finestra di dialogo Modifica report di misurazione con l&#39;opzione Modifica evidenziata.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+Una finestra di dialogo di conferma conferma conferma che il report è stato salvato correttamente.
+
+## Elimina report di misurazione {#delete-measurement-report}
+
+Se si elimina un rapporto di misurazione in Collaboration, questo viene rimosso definitivamente dal sistema. Questa azione non può essere annullata. A questo scopo, seleziona il report da eliminare nella scheda **[!UICONTROL Misura]**.
+
+Nell&#39;area di lavoro report di misurazione, selezionare l&#39;icona Elimina (![icona Elimina](/help/assets/common/delete.svg)).
+
+![Area di lavoro report di misurazione con l&#39;icona Elimina evidenziata.](/help/assets/collaborate/measure/delete-report.png)
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Elimina report]** in cui viene richiesto di confermare l&#39;eliminazione. Seleziona **[!UICONTROL Elimina]**.
+
+![Finestra di dialogo Elimina report con l&#39;opzione Elimina evidenziata.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+Una finestra di dialogo di conferma conferma conferma che il report è stato eliminato correttamente.

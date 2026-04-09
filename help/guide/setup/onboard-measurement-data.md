@@ -2,12 +2,12 @@
 title: Aggiungere e gestire i dati di misurazione
 description: Scopri come aggiungere i dati di misurazione a Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 5%
+source-wordcount: '2720'
+ht-degree: 4%
 
 ---
 
@@ -156,7 +156,6 @@ Se [abiliti l&#39;arricchimento del profilo durante il passaggio di mappatura](#
 * **Regole di consenso**: seleziona le regole di consenso da applicare ai dati originati in Collaboration.
 * **Pubblico**: utilizza il filtro del pubblico per includere o escludere i profili di pubblico per il consenso.
 
-
 >[!NOTE]
 >
 >**[!UICONTROL Data Collaboration]** supporta le etichette di utilizzo dei dati C4, C5 e C9, mentre **[!UICONTROL Data Science]** supporta solo C9. Ulteriori informazioni sulle etichette di utilizzo dei dati nella documentazione di Experience Platform:
@@ -238,6 +237,100 @@ In visualizzazione griglia o tabella, selezionare un elemento riga o l&#39;opzio
 * **[!UICONTROL Condizioni]**: visualizza le regole di condizione applicate a questo evento di conversione.
 
 ![Nella schermata Panoramica vengono visualizzati i dettagli di un evento di conversione.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## Modificare i dati di misurazione {#edit-measurement-data}
+
+Dopo aver determinato l’origine dei dati di misurazione, puoi modificare i dettagli e le regole di condizione di un evento di conversione in qualsiasi momento.
+
+Dalla scheda **[!UICONTROL Dati di misurazione personali]**, seleziona l&#39;opzione con puntini di sospensione (![Icona Altro](/help/assets/icons/more.png)) nella scheda evento di conversione pertinente. Quindi seleziona **[!UICONTROL Visualizza conversione]** dal menu a discesa per aprire la pagina dettagliata per l&#39;evento di conversione.
+
+![Scheda Dati di misurazione personale con il menu con i puntini di sospensione aperti e l&#39;opzione Visualizza conversione evidenziata.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### Modifica nome e descrizione {#edit-name-and-description}
+
+Per aggiornare il nome e la descrizione dell&#39;evento, seleziona l&#39;icona Modifica (![icona Modifica](/help/assets/icons/edit.png)) in alto a destra della pagina.
+
+![Pagina dell&#39;evento Visita sito con l&#39;icona Modifica in alto a destra evidenziata.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+Nella finestra di dialogo **[!UICONTROL Modifica nome e descrizione]**, aggiorna i campi con i valori desiderati, quindi seleziona **[!UICONTROL Salva]** per applicare le modifiche.
+
+![Finestra di dialogo Modifica nome e descrizione con l&#39;opzione Salva evidenziata.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+Viene visualizzata una finestra di dialogo di conferma per confermare che i dettagli sono stati aggiornati correttamente.
+
+### Modifica dettagli conversione {#edit-conversion-details}
+
+Puoi aggiornare i seguenti dettagli di conversione dell’evento:
+
+| Campo | Descrizione |
+|-------------------|-------------|
+| Tipo di conversione | La categoria dell’evento di conversione, ad esempio visita al sito, acquisto o iscrizione. |
+| Chiave di duplicazione | Identificatore per le righe nel set di dati dell’evento che appartengono allo stesso evento di conversione (ad esempio, stessa marca temporale). Impedisce conteggi duplicati. |
+| Valore di conversione | Il valore associato a ogni conversione. |
+
+{style="table-layout:auto"}
+
+Per iniziare a modificare, seleziona **[!UICONTROL Modifica]** nel pannello **[!UICONTROL Dettagli conversione]**.
+
+![Nella pagina dell&#39;evento Visita sito è evidenziata l&#39;opzione Modifica nel pannello dei dettagli della conversione.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+Nella finestra di dialogo **[!UICONTROL Modifica dettagli conversione]**, utilizza il menu a discesa per aggiornare il tipo di conversione. È possibile immettere un valore per la conversione oppure lasciarlo vuoto se non si desidera assegnare un valore. Per modificare la chiave di duplicazione, seleziona l’opzione chiave esistente.
+
+![La finestra di dialogo Modifica dettagli conversione con l&#39;opzione Esempio ID persona evidenziata.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+La finestra di dialogo **[!UICONTROL Chiave duplicata]** visualizza un elenco di campi disponibili raggruppati in opzioni quali **[!UICONTROL Spazio dei nomi identità]** e **[!UICONTROL Schema evento]**. Trova e scegli la chiave desiderata, seguita da **[!UICONTROL Seleziona]**.
+
+![La finestra di dialogo della chiave di duplicazione mostra la chiave scelta e l&#39;opzione Seleziona.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+Al termine, controlla gli aggiornamenti e seleziona **[!UICONTROL Salva]** per applicare le modifiche.
+
+![La finestra di dialogo Modifica dettagli conversione con l&#39;opzione Salva evidenziata.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+Viene visualizzata una finestra di dialogo di conferma per confermare che i dettagli sono stati aggiornati correttamente.
+
+### Modificare le condizioni {#edit-conditions}
+
+Le regole di condizione specificano quali righe di dati del set di dati evento vengono incluse come conversioni. Aggiorna queste regole in base alle esigenze affinché la misurazione rifletta solo i dati più rilevanti per l’analisi.
+
+Per modificare le condizioni, seleziona **[!UICONTROL Modifica]** nel pannello **[!UICONTROL Condizioni]**.
+
+![Nella pagina dell&#39;evento Visita sito è evidenziata l&#39;opzione Modifica nel pannello Condizioni.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+Nella finestra di dialogo **[!UICONTROL Modifica regole di conversione]** puoi visualizzare i dettagli correnti di tutte le condizioni. Seleziona un’opzione di condizione esistente per aggiornarne i dettagli tra cui campo di origine, regola logica e valore.
+
+![La finestra di dialogo Modifica regole di conversione evidenzia le opzioni per la modifica del campo di origine, della regola logica e del valore di una condizione esistente.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+Per includere regole di conversione aggiuntive, selezionare **[!UICONTROL Aggiungi condizione]**. Quindi seleziona la nuova opzione di condizione vuota.
+
+![La finestra di dialogo Modifica regole di conversione mostra la nuova opzione di condizione vuota dopo aver selezionato l&#39;opzione Aggiungi condizione.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+Nella finestra di dialogo **[!UICONTROL Seleziona campo di origine]**, puoi visualizzare i campi disponibili raggruppati in opzioni quali **[!UICONTROL Spazio dei nomi identità]** e **[!UICONTROL Schema evento]**. Seleziona il campo appropriato da utilizzare per la condizione, quindi scegli **[!UICONTROL Seleziona]**. Puoi usare l&#39;opzione **[!UICONTROL Cerca]** per trovare rapidamente il campo preferito.
+
+![La finestra di dialogo Seleziona campo di origine mostra il campo scelto e l&#39;opzione Seleziona.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+Quindi, utilizza il menu a discesa per selezionare un operatore logico dall’elenco disponibile e immettere un valore per la condizione.
+
+![La finestra di dialogo Modifica regole di conversione evidenzia il menu a discesa della logica.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+Utilizzare **[!UICONTROL Includi tutte le condizioni]** se tutte le condizioni specificate sono necessarie per ogni conversione oppure **[!UICONTROL Includi una delle condizioni]** per consentire le conversioni che corrispondono ad almeno una condizione. Al termine dell&#39;aggiornamento, rivedere e selezionare **[!UICONTROL Salva]** per applicare le modifiche.
+
+![Finestra di dialogo Modifica regole di conversione con l&#39;opzione Salva evidenziata.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+Viene visualizzata una finestra di dialogo di conferma per confermare che i dettagli sono stati aggiornati correttamente.
+
+## Eliminare i dati di misurazione {#delete-measurement-data}
+
+L’eliminazione dei dati di misurazione rimuove definitivamente dal progetto l’evento di conversione associato e tutti i dettagli di misurazione collegati. I rapporti di misurazione che si basano su questo evento perderanno le metriche di conversione corrispondenti e non potranno più essere aggiornati. Questa azione non può essere annullata.
+
+Per eliminare un evento di conversione esistente, passare alla scheda **[!UICONTROL Dati di misurazione personali]** nell&#39;area di lavoro **[!UICONTROL Configurazione]**. Nella visualizzazione griglia, selezionare **[!UICONTROL Elimina]** nella scheda eventi corrispondente. Nella vista tabella, selezionare l&#39;icona Elimina (![icona Elimina](/help/assets/common/delete.svg)) accanto al nome dell&#39;evento.
+
+![Scheda Dati di misurazione che evidenzia l&#39;opzione Elimina in una riga evento di conversione.](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Elimina misurazione]**, in cui viene richiesto di confermare l&#39;eliminazione dell&#39;evento. Seleziona **[!UICONTROL Elimina]**.
+
+![Finestra di dialogo Elimina misurazione con l&#39;opzione Elimina evidenziata.](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+Viene visualizzata una finestra di dialogo di conferma per confermare che l’evento di conversione è stato eliminato correttamente.
 
 ## Passaggi successivi {#next-steps}
 
