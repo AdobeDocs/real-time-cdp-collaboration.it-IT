@@ -1,13 +1,13 @@
 ---
 title: Guida rapida e configurazione di Real-Time CDP Collaboration
-description: Scopri come configurare Real-Time CDP Collaboration, ruoli e account, tipi di pubblico di origine, attivare i dati e connettersi con i partner in modo sicuro.
+description: Scopri come configurare Real-Time CDP Collaboration, ruoli e account, impostare le origini dei tipi di pubblico, attivare i dati e connetterti con i partner in modo sicuro.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
+source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 0%
+source-wordcount: '1406'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
 
@@ -155,10 +155,6 @@ I dati del pubblico inviati a una destinazione cloud seguono uno schema predefin
 
 ## Passaggio 5: impostare la misurazione (facoltativo) {#set-up-measurement}
 
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile in **beta** ed è disponibile esclusivamente per i clienti del programma Disponibilità limitata. Contatta il tuo rappresentante Adobe per richiedere l’accesso.
-
 >[!IMPORTANT]
 >
 >L&#39;area di lavoro **[!UICONTROL Measure]** è disponibile solo se il caso di utilizzo **[!UICONTROL Measurement]** è stato abilitato [durante il processo di connessione](./connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./collaborate/manage-projects.md#project-use-cases).
@@ -226,7 +222,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
