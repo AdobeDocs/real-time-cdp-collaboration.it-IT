@@ -2,13 +2,12 @@
 title: Crosswalk delle identità
 description: Scopri tutte le informazioni sui crosswalk di identità in Real-Time CDP Collaboration, tra cui come inserire i crosswalk di identità da origini diverse e come gestirli
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '546'
 ht-degree: 22%
 
 ---
@@ -29,7 +28,7 @@ Come primo passo, devi importare le crosswalk di identità in Real-Time CDP Coll
 
 ## Importare crosswalks di identità in Real-Time CDP Collaboration {#import-crosswalk}
 
-Passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Scheda Percorsi incrociati identità]**, seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e selezionare **[!UICONTROL Identity crosswalk]**
+Passa alla scheda **[!UICONTROL Configurazione]** > **[!UICONTROL Percorsi incrociati di identità]**, seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e seleziona **[!UICONTROL Percorsi incrociati di identità]**
 
 ![Registrazione di come accedere alla schermata per aggiungere crosswalks di identità](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
