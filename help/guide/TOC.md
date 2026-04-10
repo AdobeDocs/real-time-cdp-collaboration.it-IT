@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
    * [Ruoli account](./overview/roles.md)
    * [Modelli Collaboration](./overview/collaboration-patterns.md)
    * [Flusso di lavoro end-to-end](./overview/end-to-end-workflow.md)
-   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * Configurazione {#setup}
    * [Panoramica della sezione di configurazione](./setup/setup-overview.md)
    * [Integrare e gestire l’account](./setup/onboard-account.md)
@@ -32,14 +32,14 @@ ht-degree: 28%
    * [Gestisci connessioni dati](./setup/manage-data-connection.md)
    * [Configurare e gestire le destinazioni](./setup/manage-destinations.md)
    * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
-   * [Crosswalk delle identità](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[Percorsi incrociati di identità](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
    * [Gestire la connessione dati di misurazione](./setup/manage-measurement-data-connection.md)
    * [Registri di controllo](./setup/audit-logs.md)
    * Configurazione di Real-Time CDP Collaboration Starter {#starter-setup}
-      * [Configurare l’accesso amministratore](./setup/starter-admin-access.md)
-      * [Configurare i controlli delle autorizzazioni](./setup/starter-permission-controls.md)
-      * [Utilizzo e consumo del credito](./setup/starter-credit-usage.md)
+      * {hide-from-toc}[Configura accesso amministratore](./setup/starter-admin-access.md)
+      * {hide-from-toc}[Configurare i controlli delle autorizzazioni](./setup/starter-permission-controls.md)
+      * {hide-from-toc}[Utilizzo e consumo del credito](./setup/starter-credit-usage.md)
 * Stabilimento di connessioni {#connect}
    * [Panoramica.md](./connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
@@ -57,7 +57,7 @@ ht-degree: 28%
       * [Misura](./collaborate/measure.md)
    * Connessioni alla piattaforma Advertising {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-      * [Creare rapporti di misurazione AMC](./collaborate/advertising-platforms/amc-measure.md)
+      * {hide-from-toc}[Crea report di misurazione AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinazioni {#destinations}
    * [Panoramica](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
@@ -67,5 +67,5 @@ ht-degree: 28%
    * [Gestire i ruoli](./permissions/manage-roles.md)
 * Riferimenti {#reference}
    * [Domande comuni e suggerimenti per la risoluzione dei problemi](./faqs/common-questions.md)
-   * [Glossario](./glossary.md)
+   * {hide-from-toc}[Glossario](./glossary.md)
 * [Note sulla versione più recente](./release-notes/latest.md)

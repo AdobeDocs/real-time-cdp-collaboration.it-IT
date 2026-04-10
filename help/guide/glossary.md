@@ -3,13 +3,12 @@ title: Glossario
 description: Terminologia chiave per Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '837'
+ht-degree: 3%
 
 ---
 
@@ -85,7 +84,7 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 -->
 
-## M
+## L
 
 ### Chiavi di corrispondenza
 
@@ -103,7 +102,7 @@ Una sovrapposizione (o sovrapposizione di pubblico) si riferisce ai segmenti di 
 
 Un progetto in Adobe Real-Time CDP Collaboration è un’area di lavoro in cui gli utenti possono collaborare a specifiche attività di integrazione dei dati e segmentazione del pubblico. I progetti aiutano a organizzare e gestire le attività di condivisione dei dati, rendendo la collaborazione più efficiente e semplificata.
 
-### Pubblico
+### Pubblico non privato
 
 Nel contesto dei progetti, si tratta di un pubblico individuabile dal tuo collaboratore. Il pubblico può essere privato, personalizzato o pubblico. I tipi di pubblico privati non sono individuabili da altri collaboratori. I tipi di pubblico personalizzati possono essere rilevati solo da alcuni collaboratori e quelli pubblici possono essere rilevati da tutti i collaboratori.
 
