@@ -1,8 +1,8 @@
 ---
 source-git-commit: 8a83aad489d440c1ab6b102d64f3bc558263c7b7
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 93%
 
 ---
 # Contribuire agli articoli
@@ -26,8 +26,8 @@ Questo progetto ha adottato il [Codice di condotta open source di Adobe](code-of
 Se stai contribuendo con un aggiornamento minore:
 
 1. Passa all’argomento da modificare.
-1. Nel banner “Questo contenuto è stato utile?” che viene visualizzato nella parte inferiore della finestra del browser, fai clic su **Opzioni di feedback dettagliate**.
-1. Fai clic su **Suggerisci una modifica** e invia una richiesta pull (PR) con le modifiche nell’interfaccia utente di GitHub.
+1. Nel banner “Questo contenuto è stato utile?” banner visualizzato nella parte inferiore della finestra del browser, fai clic su **Opzioni di feedback dettagliate**.
+1. Fai clic su **Suggerisci una modifica** e invia una richiesta di pull (PR) con le modifiche nell&#39;interfaccia utente di GitHub.
 
    Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it) generale.
 
@@ -54,7 +54,7 @@ Se sei un autore tecnico, un responsabile del programma o uno sviluppatore del t
 Tutti gli articoli in questo archivio utilizzano GitHub Flavoured Markdown. Se non conosci Markdown, consulta:
 
 * [Nozioni di base su Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Cheat sheet Markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Foglio di riferimento per markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etichette
 
