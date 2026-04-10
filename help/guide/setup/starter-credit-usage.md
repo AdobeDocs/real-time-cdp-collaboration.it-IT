@@ -2,7 +2,7 @@
 title: Utilizzo e consumo del credito in Real-Time CDP Collaboration Starter
 description: Comprendere il funzionamento dell’utilizzo e del consumo di credito in Adobe Real-Time CDP Collaboration Starter.
 audience: users invited to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
