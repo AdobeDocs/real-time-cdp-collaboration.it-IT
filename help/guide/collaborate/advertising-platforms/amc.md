@@ -15,11 +15,11 @@ ht-degree: 20%
 
 {{limited-availability-release-note}}
 
-Dopo aver creato una connessione con [!DNL Amazon Marketing Cloud] ([!DNL AMC]), gli inserzionisti possono [creare un progetto](../manage-projects.md#create-project) per collaborare con [!DNL AMC] e sfruttarne le funzionalità di analisi avanzate. Dopo aver creato un progetto, puoi utilizzare la sezione **[!UICONTROL Discover]** per confrontare approfondimenti sul pubblico e scoprire tipi di pubblico rilevanti per le campagne.
+Dopo aver creato una connessione con [!DNL Amazon Marketing Cloud] ([!DNL AMC]), gli inserzionisti possono [creare un progetto](../manage-projects.md#create-project) per collaborare con [!DNL AMC] per sfruttare le funzionalità di analisi avanzate. Dopo aver creato un progetto, puoi utilizzare la sezione **[!UICONTROL Discover]** per confrontare approfondimenti sul pubblico e scoprire tipi di pubblico rilevanti per le campagne.
 
 >[!IMPORTANT]
 >
->Gli unici casi d&#39;uso supportati con [!DNL AMC] sono **Individuazione pubblico** e **Misurazione**. Attualmente, nel tuo progetto con [!DNL AMC] è disponibile solo la sezione **[!UICONTROL Scopri]**.
+>Gli unici casi d&#39;uso supportati con [!DNL AMC] sono **Individuazione pubblico** e **Misurazione**. Attualmente, nel tuo progetto con [!DNL AMC] è disponibile solo la sezione **[!UICONTROL Discover]**.
 
 ## Scopri {#discover}
 
@@ -53,24 +53,24 @@ Dopo aver creato una connessione con [!DNL Amazon Marketing Cloud] ([!DNL AMC]),
 >title="Raggruppamento per annuncio pubblicitario Amazon"
 >abstract="Raggruppamento di “ID sovrapposti ed esposti ad annunci” raggiunti dal prodotto sponsorizzato da Amazon Ads e/o dalla DSP di Amazon Ads."
 
-Nella sezione **[!UICONTROL Scopri]**, puoi confrontare il pubblico AMC con tutti i consumatori raggiunti dai tuoi annunci Amazon Ads. Puoi anche visualizzare i segmenti di targeting di Amazon con cui il pubblico ha le sovrapposizioni più elevate, considerando solo le impression di DSP (questi segmenti possono essere targetizzati solo in DSP).
+Nella sezione **[!UICONTROL Discover]**, puoi confrontare il pubblico AMC con tutti i consumatori raggiunti dai tuoi annunci Amazon Ads. Puoi anche visualizzare i segmenti di targeting di Amazon con cui il pubblico ha le sovrapposizioni più elevate, considerando solo le impression di DSP (questi segmenti possono essere targetizzati solo in DSP).
 
 >[!IMPORTANT]
 >
->I dati sul pubblico vengono elaborati dai tipi di pubblico caricati nel tuo account [!DNL Amazon Ads]. Per scoprire come inviare e utilizzare la funzione Destinazioni di Experience Platform per inviare il tuo pubblico al tuo account [!DNL Amazon Ads], leggi la guida [Connessione Amazon Ads](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>I dati sul pubblico vengono elaborati dai tipi di pubblico caricati sul tuo account [!DNL Amazon Ads]. Per informazioni su come inviare e utilizzare la funzionalità Destinazioni di Experience Platform per inviare i tuoi tipi di pubblico al tuo account [!DNL Amazon Ads], leggi la [guida alla connessione di Amazon Ads](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
-![Sezione Discover di un progetto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
+![Sezione di individuazione in un progetto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
 ### Confronta i tipi di pubblico {#compare-audiences}
 
-La sezione **[!UICONTROL Confronto tipi di pubblico]** fornisce approfondimenti su come il pubblico [!DNL AMC] si sovrappone ai consumatori raggiunti dai tuoi annunci Amazon Ads. Nella sezione **[!UICONTROL Confronta tipi di pubblico]** puoi visualizzare le metriche seguenti:
+La sezione **[!UICONTROL Confronto tipi di pubblico]** fornisce approfondimenti su come il pubblico [!DNL AMC] si sovrappone ai consumatori raggiunti dai tuoi annunci Amazon Ads. Nella sezione **[!UICONTROL Confronto tipi di pubblico]** è possibile visualizzare le metriche seguenti:
 
 | Metrica | Descrizione |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] è stato risolto utilizzando i dati del pubblico. |
+| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] che è stato possibile risolvere utilizzando i dati del pubblico. |
 | [!UICONTROL ID sovrapposti esposti ad] | Il numero di [!UICONTROL ID risolti] dal pubblico caricato che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. |
-| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] esposti a un annuncio tramite [!DNL Amazon Ads]. |
-| [!UICONTROL Raggruppamento per prodotto annuncio Amazon] | Raggruppamento di [!UICONTROL ID sovrapposti esposti ad] raggiunti da [!UICONTROL Prodotto sponsorizzato] e/o [!UICONTROL DSP]. Ciascuno di essi è rappresentato come una singola percentuale rispetto al numero totale di ID esposti all’annuncio. Poiché un ID può appartenere sia a [!UICONTROL Prodotti sponsorizzati] che a [!UICONTROL DSP], la somma delle percentuali potrebbe non essere pari al 100%. |
+| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. |
+| [!UICONTROL Raggruppamento per prodotto annuncio Amazon] | Raggiunto raggruppamento di [!UICONTROL ID sovrapposti esposti ad] da [!UICONTROL Prodotto sponsorizzato] e/o [!UICONTROL DSP]. Ciascuno di essi è rappresentato come una singola percentuale rispetto al numero totale di ID esposti all’annuncio. Poiché un ID può appartenere sia a [!UICONTROL Prodotti sponsorizzati] che a [!UICONTROL DSP], la somma delle percentuali potrebbe non essere 100%. |
 
 
 ### Tipi di pubblico pertinenti {#relevant-audiences}
@@ -79,17 +79,17 @@ La sezione **[!UICONTROL Tipi di pubblico rilevanti]** fornisce informazioni app
 
 | Metrica | Descrizione |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] è stato risolto utilizzando i dati del pubblico. |
+| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] che è stato possibile risolvere utilizzando i dati del pubblico. |
 | [!UICONTROL ID sovrapposti esposti ad] | Rappresenta il numero di [!UICONTROL ID risolti] dal pubblico caricato che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. Questo considera solo le impression di DSP. |
-| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] esposti a un annuncio tramite [!DNL Amazon Ads]. |
+| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. |
 | [!UICONTROL Categorie] | La categoria o le categorie a cui appartiene il pubblico. Un pubblico può appartenere a più categorie. |
 
-### Scopri le sovrapposizioni con [!DNL Amazon Marketing Cloud] {#discover-overlaps}
+### Rileva sovrapposizioni con [!DNL Amazon Marketing Cloud] {#discover-overlaps}
 
-La sezione **[!UICONTROL Scopri le sovrapposizioni con Amazon Marketing Cloud]** fornisce approfondimenti su come i tipi di pubblico si sovrappongono a [!DNL Amazon] segmenti di targeting o tipi di pubblico. Puoi visualizzare le metriche seguenti:
+La sezione **[!UICONTROL Scopri le sovrapposizioni con Amazon Marketing Cloud]** fornisce approfondimenti sulla sovrapposizione dei tipi di pubblico con [!DNL Amazon] segmenti di targeting o tipi di pubblico. Puoi visualizzare le metriche seguenti:
 
 | Metrica | Descrizione |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] è stato risolto utilizzando i dati del pubblico. |
+| [!UICONTROL ID risolti] | Il numero di ID [!DNL Amazon’s Identity Resolution] che è stato possibile risolvere utilizzando i dati del pubblico. |
 | [!UICONTROL ID sovrapposti esposti ad] | Rappresenta il numero di [!UICONTROL ID risolti] dal pubblico caricato che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. Questo considera solo le impression di DSP. |
-| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] esposti a un annuncio tramite [!DNL Amazon Ads]. |
+| [!UICONTROL Sovrapposizione %] | Percentuale di [!UICONTROL ID risolti] che sono stati esposti a un annuncio tramite [!DNL Amazon Ads]. |

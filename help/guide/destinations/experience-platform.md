@@ -23,13 +23,13 @@ Configura questa destinazione per attivare il pubblico dal progetto a Adobe Expe
 
 ## Configurare la destinazione {#configure-destination}
 
-Per configurare Adobe Experience Platform come destinazione, passa a **[!UICONTROL Configurazione]** e seleziona la scheda **[!UICONTROL Destinazioni personali]**. Seleziona **[!UICONTROL Configura]** per Adobe Experience Platform.
+Per configurare Adobe Experience Platform come destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Destinazioni personali]**. Selezionare **[!UICONTROL Configurazione]** per Adobe Experience Platform.
 
-![Area di lavoro Destinazioni personali con l&#39;opzione Configura evidenziata per la destinazione Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![L&#39;area di lavoro Destinazioni personali con l&#39;opzione Configura evidenziata per la destinazione Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
 
 Viene visualizzato il flusso di lavoro **[!UICONTROL Crea destinazione]**.
 
-![Il flusso di lavoro Crea destinazione per Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+![Flusso di lavoro per la creazione della destinazione per Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Configurare la sandbox {#configure-sandbox}
 
@@ -42,17 +42,17 @@ Innanzitutto, devi selezionare la sandbox in cui verranno inviati i dati sul pub
 
 >[!IMPORTANT]
 >
->Puoi selezionare solo una sandbox a cui l’utente ha accesso. Per impostazione predefinita, tutti gli utenti di Collaboration hanno accesso alla sandbox **Prod**. Per poter accedere ad altre sandbox, un amministratore deve aggiungere altre sandbox a un ruolo assegnato al tuo utente. Per ulteriori informazioni sulla gestione dei ruoli, consulta la guida [Gestisci ruoli](../permissions/manage-roles.md).
+>Puoi selezionare solo una sandbox a cui l’utente ha accesso. Per impostazione predefinita, tutti gli utenti di Collaboration hanno accesso alla sandbox **Prod**. Per poter accedere ad altre sandbox, un amministratore deve aggiungere altre sandbox a un ruolo assegnato al tuo utente. Per ulteriori informazioni sulla gestione dei ruoli, fare riferimento alla guida [gestione ruoli](../permissions/manage-roles.md).
 
-Nella sezione **[!UICONTROL Configura sandbox]**, seleziona il menu a discesa **[!UICONTROL Sandbox]** oppure digita il nome di una sandbox.
+Nella sezione **[!UICONTROL Configura sandbox]**, seleziona il menu a discesa **[!UICONTROL Sandbox]** o digita il nome di una sandbox.
 
-![Elenco a discesa Sandbox evidenziato nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
+![Il menu a discesa Sandbox è evidenziato nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/select-sandbox.png)
 
-In alternativa, puoi selezionare **[!UICONTROL Sfoglia sandbox]** per visualizzare tutte le sandbox disponibili e il loro **[!UICONTROL Tipo]**, **[!UICONTROL Stato]** e **[!UICONTROL Area]**. Seleziona la sandbox da utilizzare, quindi seleziona **[!UICONTROL Salva]**.
+In alternativa, è possibile selezionare **[!UICONTROL Sfoglia sandbox]** per visualizzare tutte le sandbox disponibili e le relative **[!UICONTROL Tipo]**, **[!UICONTROL Stato]** e **[!UICONTROL Area]**. Select the sandbox that you want to use, and then select **[!UICONTROL Save]**.
 
-Quindi, configura **[!UICONTROL Scadenza pubblico]**. Per impostazione predefinita, la scadenza del pubblico è impostata su 30 giorni. Puoi scegliere di impostare la scadenza tra 1 e 30 giorni. Dopo la data di scadenza, il pubblico non sarà più disponibile in Adobe Experience Platform.
+Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audience expiration is set to 30 days. You can choose to set the expiration anywhere from 1 to 30 days. After the expiration date, the audience will no longer be available in Adobe Experience Platform.
 
-![La sezione Scadenza pubblico è evidenziata nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/audience-expiration.png)
+![The Audience Expiration section highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/audience-expiration.png)
 
 ### Creare la mappatura di attivazione {#create-activation-mapping}
 
@@ -71,19 +71,19 @@ Quindi, configura **[!UICONTROL Scadenza pubblico]**. Per impostazione predefini
 >title="Spazi dei nomi di destinazione"
 >abstract="Gli spazi dei nomi di destinazione specificano a quale spazio dei nomi di identità verrà mappata la chiave di corrispondenza in Adobe Experience Platform. Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash."
 
-Per impostazione predefinita, tutte le chiavi di corrispondenza abilitate per l’account sono incluse nella mappatura di attivazione. Se non desideri mappare direttamente una chiave di corrispondenza a uno spazio dei nomi di destinazione, puoi utilizzare l’opzione della chiave collegata per sostituirla con una chiave di corrispondenza diversa. Per ulteriori informazioni sulle chiavi collegate, consulta la sezione [&#x200B; di seguito](#linked-keys).
+All match keys enabled for your account are included in the activation mapping by default. If you do not wish to directly map a match key to a target nampespace, you can use the linked key option to replace it with a different match key. For more information about linked keys, see the [section below](#linked-keys).
 
-#### Mappare gli spazi dei nomi di destinazione {#map-target-namespaces}
+#### Map target namespaces {#map-target-namespaces}
 
-Per mappare ogni chiave di corrispondenza a uno spazio dei nomi di destinazione, seleziona il campo **[!UICONTROL Spazi dei nomi di destinazione]** accanto alla chiave di corrispondenza. Viene visualizzata la finestra di dialogo **[!UICONTROL Seleziona campo di origine]**. Trovare lo spazio dei nomi di destinazione nell&#39;elenco o cercare uno spazio dei nomi specifico. Seleziona lo spazio dei nomi di destinazione da utilizzare per la chiave di corrispondenza, quindi seleziona **[!UICONTROL Seleziona]**.
+To map each match key to a target namespace, select the **[!UICONTROL Target namespaces]** field next to the match key. The **[!UICONTROL Select source field]** dialog appears. Find the target namespace in the list, or search for a specific namespace. Select the target namespace that you want to use for the match key, and then select **[!UICONTROL Select]**.
 
 >[!IMPORTANT]
 >
->Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash. Ad esempio, la chiave di corrispondenza dell&#39;e-mail con hash **&#x200B;**&#x200B;deve essere mappata allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail(SHA256, in minuscolo)]** in Adobe Experience Platform. Non è possibile mappare la chiave di corrispondenza dell&#39;**[!UICONTROL e-mail con hash]** allo spazio dei nomi dell&#39;identità **[!UICONTROL E-mail]**, poiché questo spazio dei nomi non supporta valori con hash.
+>Le chiavi di corrispondenza con hash devono essere mappate a uno spazio dei nomi di destinazione che supporta i valori con hash. For example, the **[!UICONTROL Hashed email]** match key must be mapped to the **[!UICONTROL Email(SHA256, lowercased)]** identity namespace in Adobe Experience Platform. You cannot map the **[!UICONTROL Hashed email]** match key to the **[!UICONTROL Email]** identity namespace, as this namespace does not support hashed values.
 
-![Finestra di dialogo Seleziona campo di origine con l&#39;opzione Seleziona evidenziata.](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
+![The Select source field dialog with the Select option highlighted..](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
-Ripeti questo processo per ogni chiave di corrispondenza da includere nella mappatura di attivazione. Se non desideri includere una chiave di corrispondenza, puoi rimuoverla o utilizzare l’opzione della chiave collegata per sostituirla con una chiave di corrispondenza diversa.
+Repeat this process for each match key that you want to include in the activation mapping. If you do not wish to include a match key, you can remove it, or use the linked key option to replace it with a different match key.
 
 #### Chiavi collegate {#linked-keys}
 
@@ -92,53 +92,53 @@ Ripeti questo processo per ogni chiave di corrispondenza da includere nella mapp
 >title="Chiave collegata"
 >abstract="Le chiavi collegate consentono di specificare che, durante l’attivazione, dovrà essere utilizzata una chiave di corrispondenza diversa da quella originale. Per poter essere attivato, un profilo deve avere valori sia per la chiave di corrispondenza originale, sia per quella collegata."
 
-Le chiavi collegate consentono di specificare che, durante l’attivazione, dovrà essere utilizzata una chiave di corrispondenza diversa da quella originale. Per comprendere meglio il funzionamento delle chiavi collegate, considera l’esempio seguente:
+Le chiavi collegate consentono di specificare che, durante l’attivazione, dovrà essere utilizzata una chiave di corrispondenza diversa da quella originale. To better understand how linked keys work, consider the following example:
 
-Un retailer desidera inviare i dati attivati ad Experience Platform al proprio sistema di gestione delle relazioni con i clienti. Retailer ha abilitato l’IP con hash come chiave di corrispondenza per il proprio account per aumentare la percentuale di corrispondenza quando si attivano i tipi di pubblico. Tuttavia, il sistema CRM di retailer non supporta l’IP con hash come spazio dei nomi di identità, pertanto desidera utilizzare la chiave di corrispondenza dell’ID del sistema CRM invece di attivare i tipi di pubblico in Experience Platform. Retailer può utilizzare l’opzione della chiave collegata per attivare i tipi di pubblico in Experience Platform utilizzando l’ID del sistema di gestione delle relazioni con i clienti invece dell’IP con hash.
-
->[!NOTE]
->
->Per poter essere attivato, un profilo deve avere valori sia per la chiave di corrispondenza originale, sia per quella collegata. Ad esempio, se l’ID con hash è collegato all’ID del sistema di gestione delle relazioni con i clienti, un profilo deve avere valori sia per l’ID con hash che per l’ID del sistema di gestione delle relazioni con i clienti da attivare. Se manca uno dei due valori, il profilo non verrà attivato.
-
-Per utilizzare una chiave collegata, attiva l&#39;opzione **[!UICONTROL Chiave collegata]** accanto alla chiave di corrispondenza che desideri utilizzare al suo posto. Viene visualizzata la sezione **[!UICONTROL Chiave collegata]** in cui viene richiesto di creare la mappatura.
-
-![L&#39;opzione chiave collegata e la sezione evidenziate nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/linked-key.png)
-
-Seleziona la **[!UICONTROL Chiave collegata]** che desideri utilizzare dal menu a discesa. In base all&#39;esempio precedente, retailer selezionerebbe **[!UICONTROL ID CRM]** come chiave collegata.
-
-![Elenco a discesa Chiave collegata evidenziato nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
-
-Quindi, se non lo hai già fatto, specifica lo spazio dei nomi di destinazione per la chiave collegata. Se hai già selezionato lo spazio dei nomi di destinazione per la chiave di corrispondenza nella sezione **[!UICONTROL Crea mapping di attivazione]**, questo verrà compilato automaticamente. Se non hai ancora selezionato uno spazio dei nomi di destinazione per la chiave collegata, puoi farlo ora.
-
-Seleziona il campo **[!UICONTROL Spazi dei nomi di destinazione]** accanto alla chiave collegata. Viene visualizzata la finestra di dialogo **[!UICONTROL Seleziona campo di origine]**. Trovare lo spazio dei nomi di destinazione nell&#39;elenco o cercare uno spazio dei nomi specifico. Seleziona lo spazio dei nomi di destinazione da utilizzare per la chiave collegata, quindi seleziona **[!UICONTROL Seleziona]**.
-
-![Finestra di dialogo Seleziona campo di origine.](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
-
-La chiave collegata è ora configurata.
+A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Hashed IP as a match key for their account to increase the match rate when activating audiences. However, the retailer’s CRM system does not support Hashed IP as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Hashed IP.
 
 >[!NOTE]
 >
->È possibile utilizzare un solo spazio dei nomi di destinazione chiave collegato per ogni mappatura di attivazione. Ad esempio, se colleghi l’ID con hash all’ID del sistema di gestione delle relazioni con i clienti, l’attivazione dell’opzione della chiave collegata per un altro campo lo collegherà anche all’ID del sistema di gestione delle relazioni con i clienti.
+>Per poter essere attivato, un profilo deve avere valori sia per la chiave di corrispondenza originale, sia per quella collegata. For example, if Hashed ID is linked to CRM ID, a profile must have values for both Hashed ID and CRM ID to be activated. If either value is missing, the profile will not be activated.
 
-Una volta completata la mappatura di tutte le chiavi di corrispondenza, controlla le impostazioni. La sezione **[!UICONTROL Anteprima]** fornisce un riepilogo della configurazione.
+To use a linked key, toggle on the **[!UICONTROL Linked key]** option next to the match key that you want to use in its place. The **[!UICONTROL Linked key]** section appears asking you to create the mapping.
 
-![Sezione Anteprima nel flusso di lavoro Crea destinazione.](/help/assets/destinations/adobe-experience-platform/preview.png)
+![The Linked key option and section highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/linked-key.png)
+
+Select the **[!UICONTROL Linked key]** that you want to use from the dropdown menu. Following the above example, the retailer would select **[!UICONTROL CRM ID]** as the linked key.
+
+![The Linked key dropdown highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/select-linked-key.png)
+
+Next, you want to specify the target namespace for the linked key if you have not already done so. If you&#39;ve already selected the target namespace for the match key in the **[!UICONTROL Create activation mapping]** section, this will be autopopulated. If you have not yet selected a target namespace for the linked key, you can do so now.
+
+Select the **[!UICONTROL Target namespaces]** field next to the linked key. The **[!UICONTROL Select source field]** dialog appears. Find the target namespace in the list, or search for a specific namespace. Select the target namespace that you want to use for the linked key, and then select **[!UICONTROL Select]**.
+
+![The Select source field dialog.](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
+
+The linked key is now configured.
+
+>[!NOTE]
+>
+>You can only used one linked key target namespace per activation mapping. For example, if you link Hashed ID to CRM ID, toggling on the linked key option for another field will also link it to CRM ID.
+
+When you&#39;ve finished mapping all match keys, review your settings. The **[!UICONTROL Preview]** section provides a summary of your configuration.
+
+![The Preview section in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/preview.png)
 
 >[!IMPORTANT]
 >
->Attualmente, ogni chiave di corrispondenza si attiva ad Experience Platform come pubblico separato. Ad esempio, se hai [!UICONTROL e-mail con hash] e [!UICONTROL telefono con hash] come chiavi di corrispondenza, verranno creati due tipi di pubblico separati in Audience Portal quando un pubblico viene attivato.
+>Currently, each match key activates to Experience Platform as a separate audience. For example, if you have [!UICONTROL Hashed email] and [!UICONTROL Hashed phone] as match keys, two separate audiences will be created in Audience Portal when an audience is activated.
 
-Quando sei soddisfatto della configurazione, seleziona **[!UICONTROL Crea destinazione]**. Viene visualizzato un messaggio di conferma che indica che la destinazione è stata creata correttamente.
+When you&#39;re satisfied with your configuration, select **[!UICONTROL Create destination]**. A confirmation message appears indicating that the destination was created successfully.
 
 ## Utilizzo di Adobe Experience Platform come destinazione
 
-Dopo aver configurato Experience Platform come destinazione, puoi iniziare [ad attivare i tipi di pubblico](../collaborate/activate.md) nella piattaforma tramite i tuoi progetti. Attualmente, il processo di attivazione è un processo in un unico passaggio avviato dal collaboratore. Ad esempio, quando un inserzionista attiva un pubblico, questo viene inviato alla destinazione preconfigurata dell’editore (Experience Platform). L’editore non deve effettuare alcuna operazione aggiuntiva per inviare il pubblico alla destinazione. Lo stesso vale per il modello di collaborazione brand-to-brand.
+Dopo aver configurato Experience Platform come destinazione, puoi iniziare a [attivare i tipi di pubblico](../collaborate/activate.md) nella piattaforma tramite i tuoi progetti. Attualmente, il processo di attivazione è un processo in un unico passaggio avviato dal collaboratore. Ad esempio, quando un inserzionista attiva un pubblico, questo viene inviato alla destinazione preconfigurata dell’editore (Experience Platform). L’editore non deve effettuare alcuna operazione aggiuntiva per inviare il pubblico alla destinazione. Lo stesso vale per il modello di collaborazione brand-to-brand.
 
 >[!IMPORTANT]
 >
->**devi** configurare Experience Platform come destinazione *prima* che il tuo collaboratore attivi un pubblico. Se la destinazione non è configurata, il pubblico ti verrà inviato e visualizzato nella scheda **[!UICONTROL Attiva]** all&#39;interno di un progetto, ma non verrà attivato in Experience Platform.
+>**devi** configurare Experience Platform come destinazione *prima* che il tuo collaboratore attivi un pubblico. Se la destinazione non è configurata, il pubblico verrà inviato all&#39;utente e sarà visibile nella scheda **[!UICONTROL Attiva]** all&#39;interno di un progetto, ma non verrà attivato in Experience Platform.
 
-Dopo l&#39;attivazione, il pubblico sarà disponibile in [Audience Portal](#audience-portal) in Experience Platform utilizzando Real-Time CDP Collaboration come origine.  Questi tipi di pubblico possono quindi essere utilizzati nelle campagne e nel coinvolgimento dei clienti.
+Dopo l&#39;attivazione, il pubblico sarà disponibile in [Audience Portal](#audience-portal) in Experience Platform con Real-Time CDP Collaboration come origine.  Questi tipi di pubblico possono quindi essere utilizzati nelle campagne e nel coinvolgimento dei clienti.
 
 ### Audience Portal {#audience-portal}
 
@@ -146,7 +146,7 @@ Dopo aver configurato Adobe Experience Platform come destinazione, puoi visualiz
 
 >[!IMPORTANT]
 >
->È tua responsabilità applicare tutte le etichette di utilizzo dei dati necessarie ai tipi di pubblico attivati in Adobe Experience Platform. Per ulteriori informazioni, consulta la [guida delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+>È tua responsabilità applicare tutte le etichette di utilizzo dei dati necessarie ai tipi di pubblico attivati in Adobe Experience Platform. Per ulteriori informazioni, consulta la guida [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ![Il portale del pubblico con Real-Time CDP Collaboration come origine nelle opzioni di filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
