@@ -2,7 +2,7 @@
 title: Configura [!DNL Snowflake] per Audience Sourcing
 description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Share]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
