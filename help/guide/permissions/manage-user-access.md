@@ -2,12 +2,12 @@
 title: Gestire l’accesso degli utenti tramite autorizzazioni
 description: Consente di gestire le autorizzazioni e l’accesso degli utenti a diversi componenti dell’interfaccia utente di Real-Time CDP Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 2%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Gestisci le autorizzazioni e l&#39;accesso degli utenti ai singoli componenti all&#39;interno di Adobe Real-Time CDP Collaboration tramite l&#39;interfaccia di Experience Cloud [Autorizzazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}. Le autorizzazioni consentono agli amministratori di sistema e di prodotto di definire [ruoli](./manage-roles.md) per gestire l&#39;accesso degli utenti a funzioni e risorse specifiche.
+Gestisci le autorizzazioni e l&#39;accesso degli utenti ai singoli componenti all&#39;interno di Adobe Real-Time CDP Collaboration tramite l&#39;interfaccia di Experience Cloud [Autorizzazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}. Le autorizzazioni consentono agli amministratori di sistema e di prodotto di definire [ruoli](./manage-roles.md) per gestire l&#39;accesso degli utenti a funzioni e risorse specifiche.
 
 ## Configurare l’accesso alle autorizzazioni {#permissions-access}
 
@@ -41,41 +41,41 @@ Viene visualizzato il dashboard della panoramica di [Adobe Admin Console](https:
 
 ![Dashboard di panoramica di Admin Console con il prodotto Adobe Experience Platform evidenziato.](../../assets/permissions/admin-console.png){zoomable="yes"}
 
-Viene visualizzato il dashboard di Adobe Experience Platform. Selezionare la scheda **[!UICONTROL Amministratori]**, quindi selezionare **[!UICONTROL Aggiungi amministratore]**.
+The Adobe Experience Platform dashboard displays. Select the **[!UICONTROL Admins]** tab and then select **[!UICONTROL Add admin]**.
 
-![Dashboard di prodotto di Adobe Experience Platform con la scheda Amministratori selezionata ed Aggiungi amministratore evidenziato.](../../assets/permissions/add-admin.png){zoomable="yes"}
+![Adobe Experience Platform product dashboard with the Admins tab selected and Add admin highlighted.](../../assets/permissions/add-admin.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi amministratori di prodotto]**. Immettere l&#39;indirizzo e-mail o il nome utente nel campo di testo **[!UICONTROL Indirizzo e-mail o nome utente]**, quindi selezionare l&#39;account corretto dal menu a discesa. Seleziona **[!UICONTROL Salva]** per completare l&#39;aggiunta dell&#39;utente come amministratore di prodotto.
+The **[!UICONTROL Add product administrators]** dialog appears. Enter the user email or username into the **[!UICONTROL Email or username]** text field and then select the correct account from the dropdown. Select **[!UICONTROL Save]** to finish adding the user as a product administrator.
 
-![Nella finestra di dialogo Aggiungi amministratori di prodotto sono state inserite le informazioni degli utenti e l&#39;opzione Salva è stata selezionata.](../../assets/permissions/add-product-administrators.png){zoomable="yes"}
+![The Add product administrators dialog with a users information filled in and the Save option selected.](../../assets/permissions/add-product-administrators.png){zoomable="yes"}
 
-L’utente ora dispone dei privilegi di amministratore del prodotto e può eseguire funzioni amministrative, ad esempio aggiungere utenti o altri amministratori al prodotto all’interno di Admin Console. Successivamente, avrà bisogno dell’accesso dell’utente al prodotto Experience Platform per accedere ed eseguire funzioni all’interno di Autorizzazioni.
+The user now has product administrator privileges and can perform administrative functions, such as adding users or other admins, to the product within the Admin Console. Next they&#39;ll need user access to the Experience Platform product to access and perform functions within Permissions.
 
-### Amministratori: configurare l’accesso utente ad Experience Platform {#user-access}
+### Administrators: configure user access to Experience Platform {#user-access}
 
-Ora che hai concesso l’accesso come amministratore del prodotto, devi fornire agli utenti l’accesso al prodotto Experience Platform. Come parte delle configurazioni di accesso, assegnerai all&#39;utente [profili di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) specifici.
+Now that you&#39;ve granted the user product administrator access, you need to provide them user access to the Experience Platform product. As part of the access configurations, you&#39;ll assign the user specific [product profiles](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html).
 
 >[!TIP]
 >
->Se segui quanto descritto nella sezione precedente, dovrai già trovarti all’interno del prodotto Adobe Experience Platform e potresti saltare il primo passaggio.
+>If you&#39;re following along from the previous section, you&#39;ll already be within the Adobe Experience Platform product and you may skip the first step.
 
-Passa a [Admin Console](https://adminconsole.adobe.com/){target="_blank"} e seleziona **[!UICONTROL Adobe Experience Platform]** dall&#39;elenco **[!UICONTROL Prodotti]** in **[!UICONTROL Prodotti e servizi]**.
+Navigate to the [Admin Console](https://adminconsole.adobe.com/){target="_blank"} and select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
 
 ![Visualizzazione Home di Experience Cloud con Admin Console evidenziato.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
-Selezionare la scheda **[!UICONTROL Utenti]**, quindi selezionare **[!UICONTROL Aggiungi utenti]**.
+Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add users]**.
 
-![Dashboard di prodotto di Adobe Experience Platform con la scheda Utenti selezionata ed Aggiungi utenti evidenziati.](../../assets/permissions/add-users.png){zoomable="yes"}
+![Adobe Experience Platform product dashboard with the Users tab selected and Add users highlighted.](../../assets/permissions/add-users.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi utenti al prodotto]**. Immettere il nome o l&#39;indirizzo di posta elettronica dell&#39;utente nel campo di testo **[!UICONTROL Nome, gruppo di utenti o indirizzo di posta elettronica]**, quindi selezionare l&#39;account corretto dal menu a discesa. Quindi, seleziona l&#39;opzione di aggiunta **[!UICONTROL Prodotti]**.
+The **[!UICONTROL Add users to this product]** dialog appears. Enter the user&#39;s name or email into the **[!UICONTROL Name, user group or email address]** text field and then select the correct account from the dropdown. Next, select the **[!UICONTROL Products]** add option.
 
-![La finestra di dialogo Aggiungi utenti a questo prodotto contiene informazioni sugli utenti compilate e l&#39;opzione di aggiunta Prodotti selezionata.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
+![The Add users to this product dialog with a users information filled in and the Products add option selected.](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Seleziona profili di prodotto]**. Selezionare **[!UICONTROL AEP-Default-All-Users]** e **[!UICONTROL Default Production All Access]**, quindi selezionare **[!UICONTROL Apply]**.
+The **[!UICONTROL Select product profiles]** dialog appears. Select **[!UICONTROL AEP-Default-All-Users]** and **[!UICONTROL Default Production All Access]** and then select **[!UICONTROL Apply]**.
 
-![La finestra di dialogo Seleziona profili di prodotto con le opzioni AEP-Default-All-Users e Default Production All Access selezionate e Applica evidenziate.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
+![The Select product profiles dialog with the AEP-Default-All-Users and Default Production All Access options selected and Apply highlighted.](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
-Verificare che le informazioni siano corrette, quindi selezionare **[!UICONTROL Salva]**.
+Confirm the information is correct and then select **[!UICONTROL Save]**.
 
 ![La finestra di dialogo Aggiungi utenti ai prodotti contiene le informazioni sugli utenti e i profili di prodotto visualizzati ed è evidenziata l&#39;opzione Salva.](../../assets/permissions/save-selections.png){zoomable="yes"}
 
@@ -83,7 +83,7 @@ Ora l’utente deve disporre dell’accesso amministratore di prodotto e prodott
 
 ### Amministratori: configurare l’accesso all’interfaccia utente di Experience Platform {#product-access}
 
-In Real-Time CDP Collaboration, gli amministratori e gli utenti finali lavoreranno con i dati provenienti da Experience Platform, ad esempio i tipi di pubblico e i registri di audit. Questi dati vengono conservati all’interno di istanze di Experience Platform denominate sandbox. Per garantire che gli utenti possano interagire con questi dati, devi assegnare [ruoli predefiniti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#default-roles){target="_blank"} all&#39;utente.
+In Real-Time CDP Collaboration, gli amministratori e gli utenti finali lavoreranno con i dati provenienti da Experience Platform, ad esempio i tipi di pubblico e i registri di audit. Questi dati vengono conservati all’interno di istanze di Experience Platform denominate sandbox. Per garantire che gli utenti possano interagire con questi dati, devi assegnare [ruoli predefiniti](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} all&#39;utente.
 
 Per iniziare, passa a [Adobe Experience Cloud](https://experience.adobe.com/). Dovresti trovare **[!UICONTROL Experience Platform]** e **[!UICONTROL Autorizzazioni]** all&#39;interno di **[!UICONTROL Accesso rapido]**.
 
@@ -118,7 +118,7 @@ Ora puoi accedere ad Experience Platform e alle Autorizzazioni. Nel passaggio fi
 >title="guida alla gestione dell’accesso utente"
 >abstract=""
 
-Per concedere agli utenti l’accesso a Collaboration, utilizza un concetto di controllo degli accessi denominato ruoli. I ruoli definiscono il livello di accesso di un amministratore o un utente alle [risorse](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions) della tua organizzazione.
+Per concedere agli utenti l’accesso a Collaboration, utilizza un concetto di controllo degli accessi denominato ruoli. I ruoli definiscono il livello di accesso di un amministratore o un utente alle [risorse](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) della tua organizzazione.
 
 Quando configuri l’accesso individuale a Collaboration, assegni i ruoli degli utenti contenenti le autorizzazioni dalla risorsa Collaborazioni. Puoi usare la guida [gestione ruoli](./manage-roles.md) per ottenere informazioni su:
 

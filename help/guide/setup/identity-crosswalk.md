@@ -2,7 +2,7 @@
 title: Crosswalk delle identità
 description: Scopri tutte le informazioni sui crosswalk di identità in Real-Time CDP Collaboration, tra cui come inserire i crosswalk di identità da origini diverse e come gestirli
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a

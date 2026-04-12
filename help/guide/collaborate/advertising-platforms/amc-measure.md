@@ -4,7 +4,7 @@ description: Scopri come creare e interpretare i rapporti di misurazione per le 
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapporti di misurazione, riepilogo della campagna, attribuzione, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
 source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a

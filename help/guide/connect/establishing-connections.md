@@ -2,7 +2,7 @@
 title: Stabilire connessioni con i collaboratori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -114,45 +114,45 @@ Per aggiornare il **[!UICONTROL Codice di connessione]**, seleziona l&#39;icona 
 
 >[!IMPORTANT]
 >
->Tutti gli account creati prima dell&#39;introduzione della funzionalità **[!UICONTROL Codice di connessione]** non avranno un codice di connessione generato e il campo di connessione verrà visualizzato come **[!UICONTROL Non disponibile]**. Utilizzare l&#39;opzione di aggiornamento per generare un nuovo codice di connessione.
+>Tutti gli account creati prima dell&#39;introduzione della funzionalità **[!UICONTROL Codice di connessione]** non avranno un codice di connessione generato e il campo di connessione verrà visualizzato come **[!UICONTROL Non disponibile]**. Utilizza l’opzione di aggiornamento per generare un nuovo codice di connessione.
 
 #### Invia invito di connessione privata {#send-private-connection-invite}
 
-Una volta ottenuto il **[!UICONTROL codice di connessione]** dal collaboratore, puoi inviare un invito di connessione privato. A tale scopo, accedi all&#39;area di lavoro **[!UICONTROL Connect]** e seleziona l&#39;icona più (![icona più](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro.
+Una volta ottenuto il **[!UICONTROL Codice di connessione]** dal collaboratore, puoi inviare un invito di connessione privato. A questo scopo, passa all&#39;area di lavoro **[!UICONTROL Connetti]** e seleziona l&#39;icona più (![icona più](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro.
 
-![Icona più evidenziata nell&#39;area di lavoro di Connect.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+![Icona più evidenziata nell&#39;area di lavoro di connessione.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Connetti]**, in cui viene richiesto di immettere il **[!UICONTROL codice di connessione]** del collaboratore con cui desideri connetterti. Incollare il codice nel campo di testo e selezionare **[!UICONTROL Continua]** per continuare.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Connetti]** in cui viene richiesto di immettere il **[!UICONTROL Codice di connessione]** del collaboratore con cui si desidera stabilire la connessione. Incolla il codice nel campo di testo e seleziona **[!UICONTROL Continua]** per continuare.
 
-![La finestra di dialogo Connetti con il campo del codice di connessione compilato e l&#39;opzione Continua evidenziata.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+![La finestra di dialogo Connetti con il campo Codice di connessione è stata compilata ed è stata evidenziata l&#39;opzione Continua.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
 
-Nella finestra di dialogo **[!UICONTROL Connetti]** verrà visualizzato il collaboratore a cui è associato il codice e sarà possibile confermare la connessione con il collaboratore corretto. Se il collaboratore è corretto, seleziona **[!UICONTROL Connetti]** per inviare l&#39;invito alla connessione privata.
+Nella finestra di dialogo **[!UICONTROL Connetti]** verrà quindi visualizzato il collaboratore a cui è associato il codice, che consente di confermare la connessione con il collaboratore corretto. Se il collaboratore è corretto, selezionare **[!UICONTROL Connetti]** per inviare l&#39;invito alla connessione privata.
 
-![Viene visualizzata la finestra di dialogo Connetti con i dettagli del collaboratore e l&#39;opzione Connetti è evidenziata.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+![Viene visualizzata la finestra di dialogo Connetti con i dettagli del collaboratore e viene evidenziata l&#39;opzione Connetti.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
 
 ### Accetta invito {#accept-invite}
 
 >[!TIP]
 >
->Durante la discussione del processo di connessione, verrà fatta una distinzione tra **proprietario** e **destinatario**. Il proprietario è il collaboratore che avvia la connessione inviando l’invito, mentre il destinatario è il collaboratore che riceve e rivede l’invito.
+>Quando si parla del processo di connessione, verrà fatta una distinzione tra **proprietario** e **destinatario**. Il proprietario è il collaboratore che avvia la connessione inviando l&#39;invito, mentre il destinatario è il collaboratore che riceve e rivede l&#39;invito.
 
-Prima che il proprietario possa configurare le impostazioni di connessione, il destinatario deve accettare l’invito alla connessione. A tale scopo, passare all&#39;area di lavoro **[!UICONTROL Connetti]** e trovare la connessione in sospeso nella sezione **[!UICONTROL Azione richiesta]**. Lo stato della connessione è **[!UICONTROL Invito ricevuto]**. Seleziona **[!UICONTROL Accetta]** per accettare l&#39;invito.
+Prima che il proprietario possa configurare le impostazioni di connessione, il destinatario deve accettare l&#39;invito alla connessione. A tale scopo, passare all&#39;area di lavoro **[!UICONTROL Connetti]** e trovare la connessione in sospeso nella sezione **[!UICONTROL Azione richiesta]**. Lo stato della connessione è **[!UICONTROL Invito ricevuto]**. Seleziona **[!UICONTROL Accetta]** per accettare l&#39;invito.
 
-![Viene visualizzata la connessione in sospeso. Viene visualizzata la sezione Azione richiesta dell&#39;area di lavoro Connetti con l&#39;opzione Accetta evidenziata.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+![La connessione in sospeso viene visualizzata nella sezione Azione richiesta dell&#39;area di lavoro Connessione con l&#39;opzione Accetta evidenziata.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
 
-Viene visualizzata la finestra di dialogo che richiede di accettare l’invito. Seleziona **[!UICONTROL Accetta invito]** per continuare.
+Viene visualizzata una finestra di dialogo in cui viene richiesto di accettare l&#39;invito. Selezionare **[!UICONTROL Accetta invito]** per continuare.
 
-![La finestra di dialogo Accetta invito di connessione con l&#39;opzione Accetta invito evidenziata.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![Finestra di dialogo Accetta invito alla connessione con l&#39;opzione Accetta invito evidenziata.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
-Lo stato della connessione cambia in **[!UICONTROL In sospeso]**. Il proprietario ora può configurare le impostazioni di connessione.
+Lo stato della connessione cambia in **[!UICONTROL In sospeso]**. Il proprietario può ora configurare le impostazioni di connessione.
 
 ### Configurare le impostazioni di connessione {#configure-connection-settings}
 
 Le impostazioni di connessione definiscono i termini tra due collaboratori. Queste impostazioni includono casi d’uso, chiavi di corrispondenza, ripartizione del credito e contratti legali. I collaboratori che si connettono con gli inserzionisti possono anche aggiungere nomi degli inserzionisti alle impostazioni di connessione, che verranno utilizzate durante la creazione dei progetti.
 
-Dopo che il destinatario accetta l’invito, il proprietario può configurare le impostazioni di connessione. A questo scopo, passa a **[!UICONTROL Le mie connessioni]** e trova la connessione in sospeso nella sezione **[!UICONTROL Azione richiesta]**. Seleziona **[!UICONTROL Configura connessione]** per configurare le impostazioni di connessione.
+Dopo che il destinatario accetta l’invito, il proprietario può configurare le impostazioni di connessione. A tale scopo, passare a **[!UICONTROL Le mie connessioni]** e trovare la connessione in sospeso nella sezione **[!UICONTROL Azione richiesta]**. Selezionare **[!UICONTROL Configura connessione]** per configurare le impostazioni di connessione.
 
-![L&#39;area di lavoro Connetti con l&#39;opzione Configura connessione evidenziata nella sezione Azione richiesta.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![L&#39;area di lavoro Connessione con l&#39;opzione Configura connessione è evidenziata nella sezione Azione richiesta.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che consente di configurare le varie impostazioni della connessione.
 
@@ -203,11 +203,11 @@ Puoi configurare le seguenti impostazioni di connessione:
 
 >[!IMPORTANT]
 >
->Tutte le connessioni create prima dell&#39;introduzione della funzionalità **[!UICONTROL Audience Activation]** avranno automaticamente l&#39;impostazione di Audience Activation impostata sul proprietario della connessione. Se desideri consentire a entrambi i collaboratori di attivare i tipi di pubblico, [elimina la connessione corrente](#delete-connections) e creane una nuova con le impostazioni aggiornate.
+>Tutte le connessioni create prima dell&#39;introduzione della funzionalità **[!UICONTROL Audience Activation]** avranno automaticamente l&#39;impostazione di Audience Activation impostata sul proprietario della connessione. Se vuoi consentire a entrambi i collaboratori di attivare i tipi di pubblico, devi [eliminare la connessione corrente](#delete-connections) e crearne una nuova con le impostazioni aggiornate.
 
 L’attivazione del pubblico consente di selezionare quale collaboratore può attivare i tipi di pubblico all’interno della connessione. L&#39;attivazione del pubblico sarà un&#39;opzione solo se è selezionato il caso d&#39;uso **[!UICONTROL Attivazione pubblico]**. Se scegli di rimuovere il caso d’uso durante il processo di connessione, l’impostazione di attivazione del pubblico verrà rimossa dalle impostazioni di connessione. Per ulteriori informazioni su Audience Activation, consulta la guida [activate](/help/guide/collaborate/activate.md).
 
-Per impostare l&#39;attivazione del pubblico, seleziona **[!UICONTROL Configura]** nella sezione **[!UICONTROL Attivazione pubblico]**. Utilizza il menu a discesa per specificare quale collaboratore può attivare i tipi di pubblico. Puoi scegliere un singolo collaboratore o consentire a entrambi i collaboratori di attivare i tipi di pubblico.
+Per impostare l&#39;attivazione del pubblico, selezionare **[!UICONTROL Imposta]** nella sezione **[!UICONTROL Attivazione pubblico]**. Utilizza il menu a discesa per specificare quale collaboratore può attivare i tipi di pubblico. Puoi scegliere un singolo collaboratore o consentire a entrambi i collaboratori di attivare i tipi di pubblico.
 
 ![Finestra di dialogo di attivazione del pubblico con opzioni nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
 
@@ -217,11 +217,11 @@ Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
 ##### Casi d’uso {#use-cases}
 
-I casi di utilizzo vengono compilati automaticamente con tutte le opzioni disponibili. I casi d’uso selezionati determinano quali visualizzazioni e opzioni sono disponibili all’interno dei tuoi progetti. Per ulteriori informazioni, consulta la guida dei [casi d&#39;uso del progetto](/help/guide/collaborate/manage-projects.md#project-use-cases).
+I casi di utilizzo vengono compilati automaticamente con tutte le opzioni disponibili. I casi d’uso selezionati determinano quali visualizzazioni e opzioni sono disponibili all’interno dei tuoi progetti. Per ulteriori informazioni, consulta la guida ai [casi d&#39;uso del progetto](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
 Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Casi d&#39;uso]** e disattiva quelli che non desideri includere in alcun progetto con il tuo collaboratore. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Impostazioni dei casi d&#39;uso nell&#39;area di lavoro impostazioni connessione.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![Impostazioni dei casi d&#39;uso nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Chiavi di corrispondenza {#match-keys}
 
@@ -231,13 +231,13 @@ Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** ne
 
 Le chiavi di corrispondenza vengono compilate automaticamente con le chiavi di corrispondenza comuni selezionate da te e dal tuo collaboratore durante la [configurazione degli account](/help/guide/setup/onboard-account.md#set-up-match-keys). Verranno visualizzate solo le chiavi che tu e il tuo collaboratore avete selezionato **e** in comune.
 
-![L&#39;area di lavoro delle impostazioni di connessione con la sezione Chiavi di corrispondenza evidenziata mostra le chiavi di corrispondenza comuni.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![L&#39;area di lavoro delle impostazioni di connessione con la sezione delle chiavi di corrispondenza evidenziata mostra le chiavi di corrispondenza comuni.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-Quando il proprietario della connessione configura le impostazioni di connessione, può [modificare le chiavi di corrispondenza dell&#39;account](../setup/onboard-account.md#edit-match-keys) per includere altre chiavi di corrispondenza. Dopo aver attivato altri tasti di corrispondenza nelle impostazioni del tuo account, questi tasti di corrispondenza saranno disponibili per l’attivazione nelle impostazioni di connessione se sono stati selezionati anche dal tuo collaboratore. Le chiavi di corrispondenza aggiunte una volta avviato il processo di connessione non si popolano automaticamente e devono essere attivate manualmente.
+Quando il proprietario della connessione sta configurando le impostazioni di connessione, può [modificare le chiavi di corrispondenza dell&#39;account](../setup/onboard-account.md#edit-match-keys) per includere altre chiavi di corrispondenza. Dopo aver attivato altri tasti di corrispondenza nelle impostazioni del tuo account, questi tasti di corrispondenza saranno disponibili per l’attivazione nelle impostazioni di connessione se sono stati selezionati anche dal tuo collaboratore. Le chiavi di corrispondenza aggiunte una volta avviato il processo di connessione non si popolano automaticamente e devono essere attivate manualmente.
 
 Per personalizzare le chiavi di corrispondenza, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Chiavi di corrispondenza]** e disattiva le chiavi di corrispondenza che non desideri utilizzare in questa connessione. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![L&#39;area di lavoro delle impostazioni di connessione con la finestra di dialogo della sezione relativa alle chiavi è aperta e mostra una chiave di corrispondenza disattivata.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![Viene aperta l&#39;area di lavoro delle impostazioni di connessione con la finestra di dialogo della sezione relativa alle chiavi di corrispondenza in cui viene visualizzata una chiave di corrispondenza disattivata.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -245,15 +245,15 @@ Per personalizzare le chiavi di corrispondenza, seleziona **[!UICONTROL Modifica
 
 ##### Suddivisione del credito {#credit-split}
 
-Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede che una parte copra i costi, il caso d&#39;uso **[!UICONTROL Attivazione - Corrispondenza]** offre un&#39;opzione aggiuntiva per fare in modo che ciascuna parte copra i propri costi. Per informazioni sulla suddivisione dei costi, consulta la guida sui [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
+Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede una parte per coprire i costi, il caso d&#39;uso **[!UICONTROL Attivazione - Corrispondenza]** offre un&#39;opzione aggiuntiva per consentire a ciascuna parte di coprire i propri costi. Per informazioni sulla suddivisione dei costi, leggere la guida dei [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
 
 >[!NOTE]
 >
 >Pubblico: l’uscita è sempre coperta dal collaboratore che riceve il pubblico, pertanto non è richiesta alcuna selezione.
 
-Per impostare la divisione del credito, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Divisione credito]**. Puoi quindi selezionare le opzioni appropriate per ogni caso d’uso. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
+Per impostare la divisione del credito, selezionare **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Divisione credito]**. Puoi quindi selezionare le opzioni appropriate per ogni caso d’uso. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Finestra di dialogo per divisione crediti con opzioni nell&#39;area di lavoro impostazioni connessione.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![Finestra di dialogo Divisione crediti con opzioni nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### Nome inserzionista {#advertiser-names}
 
@@ -265,17 +265,17 @@ Se sei un editore che forma una connessione con un inserzionista, puoi scegliere
 
 ![I nomi degli inserzionisti nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-Per aggiungere nomi inserzionista, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Nomi inserzionista]**. Puoi quindi immettere il **[!UICONTROL ID inserzionista]** che l&#39;inserzionista è noto come nel tuo sistema e un **[!UICONTROL nome inserzionista]** da associare a tale ID in Collaboration. Puoi aggiungere più nomi di inserzionisti selezionando l&#39;opzione **[!UICONTROL Aggiungi]**.
+Per aggiungere i nomi degli inserzionisti, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Nomi inserzionisti]**. Puoi quindi immettere l&#39;**[!UICONTROL ID inserzionista]** che l&#39;inserzionista è noto come nel tuo sistema e un **[!UICONTROL nome inserzionista]** da associare a tale ID in Collaboration. È possibile aggiungere più nomi di inserzionisti selezionando l&#39;opzione **[!UICONTROL Aggiungi]**.
 
-![Finestra di dialogo Nomi inserzionista con opzioni nell&#39;area di lavoro impostazioni connessione.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
+![Finestra di dialogo Nomi inserzionista con opzioni nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
 
 Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
 Durante la creazione di un progetto, il nome dell’inserzionista verrà precompilato in base alle seguenti impostazioni stabilite durante la connessione    :
 
 1. **Nessun nome inserzionista impostato**: se non viene aggiunto alcun nome di inserzionista, per impostazione predefinita Collaboration utilizza il nome dell&#39;inserzionista come nome dell&#39;inserzionista.
-2. **Un nome inserzionista impostato**: se viene aggiunto un singolo nome inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
-3. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, l&#39;utente o il collaboratore può selezionare qualsiasi nome fornito durante la creazione del progetto.
+2. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
+3. **Più nomi inserzionisti impostati**: se vengono aggiunti più nomi inserzionisti, è possibile selezionare uno qualsiasi dei nomi specificati durante la creazione del progetto.
 
 >[!NOTE]
 >
@@ -283,26 +283,26 @@ Durante la creazione di un progetto, il nome dell’inserzionista verrà precomp
 
 ![L&#39;area di lavoro delle impostazioni di connessione con la sezione Nomi inserzionisti è stata compilata.](/help/assets/connect/establish-connection/add-advertiser-names.png)
 
-Dopo aver effettuato le selezioni, seleziona **[!UICONTROL Invia]** per inviare le impostazioni suggerite al destinatario per la revisione.
+Dopo aver effettuato le selezioni, selezionare **[!UICONTROL Invia]** per inviare le impostazioni suggerite al destinatario per la revisione.
 
 ### Rivedi impostazioni di connessione {#review-connection-settings}
 
-Successivamente, il destinatario deve rivedere le impostazioni di connessione proposte dal proprietario. Il destinatario può eseguire l&#39;operazione accedendo alla scheda **[!UICONTROL Le mie connessioni]** nell&#39;area di lavoro **[!UICONTROL Connetti]**. La connessione verrà visualizzata nella sezione **[!UICONTROL Azione richiesta]**. Seleziona **[!UICONTROL Rivedi le impostazioni di connessione]** per rivedere le impostazioni di connessione proposte.
+Successivamente, il destinatario deve rivedere le impostazioni di connessione proposte dal proprietario. Il destinatario può eseguire questa operazione passando alla scheda **[!UICONTROL Le mie connessioni]** nell&#39;area di lavoro **[!UICONTROL Connetti]**. La connessione verrà visualizzata nella sezione **[!UICONTROL Azione richiesta]**. Selezionare **[!UICONTROL Rivedi impostazioni connessione]** per rivedere le impostazioni di connessione proposte.
 
-![L&#39;area di lavoro Le mie connessioni con l&#39;opzione Controlla impostazioni di connessione evidenziata.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
+![L&#39;area di lavoro Le mie connessioni con l&#39;opzione Controlla impostazioni connessione evidenziata.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
 
-Esaminare le impostazioni proposte dal collaboratore. È possibile accettare o rifiutare le impostazioni di connessione. Se si rifiutano le impostazioni di connessione, sarà necessario comunicare con il collaboratore le modifiche che si desidera apportare all&#39;esterno del prodotto. Le informazioni di contatto del collaboratore vengono visualizzate nella sezione **[!UICONTROL Contatto]** dell&#39;area di lavoro impostazioni connessione. Il proprietario può quindi rivedere le impostazioni di connessione e inviarle nuovamente per la revisione.
+Esaminare le impostazioni proposte dal collaboratore. È possibile accettare o rifiutare le impostazioni di connessione. Se si rifiutano le impostazioni di connessione, sarà necessario comunicare con il collaboratore le modifiche che si desidera apportare all&#39;esterno del prodotto. Le informazioni di contatto del collaboratore vengono visualizzate nella sezione **[!UICONTROL Contatto]** dell&#39;area di lavoro delle impostazioni di connessione. Il proprietario può quindi rivedere le impostazioni di connessione e inviarle nuovamente per la revisione.
 
-![Area di lavoro impostazioni connessione con l&#39;opzione Accetta e rifiuta evidenziata.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
+![Area di lavoro delle impostazioni di connessione con l&#39;opzione Accetta e rifiuta evidenziata.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Inoltre, se sei un editore che si connette con un inserzionista, ora puoi aggiungere i nomi degli inserzionisti nelle impostazioni di connessione. Per ulteriori informazioni su questo processo, consulta la sezione [impostazioni di connessione](#connection-settings).
+Inoltre, se sei un editore che si connette con un inserzionista, ora puoi aggiungere i nomi degli inserzionisti nelle impostazioni di connessione. Per ulteriori informazioni su questo processo, vedere la sezione [impostazioni di connessione](#connection-settings).
 
 >[!NOTE]
 >
 > Una volta accettate le impostazioni di connessione, non sarà più possibile aggiungere o modificare i nomi degli inserzionisti.
 
-Quindi, seleziona **[!UICONTROL Accetta]** per procedere con la connessione. Lo stato della connessione passerà a **[!UICONTROL Attivo]** e ora puoi iniziare a collaborare ai progetti.
+Selezionare **[!UICONTROL Accetta]** per continuare la connessione. Lo stato della connessione passerà a **[!UICONTROL Attivo]** e ora puoi iniziare a collaborare ai progetti.
 
 ## Passaggi successivi
 
-Dopo aver stabilito una connessione con il tuo collaboratore, tu e il tuo collaboratore potete ora [creare progetti](/help/guide/collaborate/manage-projects.md#create-project).
+Dopo aver stabilito una connessione con il tuo collaboratore, ora tu e il tuo collaboratore potete [creare progetti](/help/guide/collaborate/manage-projects.md#create-project).
