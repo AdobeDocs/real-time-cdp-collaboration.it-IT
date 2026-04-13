@@ -2,10 +2,11 @@
 title: I ruoli di collaboratore nell’Adobe Real-Time CDP Collaboration.
 description: Comprendere i due ruoli account in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -23,6 +24,14 @@ Gli inserzionisti sono marchi che cercano di raggiungere tipi di pubblico specif
 ## Editore {#publisher}
 
 Gli editori sono marchi che possiedono o gestiscono contenuti o servizi online in cui i dati personali vengono raccolti con il consenso dell’utente. Forniscono questi dati per l’utilizzo da parte degli inserzionisti per la pubblicità digitale e la misurazione del pubblico. Utilizzando Collaboration, gli editori possono inviare i propri dati sul pubblico ai collaboratori per abilitare campagne di marketing mirate e migliorare l’efficacia delle loro attività pubblicitarie.
+
+## Agenzia {#agency}
+
+Le agenzie sono organizzazioni che pianificano, gestiscono e ottimizzano campagne di marketing e multimediali per uno o più marchi. Sfruttano i dati di prime e terze parti per generare, attivare e misurare i tipi di pubblico tra i canali. Utilizzando Collaboration, le agenzie possono accedere ai dati con autorizzazioni del brand all’interno di un singolo ambiente gestito in modo da coordinare campagne tra partner, attivare tipi di pubblico e migliorare l’efficacia dei contenuti multimediali.
+
+## Partner dati {#data-partner}
+
+I partner di dati sono organizzazioni che forniscono set di dati governati di terze parti e segmenti che i collaboratori possono utilizzare per arricchire i propri dati per il targeting del pubblico, la ricerca di potenziali clienti e la misurazione. Utilizzando Collaboration, i partner di dati possono rendere tali dati disponibili in modo sicuro ai collaboratori per approfondimenti su audience e campagne, senza richiedere il trasferimento di dati di prime parti nell’ambiente del partner.
 
 ## Scelta del ruolo giusto {#choosing-the-right-role}
 

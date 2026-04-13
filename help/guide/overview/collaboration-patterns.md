@@ -2,11 +2,11 @@
 title: I modelli di collaborazione in Adobe Real-Time CDP Collaboration.
 description: Comprendere i due modelli di collaborazione in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -46,3 +46,27 @@ Il modello di collaborazione tra inserzionisti e piattaforme pubblicitarie conse
 ![Esempio di collaborazione tra inserzionisti e piattaforme pubblicitarie.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 Per ulteriori informazioni sulla collaborazione degli inserzionisti con le piattaforme pubblicitarie secondo questo modello, consulta la [guida del flusso di lavoro end-to-end](/help/guide/overview/end-to-end-workflow.md).
+
+## Partner inserzionista-dati {#advertiser-to-data-partner}
+
+Il modello da inserzionista a partner di dati consente ai brand di collaborare direttamente con fornitori di dati di terze parti per arricchire i profili dei clienti, creare tipi di pubblico più precisi e accedere alle popolazioni di potenziali clienti per l’acquisizione. Questo modello porta tradizionalmente i flussi di lavoro di dati esterni in un unico ambiente sicuro per la privacy in cui i dati di prime e terze parti possono essere combinati senza richiedere lo spostamento di dati non elaborati.
+
+![Esempio di collaborazione tra inserzionisti e partner dati.](/help/assets/overview/advertiser-to-data-partner.png)
+
+Per ulteriori informazioni sulla collaborazione tra inserzionisti e partner dati in questo modello, consulta la [guida del flusso di lavoro end-to-end](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow).
+
+## Da agenzia a editore {#agency-to-publisher}
+
+Il modello da agenzia a editore consente alle agenzie di media di collaborare direttamente con gli editori per pianificare, attivare e misurare le campagne utilizzando insights di pubblico condivisi. Le agenzie fungono da intermediari sfruttando i dati degli inserzionisti (con autorizzazione) per identificare sovrapposizioni ed eseguire strategie multimediali con i partner degli editori.
+
+![Esempio di collaborazione da agenzia a editore.](/help/assets/overview/agency-to-publisher.png)
+
+Per ulteriori informazioni sulla collaborazione tra agenzie e editori in questo modello, consulta la [guida end-to-end del flusso di lavoro](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow).
+
+## Piattaforma inserzionista-agenzia {#advertiser-to-agency-platform}
+
+Il modello di piattaforma da inserzionista a agenzia consente ai brand di collaborare con le proprie agenzie di media in un ambiente sicuro per la privacy, consentendo agli inserzionisti di inviare e ricevere dati con la propria agenzia senza richiedere trasferimenti diretti di dati. Questo modello supporta la pianificazione delle campagne, la creazione di tipi di pubblico e l’attivazione, mantenendo al contempo il controllo dell’utilizzo dei dati da parte degli inserzionisti.
+
+![Esempio di collaborazione tra inserzionisti e agenzie.](/help/assets/overview/advertiser-to-agency-platform.png)
+
+Per ulteriori informazioni su come gli inserzionisti e le piattaforme di agenzie collaborano in questo modello, consulta la [guida del flusso di lavoro end-to-end](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow).
