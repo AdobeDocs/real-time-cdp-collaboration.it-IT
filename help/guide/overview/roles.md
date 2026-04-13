@@ -2,7 +2,7 @@
 title: I ruoli di collaboratore nell’Adobe Real-Time CDP Collaboration.
 description: Comprendere i due ruoli account in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
 source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt
