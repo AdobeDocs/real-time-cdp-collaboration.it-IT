@@ -2,11 +2,11 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1179'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 5%
 ## Panoramica
 
 Utilizza le connessioni dati in Real-Time CDP Collaboration per indirizzare il pubblico da varie piattaforme. Scopri come gestire le chiavi di corrispondenza e pianificare l’aggiornamento dei dati per le connessioni dati esistenti. Inoltre, potrai filtrare i tipi di pubblico in base a attributi diversi per ottenere informazioni più granulari.
+
+>[!NOTE]
+>
+>Per creare una nuova connessione dati, vedere [Aggiungere e gestire tipi di pubblico](./onboard-audiences.md).
 
 ## Visualizzare connessioni dati
 

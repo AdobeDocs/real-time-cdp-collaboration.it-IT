@@ -1,9 +1,10 @@
 ---
 title: Carica file CSV per Audience Sourcing
 description: Scopri come caricare il file CSV come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ Questa guida descrive i passaggi necessari per caricare un file CSV nell’inter
 
 ## Panoramica {#overview}
 
-Il caricamento di file CSV è uno dei metodi per generare i dati del pubblico primario per i progetti di collaborazione. Alternativa a [connettere il bucket AWS S3](./configure-aws-s3-audience-sourcing.md) o [connettere il pubblico da Experience Platform](./onboard-audiences.md).
+Il caricamento di file CSV è uno dei metodi per generare i dati del pubblico primario per i progetti di collaborazione. Alternativa a [connettere il bucket AWS S3](./configure-aws-s3-audience-sourcing.md), [connettere Google Cloud Storage](./configure-gcs-audience-sourcing.md) o [creare tipi di pubblico da Experience Platform](./onboard-audiences.md).
 
 Segui questo flusso di lavoro per caricare un file CSV contenente i dati sul pubblico e gestirlo in Collaboration. Puoi mappare i campi di identità per l’analisi di attivazione e sovrapposizione. Una volta caricato ed elaborato il file, il pubblico di origine diventa disponibile nell&#39;area di lavoro **[!UICONTROL I miei tipi di pubblico]**, dove puoi esaminare, attivare e gestire per i tuoi progetti di collaborazione.
 
@@ -34,7 +35,7 @@ Prima di poter caricare file CSV per l’audience sourcing, assicurati di dispor
 
 ## Caricare un file CSV {#upload-csv-file}
 
-Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICONTROL Configurazione]**, selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e quindi selezionare **[!UICONTROL Pubblico]**.
+Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICONTROL Configurazione]**, selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e quindi seleziona **[!UICONTROL Pubblico]**.
 
 Se questo è il tuo primo pubblico, puoi anche selezionare l&#39;opzione **[!UICONTROL Aggiungi]**.
 

@@ -2,12 +2,12 @@
 title: Panoramica delle designazioni
 description: Scopri le destinazioni in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 6%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -44,10 +44,14 @@ Le seguenti destinazioni sono disponibili per la configurazione in Collaboration
 | Destinazione | Disponibilità |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Disponibile |
-| Amazon S3 | In arrivo. |
-| Snowflake | In arrivo. |
-| Google Cloud Storage | In arrivo. |
-| Archiviazione BLOB di Azure | In arrivo. |
+| [!DNL Amazon S3] | In arrivo. |
+| [!DNL Snowflake] | In arrivo. |
+| [!DNL Google Cloud Storage] | In arrivo. |
+| [!DNL Azure Blob Storage] | In arrivo. |
+
+>[!NOTE]
+>
+>**[!DNL Google Cloud Storage]** in questa tabella fa riferimento a **destinazioni** (in cui Collaboration invia tipi di pubblico durante l&#39;attivazione). Per **i tipi di pubblico di origine da** un bucket GCS nell&#39;area di lavoro **[!UICONTROL Configurazione]**, vedere [Configurazione di GCS per l&#39;origine del pubblico](../setup/configure-gcs-audience-sourcing.md).
 
 ## Passaggi successivi
 
