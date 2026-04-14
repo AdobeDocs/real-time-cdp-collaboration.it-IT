@@ -4,9 +4,9 @@ description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
+source-wordcount: '3680'
 ht-degree: 17%
 
 ---
@@ -42,9 +42,11 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 >
 >Dopo aver stabilito nella prima connessione dati e ottenuto il primo pubblico, puoi ottenere più tipi di pubblico dalla connessione dati esistente. Quando aggiungi altri tipi di pubblico, inizierai dal passaggio [seleziona pubblico](#select-audiences), in quanto la connessione dati è già stata stabilita.
 
-Una connessione dati è l&#39;origine dei dati da cui si estraggono i tipi di pubblico. Attualmente, l’unica connessione dati supportata è Adobe Experience Platform.
+Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Le origini supportate includono Adobe Experience Platform, caricamento file CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], ciascuno con un proprio flusso di lavoro.
 
-Tutte le impostazioni configurate per la connessione dati vengono applicate a tutti i tipi di pubblico originati da questa connessione dati.
+Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
+
+Tutte le impostazioni configurate per una connessione dati di Experience Platform vengono applicate a tutti i tipi di pubblico originati da tale connessione.
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili inc
 * **File CSV**: carica un file CSV contenente i dati del pubblico per acquisire dati in modo rapido e semplice. Per iniziare, consulta la guida [Caricare il file CSV per l&#39;audience sourcing](./upload-csv-audience-sourcing.md).
 * **Amazon Web Services**: collegati all&#39;archiviazione Amazon S3 per generare i dati del pubblico direttamente dai bucket S3. Per istruzioni dettagliate, consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
 * **Snowflake**: utilizza il data warehouse di Snowflake per estrarre facilmente i dati sul pubblico. Consulta la guida [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md).
-* **Piattaforma Google Cloud** (versione futura): connettiti al tuo Google Cloud Storage per sorgente i dati del pubblico direttamente dai bucket GCS.
+* **Google Cloud Storage**: connettiti ai bucket GCS per i dati del pubblico di origine. Per istruzioni dettagliate, consulta la guida [Configurare GCS per Audience sourcing](./configure-gcs-audience-sourcing.md).
 
 Seleziona l&#39;origine dati e quindi **[!UICONTROL Successivo]**.
 

@@ -2,9 +2,9 @@
 title: Configura [!DNL Amazon S3] per Audience Sourcing
 description: Scopri come configurare e collegare l'archiviazione  [!DNL Amazon S3]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1622'
 ht-degree: 8%
 
 ---
@@ -215,5 +215,7 @@ La connessione dati S3 include le stesse funzionalità e gli stessi dettagli del
 ## Passaggi successivi {#next-steps}
 
 L&#39;archiviazione [!DNL Amazon S3] è stata configurata e connessa come origine dati in Collaboration. Completando questo flusso di lavoro, hai attivato l’origine sicura dei dati del pubblico di prime parti per l’attivazione e l’analisi di sovrapposizione.
+
+Per utilizzare [!DNL Google Cloud Storage], vedere [Configurare GCS per l&#39;origine del pubblico](./configure-gcs-audience-sourcing.md).
 
 Al termine dell&#39;origine, i tipi di pubblico vengono visualizzati nell&#39;area di lavoro **[!UICONTROL Tipi di pubblico personali]**, pronti per la collaborazione e l&#39;attivazione. Per informazioni dettagliate sulle opzioni di gestione, consulta la [documentazione relativa all&#39;origine e alla gestione del pubblico](./onboard-audiences.md).

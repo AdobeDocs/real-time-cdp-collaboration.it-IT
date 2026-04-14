@@ -4,9 +4,9 @@ description: Scopri come configurare Real-Time CDP Collaboration, ruoli e accoun
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Prima di iniziare, assicurati di avere i seguenti elementi:
 - [Ruoli creati per la tua organizzazione e assegnati agli utenti](./permissions/manage-roles.md).
 - Accesso alle risorse di branding, ad esempio il nome, il logo e il banner dell’organizzazione.
 - Una [strategia chiave di corrispondenza definita](./setup/onboard-account.md#set-up-match-keys)
-- (Facoltativo) Accedi a un’origine cloud supportata (Amazon S3 o Snowflake) se non utilizzi Experience Platform per la gestione dell’audience.
+- (Facoltativo) Accedi a un’origine cloud supportata (Amazon S3, Google Cloud Storage o Snowflake) se non utilizzi Experience Platform per la gestione dell’audience.
 
 ## Passaggio 1: completare la configurazione basata sui ruoli {#complete-role-based-setup}
 
@@ -120,13 +120,13 @@ Per visualizzare una procedura dettagliata su come individuare i tipi di pubblic
 
 In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
-### Opzione B: Source da Snowflake o Amazon S3
+### Opzione B: Source da Snowflake, Amazon S3 o Google Cloud Storage
 
-Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake] o [!DNL Amazon S3], preparare i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
+Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake], [!DNL Amazon S3] o [!DNL Google Cloud Storage], prepara i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
 
-È possibile configurare [!DNL Amazon S3] come origine dati autonoma. Per istruzioni di installazione, consulta la [Guida all&#39;approvvigionamento di Amazon S3](./setup/configure-aws-s3-audience-sourcing.md)
+È possibile configurare [!DNL Amazon S3], [!DNL Google Cloud Storage] o [!DNL Snowflake] come origini dati self-service. Per le istruzioni di installazione, vedere la [Guida all&#39;origine di Amazon S3](./setup/configure-aws-s3-audience-sourcing.md), la [Guida all&#39;origine di GCS](./setup/configure-gcs-audience-sourcing.md) o la [Guida all&#39;origine di Snowflake](./setup/configure-snowflake-audience-sourcing.md).
 
-Se utilizzi [!DNL Snowflake] o un altro provider di servizi cloud, contatta il rappresentante del tuo account Adobe per finalizzare la configurazione.
+Per altri provider di servizi cloud, contatta il rappresentante del tuo account Adobe per finalizzare la configurazione.
 
 >[!IMPORTANT]
 >
