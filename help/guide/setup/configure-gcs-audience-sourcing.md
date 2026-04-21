@@ -2,11 +2,11 @@
 title: Configura [!DNL Google Cloud Storage] per Audience Sourcing
 description: Scopri come connettere un bucket  [!DNL Google Cloud Storage]  come origine del pubblico self-service in Real-Time CDP Collaboration, inclusi prerequisiti, autenticazione, mappatura campi, pianificazione e convalida.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
 workflow-type: tm+mt
-source-wordcount: '2501'
-ht-degree: 1%
+source-wordcount: '2855'
+ht-degree: 2%
 
 ---
 
@@ -31,15 +31,9 @@ Alcuni passaggi in questa sezione richiedono l&#39;intervento di un amministrato
 
 ### Accesso e autorizzazioni GCS {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->Una guida dedicata che copre i ruoli IAM [!DNL Google Cloud] specifici, la configurazione dell&#39;account del servizio e le autorizzazioni a livello di bucket richieste per questa integrazione è in attesa di pubblicazione. Finché tale guida non sarà disponibile, rivolgiti al tuo amministratore [!DNL Google Cloud] per verificare che Adobe disponga delle autorizzazioni necessarie per eseguire l&#39;autenticazione nel bucket e leggere i file di pubblico.
-
 Prima di procedere, confermare quanto segue con l&#39;amministratore [!DNL Google Cloud]:
 
-* Ad Adobe sono state concesse le autorizzazioni necessarie per eseguire l’autenticazione nel bucket GCS e leggere i file di pubblico.
+* Ad Adobe sono state concesse le autorizzazioni necessarie per eseguire l’autenticazione nel bucket GCS e leggere i file di pubblico. Per istruzioni dettagliate, consulta la [sezione sull&#39;impostazione delle autorizzazioni](#setup-gcs-permissions).
 * L&#39;origine del pubblico [!DNL Google Cloud Storage] è disponibile nella tua area geografica. La disponibilità varia in base all&#39;area geografica (NA, EMEA, ANZ). Se il sourcing GCS non è ancora disponibile nella tua area geografica, contatta il rappresentante del tuo account Adobe per confermare una timeline.
 
 ### Preparare i dati sul pubblico {#prepare-audience-data}
@@ -236,6 +230,69 @@ Utilizzare questa sezione per risolvere i problemi che si verificano dopo la con
 
 * Conferma che i file aggiornati nel bucket siano conformi ai requisiti relativi alla struttura delle colonne e ai campi nella [Specifica di origine pubblico](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Assicurati che tutti i file nel percorso della cartella configurata utilizzino strutture di colonna identiche. I file in formato misto nello stesso percorso possono causare errori di sourcing parziali.
+
+## Configura autorizzazioni [!DNL Google Cloud Storage] {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage] offre un modo sicuro e scalabile di archiviare e accedere ai tuoi dati nel cloud. Per consentire ad Adobe di leggere dai bucket GCS, è necessario configurare le autorizzazioni di Identity and Access Management (IAM) e l&#39;accesso all&#39;account del servizio appropriate nell&#39;account [!DNL Google Cloud].
+
+### Raccogliere le informazioni [!DNL Google Service Account] di Adobe {#collect-account-information}
+
+Per iniziare, annota [!DNL Google Service Account] per Adobe che corrisponde alla tua area geografica. Queste informazioni saranno necessarie per concedere l’accesso ad Adobe nei passaggi successivi.
+
+| Area geografica | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| America del Nord | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| Australia | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### Configura ruolo IAM {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>Per completare l&#39;installazione, è necessario disporre dei privilegi di **Amministratore account** nell&#39;account [!DNL Google Cloud]. Se non disponi di questi privilegi, contatta l’amministratore prima di procedere.
+
+Segui i passaggi seguenti per creare un ruolo IAM personalizzato con le autorizzazioni necessarie e assegnarlo all’account del servizio Adobe. In questo modo Adobe può accedere in modo sicuro ai dati del pubblico GCS.
+
+#### Crea ruolo IAM {#create-iam-role}
+
+Innanzitutto, crea un ruolo IAM personalizzato nel progetto [!DNL Google Cloud] con le autorizzazioni necessarie per assegnarlo ad Adobe.
+
+Nella pagina **[!DNL IAM & Admin]** della [[!DNL Google Cloud] console](https://console.cloud.google.com), passa a **[!DNL Roles]** e seleziona **[!DNL Create role]**. Inserisci le informazioni richieste, ad esempio il titolo e l’ID del nuovo ruolo.
+
+Quindi aggiungi le seguenti autorizzazioni al ruolo:
+
+| Autorizzazione | Scopo |
+| ------------- | --------------- |
+| `storage.buckets.get` | Lettura dei metadati del bucket. |
+| `storage.objects.get` | Lettura dei dati e dei metadati dell&#39;oggetto. |
+| `storage.objects.list` | Elencare gli oggetti in un bucket. |
+
+{style="table-layout:auto"}
+
+Per ulteriori informazioni sulle autorizzazioni, vedere [Autorizzazioni IAM GCS](https://cloud.google.com/storage/docs/access-control/iam-permissions). Per istruzioni dettagliate, consulta [come creare ruoli personalizzati](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
+
+#### Assegnare il ruolo IAM ad Adobe {#assign-role}
+
+Quindi, apri la pagina [**[!DNL Buckets]**](https://console.cloud.google.com/storage/browser) in [!DNL Google Cloud Console] e seleziona il bucket che contiene i dati del pubblico.
+
+Passare alla scheda **[!DNL Permissions]**, scegliere **[!DNL View by principals]**, quindi selezionare **[!DNL Grant access]**.
+
+Nella finestra di dialogo **[!DNL Add principals]**, aggiungi l&#39;account del servizio Google [Adobe](#collect-account-information) come entità principale e assegna il ruolo IAM personalizzato creato in precedenza. Selezionare **[!DNL Save]** per confermare la configurazione.
+
+Adobe ora dispone di un accesso sicuro ai dati del pubblico nel bucket GCS selezionato. Rivedi eventuali [prerequisiti](#prerequisites) aggiuntivi in base alle esigenze oppure procedi a [iniziare a indirizzare i tipi di pubblico da GCS a Collaboration](#configure-gcs-connection).
+
+#### Raccogli dettagli di [!DNL Google Cloud Storage] {#collect-gcs-details}
+
+Infine, raccogli i dettagli per il bucket GCS, come illustrato nella tabella seguente. Queste informazioni sono necessarie per configurare la connessione tra GCS e Collaboration.
+
+| Campo | Descrizione | Esempio |
+|------ |------------ |-------- |
+| [!DNL Bucket] | Nome esatto del bucket [!DNL Google Cloud Storage] contenente i file del pubblico. | `customer-data-bucket` |
+| [!DNL Path] | Il prefisso del percorso all’interno del bucket in cui sono memorizzati i file del pubblico. Deve terminare con `/` per leggere tutti i file. | `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## Passaggi successivi {#next-steps}
 
