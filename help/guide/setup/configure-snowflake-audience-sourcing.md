@@ -4,9 +4,9 @@ description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Sh
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
+source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1550'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Segui i passaggi seguenti per connettere [!DNL Snowflake Secure Data Share] e cr
 
 Prima di configurare la connessione [!DNL Snowflake], verificare di soddisfare i seguenti prerequisiti:
 
-* Hai creato [!DNL Snowflake Share] e configurato le autorizzazioni necessarie nel tuo account [!DNL Snowflake] per concedere l&#39;accesso Adobe al tuo [!DNL Snowflake Secure Data Share].
+* Hai creato [!DNL Snowflake Share] e configurato le autorizzazioni necessarie nel tuo account [!DNL Snowflake] per concedere l&#39;accesso Adobe al tuo [!DNL Snowflake Secure Data Share]. Scopri [come configurare [!DNL Snowflake] le autorizzazioni](#set-up-snowflake-permissions).
 * Sono pronti i seguenti [!DNL Snowflake Share] valori:
 
    * **Nome condivisione**
@@ -36,7 +36,91 @@ Prima di configurare la connessione [!DNL Snowflake], verificare di soddisfare i
 * I dati sul pubblico in [!DNL Snowflake Secure Data Share] devono soddisfare i requisiti di formato descritti nella [Guida alle specifiche di Audience Sourcing (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Tutte le chiavi di corrispondenza nel file del pubblico [!DNL Snowflake] devono essere abilitate anche per il tuo account Collaboration. Scopri come [abilitare le chiavi di corrispondenza](./onboard-account.md#set-up-match-keys) o [aggiungere nuove chiavi di corrispondenza](./onboard-account.md#edit-match-keys) al tuo account.
 
+## Configura autorizzazioni [!DNL Snowflake] {#setup-snowflake-permissions}
+
+[!DNL Snowflake Secure Data Share] consente di condividere dati in tempo reale e di sola lettura in modo sicuro tra gli account [!DNL Snowflake], senza dover copiare o spostare i dati. Per concedere l&#39;accesso Adobe a [!DNL Secure Data Share], assicurati di configurare le autorizzazioni appropriate nell&#39;account [!DNL Snowflake].
+
+Prima di procedere, verificare quanto segue:
+
+* Si dispone dell&#39;accesso a un account [!DNL Snowflake].
+* Il tuo account [!DNL Snowflake] è abbonato a inserzioni private. Per configurare le autorizzazioni necessarie è necessario disporre dei privilegi di amministratore per Snowflake.
+* Conosci il provider cloud e l&#39;area geografica dell&#39;account [!DNL Snowflake].
+
+Per ulteriori informazioni sulle autorizzazioni necessarie, leggere la [[!DNL Snowflake] documentazione](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing).
+
+### Raccogli informazioni account [!DNL Snowflake] di Adobe {#collect-account-information}
+
+Per iniziare, individuare e annotare l&#39;identificatore dell&#39;account Adobe [!DNL Snowflake] corrispondente alla propria area geografica. Questo identificatore sarà necessario per concedere l’accesso ad Adobe nei passaggi successivi.
+
+| Area geografica | Identificatore completo dell&#39;account di produzione [!DNL Snowflake] |
+| ------------- | --------------- |
+| America del Nord | ADOBE.AGORA_SF_02 |
+| EMEA | ADOBE.RTCDP_COLLABORATION_DEU1_EXTERNAL |
+| Australia | ADOBE.RTCDP_COLLABORATION_AUS3_EXTERNAL |
+
+{style="table-layout:auto"}
+
+### Crea e concedi l&#39;accesso a [!DNL Snowflake Share] {#create-grant-access-to-share}
+
+Quindi, segui questi passaggi per creare un [!DNL Secure Data Share] nel tuo account [!DNL Snowflake] e concedere ad Adobe l&#39;accesso in sola lettura ai tuoi dati sul pubblico.
+
+1. Crea una vista protetta con accesso limitato solo alle colonne necessarie dalla tabella di origine.
+
+   ```sql
+   CREATE OR REPLACE SECURE VIEW my_database.my_schema.secure_view_for_adobe AS
+   SELECT 
+       column1,
+       column2,
+       column3
+   FROM my_database.my_schema.source_table;
+   ```
+
+2. Crea un nuovo [!DNL Snowflake Secure Data Share].
+
+   ```sql
+   CREATE OR REPLACE SHARE adobe_data_share;
+   ```
+
+3. Concedere il privilegio USAGE sul database a [!DNL Snowflake Secure Data Share] in modo che possa accedere agli oggetti nel database.
+
+   ```sql
+   GRANT USAGE ON DATABASE my_database TO SHARE adobe_data_share;
+   ```
+
+4. Concedere l&#39;utilizzo dello schema a [!DNL Snowflake Secure Data Share] in modo che possa accedere agli oggetti all&#39;interno dello schema.
+
+   ```sql
+   GRANT USAGE ON SCHEMA my_database.my_schema TO SHARE adobe_data_share;
+   ```
+
+5. Concedi i privilegi SELECT sulla visualizzazione protetta a [!DNL Snowflake Secure Data Share] in modo che Adobe possa leggere i tuoi dati sul pubblico.
+
+   ```sql
+   GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
+   ```
+
+6. Aggiungi l&#39;account [!DNL Snowflake] di Adobe a [!DNL Snowflake Secure Data Share] utilizzando l&#39;identificatore corretto per la tua area geografica. Consulta [la tabella di mappatura regione/account precedente](#collect-account-information).
+
+   ```sql
+   ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
+   ```
+
+### Raccogli dettagli di [!DNL Snowflake Share] {#collect-share-details}
+
+Raccogliere infine i dettagli per [!DNL Snowflake Share] come illustrato nella tabella seguente. Queste informazioni sono necessarie per configurare la connessione tra [!DNL Snowflake Share] e Collaboration.
+
+| Campo | Esempio |
+| -------------------------- | --------------- |
+| Identificatore account | CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT |
+| Nome [!DNL Share] | adobe_data_share |
+| Nome schema | schema_cliente |
+| Nome visualizzazione | secure_view_for_adobe |
+
+{style="table-layout:auto"}
+
 ## Configura la connessione [!DNL Snowflake] {#configure-snowflake-connection}
+
+Dopo aver completato la [configurazione delle autorizzazioni di Snowflake](#set-up-snowflake-permissions) e aver verificato che tutti i [prerequisiti](#prerequisites) siano soddisfatti, ora puoi connettere [!DNL Snowflake Secure Data Share] a Collaboration per iniziare a creare l&#39;origine dei tipi di pubblico.
 
 Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICONTROL Configurazione]**, selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) e quindi seleziona **[!UICONTROL Pubblico]**.
 
