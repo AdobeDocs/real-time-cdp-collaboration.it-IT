@@ -1,69 +1,69 @@
 ---
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
-user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti e editori, semplificando le informazioni sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and secure data sharing and collaboration between advertisers and publishers, facilitating real-time audience insights and personalized marketing strategies.
+source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 21%
 
 ---
 
 
 # Real-Time CDP Collaboration {#using}
 
-* [Pagina principale di Real-Time CDP Collaboration](./home.md)
+* [Real-Time CDP Collaboration home](./home.md)
 * [Guida introduttiva](./quick-start-guide.md)
 * Panoramica {#overview}
    * [Casi d’uso](./overview/use-cases.md)
-   * [Ruoli account](./overview/roles.md)
-   * [Modelli Collaboration](./overview/collaboration-patterns.md)
-   * [Flusso di lavoro end-to-end](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
-* Configurazione {#setup}
-   * [Panoramica della sezione di configurazione](./setup/setup-overview.md)
-   * [Integrare e gestire l’account](./setup/onboard-account.md)
-   * Source e gestire i tipi di pubblico {#source-audiences}
-      * [Configurare AEP per l’audience sourcing](./setup/onboard-audiences.md)
-      * [Configurare le autorizzazioni di AWS per Audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
-      * [Configurare Amazon S3 per l’audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
-      * [Configurare GCS per l’audience sourcing](./setup/configure-gcs-audience-sourcing.md)
-      * [Carica file CSV per Audience sourcing](./setup/upload-csv-audience-sourcing.md)
-      * [Configurare Snowflake per l’audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
+   * [Account roles](./overview/roles.md)
+   * [Collaboration patterns](./overview/collaboration-patterns.md)
+   * [End-to-end workflow](./overview/end-to-end-workflow.md)
+   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+* Set Up {#setup}
+   * [Overview of setup section](./setup/setup-overview.md)
+   * [Onboard and manage your account](./setup/onboard-account.md)
+   * Source and manage audiences {#source-audiences}
+      * [Configure AEP for audience sourcing](./setup/onboard-audiences.md)
+      * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
+      * [Configure GCS for audience sourcing](./setup/configure-gcs-audience-sourcing.md)
+      * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
+      * [Configure Snowflake for audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
    * [Gestisci connessioni dati](./setup/manage-data-connection.md)
-   * [Configurare e gestire le destinazioni](./setup/manage-destinations.md)
+   * [Configure and manage destinations](./setup/manage-destinations.md)
    * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
-   * {hide-from-toc}[Percorsi incrociati di identità](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[Identity crosswalks](./setup/identity-crosswalk.md)
    * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
-   * [Gestire la connessione dati di misurazione](./setup/manage-measurement-data-connection.md)
+   * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
    * [Registri di controllo](./setup/audit-logs.md)
-   * Configurazione di Real-Time CDP Collaboration Starter {#starter-setup}
-      * {hide-from-toc}[Configura accesso amministratore](./setup/starter-admin-access.md)
-      * {hide-from-toc}[Configurare i controlli delle autorizzazioni](./setup/starter-permission-controls.md)
-      * {hide-from-toc}[Utilizzo e consumo del credito](./setup/starter-credit-usage.md)
-* Stabilimento di connessioni {#connect}
-   * [Panoramica.md](./connect/overview.md)
+   * Real-Time CDP Collaboration Starter setup {#starter-setup}
+      * [Configure admin access](./setup/starter-admin-access.md)
+      * [Configure permission controls](./setup/starter-permission-controls.md)
+      * [Credit usage and consumption](./setup/starter-credit-usage.md)
+* Establishing connections {#connect}
+   * [Panoramica](/help/guide/connect/overview.md)
    * [Individua collaboratori](./connect/discover-collaborators.md)
-   * [Stabilire connessioni collaboratore](./connect/establishing-connections.md)
+   * [Establish collaborator connections](./connect/establishing-connections.md)
    * [Gestire le connessioni](./connect/manage-connections.md)
    * Connessioni alla piattaforma Advertising {#ad-platform-connections}
-      * [Panoramica](./connect/advertising-platforms/overview.md)
+      * [Panoramica](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collabora {#collaborate}
-   * [Panoramica](./collaborate/overview.md)
+   * [Panoramica](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [Gestione progetti](./collaborate/manage-projects.md)
    * Connessioni di Collaborator {#collaborator-connections}
       * [Scopri](./collaborate/discover.md)
       * [Attiva](./collaborate/activate.md)
       * [Misura](./collaborate/measure.md)
    * Connessioni alla piattaforma Advertising {#ad-platform-connections}
-      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[Crea report di misurazione AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinazioni {#destinations}
-   * [Panoramica](./destinations/overview.md)
+   * [Panoramica](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Autorizzazioni {#permissions}
-   * [Panoramica](./permissions/overview.md)
+   * [Panoramica](https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [Gestire l’accesso degli utenti](./permissions/manage-user-access.md)
    * [Gestire i ruoli](./permissions/manage-roles.md)
 * Riferimenti {#reference}
