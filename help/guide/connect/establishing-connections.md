@@ -2,12 +2,12 @@
 title: Stabilire connessioni con i collaboratori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
@@ -114,39 +114,41 @@ Per aggiornare il **[!UICONTROL Codice di connessione]**, seleziona l&#39;icona 
 
 >[!IMPORTANT]
 >
->Tutti gli account creati prima dell&#39;introduzione della funzionalità **[!UICONTROL Codice di connessione]** non avranno un codice di connessione generato e il campo di connessione verrà visualizzato come **[!UICONTROL Non disponibile]**. Utilizza l’opzione di aggiornamento per generare un nuovo codice di connessione.
+>Tutti gli account creati prima dell&#39;introduzione della funzionalità **[!UICONTROL Codice di connessione]** non avranno un codice di connessione generato e il campo di connessione verrà visualizzato come **[!UICONTROL Non disponibile]**. Use the refresh option to generate a new connect code.
 
-#### Invia invito di connessione privata {#send-private-connection-invite}
+#### Send private connection invite {#send-private-connection-invite}
 
-Una volta ottenuto il **[!UICONTROL Codice di connessione]** dal collaboratore, puoi inviare un invito di connessione privato. A questo scopo, passa all&#39;area di lavoro **[!UICONTROL Connetti]** e seleziona l&#39;icona più (![icona più](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro.
+Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner.
 
-![Icona più evidenziata nell&#39;area di lavoro di connessione.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
+Then, select **[!UICONTROL Connect with invite code]**.
 
-Viene visualizzata la finestra di dialogo **[!UICONTROL Connetti]** in cui viene richiesto di immettere il **[!UICONTROL Codice di connessione]** del collaboratore con cui si desidera stabilire la connessione. Incolla il codice nel campo di testo e seleziona **[!UICONTROL Continua]** per continuare.
+![The plus icon highlighted in the Connect workspace.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
-![La finestra di dialogo Connetti con il campo Codice di connessione è stata compilata ed è stata evidenziata l&#39;opzione Continua.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog appears, prompting you to enter the **[!UICONTROL Connect code]** of the collaborator you want to connect with. Paste the code into the text field and select **[!UICONTROL Continue]** to proceed.
 
-Nella finestra di dialogo **[!UICONTROL Connetti]** verrà quindi visualizzato il collaboratore a cui è associato il codice, che consente di confermare la connessione con il collaboratore corretto. Se il collaboratore è corretto, selezionare **[!UICONTROL Connetti]** per inviare l&#39;invito alla connessione privata.
+![The Connect dialog with the Connect code field filled in and the Continue option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect.png){zoomable="yes"}
 
-![Viene visualizzata la finestra di dialogo Connetti con i dettagli del collaboratore e viene evidenziata l&#39;opzione Connetti.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
+The **[!UICONTROL Connect]** dialog will then display the collaborator the code is associated with, allowing you to confirm that you are connecting with the correct collaborator. If the collaborator is correct, select **[!UICONTROL Connect]** to send the private connection invite.
+
+![The Connect dialog with the collaborator details displayed and the Connect option highlighted.](/help/assets/connect/establish-connection/private-connection-invite-connect-confirm.png){zoomable="yes"}
 
 ### Accetta invito {#accept-invite}
 
 >[!TIP]
 >
->Quando si parla del processo di connessione, verrà fatta una distinzione tra **proprietario** e **destinatario**. Il proprietario è il collaboratore che avvia la connessione inviando l&#39;invito, mentre il destinatario è il collaboratore che riceve e rivede l&#39;invito.
+>When discussing the connection process, there will be a distinction between the **owner** and the **recipient**. The owner is the collaborator who initiates the connection by sending the invite, while the recipient is the collaborator who receives and reviews the invite.
 
-Prima che il proprietario possa configurare le impostazioni di connessione, il destinatario deve accettare l&#39;invito alla connessione. A tale scopo, passare all&#39;area di lavoro **[!UICONTROL Connetti]** e trovare la connessione in sospeso nella sezione **[!UICONTROL Azione richiesta]**. Lo stato della connessione è **[!UICONTROL Invito ricevuto]**. Seleziona **[!UICONTROL Accetta]** per accettare l&#39;invito.
+Before the owner can configure the connection settings, the recipient must accept the connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and find the pending connection in the **[!UICONTROL Action required]** section. The connection status appears as **[!UICONTROL Invite received]**. Select **[!UICONTROL Accept]** to accept the invite.
 
-![La connessione in sospeso viene visualizzata nella sezione Azione richiesta dell&#39;area di lavoro Connessione con l&#39;opzione Accetta evidenziata.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
+![The pending connection is displayed Action required section of the Connect workspace with the Accept option highlighted.](/help/assets/connect/establish-connection/accept-connection.png){zoomable="yes"}
 
-Viene visualizzata una finestra di dialogo in cui viene richiesto di accettare l&#39;invito. Selezionare **[!UICONTROL Accetta invito]** per continuare.
+The dialog appears prompting you to accept the invite. Select **[!UICONTROL Accept invite]** to proceed.
 
-![Finestra di dialogo Accetta invito alla connessione con l&#39;opzione Accetta invito evidenziata.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
+![The Accept connection invite dialog with the Accept invite option highlighted.](/help/assets/connect/establish-connection/accept-connection-invite.png){zoomable="yes"}
 
-Lo stato della connessione cambia in **[!UICONTROL In sospeso]**. Il proprietario può ora configurare le impostazioni di connessione.
+The status of the connection changes to **[!UICONTROL Pending]**. The owner can now configure the connection settings.
 
-### Configurare le impostazioni di connessione {#configure-connection-settings}
+### Configure connection settings {#configure-connection-settings}
 
 Le impostazioni di connessione definiscono i termini tra due collaboratori. Queste impostazioni includono casi d’uso, chiavi di corrispondenza, ripartizione del credito e contratti legali. I collaboratori che si connettono con gli inserzionisti possono anche aggiungere nomi degli inserzionisti alle impostazioni di connessione, che verranno utilizzate durante la creazione dei progetti.
 
@@ -219,47 +221,47 @@ Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
 I casi di utilizzo vengono compilati automaticamente con tutte le opzioni disponibili. I casi d’uso selezionati determinano quali visualizzazioni e opzioni sono disponibili all’interno dei tuoi progetti. Per ulteriori informazioni, consulta la guida ai [casi d&#39;uso del progetto](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
-Per personalizzare i tuoi casi d&#39;uso, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Casi d&#39;uso]** e disattiva quelli che non desideri includere in alcun progetto con il tuo collaboratore. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
+To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don&#39;t wish to include in any projects with your collaborator. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Impostazioni dei casi d&#39;uso nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Chiavi di corrispondenza {#match-keys}
 
 >[!IMPORTANT]
 >
->Quando si attivano tipi di pubblico in cui vengono utilizzate più chiavi di corrispondenza, se una (o più) chiave di corrispondenza non presenta sovrapposizioni, nessun conteggio del pubblico o scende al di sotto della soglia, l’intera attivazione non riuscirà. Prima di attivare i tipi di pubblico, assicurati che abbiano una sovrapposizione sufficiente e che raggiungano la soglia minima di 1000 ID per tutte le chiavi di corrispondenza.
+>When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
 
-Le chiavi di corrispondenza vengono compilate automaticamente con le chiavi di corrispondenza comuni selezionate da te e dal tuo collaboratore durante la [configurazione degli account](/help/guide/setup/onboard-account.md#set-up-match-keys). Verranno visualizzate solo le chiavi che tu e il tuo collaboratore avete selezionato **e** in comune.
+Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear.
 
-![L&#39;area di lavoro delle impostazioni di connessione con la sezione delle chiavi di corrispondenza evidenziata mostra le chiavi di corrispondenza comuni.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
 
-Quando il proprietario della connessione sta configurando le impostazioni di connessione, può [modificare le chiavi di corrispondenza dell&#39;account](../setup/onboard-account.md#edit-match-keys) per includere altre chiavi di corrispondenza. Dopo aver attivato altri tasti di corrispondenza nelle impostazioni del tuo account, questi tasti di corrispondenza saranno disponibili per l’attivazione nelle impostazioni di connessione se sono stati selezionati anche dal tuo collaboratore. Le chiavi di corrispondenza aggiunte una volta avviato il processo di connessione non si popolano automaticamente e devono essere attivate manualmente.
+When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
 
-Per personalizzare le chiavi di corrispondenza, seleziona **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Chiavi di corrispondenza]** e disattiva le chiavi di corrispondenza che non desideri utilizzare in questa connessione. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
+To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don&#39;t want to use in this connection. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Viene aperta l&#39;area di lavoro delle impostazioni di connessione con la finestra di dialogo della sezione relativa alle chiavi di corrispondenza in cui viene visualizzata una chiave di corrispondenza disattivata.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Dopo che il collaboratore ha accettato le impostazioni di connessione, le chiavi di corrispondenza verranno bloccate e non potranno essere modificate.
+>Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
 
 ##### Suddivisione del credito {#credit-split}
 
-Utilizzare la sezione della suddivisione del credito per determinare quale delle due parti che collaborano coprirà i costi delle attività. Le opzioni di frazionamento del credito sono determinate dai casi d’uso selezionati per la connessione. Mentre il caso d&#39;uso **[!UICONTROL Misurazione]** richiede una parte per coprire i costi, il caso d&#39;uso **[!UICONTROL Attivazione - Corrispondenza]** offre un&#39;opzione aggiuntiva per consentire a ciascuna parte di coprire i propri costi. Per informazioni sulla suddivisione dei costi, leggere la guida dei [tipi di attività di credito](/help/guide/setup/my-activity.md#types-of-activities).
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
 
 >[!NOTE]
 >
->Pubblico: l’uscita è sempre coperta dal collaboratore che riceve il pubblico, pertanto non è richiesta alcuna selezione.
+>Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
 
-Per impostare la divisione del credito, selezionare **[!UICONTROL Modifica]** nella sezione **[!UICONTROL Divisione credito]**. Puoi quindi selezionare le opzioni appropriate per ogni caso d’uso. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
+To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-![Finestra di dialogo Divisione crediti con opzioni nell&#39;area di lavoro delle impostazioni della connessione.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
 ##### Nome inserzionista {#advertiser-names}
 
 >[!NOTE]
 >
->Questa opzione può essere visualizzata durante la configurazione delle impostazioni di connessione o la revisione delle impostazioni di connessione, a seconda di chi avvia la connessione.
+>This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
 
 Se sei un editore che forma una connessione con un inserzionista, puoi scegliere di aggiungere i nomi degli inserzionisti nelle impostazioni di connessione. Questo consente di aggiungere più nomi con cui l’inserzionista è noto nei tuoi sistemi. Ciò è particolarmente utile se l&#39;inserzionista è presente in più aree geografiche o se è noto con nomi diversi in contesti diversi. Successivamente, quando crei un progetto, puoi selezionare il nome dell’inserzionista appropriato dall’elenco di nomi configurati nelle impostazioni di connessione.
 
@@ -302,6 +304,70 @@ Inoltre, se sei un editore che si connette con un inserzionista, ora puoi aggiun
 > Una volta accettate le impostazioni di connessione, non sarà più possibile aggiungere o modificare i nomi degli inserzionisti.
 
 Selezionare **[!UICONTROL Accetta]** per continuare la connessione. Lo stato della connessione passerà a **[!UICONTROL Attivo]** e ora puoi iniziare a collaborare ai progetti.
+
+## Invita un collaboratore {#invite-collaborator}
+
+Segui i passaggi seguenti per invitare il tuo partner a partecipare a Real-Time CDP Collaboration [!DNL Starter]. Per ulteriori dettagli su Collaboration [!DNL Starter] e una panoramica dettagliata del processo, consultare la [[!DNL Starter] documentazione di panoramica](../overview/starter-overview.md).
+
+Prima di avviare il processo di invito, raccogliere le informazioni seguenti dal collaboratore:
+
+| Campo | Descrizione |
+|-------|-------------|
+| Azienda | Nome dell&#39;azienda del collaboratore. |
+| Nome | Nome e cognome della persona che si sta invitando. |
+| Indirizzo e-mail | Indirizzo di posta elettronica utilizzato dal collaboratore per accedere a Real-Time CDP Collaboration [!DNL Starter]. |
+| Titolo | Qualifica del contatto principale. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Invitando un altro collaboratore, l&#39;utente riconosce di essere responsabile di qualsiasi addebito sostenuto attraverso le sue attività. Ulteriori informazioni su [utilizzo e consumo di credito in Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Inviare un invito {#send-invitation}
+
+Invita la tua organizzazione partner a partecipare a Collaboration [!DNL Starter] direttamente tramite l&#39;interfaccia utente.
+
+Per iniziare, passa all&#39;area di lavoro **[!UICONTROL Connetti]** e seleziona l&#39;icona più (![icona più](/help/assets/icons/plus.png)) nell&#39;angolo superiore destro. Quindi, selezionare **[!UICONTROL Invita un collaboratore]**.
+
+![L&#39;area di lavoro Connetti con l&#39;icona più e l&#39;opzione Invita collaboratore evidenziate.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+Viene visualizzata la finestra di dialogo **[!UICONTROL Invita un collaboratore]** in cui viene richiesto di immettere le informazioni del collaboratore invitato. Compila i campi obbligatori per [!UICONTROL Nome società], [!UICONTROL Nome], [!UICONTROL Cognome] e [!UICONTROL E-mail].
+
+>[!IMPORTANT]
+>
+>Gli inviti sono **associati all&#39;indirizzo e-mail fornito**. Assicurati che l’indirizzo e-mail sia corretto, in quanto l’utente invitato deve utilizzarlo per accettare l’invito e accedere al prodotto.
+
+Quindi, utilizza il menu a discesa per scegliere il ruolo appropriato per il tuo partner. Per informazioni dettagliate sui tipi di ruolo disponibili in Collaboration, consulta la [documentazione sui ruoli account](../overview/roles.md).
+
+![Finestra di dialogo Invita collaboratore con elenco a discesa Ruolo evidenziato.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+Al termine, controllare le informazioni e selezionare **[!UICONTROL Invia invito]**.
+
+![La finestra di dialogo Invita un collaboratore con l&#39;opzione Invia invito evidenziata.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+Una finestra di dialogo di conferma conferma conferma che l’invito è stato inviato correttamente all’organizzazione partner.
+
+![La finestra di dialogo di conferma conferma conferma che l&#39;invito è stato inviato correttamente.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### Accetta l’invito e firma le condizioni {#accept-invitation-sign-terms}
+
+Dopo aver inviato l&#39;invito, l&#39;organizzazione partner riceve un&#39;e-mail con le istruzioni per rivedere e accettare i termini e le condizioni di Real-Time Collaboration. Possono anche esplorare le funzioni di Collaboration prima di accettare.
+
+![E-mail di invito per partecipare a Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Una volta che l&#39;organizzazione partner accetta i termini e le condizioni, Adobe inizia a eseguire il provisioning di Real-Time CDP Collaboration [!DNL Starter] per il proprio account.
+
+### Conferma del provisioning {#provisioning-confirmation}
+
+Al termine del processo di provisioning, viene inviato un messaggio e-mail di benvenuto all&#39;organizzazione invitata, in cui si conferma che Collaboration [!DNL Starter] è pronto per l&#39;utilizzo. Questa e-mail fornisce istruzioni su come:
+
+- [Configurare l’accesso amministratore e utente](../setup/starter-admin-access.md)
+- [Configurare le autorizzazioni per accedere a Collaboration](../setup/starter-permission-controls.md)
+
+![L&#39;e-mail di benvenuto inviata all&#39;organizzazione invitata con le istruzioni per impostare l&#39;accesso e le autorizzazioni necessarie.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Una volta che il tuo partner ha accesso a Collaboration, sia tu che l&#39;organizzazione invitata potete [stabilire una connessione](#connect) e [configurare le impostazioni di connessione](#configure-connection-settings) per iniziare a collaborare ai progetti.
 
 ## Passaggi successivi
 
