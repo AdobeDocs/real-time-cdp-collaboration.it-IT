@@ -4,7 +4,7 @@ description: Scopri in che modo Adobe Real-Time CDP Collaboration Starter consen
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -36,7 +36,7 @@ Per avviare l&#39;invito, fornire le seguenti informazioni al partner con licenz
 * Ruolo (inserzionista/editore): inserzionista
 * Settore
 
-Dopo aver ricevuto e accettato l&#39;invito, l&#39;organizzazione deve rivedere e firmare un ordine di vendita gratuito con Adobe per accedere a Collaboration [!DNL Starter]. Per ulteriori dettagli sul processo di invito, vedere la guida [invito di un collaboratore a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter).
+Dopo aver ricevuto e accettato l&#39;invito, l&#39;organizzazione deve rivedere e firmare un ordine di vendita gratuito con Adobe per accedere a Collaboration [!DNL Starter]. Per ulteriori dettagli sul processo di invito, vedere la guida [invito di un collaboratore a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
 
 ## Guardrail {#guardrails}
 
@@ -46,7 +46,7 @@ Leggi la tabella seguente per comprendere i guardrail delle chiavi applicabili a
 |----------| ------------|
 | Origine pubblico | È possibile inserire i dati del pubblico in Collaboration utilizzando **[!DNL Amazon S3]** come origine. Per istruzioni dettagliate, consulta [come configurare [!DNL Amazon S3] per audience sourcing](../setup/configure-aws-s3-audience-sourcing.md). |
 | Pubblico | Il tuo account [!DNL Starter] ha diritto a un massimo di:<ul><li>10 tipi di pubblico originati da un bucket [!DNL AWS S3]</li><li>50 milioni di identità totali (calcolate in base al numero di righe nei dati del pubblico)</li><li>1 aggiornamento per pubblico ogni 6 giorni</li></ul> |
-| Sovrapposizioni di pubblico e approfondimenti | Non esiste un limite di utilizzo per la frequenza con cui è possibile eseguire sovrapposizioni di pubblico e informazioni approfondite tra i tipi di pubblico. Learn how to [discover overlaps and compare audiences](../collaborate/discover.md). |
+| Sovrapposizioni di pubblico e approfondimenti | Non esiste un limite di utilizzo per la frequenza con cui è possibile eseguire sovrapposizioni di pubblico e informazioni approfondite tra i tipi di pubblico. Scopri come [individuare le sovrapposizioni e confrontare i tipi di pubblico](../collaborate/discover.md). |
 | Activation | In qualità di utente [!DNL Starter], puoi attivare e condividere i tipi di pubblico solo con il partner che ti ha invitato. La configurazione delle destinazioni su piattaforme esterne non è disponibile. Ulteriori informazioni sull&#39;[attivazione dei tipi di pubblico](../collaborate/activate.md). |
 
 {style="table-layout:auto"}
