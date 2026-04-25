@@ -2,7 +2,7 @@
 title: Domande comuni
 description: Trova le risposte alle domande più frequenti su Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
 TQID: https://experienceleague.adobe.com/Nqxmunvm-nnvs5rnIPMjmkOzY9RnL7ZsAR9onMRQrdA
 product_v2:

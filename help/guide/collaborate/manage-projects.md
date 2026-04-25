@@ -2,7 +2,7 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 TQID: https://experienceleague.adobe.com/IZIkK4lv29vqrah48fsJsnMOFtyh7rOo1IT2yLOW9Ec
 product_v2:

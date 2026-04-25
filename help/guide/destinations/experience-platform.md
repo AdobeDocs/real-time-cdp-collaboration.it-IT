@@ -2,7 +2,7 @@
 title: Configurare Adobe Experience Platform come destinazione
 description: Scopri come configurare e gestire Adobe Experience Platform come destinazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
 product_v2:
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 {{limited-availability-release-note}}
 
-Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
+Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -158,4 +158,4 @@ Now that you have configured Adobe Experience Platform as a destination, you can
 
 ![The Audience Portal with Real-Time CDP Collaboration as an origin in the filter options.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-To learn more about Audience Portal, refer to the [Audience Portal overview](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} guide.
+To learn more about Audience Portal, refer to the [Audience Portal overview](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} guide.

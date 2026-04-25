@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Learn about connecting with [!DNL Amazon Marketing Cloud] in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 18169bd5-fe9f-4c39-96d5-2ae2b10578c5
 TQID: https://experienceleague.adobe.com/unC9PV6C3VOQ7OXsqFWSj73JV81uZwE37QeUPKBlO2A
 product_v2:
