@@ -2,11 +2,15 @@
 title: Gestire i ruoli tramite le autorizzazioni
 description: Comprendi tutte le risorse ruolo disponibili che forniscono accesso a diversi componenti nell’interfaccia utente di Real-Time CDP Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 623
 ht-degree: 1%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Per gestire l&#39;accesso degli utenti a diversi componenti dell&#39;interfaccia utente di Adobe Real-Time CDP Collaboration, un [amministratore](./manage-user-access.md#system-admin-gain-access) può definire e assegnare ruoli. I ruoli definiscono l&#39;accesso di un amministratore o un utente alle [risorse](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions){target="_blank"} della tua organizzazione. Questa guida fornisce informazioni sui ruoli standard forniti in Real-Time CDP Collaboration e sulle singole autorizzazioni che è possibile assegnare ai ruoli personalizzati.
+Per gestire l&#39;accesso degli utenti a diversi componenti dell&#39;interfaccia utente di Adobe Real-Time CDP Collaboration, un [amministratore](./manage-user-access.md#system-admin-gain-access) può definire e assegnare ruoli. I ruoli definiscono l&#39;accesso di un amministratore o un utente alle [risorse](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} della tua organizzazione. Questa guida fornisce informazioni sui ruoli standard forniti in Real-Time CDP Collaboration e sulle singole autorizzazioni che è possibile assegnare ai ruoli personalizzati.
 
 Per iniziare a gestire i ruoli, un amministratore dovrà accedere al prodotto Experience Platform. Per informazioni su come ottenere l&#39;accesso amministrativo o su come ottenere l&#39;accesso ad Experience Platform, leggere la [guida alla gestione dell&#39;accesso utente](./manage-user-access.md#manage-user-access-through-permissions).
 
@@ -32,7 +36,7 @@ Sono disponibili due ruoli standard forniti che soddisfano due casi di utilizzo 
 
 ## Creare ruoli di accesso specifici {#specific-access-roles}
 
-È probabile che tu voglia creare ruoli aggiuntivi per fornire diversi livelli di accesso a utenti diversi. Durante la creazione di ruoli, puoi gestire diversi livelli di accesso selezionando autorizzazioni specifiche all&#39;interno della risorsa **[!UICONTROL Collaborazioni]**. Per informazioni su come creare e gestire i ruoli, consulta la guida [ruoli](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
+È probabile che tu voglia creare ruoli aggiuntivi per fornire diversi livelli di accesso a utenti diversi. Durante la creazione di ruoli, puoi gestire diversi livelli di accesso selezionando autorizzazioni specifiche all&#39;interno della risorsa **[!UICONTROL Collaborazioni]**. Per informazioni su come creare e gestire i ruoli, consulta la guida [ruoli](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
 
 >[!NOTE]
 > Per accedere a Collaboration, un utente deve avere accesso alla sandbox **[!UICONTROL Prod]** in Adobe Experience Platform. Per concedere a un utente l&#39;accesso a questa sandbox, è necessario assegnarlo a un ruolo contenente l&#39;autorizzazione **[!UICONTROL Prod]** nella risorsa **[!UICONTROL Sandbox]**.
@@ -61,4 +65,4 @@ Di seguito è riportato un elenco delle autorizzazioni disponibili all&#39;inter
 
 ## Passaggi successivi
 
-Dopo aver creato i ruoli che definiscono l&#39;accesso a Collaboration, devi [assegnare i ruoli](./manage-user-access.md#assign-a-role) ad amministratori e utenti. Per una panoramica completa sulla gestione dei ruoli, fare riferimento alla [guida alla gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/permissions).
+Dopo aver creato i ruoli che definiscono l&#39;accesso a Collaboration, devi [assegnare i ruoli](./manage-user-access.md#assign-a-role) ad amministratori e utenti. Per una panoramica completa sulla gestione dei ruoli, fare riferimento alla [guida alla gestione delle autorizzazioni per un ruolo](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions).

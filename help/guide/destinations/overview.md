@@ -1,12 +1,15 @@
 ---
-title: Panoramica delle designazioni
-description: Scopri le destinazioni in Real-Time CDP Collaboration.
+title: Desintations overview
+description: Learn about destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
+TQID: https://experienceleague.adobe.com/1VvnSt3Z65dfQBfXnjJJi3H0Oj9BxFStexq3icVKxkY
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 360
 ht-degree: 3%
 
 ---
@@ -15,31 +18,31 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-Le destinazioni sono integrazioni utilizzate per inviare pubblici mirati a piattaforme esterne. Queste integrazioni consentono di attivare tipi di pubblico su vari canali e piattaforme di marketing da utilizzare nelle campagne e nel coinvolgimento dei clienti.
+Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-I collaboratori possono configurare le destinazioni per l’invio di tipi di pubblico a piattaforme esterne, ad esempio Adobe Experience Platform, da utilizzare nelle campagne. I collaboratori possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata della connessione. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings).
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Attualmente, quando i collaboratori attivano i tipi di pubblico all’interno di un progetto, vengono inviati automaticamente alla destinazione configurata della connessione. **devi** configurare una destinazione prima che il tuo collaboratore possa attivare i tipi di pubblico all&#39;interno di un progetto.
+>Currently, when collaborators activate audiences within a project, they are automatically sent to their connection&#39;s configured destination. You **must** configure a destination before your collaborator can activate audiences within a project.
 
-## Configurare le destinazioni {#configure-destinations}
+## Configure destinations {#configure-destinations}
 
-Per configurare una destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Destinazioni personali]**. Qui puoi visualizzare tutte le destinazioni disponibili.
+To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
 
 >[!NOTE]
 >
-> Attualmente, in Collaboration è disponibile solo Adobe Experience Platform come destinazione self-service. Se ti interessa configurare una destinazione come Amazon S3 o Snowflake, contatta il tuo rappresentante Adobe.
+> Currently, only Adobe Experience Platform is available as a self-serve destination within Collaboration. If you are interested in configuring a destination such as Amazon S3 or Snowflake, please contact your Adobe representative.
 
-![La scheda Destinazioni personali nell&#39;area di lavoro di installazione mostra le destinazioni disponibili.](/help/assets/destinations/overview/my-destinations-overview.png)
+![The My destinations tab in the Setup workspace showing the available destinations.](/help/assets/destinations/overview/my-destinations-overview.png)
 
-Per iniziare a configurare una destinazione, selezionare l&#39;opzione **[!UICONTROL Configura]** nella destinazione desiderata. Per informazioni sulla configurazione di destinazioni specifiche, consulta le guide nella tabella [destinazioni disponibili](#available-destinations).
+To begin configuring a destination, select the **[!UICONTROL Set up]** option within the destination of your choice. For information on configuring specific destinations, refer to the guides in the [available destinations](#available-destinations) table.
 
-![L&#39;area di lavoro Destinazioni personali con l&#39;opzione Configura evidenziata per la destinazione Adobe Experience Platform.](/help/assets/destinations/overview/my-destinations-set-up.png)
+![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/my-destinations-set-up.png)
 
-### Destinazioni disponibili {#available-destinations}
+### Available destinations {#available-destinations}
 
-Le seguenti destinazioni sono disponibili per la configurazione in Collaboration. Per visualizzare la guida alla configurazione per quella destinazione, seleziona il nome della destinazione nella tabella seguente. Se ti interessa configurare una destinazione non attualmente disponibile, contatta il tuo rappresentante Adobe.
+The following destinations are available for configuration in Collaboration. To view the configuration guide for that destination, select the destination name in the table below. If you are interested in configuring a destination that is not currently available, please contact your Adobe representative.
 
 | Destinazione | Disponibilità |
 | --- | --- |

@@ -2,9 +2,12 @@
 title: Carica file CSV per Audience Sourcing
 description: Scopri come caricare il file CSV come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1100
 ht-degree: 0%
 
 ---

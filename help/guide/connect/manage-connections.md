@@ -1,12 +1,15 @@
 ---
 title: Gestire le connessioni
-description: Scopri come gestire le connessioni in Real-Time CDP Collaboration.
+description: Learn how to manage your connections in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: 1092
 ht-degree: 1%
 
 ---
@@ -15,39 +18,39 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-L&#39;area di lavoro **[!UICONTROL Le mie connessioni]** fornisce una posizione centralizzata per la gestione delle connessioni. È possibile visualizzare le connessioni esistenti nella sezione **[!UICONTROL Connessioni esistenti]** e visualizzare tutte le connessioni che richiedono un&#39;azione nella sezione **[!UICONTROL Azione richiesta]**.
+The **[!UICONTROL My connections]** workspace provides a centralized location for managing your connections. You can view existing connections in the **[!UICONTROL Existing connections]** section and see any connections that require action in the **[!UICONTROL Action required]** section.
 
 ## Visualizza connessione {#view-connection}
 
-Per visualizzare le connessioni esistenti, passa all&#39;area di lavoro **[!UICONTROL Connetti]**. In qualità di editore, verrà visualizzata la connessione esistente. In qualità di inserzionista, devi quindi passare a **[!UICONTROL Le mie connessioni]**.
+To view your existing connections, navigate to the **[!UICONTROL Connect]** workspace. As a publisher, your existing connection will be displayed. As an advertiser, you should then navigate to **[!UICONTROL My connections]**.
 
-![Opzione Visualizza connessione evidenziata per una connessione nell&#39;area di lavoro Connessioni.](/help/assets/connect/manage-connections/view-connection.png){zoomable="yes"}
+![The View connection option highlighted for a connection in the My connections workspace.](/help/assets/connect/manage-connections/view-connection.png){zoomable="yes"}
 
-Viene visualizzata l&#39;area di lavoro panoramica della connessione in cui sono visualizzati i dettagli della connessione e dei relativi progetti attivi. Selezionare **[!UICONTROL Impostazioni connessione]** per visualizzare le impostazioni di connessione.
+The connection overview workspace appears, displaying details about the connection and its active projects. Select **[!UICONTROL Connection settings]** to view the connection settings.
 
-![L&#39;opzione Impostazioni connessione è evidenziata nell&#39;area di lavoro panoramica connessione.](/help/assets/connect/manage-connections/connection-overview.png){zoomable="yes"}
+![The Connection settings option highlighted in the connection overview workspace.](/help/assets/connect/manage-connections/connection-overview.png){zoomable="yes"}
 
-Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, in cui vengono visualizzati i dettagli della connessione tra l&#39;utente e il collaboratore. Qui è possibile visualizzare tutte le impostazioni selezionate durante il processo di connessione, lo stato corrente della connessione, il proprietario della connessione e le informazioni di contatto per il collaboratore. Per informazioni su impostazioni di connessione specifiche, vedere la guida alle [impostazioni di connessione](/help/guide/connect/establishing-connections.md#connection-settings).
+The connection settings workspace appears, displaying the connection details between you and your collaborator. Here, you can view all the settings selected during the connection process, the current status of the connection, the connection owner, and the contact information for your collaborator. For information on specific connection settings, see the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) guide.
 
-![L&#39;area di lavoro delle impostazioni di connessione visualizza i dettagli della connessione.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+![The connection settings workspace displaying connection details.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
 
 ## Elimina connessione {#delete-connection}
 
-È possibile eliminare le connessioni con i collaboratori che non si desidera continuare a utilizzare. Per eliminare una connessione, passare alla connessione che si desidera eliminare, quindi selezionare l&#39;icona Elimina ![icona Elimina](/help/assets/common/delete.svg) nell&#39;area di lavoro connessione.
+You can delete any connections with collaborators that you do not want to continue working with. To delete a connection, navigate to the connection you wish to delete and then select the delete icon ![delete icon](/help/assets/common/delete.svg) in the connection workspace.
 
-![Icona Elimina evidenziata nell&#39;area di lavoro connessione.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
+![The delete icon highlighted in the connection workspace.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
 
-Viene visualizzata una finestra di dialogo di conferma in cui viene richiesto di confermare l’eliminazione della connessione. Seleziona **[!UICONTROL Elimina]** per confermare l&#39;eliminazione.
+A confirmation dialog appears, asking you to confirm the deletion of the connection. Select **[!UICONTROL Delete]** to confirm the deletion.
 
-![Finestra di dialogo di conferma per eliminare una connessione.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
+![The confirmation dialog to delete a connection.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >
->Una volta eliminata la connessione, tutti i progetti esistenti nella collaborazione verranno eliminati definitivamente e non potranno essere ripristinati. La richiesta di connessione rimarrà in sospeso all&#39;interno della sezione **[!UICONTROL Azione richiesta]** all&#39;interno di **[!UICONTROL Le mie connessioni]**, ma la connessione e le relative configurazioni non saranno più attive. Se si desidera stabilire di nuovo la connessione con il collaboratore, è necessario ristabilire la connessione.
+>Once the connection is deleted, all existing projects in the collaboration will be permanently deleted and unrecoverable. The connection request will remain in a pending state within the **[!UICONTROL Action required]** section within **[!UICONTROL My connections]**, but the connection and its configurations will no longer be active. You will need to re-establish the connection if you want to connect with the collaborator again.
 
 ## Modifica connessione {#edit-connection}
 
-In qualità di proprietario di una connessione di collaborazione, è possibile modificare le impostazioni di connessione con il proprio collaboratore una volta stabilita la connessione. Puoi eseguire le seguenti operazioni:
+As the owner of a collaboration connection, you can edit the connection settings with your collaborator after the connection is established. Puoi eseguire le seguenti operazioni:
 
 * Aggiungi casi d’uso
 * Aggiungi chiavi di corrispondenza. La rimozione della chiave di corrispondenza sarà supportata in futuro.
@@ -62,7 +65,7 @@ In qualità di proprietario di una connessione di collaborazione, è possibile m
 >
 >Il **proprietario** è il collaboratore che avvia la connessione inviando l&#39;invito al **destinatario**. Per ulteriori informazioni, consulta la [documentazione relativa all&#39;impostazione di connessioni con i collaboratori](./establishing-connections.md).
 
-Per modificare le impostazioni di connessione, passare all&#39;area di lavoro impostazioni connessione. Selezionare l&#39;icona dei tre punti (![Icona dei tre punti.](/help/assets/icons/more.png)) per visualizzare le azioni disponibili, quindi selezionare **[!UICONTROL Modifica]**.
+Per modificare le impostazioni di connessione, passare all&#39;area di lavoro impostazioni connessione. Seleziona l&#39;icona dei tre punti (![icona dei tre punti.](/help/assets/icons/more.png)) per visualizzare le azioni disponibili, selezionare **[!UICONTROL Modifica]**.
 
 ![Area di lavoro delle impostazioni di connessione con l&#39;opzione Modifica evidenziata.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 

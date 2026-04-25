@@ -2,11 +2,14 @@
 title: Tracciare le attività che consumano crediti
 description: Scopri come tenere traccia dell’attività di consumo del credito della tua organizzazione in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 4fc9b4e814f7392e1dfdb5847b7189d7d6e21702
+TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: 585
 ht-degree: 7%
 
 ---
@@ -71,6 +74,6 @@ La colonna **[!UICONTROL Attività]** mostra diversi tipi di operazioni che rich
 
 Per gestire in modo efficace il consumo di credito:
 
-1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Collaboration](https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti utilizzati per ogni attività.
+1. **Comprendere** il consumo di credito associato a ogni attività. Consultate la [descrizione del prodotto Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} per una tabella dei crediti utilizzati per ogni attività.
 2. **Monitora regolarmente**: controlla spesso il dashboard attività per comprendere i pattern di utilizzo.
 3. **Traccia per connessione**: utilizzare il nome della connessione per identificare le connessioni che utilizzano più crediti.

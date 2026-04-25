@@ -1,24 +1,28 @@
 ---
-title: Panoramica delle piattaforme Advertising
-description: Scopri le piattaforme pubblicitarie in Real-Time CDP Collaboration.
+title: Advertising platforms overview
+description: Learn about advertising platforms in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3374487538a1cb7e0fd2bdf065bf31ad74f72d29
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 9a99fdeb-0cb7-4fa2-a94c-d06ed56dfb5d
+TQID: https://experienceleague.adobe.com/29BckMlqhZfQEBLtnnAFN4WYXusZHcj3-Y08RuvyJPM
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 121
 ht-degree: 1%
 
 ---
 
-# Panoramica delle piattaforme Advertising
+# Advertising platforms overview
 
 {{limited-availability-release-note}}
 
-Le piattaforme Advertising sono servizi di terze parti che consentono agli inserzionisti di migliorare le loro funzionalità di marketing sfruttando strumenti e tecnologie avanzati. In Real-Time CDP Collaboration, gli inserzionisti possono connettersi con le piattaforme pubblicitarie per estendere l’impatto dei loro dati e ottenere informazioni più approfondite sulle prestazioni del pubblico. Per ulteriori informazioni, consulta la sezione dagli inserzionisti alle piattaforme pubblicitarie nella guida dei [modelli di collaborazione](/help/guide/overview/collaboration-patterns.md).
+Advertising platforms are third-party services that enable advertisers to enhance their marketing capabilities by leveraging advanced tools and technologies. In Real-Time CDP Collaboration, advertisers can connect with advertising platforms to extend the impact of their data and gain deeper insights into audience performance. To learn more, read the advertiser-to-advertising platform section in the [collaboration patterns](/help/guide/overview/collaboration-patterns.md) guide.
 
-## Piattaforme pubblicitarie disponibili {#available-advertising-platforms}
+## Available advertising platforms {#available-advertising-platforms}
 
-Attualmente, l&#39;unica piattaforma pubblicitaria disponibile in Real-Time CDP Collaboration è [!DNL Amazon Marketing Cloud] (AMC). Le guide seguenti forniscono ulteriori informazioni sulla connessione e la collaborazione con [!DNL AMC]:
+Currently, the only available advertising platform in Real-Time CDP Collaboration is [!DNL Amazon Marketing Cloud] (AMC). The following guides provide more information about connecting and collaborating with [!DNL AMC]:
 
-* [Connetti con  [!DNL Amazon Marketing Cloud]](/help/guide/connect/advertising-platforms/amc.md)
-* [Collabora con  [!DNL Amazon Marketing Cloud]](/help/guide/collaborate/advertising-platforms/amc.md)
+* [Connect with [!DNL Amazon Marketing Cloud]](/help/guide/connect/advertising-platforms/amc.md)
+* [Collaborate with [!DNL Amazon Marketing Cloud]](/help/guide/collaborate/advertising-platforms/amc.md)

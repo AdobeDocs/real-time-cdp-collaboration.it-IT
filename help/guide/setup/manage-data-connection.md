@@ -2,11 +2,15 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
+TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: 1179
 ht-degree: 5%
 
 ---
@@ -73,38 +77,38 @@ Leggi le sezioni seguenti per scoprire come aggiornare le chiavi di corrisponden
 
 >[!IMPORTANT]
 >
->Prima di modificare le chiavi di corrispondenza per una connessione dati, tieni presente quanto segue:
+>Before editing the match keys for a data connection, note the following:
 >
->* Per le connessioni dati è possibile utilizzare solo le chiavi di corrispondenza configurate per il tuo account.
->* Al momento, è possibile aggiungere altre chiavi di corrispondenza a una connessione dati, ma una volta abilitata, una chiave di corrispondenza non può essere rimossa.
+>* Only match keys that are configured for your account can be used for data connections.
+>* At this time, you can add additional match keys to a data connection, but once a match key is enabled, it cannot be removed.
 
-Seleziona **[!UICONTROL Modifica]** dalla sezione **[!UICONTROL Corrispondenza chiavi]**.
+Select **[!UICONTROL Edit]** from the **[!UICONTROL Match keys]** section.
 
-![Sezione delle chiavi di corrispondenza con l&#39;opzione Modifica evidenziata.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+![The Match keys section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
 Viene visualizzata una finestra di dialogo di conferma in cui viene spiegato che eventuali modifiche alla connessione dati verranno applicate a tutti i tipi di pubblico associati. Seleziona **[!UICONTROL OK]** per confermare. Puoi scegliere di saltare questa conferma in futuro.
 
 ![Finestra di dialogo di conferma che indica che eventuali modifiche alla connessione dati verranno applicate a tutti i tipi di pubblico associati.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-Nella finestra di dialogo **[!UICONTROL Corrispondenza chiavi]** è possibile visualizzare le mappature esistenti tra i campi di origine e i campi di destinazione corrispondenti (chiavi di corrispondenza). È possibile modificare una chiave di corrispondenza aggiornando il campo di origine mappato oppure aggiungere ulteriori righe del campo di mappatura per compilare nuove chiavi di corrispondenza.
+In the **[!UICONTROL Match keys]** dialog, you can view the existing mappings between source fields and their corresponding target fields (match keys). You can edit a match key by updating the mapped source field, or add additional mapping field rows to populate new match keys.
 
-![Finestra di dialogo Chiavi di corrispondenza che mostra le mappature esistenti tra i campi di origine e i campi di destinazione corrispondenti.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+![The Match keys dialog showing the existing mappings between source fields and the corresponding target fields.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
 
-#### Aggiungi chiavi di corrispondenza {#add-match-keys}
+#### Add match keys {#add-match-keys}
 
-Seleziona **[!UICONTROL Aggiungi campo]** per aggiungere una nuova riga di campo.
+Select **[!UICONTROL Add field]** to add a new field row.
 
-![Dopo aver selezionato Aggiungi campo, nella finestra di dialogo Chiavi di corrispondenza viene visualizzato un nuovo campo di mappatura vuoto, pronto per l&#39;input.](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+![After selecting Add field, the Match keys dialog displays an empty new mapping field ready for input.](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
 
-Quindi, seleziona il campo di origine vuoto. Viene visualizzata la finestra di dialogo **[!UICONTROL Seleziona campo di origine]** con le opzioni **[!UICONTROL Spazi dei nomi identità]** e **[!UICONTROL Attributi profilo]**. Puoi filtrare l’elenco e trovare il campo sorgente desiderato con l’opzione di ricerca.
+Next, select the empty source field. The **[!UICONTROL Select source field]** dialog appears with the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options. You can filter the list and find the desired source field with the search option.
 
 Scegli il campo di origine desiderato, seguito da **[!UICONTROL Seleziona]**.
 
-![Finestra di dialogo Seleziona campo di origine con l&#39;opzione GAID selezionata.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+![The Select source field dialog with the GAID option selected.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-Nella finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**, utilizza il menu a discesa per mappare il nuovo campo di origine a un campo di destinazione. Tutti i campi di destinazione disponibili sono le chiavi di corrispondenza configurate per l&#39;account Collaborator. Se non trovi il campo di destinazione necessario, [modifica le chiavi di corrispondenza dell&#39;account](./onboard-account.md#edit-match-keys) per aggiungerlo.
+In the **[!UICONTROL Match keys]** dialog, use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don&#39;t see the target field you need, [edit your account&#39;s match keys](./onboard-account.md#edit-match-keys) to add it.
 
-Utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]** se si desidera impostare come origine di un campo senza hash un campo di destinazione con hash, ad esempio quando si esegue il mapping di un campo di origine e-mail di testo normale al campo di destinazione **[!UICONTROL E-mail con hash]**.
+Use the **[!UICONTROL Apply transformation]** option if you want to source a non-hashed field to a hashed target field, for example, when mapping a plain text email source field to the **[!UICONTROL Hashed email]** target field.
 
 ![Nel menu a discesa vengono visualizzati tutti i campi di destinazione disponibili da mappare con il nuovo campo di origine.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
