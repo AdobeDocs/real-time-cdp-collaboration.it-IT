@@ -4,9 +4,17 @@ description: Scopri come attivare i tipi di pubblico in Adobe Real-Time CDP Coll
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: 1016
 ht-degree: 2%
 
 ---
@@ -31,7 +39,7 @@ Per iniziare ad attivare i tipi di pubblico, passa alla scheda **[!UICONTROL Att
 >
 >![Attiva l&#39;area di lavoro quando il collaboratore non ha una destinazione configurata.](/help/assets/collaborate/activate/no-destination-configured.png)
 
-Selezionare l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)), oppure l&#39;opzione **[!UICONTROL Attiva pubblico]** se non sono stati inviati tipi di pubblico precedenti per l&#39;attivazione.
+Seleziona l&#39;icona Aggiungi (![Icona Aggiungi.](/help/assets/icons/plus.png)) oppure l&#39;opzione **[!UICONTROL Attiva pubblico]** se non è stato inviato alcun pubblico precedente per l&#39;attivazione.
 
 ![Attiva l&#39;area di lavoro in un progetto senza tipi di pubblico aggiunti.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
@@ -45,7 +53,7 @@ In **[!UICONTROL Sfoglia tipi di pubblico]**, puoi visualizzare **[!UICONTROL Co
 
 >[!IMPORTANT]
 >
->Quando si attivano tipi di pubblico in cui vengono utilizzate più chiavi di corrispondenza, se una o più chiavi di corrispondenza non presenta sovrapposizioni, nessun conteggio di pubblico o scende al di sotto della soglia, l’intera attivazione non riuscirà. Prima di attivare i tipi di pubblico, assicurati che abbiano una sovrapposizione sufficiente e che raggiungano la soglia minima di 1000 ID per tutte le chiavi di corrispondenza.
+>Quando si attivano tipi di pubblico in cui vengono utilizzate più chiavi di corrispondenza, se una (o più) chiave di corrispondenza non presenta sovrapposizioni, nessun conteggio del pubblico o scende al di sotto della soglia, l’intera attivazione non riuscirà. Prima di attivare i tipi di pubblico, assicurati che abbiano una sovrapposizione sufficiente e che raggiungano la soglia minima di 1000 ID per tutte le chiavi di corrispondenza.
 
 Selezionare il pubblico da attivare nelle campagne, quindi selezionare **[!UICONTROL Salva]**. Il pubblico è ora visualizzato ed è possibile visualizzare **[!UICONTROL il conteggio delle identità]**, **[!UICONTROL le identità sovrapposte]** e **[!UICONTROL la sovrapposizione %]** per il pubblico selezionato.
 
@@ -115,7 +123,7 @@ All’interno di ogni pubblico attivato, puoi visualizzare le metriche seguenti:
 
 Puoi eliminare i tipi di pubblico inviati che non desideri più attivare. Quando elimini un pubblico inviato, questo viene rimosso dalla sezione **[!UICONTROL Tipi di pubblico inviati a]** e non verrà più attivato nella destinazione del tuo collaboratore.
 
-Per eliminare un pubblico inviato, seleziona l&#39;icona **[!UICONTROL Elimina]** (![Elimina.](/help/assets/icons/delete.png)) accanto al pubblico nella sezione **[!UICONTROL Tipi di pubblico inviati a]**.
+Per eliminare un pubblico inviato, seleziona l&#39;icona **[!UICONTROL Elimina]** (![Elimina icona.](/help/assets/icons/delete.png)) accanto al pubblico nella sezione **[!UICONTROL Tipi di pubblico inviati a]**.
 
 ![Opzione Elimina nella sezione Tipi di pubblico inviati a.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 

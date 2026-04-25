@@ -1,13 +1,19 @@
 ---
 title: Configurare e gestire le destinazioni
-description: Scopri come configurare e gestire le destinazioni in Real-Time CDP Collaboration.
+description: Learn how to configure and manage destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+TQID: https://experienceleague.adobe.com/3JoqIEJ0ilX3NHYOVersSkaa98kgPzOhqk94UP6Xc50
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 1%
+source-wordcount: 401
+ht-degree: 0%
 
 ---
 
@@ -15,35 +21,35 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Le destinazioni sono integrazioni utilizzate per inviare pubblici mirati a piattaforme esterne. Queste integrazioni consentono di attivare tipi di pubblico su vari canali e piattaforme di marketing da utilizzare nelle campagne e nel coinvolgimento dei clienti.
+Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-I collaboratori possono configurare le destinazioni per l’invio di tipi di pubblico a piattaforme esterne, ad esempio Adobe Experience Platform, da utilizzare nelle campagne. I collaboratori possono quindi [attivare i tipi di pubblico all&#39;interno di un progetto](../collaborate/activate.md), che vengono inviati alla destinazione configurata della connessione. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings).
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection&#39;s configured destination. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
-![La scheda Destinazioni personali nell&#39;area di lavoro di installazione mostra le destinazioni di Adobe Experience Platform attive.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
-Per ulteriori informazioni sulle destinazioni, consulta la guida [panoramica sulle destinazioni](../destinations/overview.md).
+To learn more about destinations, refer to the [destinations overview](../destinations/overview.md) guide.
 
-## Configurare le destinazioni {#configure-destinations}
+## Configure destinations {#configure-destinations}
 
-Le designazioni sono configurate nella sezione **[!UICONTROL Configurazione]** di Collaboration. Per configurare una destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Destinazioni personali]**. Qui puoi visualizzare tutte le destinazioni disponibili.
+Desintations are configured in the **[!UICONTROL Setup]** section of Collaboration. To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
 
 >[!IMPORTANT]
 >
->Per configurare e gestire le destinazioni, all&#39;utente deve essere assegnato un ruolo con l&#39;autorizzazione **Gestisci dati pubblico**. Per ulteriori informazioni sulla gestione dei ruoli, fare riferimento alla guida [gestione ruoli](../permissions/manage-roles.md).
+>To configure and manage desintations, your user must have a role with the **Manage Audience Data** permission assigned to them. For more information about managing roles, refer to the [manage roles](../permissions/manage-roles.md) guide.
 
-![La scheda Destinazioni personali nell&#39;area di lavoro di installazione mostra le destinazioni disponibili.](/help/assets/setup/manage-destinations/my-destinations.png)
+![The My destinations tab in the Setup workspace showing the available destinations.](/help/assets/setup/manage-destinations/my-destinations.png)
 
-Il processo di configurazione per le destinazioni dipende dalla destinazione che si sta configurando. Consulta il catalogo [destinazioni disponibili](../destinations/overview.md#available-destinations) per visualizzare le destinazioni disponibili e le relative guide alla configurazione.
+The set up process for destinations is dependent on the destination you are configuring. Refer to the [available destinations](../destinations/overview.md#available-destinations) catalog to view the available destinations and their configuration guides.
 
 >[!NOTE]
 >
->Attualmente, in Real-Time CDP Collaboration è disponibile solo Adobe Experience Platform come destinazione self-service. Se ti interessa configurare una destinazione diversa, contatta il tuo rappresentante Adobe.
+>Currently, only Adobe Experience Platform is available as a self-serve destination within Real-Time CDP Collaboration. If you are interested in configuring a different destination, please contact your Adobe representative.
 
 ## Elimina destinazioni {#delete-destinations}
 
-L’eliminazione di una destinazione la rimuove dal tuo account, rimuove dalla destinazione eventuali tipi di pubblico inviati in precedenza e impedisce l’invio di eventuali tipi di pubblico futuri a tale destinazione.
+Deleting a destination removes it from your account, removes any previously sent audiences from the destination, and prevents any future audiences from being sent to that destination.
 
-Per eliminare una destinazione, passare alla scheda **[!UICONTROL Destinazioni personali]** nella sezione **[!UICONTROL Configurazione]**. Selezionare l&#39;opzione **[!UICONTROL Elimina]** per la destinazione da rimuovere.
+To delete a destination, navigate to the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Selezionare l&#39;opzione **[!UICONTROL Elimina]** per la destinazione da rimuovere.
 
 ![Area di lavoro Destinazioni personali con l&#39;opzione Elimina evidenziata per la destinazione Adobe Experience Platform.](/help/assets/setup/manage-destinations/delete-destination.png)
 

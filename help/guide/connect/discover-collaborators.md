@@ -4,9 +4,15 @@ description: In qualità di inserzionista, scopri come individuare potenziali co
 audience: admin, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: ae35f62580ff3d0485dcf99f3638f68d21cc38a2
+TQID: https://experienceleague.adobe.com/ac9-jiDgLNaXcO49M9DB9xHHWExYf9ocdwTMddU5CQs
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 375
 ht-degree: 2%
 
 ---
@@ -44,6 +50,6 @@ Alcuni motivi per cui una connessione viene visualizzata nella visualizzazione *
 * Il tuo account ha inviato le impostazioni di connessione al collaboratore e sei in attesa che accetti o rifiuti le impostazioni di connessione proposte.
 * Il tuo account ha inviato le impostazioni di connessione al collaboratore e ha rifiutato la tua proposta. Ora puoi rivedere le impostazioni di connessione e inviare di nuovo.
 
-Nella visualizzazione **[!UICONTROL Connessioni esistenti]**, puoi esplorare le connessioni esistenti con i collaboratori e procedere con la creazione di progetti per iniziare a collaborare alle campagne.
+In the **[!UICONTROL Existing connections]** view, you can explore existing connections with collaborators and proceed to create projects to start collaborating on campaigns.
 
-![Visualizzazione connessioni esistenti nella schermata Connessioni personali](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}
+![Existing connections view in the My connections screen](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}
