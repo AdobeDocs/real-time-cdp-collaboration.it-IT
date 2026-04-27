@@ -3,10 +3,10 @@ title: Configura [!DNL Google Cloud Storage] per Audience Sourcing
 description: Scopri come connettere un bucket  [!DNL Google Cloud Storage]  come origine del pubblico self-service in Real-Time CDP Collaboration, inclusi prerequisiti, autenticazione, mappatura campi, pianificazione e convalida.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
-ht-degree: 2%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ Viene visualizzato il flusso di lavoro Aggiungi pubblico. Seleziona **[!UICONTRO
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Preparazione dei dati per l’onboarding"
 >abstract="Leggi la guida alle specifiche di Audience Sourcing per scoprire come formattare e strutturare i dati sul pubblico da Google Cloud Storage per Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulta la guida"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulta la guida alle specifiche di Audience Sourcing"
 
 Nella schermata di selezione dell&#39;origine dati sono elencati tutti i tipi di connessione disponibili. Seleziona **[!UICONTROL Google Cloud Storage]**, quindi **[!UICONTROL Next]**.
 
