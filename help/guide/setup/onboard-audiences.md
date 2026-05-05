@@ -2,18 +2,14 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
+source-wordcount: 3753
 ht-degree: 17%
 
 ---
@@ -49,7 +45,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 >
 >Dopo aver stabilito nella prima connessione dati e ottenuto il primo pubblico, puoi ottenere più tipi di pubblico dalla connessione dati esistente. Quando aggiungi altri tipi di pubblico, inizierai dal passaggio [seleziona pubblico](#select-audiences), in quanto la connessione dati è già stata stabilita.
 
-Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Le origini supportate includono Adobe Experience Platform, caricamento file CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], ciascuno con un proprio flusso di lavoro.
+Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Le origini supportate includono Adobe Experience Platform, caricamento file CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], ciascuno con un proprio flusso di lavoro. Adobe Audience Manager sarà disponibile a breve.
 
 Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
 
@@ -63,7 +59,7 @@ Per iniziare ad aggiungere la tua connessione dati, seleziona **[!UICONTROL Aggi
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Aggiungi una nuova connessione dati evidenziata.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Seleziona origine dati
+#### Seleziona origine dati {#select-data-source}
 
 Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili includono:
 
@@ -72,12 +68,13 @@ Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili inc
 * **Amazon Web Services**: collegati all&#39;archiviazione Amazon S3 per generare i dati del pubblico direttamente dai bucket S3. Per istruzioni dettagliate, consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
 * **Snowflake**: utilizza il data warehouse di Snowflake per estrarre facilmente i dati sul pubblico. Consulta la guida [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md).
 * **Google Cloud Storage**: connettiti ai bucket GCS per i dati del pubblico di origine. Per istruzioni dettagliate, consulta la guida [Configurare GCS per Audience sourcing](./configure-gcs-audience-sourcing.md).
+* **Adobe Audience Manager** (_Disponibile a breve_): Source i tuoi segmenti di pubblico da Adobe Audience Manager.
 
 Seleziona l&#39;origine dati e quindi **[!UICONTROL Successivo]**.
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Adobe Experience Platform evidenziata.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Seleziona sandbox
+#### Seleziona sandbox {#select-sandbox}
 
 Dopo aver selezionato l’origine dati, devi selezionare la sandbox che include i tipi di pubblico che desideri utilizzare per Collaboration. Seleziona la sandbox dall&#39;elenco delle sandbox disponibili, quindi seleziona **[!UICONTROL Successivo]**
 
@@ -89,7 +86,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -107,7 +104,7 @@ Dopo aver selezionato le azioni di marketing e le regole di consenso, seleziona 
 
 ![Finestra di dialogo Criteri di governance e azioni efficaci con la casella di controllo e l&#39;opzione OK evidenziate.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Fornisci dettagli
+### Fornisci dettagli {#provide-details}
 
 Quindi, fornisci un nome e una descrizione per la connessione dati. Queste informazioni ti aiuteranno a identificare la connessione dati in un secondo momento.
 
@@ -142,11 +139,9 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 >abstract="Seleziona gli attributi dallo schema di unione per la classe Profilo in Experience Platform. Questa vista mostra gli attributi presenti nello schema di unione e appartenenti alla classe XDM Profilo individuale."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it" text="Schema di unione in Experience Platform"
 
-Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la configurazione dell’account.
+Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la [configurazione account](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Attualmente, non è possibile modificare le connessioni dati per includere nuovi campi mappa. Se aggiungi nuove chiavi di corrispondenza all’account dopo la creazione della connessione dati, dovrai creare una nuova connessione dati da mappare su di esse.
+Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione di mappare i campi di origine ai campi di destinazione.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -156,7 +151,7 @@ Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collab
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
@@ -177,6 +172,11 @@ Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con
 Continua ad aggiungere coppie di mappatura per ciascun campo di destinazione. Se non desideri utilizzare una chiave di corrispondenza, puoi rimuoverla utilizzando l&#39;icona Elimina (![icona Elimina](/help/assets/icons/delete.png)) accanto al campo. Se la chiave di corrispondenza viene rimossa, non potrai utilizzarla quando esegui l’origine di tipi di pubblico dalla connessione.
 
 ![Area di lavoro Aggiungi tipi di pubblico con l&#39;opzione Elimina evidenziata accanto a un campo di destinazione.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+Se si aggiunge un nuovo campo e si seleziona **[!UICONTROL ID demdex (ECID)]** come campo di destinazione, **[!UICONTROL ECID]** verrà selezionato automaticamente come campo di origine corrispondente. Non sono necessarie ulteriori azioni.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![L&#39;area di lavoro Aggiungi tipi di pubblico con il campo di origine ECID mappato automaticamente al campo di destinazione dell&#39;ID demdex (ECID).](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 Al termine della mappatura dei campi, seleziona **[!UICONTROL Avanti]** per continuare.
 
