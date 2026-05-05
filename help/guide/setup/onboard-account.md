@@ -2,19 +2,15 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 13%
+source-wordcount: 1410
+ht-degree: 9%
 
 ---
 
@@ -77,20 +73,29 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ID persone di prime parti"
->abstract="Gli ID di persone di prime parti, come indirizzi e-mail e numeri di telefono con hash o ID del sistema CRM, sono collegati direttamente a un profilo individuale."
+>title="ID persone"
+>abstract="Gli ID delle persone, come indirizzi e-mail con hash, numeri di telefono con hash o ID del sistema di gestione delle relazioni con i clienti, sono collegati direttamente a un singolo profilo."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="ID dispositivo di prime parti"
->abstract="Gli ID dispositivo di prime parti, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più persone."
+>title="ID dispositivo"
+>abstract="Gli ID dispositivo, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più utenti."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID partner supportati"
 >abstract="Gli ID partner sono identificatori forniti da partner esterni per la riconciliazione del pubblico. Gli ID partner non sono collegati direttamente a un profilo individuale."
 
-![Chiavi di corrispondenza supportate.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+Nella tabella seguente vengono visualizzate le chiavi di corrispondenza supportate in Collaboration:
+
+| ID persone | ID dispositivo | ID partner |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +107,16 @@ Seleziona le chiavi di corrispondenza da utilizzare per la riconciliazione dei p
 
 #### Chiavi di corrispondenza supportate {#supported-match-keys}
 
-Collaboration supporta tre tipi di chiavi di corrispondenza: ID persone di prime parti, ID dispositivo di prime parti e ID partner. Tutte le chiavi di corrispondenza devono soddisfare i seguenti requisiti:
+Collaboration supporta tre tipi di chiavi di corrispondenza: ID persone, ID dispositivo e ID partner. Tutte le chiavi di corrispondenza devono soddisfare i seguenti requisiti:
 
 * Le chiavi di corrispondenza devono essere **tagliate**, **in minuscolo**
 * Le chiavi di corrispondenza con hash devono essere **SHA256-hash**.
 * Se fornisci valori con hash che utilizzano caratteri maiuscoli, Collaboration li converte automaticamente in minuscoli.
 * Se l&#39;origine contiene **identificatori di testo normale**, utilizza l&#39;opzione **[!UICONTROL Applica trasformazione]** durante la [configurazione della connessione dati](./manage-data-connection.md#match-keys) per applicare l&#39;hashing. Questa opzione è disponibile solo quando si selezionano i tipi di pubblico da Experience Platform e non è supportata per le origini basate su cloud.
 
-##### ID persone di prime parti
+##### ID persone
 
-Gli ID persona di prime parti sono direttamente collegati a un singolo profilo. Gli ID attualmente supportati sono:
+Gli ID persona sono collegati direttamente a un singolo profilo. Gli ID attualmente supportati sono:
 
 * **[!UICONTROL E-mail con hash]**
 * **[!UICONTROL Telefono con hash]**
@@ -119,13 +124,14 @@ Gli ID persona di prime parti sono direttamente collegati a un singolo profilo. 
 * **[!UICONTROL ID fedeltà]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### ID dispositivo di prime parti
+##### ID dispositivo
 
-Gli ID dispositivo di prime parti sono identificatori collegati a un dispositivo specifico. Gli ID attualmente supportati sono:
+Gli ID dispositivo sono identificatori collegati a un dispositivo specifico. Gli ID attualmente supportati sono:
 
-* **[!UICONTROL Hash IPv4]**: indirizzi IPv4 con hash
-* **[!UICONTROL IDFA]**: l&#39;identificatore per gli inserzionisti (IDFA) utilizzato nei dispositivi Apple iOS
-* **[!UICONTROL GAID]**: ID inserzionista Google utilizzato nei dispositivi Android
+* **[!UICONTROL IPv4 con hash]**
+* **[!UICONTROL IDFA]**: l&#39;identificatore per gli inserzionisti (IDFA) utilizzato nei dispositivi Apple iOS.
+* **[!UICONTROL GAID]**: ID inserzionista Google utilizzato nei dispositivi Android.
+* **[!UICONTROL ID demdex (ECID)]**: quando i cookie di terze parti sono abilitati, l&#39;ECID includerà il cookie di terze parti di Adobe, [!DNL Demdex ID]. [!DNL Demdex ID] può essere utilizzato per far corrispondere i visitatori non autenticati basati su cookie.
 
 ##### ID partner
 
