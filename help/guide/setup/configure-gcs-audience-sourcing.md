@@ -3,9 +3,9 @@ title: Configura [!DNL Google Cloud Storage] per Audience Sourcing
 description: Scopri come connettere un bucket  [!DNL Google Cloud Storage]  come origine del pubblico self-service in Real-Time CDP Collaboration, inclusi prerequisiti, autenticazione, mappatura campi, pianificazione e convalida.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 1%
 
 ---
@@ -90,6 +90,11 @@ Viene visualizzata una finestra di dialogo dei prerequisiti che descrive i passa
 ![Prerequisiti per l&#39;elenco modale &quot;Prepara il bucket GCS per l&#39;onboarding&quot;, tra cui la creazione di un bucket GCS, la configurazione dell&#39;accesso IAM per Adobe e la conformità con le specifiche Audience Sourcing, con le opzioni Annulla e &quot;Avvia onboarding&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### Immetti i dettagli della connessione a [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Aggiungere un pubblico da Google Cloud Storage"
+>abstract="Per collegare il tuo Google Cloud Storage, autorizza l’utente del servizio Adobe a recuperare i dati sul pubblico per l’elaborazione. Segui i passaggi descritti in Experience League per concedere ad Adobe l’accesso al tuo Google Cloud Storage."
 
 Fornisci i dettagli necessari per consentire a Collaboration di accedere al bucket [!DNL Google Cloud Storage]. Dopo aver immesso le informazioni richieste, seleziona **[!UICONTROL Avanti]**.
 
