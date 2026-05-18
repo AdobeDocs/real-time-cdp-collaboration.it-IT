@@ -10,7 +10,7 @@ exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
 source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 1%
+ht-degree: 46%
 
 ---
 
@@ -25,4 +25,4 @@ Controlla di nuovo più tardi per ottenere informazioni dettagliate su come impl
 >[!CONTEXTUALHELP]
 > id="rtcdp_collaboration_amc_attribution_lookback_period"
 > title="Periodo di lookback dell’attribuzione"
-> abstract="AMC applica una finestra di attribuzione fissa di 30 giorni: le conversioni che si verificano fino a 30 giorni dopo l’ultima impression possono essere attribuite a impression all’interno dell’intervallo di date del rapporto. Questo valore non è modificabile; pianifica la data di esecuzione del rapporto almeno 30 giorni dopo la fine dell’intervallo per garantire che tutte le conversioni idonee vengano acquisite."
+> abstract="AMC applica un intervallo di attribuzione fisso di 30 giorni: le conversioni che si verificano fino a 30 giorni dopo l’ultima impression possono essere attribuite alle impression comprese nell’intervallo di date del rapporto. Non è possibile modificare questo valore; pianifica la data di esecuzione del rapporto almeno 30 giorni successivi alla fine dell’intervallo per garantire che tutte le conversioni idonee vengano acquisite."

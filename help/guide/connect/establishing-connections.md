@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -282,7 +282,7 @@ Per aggiungere i nomi degli inserzionisti, seleziona **[!UICONTROL Modifica]** n
 
 Al termine, seleziona **[!UICONTROL Salva]** per salvare le modifiche.
 
-Durante la creazione di un progetto, il nome dell’inserzionista verrà precompilato in base alle seguenti impostazioni stabilite durante la connessione    :
+Durante la creazione di un progetto, il nome dell’inserzionista verrà precompilato in base alle seguenti impostazioni stabilite durante la connessione:
 
 1. **Nessun nome inserzionista impostato**: se non viene aggiunto alcun nome di inserzionista, per impostazione predefinita Collaboration utilizza il nome dell&#39;inserzionista come nome dell&#39;inserzionista.
 2. **Un nome di inserzionista impostato**: se viene aggiunto un singolo nome di inserzionista, Collaboration utilizza automaticamente tale nome come nome dell&#39;inserzionista per il progetto.
@@ -338,7 +338,7 @@ Prima di avviare il processo di invito, raccogliere le informazioni seguenti dal
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Invita un collaboratore"
->abstract="Compila questo modulo per invitare la tua organizzazione partner a Collaboration Starter. L&#39;invitato riceverà un&#39;e-mail di invito e dovrà utilizzare l&#39;indirizzo e-mail specificato per completare la registrazione."
+>abstract="Compila questo modulo per invitare la tua organizzazione partner in Collaboration Starter. L’utente invitato riceverà un’e-mail di invito e dovrà utilizzare l’indirizzo e-mail specificato per completare la registrazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Ulteriori informazioni su Collaboration Starter"
 
 Invita la tua organizzazione partner a partecipare a Collaboration [!DNL Starter] direttamente tramite l&#39;interfaccia utente.

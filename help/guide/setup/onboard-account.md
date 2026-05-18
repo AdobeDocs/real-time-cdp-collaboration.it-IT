@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -78,12 +78,12 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID persone"
->abstract="Gli ID delle persone, come indirizzi e-mail con hash, numeri di telefono con hash o ID del sistema di gestione delle relazioni con i clienti, sono collegati direttamente a un singolo profilo."
+>abstract="Gli ID persone, come indirizzi e-mail e numeri di telefono con hash o ID del sistema CRM, sono collegati direttamente a un profilo individuale."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID dispositivo"
->abstract="Gli ID dispositivo, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più utenti."
+>abstract="Gli ID dispositivo, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più persone."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
