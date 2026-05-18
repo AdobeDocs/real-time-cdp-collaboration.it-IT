@@ -2,19 +2,15 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -78,12 +74,12 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID persone"
->abstract="Gli ID delle persone, come indirizzi e-mail con hash, numeri di telefono con hash o ID del sistema di gestione delle relazioni con i clienti, sono collegati direttamente a un singolo profilo."
+>abstract="Gli ID persone, come indirizzi e-mail e numeri di telefono con hash o ID del sistema CRM, sono collegati direttamente a un profilo individuale."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID dispositivo"
->abstract="Gli ID dispositivo, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più utenti."
+>abstract="Gli ID dispositivo, come ECID o indirizzi IP, sono collegati direttamente a dispositivi che possono essere condivisi tra più persone."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
