@@ -2,8 +2,8 @@
 title: Configura [!DNL Google Cloud Storage] per Audience Sourcing
 description: Scopri come connettere un bucket  [!DNL Google Cloud Storage]  come origine del pubblico self-service in Real-Time CDP Collaboration, inclusi prerequisiti, autenticazione, mappatura campi, pianificazione e convalida.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Prima di procedere, confermare quanto segue con l&#39;amministratore [!DNL Googl
 
 ### Preparare i dati sul pubblico {#prepare-audience-data}
 
-I file del pubblico devono essere conformi alla **[Specifica di origine del pubblico (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** prima dell&#39;inizio dell&#39;origine. Esamina le specifiche per la definizione completa dello schema e gli esempi a livello di campo. I requisiti principali includono:
+I file del pubblico devono essere conformi alla **[Specifica di origine del pubblico (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** prima dell&#39;inizio dell&#39;origine. Esamina le specifiche per la definizione completa dello schema e gli esempi a livello di campo. I requisiti principali includono:
 
 * **Formato file:** CSV, utilizzando virgole come delimitatori di campo e barre verticali (`|`) come separatori per più valori all&#39;interno di un singolo campo.
 * **Campi obbligatori:** Ogni record deve includere una colonna `AUDIENCE_ID` e almeno una colonna chiave di corrispondenza supportata.
@@ -85,7 +85,7 @@ Nella schermata di selezione dell&#39;origine dati sono elencati tutti i tipi di
 
 ![Il flusso di lavoro Aggiungi pubblico mostra la schermata di selezione dell&#39;origine dati con Google Cloud Storage selezionato e Next evidenziato.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-Viene visualizzata una finestra di dialogo dei prerequisiti che descrive i passaggi di configurazione richiesti (ad esempio, la configurazione del bucket GCS e l&#39;assegnazione del ruolo IAM) e rileva che i dati devono essere conformi alla **[[!UICONTROL specifica di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Seleziona **[!UICONTROL Avvia onboarding]** per confermare la conformità prima di procedere.
+Viene visualizzata una finestra di dialogo dei prerequisiti che descrive i passaggi di configurazione richiesti (ad esempio, la configurazione del bucket GCS e l&#39;assegnazione del ruolo IAM) e rileva che i dati devono essere conformi alla **[[!UICONTROL specifica di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. Seleziona **[!UICONTROL Avvia onboarding]** per confermare la conformità prima di procedere.
 
 ![Prerequisiti per l&#39;elenco modale &quot;Prepara il bucket GCS per l&#39;onboarding&quot;, tra cui la creazione di un bucket GCS, la configurazione dell&#39;accesso IAM per Adobe e la conformità con le specifiche Audience Sourcing, con le opzioni Annulla e &quot;Avvia onboarding&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -130,7 +130,7 @@ La schermata **[!UICONTROL Mapping]** è di sola lettura. Collaboration mappa au
 
 ![La finestra di dialogo &quot;Anteprima dati GCS&quot; mostra una tabella di esempio di dati del pubblico con colonne quali AUDIENCE_ID e HASHED_EMAIL_SHA_256 e un pulsante Chiudi nell&#39;angolo in basso a destra.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-Verifica che le mappature visualizzate riflettano i campi nei file del pubblico. In caso contrario, arrestare e correggere i file in modo che siano conformi alle [specifiche di Audience Sourcing](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) prima di procedere. Seleziona **[!UICONTROL Avanti]** per continuare.
+Verifica che le mappature visualizzate riflettano i campi nei file del pubblico. In caso contrario, arrestare e correggere i file in modo che siano conformi alle [specifiche di Audience Sourcing](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) prima di procedere. Seleziona **[!UICONTROL Avanti]** per continuare.
 
 ![Aggiungi il flusso di lavoro del pubblico nel passaggio &quot;Mappa campi&quot; che mostra i campi di origine mappati automaticamente (AUDIENCE\_ID e HASHED\_EMAIL\_SHA\_256) per i campi di identità di destinazione, con l&#39;opzione &quot;Anteprima dati di origine&quot; visibile e il pulsante Avanti nell&#39;angolo in alto a destra.](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ Utilizzare questa sezione per risolvere i problemi che si verificano dopo la con
 
 **Errori di formato del file del pubblico durante un aggiornamento pianificato**
 
-* Conferma che i file aggiornati nel bucket siano conformi ai requisiti relativi alla struttura delle colonne e ai campi nella [Specifica di origine pubblico](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Conferma che i file aggiornati nel bucket siano conformi ai requisiti relativi alla struttura delle colonne e ai campi nella [Specifica di origine pubblico](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
 * Assicurati che tutti i file nel percorso della cartella configurata utilizzino strutture di colonna identiche. I file in formato misto nello stesso percorso possono causare errori di sourcing parziali.
 
 ## Configura autorizzazioni [!DNL Google Cloud Storage] {#setup-gcs-permissions}

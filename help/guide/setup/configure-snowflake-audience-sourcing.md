@@ -2,9 +2,9 @@
 title: Configura [!DNL Snowflake] per Audience Sourcing
 description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Share]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Prima di configurare la connessione [!DNL Snowflake], verificare di soddisfare i
    * **Schema**
    * **Visualizza**
 
-* I dati sul pubblico in [!DNL Snowflake Secure Data Share] devono soddisfare i requisiti di formato descritti nella [Guida alle specifiche di Audience Sourcing (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* I dati sul pubblico in [!DNL Snowflake Secure Data Share] devono soddisfare i requisiti di formato descritti nella [Guida alle specifiche di Audience Sourcing (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
 * Tutte le chiavi di corrispondenza nel file del pubblico [!DNL Snowflake] devono essere abilitate anche per il tuo account Collaboration. Scopri come [abilitare le chiavi di corrispondenza](./onboard-account.md#set-up-match-keys) o [aggiungere nuove chiavi di corrispondenza](./onboard-account.md#edit-match-keys) al tuo account.
 
 ## Configura autorizzazioni [!DNL Snowflake] {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ Selezionare **[!UICONTROL Snowflake]** come connessione dati, quindi **[!UICONTR
 >abstract="Leggi la guida sulle specifiche di acquisizione del pubblico per scoprire come formattare e strutturare i dati sul pubblico da Snowflake per Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulta la guida"
 
-Viene visualizzata una finestra di dialogo in cui vengono illustrati i requisiti di [!DNL Snowflake Share] e del file del pubblico [!DNL Snowflake] prima che sia possibile iniziare a creare l&#39;origine. Assicurati che [!DNL Snowflake Share] sia stato creato con il nome di condivisione, l&#39;identificatore dell&#39;account, lo schema e la visualizzazione corretti. Per verificare che i dati del pubblico siano formattati e strutturati correttamente per l&#39;utilizzo in Collaboration, consulta la **[[!UICONTROL guida alle specifiche di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+Viene visualizzata una finestra di dialogo in cui vengono illustrati i requisiti di [!DNL Snowflake Share] e del file del pubblico [!DNL Snowflake] prima che sia possibile iniziare a creare l&#39;origine. Assicurati che [!DNL Snowflake Share] sia stato creato con il nome di condivisione, l&#39;identificatore dell&#39;account, lo schema e la visualizzazione corretti. Per verificare che i dati del pubblico siano formattati e strutturati correttamente per l&#39;utilizzo in Collaboration, consulta la **[[!UICONTROL guida alle specifiche di Audience Sourcing]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Al termine, seleziona **[!UICONTROL Avvia onboarding]**.
 
@@ -186,7 +186,7 @@ Nella visualizzazione **[!UICONTROL Fornisci dettagli]**, immetti un nome descri
 
 ### Mappare i campi {#map-fields}
 
-La schermata **[!UICONTROL Mapping]** è di sola lettura in questo momento. Non è possibile aggiungere, eliminare o applicare trasformazioni. Collaboration mappa automaticamente i campi di identità di origine dai dati di [!DNL Snowflake Share] ai campi di destinazione in base alla **[specifica di origine del pubblico (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+La schermata **[!UICONTROL Mapping]** è di sola lettura in questo momento. Non è possibile aggiungere, eliminare o applicare trasformazioni. Collaboration mappa automaticamente i campi di identità di origine dai dati di [!DNL Snowflake Share] ai campi di destinazione in base alla **[specifica di origine del pubblico (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Conferma visivamente i campi mappati e seleziona **[!UICONTROL Avanti]** per continuare. Puoi anche visualizzare in anteprima i dati di esempio di [!DNL Snowflake Share] con l&#39;opzione **[!UICONTROL Anteprima dati di origine]**.
 
