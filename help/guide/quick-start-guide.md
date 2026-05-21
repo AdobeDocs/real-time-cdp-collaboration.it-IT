@@ -2,24 +2,16 @@
 title: Guida rapida e configurazione di Real-Time CDP Collaboration
 description: Scopri come configurare Real-Time CDP Collaboration, ruoli e account, impostare le origini dei tipi di pubblico, attivare i dati e connetterti con i partner in modo sicuro.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
-source-wordcount: 1417
-ht-degree: 2%
+source-wordcount: 1387
+ht-degree: 1%
 
 ---
 
@@ -53,7 +45,7 @@ I ruoli di accesso della tua organizzazione determinano ciò che gli utenti poss
 
 Guarda questo video per scoprire come assegnare l’accesso ai prodotti e le autorizzazioni per Collaboration utilizzando Admin Console e Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452238/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Passaggio 2: configurare l’account Collaboration {#set-up-your-account}
 
@@ -134,7 +126,7 @@ In alternativa, consulta il documento su [tipi di pubblico di sourcing in Collab
 
 ### Opzione B: Source da Snowflake, Amazon S3 o Google Cloud Storage
 
-Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake], [!DNL Amazon S3] o [!DNL Google Cloud Storage], prepara i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)
+Per configurare un&#39;origine cloud, ad esempio [!DNL Snowflake], [!DNL Amazon S3] o [!DNL Google Cloud Storage], preparare i dati del pubblico utilizzando [Specifiche del pubblico PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf).
 
 È possibile configurare [!DNL Amazon S3], [!DNL Google Cloud Storage] o [!DNL Snowflake] come origini dati self-service. Per le istruzioni di installazione, vedere la [Guida all&#39;origine di Amazon S3](./setup/configure-aws-s3-audience-sourcing.md), la [Guida all&#39;origine di GCS](./setup/configure-gcs-audience-sourcing.md) o la [Guida all&#39;origine di Snowflake](./setup/configure-snowflake-audience-sourcing.md).
 
@@ -234,7 +226,7 @@ Come inserzionista, utilizza l&#39;area di lavoro **[!UICONTROL Connetti]** nel 
 >
 >Attualmente, solo gli inserzionisti possono sfogliare gli editori. Gli editori non possono esplorare o avviare connessioni con gli inserzionisti.
 
-Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [&#128279;](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Per una panoramica di questo flusso, vedere la [guida alla creazione delle connessioni](./connect/establishing-connections.md){target="_blank"}. Per una panoramica visiva del processo di connessione, inclusi la navigazione dei collaboratori e la gestione delle impostazioni di connessione, guarda il video di configurazione dell&#39;account dell&#39;inserzionista [](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Passaggi successivi
 
