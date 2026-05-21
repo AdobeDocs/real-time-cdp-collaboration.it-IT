@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
-ht-degree: 2%
+source-wordcount: 1903
+ht-degree: 3%
 
 ---
 
@@ -26,9 +26,48 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-**Ultimo aggiornamento**: gennaio 2026.
+**Ultimo aggiornamento**: aprile 2026.
 
 Queste note sulla versione descrivono le funzionalità rilasciate in Adobe Real-Time CDP Collaboration. I rilasci di Collaboration funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Queste note sulla versione vengono aggiornate spesso, quindi assicurati di controllarle regolarmente.
+
+## Aprile 2026 {#april-2026}
+
+Nuove funzioni sono ora disponibili in Real-Time CDP Collaboration. Questi includono Collaboration [!DNL Starter] per l&#39;invito di partner, l&#39;origine del pubblico espanso da [!DNL Snowflake] e [!DNL Google Cloud Storage], il supporto per [!DNL Demdex ID (ECID)] come chiave di corrispondenza e due nuovi ruoli di collaboratore: Agenzia e Partner dati.
+
+**Funzioni nuove o aggiornate**
+
+| Funzione | Descrizione |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | È ora possibile invitare i partner che non dispongono di una licenza Collaboration a collaborare tramite Collaboration [!DNL Starter]. I partner invitati possono creare tipi di pubblico, scoprire sovrapposizioni e attivarli all’interno della connessione condivisa. Per iniziare, consulta la [panoramica [!DNL Starter] Collaboration](../overview/starter-overview.md). |
+| Origine del pubblico self-service da [!DNL Snowflake] e [!DNL Google Cloud Storage] | È ora possibile creare tipi di pubblico di prime parti direttamente dal bucket [!DNL Snowflake Secure Data Share] o [!DNL Google Cloud Storage] in Collaboration. Per le istruzioni di configurazione, vedere le seguenti guide: <ul><li>[Configura [!DNL Snowflake] per audience sourcing](../setup/configure-snowflake-audience-sourcing.md) </li><li> [Configura [!DNL Google Cloud Storage] per audience sourcing](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID] chiave di corrispondenza | [!DNL Demdex ID] (ECID) è ora supportato come chiave di corrispondenza per la corrispondenza di identità anonime basate su cookie tra piattaforme diverse. Migliora la precisione della sovrapposizione del pubblico senza affidarsi ai dati utente autenticati. Per informazioni dettagliate, consulta [chiavi di corrispondenza supportate](../setup/onboard-account.md#supported-match-keys). |
+| Nuovi ruoli collaboratore | Collaboration ora supporta due ruoli di collaboratore aggiuntivi, tra cui **Agenzia** e **Partner dati**. Questi ruoli espandono il modo in cui le diverse organizzazioni possono partecipare e lavorare insieme all’interno della piattaforma. Ulteriori informazioni su: <ul><li>[Ruoli account collaboratore](../overview/roles.md)</li><li>[Modelli Collaboration](../overview/collaboration-patterns.md)</li><li>[Flusso di lavoro end-to-end](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## Marzo 2026 {#march-2026}
+
+Ora puoi generare rapporti di misurazione per le campagne e gestire i dati di misurazione in Real-Time CDP Collaboration.
+
+**Funzioni nuove o aggiornate**
+
+| Funzione | Descrizione |
+| ------- | ----------- |
+| Disponibilità generale della misurazione | I rapporti di misurazione sono ora generalmente disponibili in Collaboration. Ora puoi immettere gli ID campagna associati alle campagne di marketing come editore, utilizzare i dati di conversione di origine come inserzionista e generare due tipi di rapporti: **Riepilogo campagna** per i risultati globali della campagna e **Attribuzione** per informazioni sull&#39;efficacia della campagna. Per iniziare, consulta le seguenti guide: <ul><li>[ID campagna di input](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Dati conversione Source](../setup/onboard-measurement-data.md)</li><li>[Creare e visualizzare i report di misurazione](../collaborate/measure.md)</li></ul> |
+| Gestione del ciclo di vita delle misurazioni | Collaboration supporta anche la gestione delle misurazioni:<ul><li> Gli inserzionisti ora possono modificare o eliminare sia le connessioni dati di misurazione che gli eventi di conversione associati per garantire un’analisi accurata e aggiornata delle campagne. Per ulteriori dettagli, vedere [Gestire la connessione dati di misurazione](../setup/manage-measurement-data-connection.md) e [Gestire gli eventi di conversione](../setup/onboard-measurement-data.md#edit-measurement-data).</li><li>Puoi anche modificare o eliminare i rapporti delle misurazioni pianificate direttamente dalla scheda **[!UICONTROL Misura]** in qualsiasi progetto di collaborazione. Questa opzione è disponibile per tutti gli utenti. Per ulteriori dettagli, consulta la [guida alla gestione dei rapporti di misurazione](../collaborate/measure.md).</li></ul> |
+
+{style="table-layout:auto"}
+
+## Febbraio 2026 {#february-2026}
+
+Real-Time CDP Collaboration ora supporta la modifica delle impostazioni di connessione e connessione dati esistenti direttamente nell’interfaccia.
+
+**Funzione nuova o aggiornata**
+
+| Funzione | Descrizione |
+| ------- | ----------- |
+| Modifica impostazioni di connessione | Ora i proprietari della connessione possono aggiornare i casi d’uso, le chiavi di corrispondenza, le autorizzazioni di attivazione e le suddivisioni dei crediti dopo aver stabilito una connessione. Per istruzioni dettagliate, consulta [Modifica connessione](../connect/manage-connections.md#edit-connection). |
+| Modificare le connessioni dati | Aggiorna le chiavi di corrispondenza e le configurazioni di pianificazione per le connessioni dati esistenti direttamente in Collaboration. Per istruzioni dettagliate, consulta [Modifica connessione dati](../setup/manage-data-connection.md#edit-data-connection). |
 
 ## Gennaio 2026 {#january-2026}
 
@@ -109,15 +148,15 @@ Adobe Real-Time CDP Collaboration, creato appositamente per consentire agli inse
 1. **Configurazione dell&#39;accesso**: gli amministratori di sistema configurano le autorizzazioni di accesso per gli utenti. Per ulteriori informazioni sulla configurazione delle autorizzazioni di accesso, leggere la [guida alla gestione dell&#39;accesso utente](/help/guide/permissions/manage-user-access.md#RTCDP-collaboration-access).
 2. **Connetti origini dati**: tipi di pubblico di Source da utilizzare in Collaboration. Per iniziare a individuare i tipi di pubblico, leggere la guida [source and manage audiences](/help/guide/setup/onboard-audiences.md) (Origine e gestione dei tipi di pubblico).
 3. **Stabilisci connessioni**: inizia a collaborare con inserzionisti o editori attendibili. Per ulteriori informazioni sulla creazione di connessioni, leggere la guida [stabilire connessioni](/help/guide/connect/establishing-connections.md).
-4. **Discover &amp; Activate**: Create projects to identify valuable audiences to activate in campaigns. To learn more about creating projects, read the [manage projects](/help/guide/collaborate/manage-projects.md) guide.
+4. **Scopri e attiva**: crea progetti per identificare tipi di pubblico importanti da attivare nelle campagne. Per ulteriori informazioni sulla creazione di progetti, consulta la guida [gestisci progetti](/help/guide/collaborate/manage-projects.md).
 
 ### Disponibilità
 
-* Adobe Real-Time CDP Collaboration is currently available to US customers only.
-* It is automatically available to Adobe Real-Time CDP Prime and Ultimate customers
+* Adobe Real-Time CDP Collaboration è attualmente disponibile solo per i clienti negli Stati Uniti.
+* È disponibile automaticamente per i clienti di Adobe Real-Time CDP Prime e Ultimate
 
-For more information, read the:
+Per ulteriori informazioni, leggere:
 
-* [Collaboration overview](/help/guide/home.md)
-* [End-to-End workflow](/help/guide/overview/end-to-end-workflow.md)
-* [Permissions overview](/help/guide/permissions/overview.md)
+* [Panoramica di Collaboration](/help/guide/home.md)
+* [Flusso di lavoro end-to-end](/help/guide/overview/end-to-end-workflow.md)
+* [Panoramica sulle autorizzazioni](/help/guide/permissions/overview.md)
