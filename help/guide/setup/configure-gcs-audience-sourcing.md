@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilità limitata" type="Informative" url
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -89,12 +89,12 @@ Viene visualizzata una finestra di dialogo dei prerequisiti che descrive i passa
 
 ![Prerequisiti per l&#39;elenco modale &quot;Prepara il bucket GCS per l&#39;onboarding&quot;, tra cui la creazione di un bucket GCS, la configurazione dell&#39;accesso IAM per Adobe e la conformità con le specifiche Audience Sourcing, con le opzioni Annulla e &quot;Avvia onboarding&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### Immetti i dettagli della connessione a [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
+### Inserire i dettagli della connessione a [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_gcs"
 >title="Aggiungere un pubblico da Google Cloud Storage"
->abstract="Per collegare il tuo Google Cloud Storage, autorizza l’utente del servizio Adobe a recuperare i dati sul pubblico per l’elaborazione. Segui i passaggi descritti in Experience League per concedere ad Adobe l’accesso al tuo Google Cloud Storage."
+>abstract="Per connettere il servizio Google Cloud Storage, autorizza l’utente del servizio Adobe a recuperare i dati sul pubblico per l’elaborazione. Segui i passaggi descritti in Experience League per concedere ad Adobe l’accesso al servizio Google Cloud Storage."
 
 Fornisci i dettagli necessari per consentire a Collaboration di accedere al bucket [!DNL Google Cloud Storage]. Dopo aver immesso le informazioni richieste, seleziona **[!UICONTROL Avanti]**.
 
