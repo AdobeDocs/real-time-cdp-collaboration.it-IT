@@ -3,15 +3,12 @@ title: Carica file CSV per Audience Sourcing
 description: Scopri come caricare il file CSV come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,12 +54,12 @@ Seleziona **[!UICONTROL File CSV]** come connessione dati, seguito da **[!UICONT
 
 ![La schermata di selezione della connessione dati con il file CSV disponibile come opzione selezionabile.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Seleziona file {#select-file}
+### Selezionare i file {#select-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
 >title="Aggiungere un pubblico da file CSV"
->abstract="Carica un file CSV dal computer per indirizzare i tipi di pubblico a Real-Time CDP Collaboration."
+>abstract="Carica un file CSV dal computer per inserire i tipi di pubblico in Real-Time CDP Collaboration."
 
 Scegli **[!UICONTROL Seleziona dal computer]** per caricare un file CSV dal sistema locale. In alternativa, puoi trascinare e rilasciare il file CSV da caricare nel pannello [!UICONTROL Trascina e rilascia un file CSV].
 
