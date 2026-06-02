@@ -2,11 +2,11 @@
 title: Configura [!DNL Snowflake] per Audience Sourcing
 description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Share]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1598'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ Scopri come configurare e collegare [!DNL Snowflake Secure Data Share] nell&#39;
 
 ## Panoramica {#overview}
 
-[!DNL Snowflake] è una delle opzioni supportate per l&#39;origine dei dati del pubblico primario in Collaboration. Altri metodi disponibili includono l&#39;approvvigionamento dei tipi di pubblico da [Experience Platform](./onboard-audiences.md), la connessione di un [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md) o il caricamento di un [file CSV](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] è una delle opzioni supportate per l&#39;origine dei dati del pubblico primario in Collaboration. Altri metodi disponibili includono l&#39;approvvigionamento dei tipi di pubblico da [Experience Platform](./onboard-audiences.md), la connessione di un [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md) o il caricamento di un [file CSV](./upload-csv-audience-sourcing.md). Per ulteriori informazioni su tutte le origini disponibili in Collaboration, consulta [Panoramica sulle origini](./source-overview.md).
 
 Segui i passaggi seguenti per connettere [!DNL Snowflake Secure Data Share] e creare l&#39;origine dei dati sul pubblico in Collaboration. Una volta completata la configurazione, puoi rivedere, attivare e gestire i tipi di pubblico di origine per i progetti di collaborazione.
 

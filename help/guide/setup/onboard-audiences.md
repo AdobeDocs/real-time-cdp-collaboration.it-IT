@@ -2,18 +2,14 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 17%
 
 ---
@@ -41,7 +37,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Azioni di marketing"
->abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati in Experience Platform con le etichette di cui sopra vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Quando la casella di controllo è <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Quando la casella di controllo è <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it" text="Panoramica sulle etichette di utilizzo dei dati"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it" text="Glossario delle etichette di utilizzo dei dati"
 
@@ -49,7 +45,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 >
 >Dopo aver stabilito nella prima connessione dati e ottenuto il primo pubblico, puoi ottenere più tipi di pubblico dalla connessione dati esistente. Quando aggiungi altri tipi di pubblico, inizierai dal passaggio [seleziona pubblico](#select-audiences), in quanto la connessione dati è già stata stabilita.
 
-Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Le origini supportate includono Adobe Experience Platform, caricamento file CSV, [!DNL Amazon S3], [!DNL Snowflake] e [!DNL Google Cloud Storage], ciascuno con un proprio flusso di lavoro. Adobe Audience Manager sarà disponibile a breve.
+Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Per ulteriori informazioni su tutte le origini disponibili, vedere [Panoramica delle origini](./source-overview.md).
 
 Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
 
@@ -90,7 +86,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -145,7 +141,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 
 Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la [configurazione account](./onboard-account.md#set-up-match-keys).
 
-Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/unified-identity-support).
+Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione di mappare i campi di origine ai campi di destinazione.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -155,7 +151,7 @@ Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
@@ -309,7 +305,7 @@ Verrà visualizzata la finestra di dialogo **[!UICONTROL Categorie]**, che conse
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Accesso connessione"
->abstract="<p>Esistono tre tipi di pubblico: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione.</p>"
+>abstract="<p>I tipi di pubblico possono essere di tre tipi: pubblico, privato e personalizzato.</p><p> La relativa disponibilità per l’utilizzo in progetti con collaboratori varia in base alle impostazioni di accesso della connessione.</p>"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_access"
@@ -343,7 +339,7 @@ La disponibilità del pubblico da utilizzare nei progetti con collaboratori vari
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilità dei metadati"
->abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> **Conteggio identità** controlla se il collaboratore può visualizzare i conteggi delle identità per il tuo pubblico nei rapporti di sovrapposizione, nella scheda Individuazione.</p><p> **Sovrapposizione pubblico (% )** controlla se i collaboratori possono individuare le percentuali di sovrapposizione tra il loro pubblico e il tuo.</p><p> **[!UICONTROL Indice del pubblico]** controlla se i collaboratori possono vedere l’indice del pubblico all’interno di un progetto. Questa funzionalità è disponibile solo se sono presenti almeno tre tipi di pubblico attivi.</p> <br> Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato."
+>abstract="<p>Indica quali metadati del pubblico devono essere visibili ad altri collaboratori prima che si connettano con te o nelle viste dei progetti.</p> <p> **Conteggio identità** controlla se il collaboratore può visualizzare i conteggi delle identità per il tuo pubblico nei rapporti di sovrapposizione nella scheda Individuazione.</p><p> **Sovrapposizione pubblico (% )** controlla se i collaboratori possono individuare le percentuali di sovrapposizione tra il loro pubblico e il tuo.</p><p> **[!UICONTROL Indice del pubblico]** controlla se i collaboratori possono vedere l’indice del pubblico all’interno di un progetto. Questa funzionalità è disponibile solo se sono presenti almeno tre tipi di pubblico attivi.</p> <br> Affinché le impostazioni di visibilità dei metadati diventino effettive, il pubblico deve essere impostato su pubblico o personalizzato."
 
 >[!NOTE]
 >
