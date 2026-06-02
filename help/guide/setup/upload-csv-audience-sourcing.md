@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 2%
+source-wordcount: 1070
+ht-degree: 3%
 
 ---
 
@@ -145,4 +145,4 @@ Hai caricato correttamente il file CSV in Collaboration. Al termine della determ
 * Controlla la sovrapposizione dei tipi di pubblico e informazioni approfondite. Consulta [Misurare le prestazioni della campagna](../../guide/collaborate/measure.md).
 * Gestisci le impostazioni del pubblico e la visibilità. Consulta [Source e gestisci i tipi di pubblico](./onboard-audiences.md).
 
-Per informazioni su altri metodi di audience sourcing, vedere [Configurare AWS S3 per audience sourcing](./configure-aws-s3-audience-sourcing.md) o [Tipi di pubblico Source da Experience Platform](./onboard-audiences.md).
+Per ulteriori informazioni su tutte le origini disponibili in Collaboration, consulta [Panoramica sulle origini](./source-overview.md).
