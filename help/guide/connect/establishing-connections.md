@@ -2,20 +2,15 @@
 title: Stabilire connessioni con i collaboratori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 9%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 9%
 {{limited-availability-release-note}}
 
 Prima che i collaboratori possano lavorare insieme sulle campagne, devono stabilire una connessione. Questa connessione consente loro di attivare tipi di pubblico, creare progetti ed eseguire rapporti sulle prestazioni della campagna.
+
+Collaboration supporta i seguenti metodi di invito:
+
+- [Invito alla connessione pubblica](#discover-collaborators): connettersi con un altro cliente con licenza tramite l&#39;area di lavoro **[!UICONTROL Individua collaboratori]**.
+- [Invito connessione privata](#private-connection-invite): connettiti direttamente con un altro cliente con licenza utilizzando un codice di connessione.
+- [Invito Starter](#invite-non-licensed-collaborator): connettersi a un&#39;organizzazione priva di licenza.
+- [Autenticazione](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): connettersi con una piattaforma pubblicitaria di terze parti supportata.
 
 Le connessioni vengono stabilite in base al modello di collaborazione scelto. Collaboration supporta due pattern di collaborazione chiave: da inserzionista a editore e da brand a brand. Per ulteriori informazioni su questi pattern, consulta la guida [casi d&#39;uso](/help/guide/overview/use-cases.md).
 
@@ -55,9 +57,6 @@ Una volta accettate le impostazioni di connessione, la connessione viene stabili
 
 ![Diagramma di alto livello del processo di connessione brand-to-brand.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->Questa guida descrive il processo di connessione dei modelli di collaborazione da inserzionista a editore e da marchio a marchio. Per informazioni sulla connessione con le piattaforme pubblicitarie, consulta la sezione [connessione da inserzionista a piattaforma pubblicitaria](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) nella guida [panoramica connessioni](/help/guide/connect/overview.md).
 
 ## Connessione {#connect}
 
@@ -200,7 +199,7 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, che c
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nome inserzionista"
->abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato in automatico.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Collaboration.</li></ul>"
+>abstract="<p>Impostazione facoltativa. Indica nome e ID in base ai quali l’inserzionista è noto all’editore.</p><p>Il nome dell’inserzionista aggiunto qui verrà precompilato nel passaggio Crea progetto.</p><ul><li>Se l’editore ha configurato più nomi, selezionane uno dall’elenco.</li><li>Se è stato configurato un solo nome, questo viene preselezionato automaticamente.</li><li>Se non è configurato alcun nome, il campo verrà precompilato con il nome dell’account dell’inserzionista preso da Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/it/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Creare un progetto"
 
 >[!CONTEXTUALHELP]
@@ -314,9 +313,9 @@ Inoltre, se sei un editore che si connette con un inserzionista, ora puoi aggiun
 
 Selezionare **[!UICONTROL Accetta]** per continuare la connessione. Lo stato della connessione passerà a **[!UICONTROL Attivo]** e ora puoi iniziare a collaborare ai progetti.
 
-## Invita un collaboratore {#invite-collaborator}
+## Invita un collaboratore non autorizzato (Starter) {#invite-non-licensed-collaborator}
 
-Segui i passaggi seguenti per invitare il tuo partner a partecipare a Real-Time CDP Collaboration [!DNL Starter]. Per ulteriori dettagli su Collaboration [!DNL Starter] e una panoramica dettagliata del processo, consultare la [[!DNL Starter] documentazione di panoramica](../overview/starter-overview.md).
+Segui i passaggi seguenti per invitare il tuo partner non autorizzato a partecipare a Real-Time CDP Collaboration [!DNL Starter]. Per ulteriori dettagli su Collaboration [!DNL Starter] e una panoramica dettagliata del processo, consultare la [[!DNL Starter] documentazione di panoramica](../overview/starter-overview.md).
 
 Prima di avviare il processo di invito, raccogliere le informazioni seguenti dal collaboratore:
 

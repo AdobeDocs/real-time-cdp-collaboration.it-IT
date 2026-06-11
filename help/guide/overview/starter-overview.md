@@ -2,9 +2,9 @@
 title: Panoramica di RTCDP Collaboration Starter
 description: Scopri in che modo Adobe Real-Time CDP Collaboration Starter consente di espandere e migliorare la collaborazione basata sulla privacy con un partner con licenza senza richiedere una licenza Real-Time CDP completa.
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -36,7 +36,7 @@ Per avviare l&#39;invito, fornire le seguenti informazioni al partner con licenz
 * Ruolo (inserzionista/editore): inserzionista
 * Settore
 
-Dopo aver ricevuto e accettato l&#39;invito, l&#39;organizzazione deve rivedere e firmare un ordine di vendita gratuito con Adobe per accedere a Collaboration [!DNL Starter]. Per ulteriori dettagli sul processo di invito, vedere la guida [invito di un collaboratore a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
+Dopo aver ricevuto e accettato l&#39;invito, l&#39;organizzazione deve rivedere e firmare un ordine di vendita gratuito con Adobe per accedere a Collaboration [!DNL Starter]. Per ulteriori dettagli sul processo di invito, vedere la guida [invito di un collaboratore a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator).
 
 ## Guardrail {#guardrails}
 
@@ -61,11 +61,11 @@ Utilizzare questo flusso di lavoro per configurare l&#39;account [!DNL Starter] 
 
 Innanzitutto, utilizza l&#39;area di lavoro **Accesso amministratore** per concederti l&#39;accesso necessario. In questo modo puoi disporre sia di diritti amministrativi che di accesso utente ai prodotti Experience Platform. Per i passaggi dettagliati sulla configurazione dell&#39;accesso iniziale, vedere le [istruzioni di accesso per amministratori](../setup/starter-admin-access.md).
 
-Al termine, dovresti visualizzare **[!UICONTROL Autorizzazioni]**, **[!UICONTROL Experience Platform]** e **[!UICONTROL Real-Time CDP Collaboration]** nella sezione **[!UICONTROL Accesso rapido]** della tua home page di [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
+Una volta completate, dovresti visualizzare **[!UICONTROL Autorizzazioni]**, **[!UICONTROL Experience Platform]** e **[!UICONTROL Real-Time CDP Collaboration]** nella sezione **[!UICONTROL Accesso rapido]** della pagina principale di [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}.
 
-![L&#39;area di lavoro di Adobe Experience Cloud mostra le autorizzazioni, Experience Platform e Real-Time CDP Collaboration dopo la configurazione dell&#39;accesso dell&#39;amministratore del prodotto.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![L&#39;area di lavoro di Adobe Experience Cloud mostra le autorizzazioni, Experience Platform e Real-Time CDP Collaboration dopo la configurazione dell&#39;accesso per l&#39;amministratore del prodotto.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-Per ulteriori dettagli sui ruoli di accesso e sui diversi prodotti Adobe Experience Cloud, leggere la [panoramica sul controllo di accesso](../permissions/overview.md).
+Per ulteriori dettagli sui ruoli di accesso e sui diversi prodotti Adobe Experience Cloud, consulta la [panoramica sul controllo degli accessi](../permissions/overview.md).
 
 ### Configurare le autorizzazioni {#configure-permissions}
 
