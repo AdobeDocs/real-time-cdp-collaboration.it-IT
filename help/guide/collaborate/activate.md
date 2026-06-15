@@ -2,19 +2,15 @@
 title: Attiva tipi di pubblico
 description: Scopri come attivare i tipi di pubblico in Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 2%
 
 ---
@@ -75,9 +71,11 @@ Viene visualizzata la finestra di dialogo **[!UICONTROL Modifica chiavi di corri
 
 ### Impostare la frequenza di aggiornamento del pubblico {#set-audience-refresh-frequency}
 
-Infine, imposta la frequenza e l’intervallo di date desiderati per l’aggiornamento del pubblico. Nella versione corrente, l&#39;unica opzione di frequenza supportata è **[!UICONTROL Once]**. La frequenza **[!UICONTROL Once]** indica che i tipi di pubblico vengono attivati una sola volta e non vengono aggiornati. L&#39;opzione **[!UICONTROL Data]** viene compilata automaticamente con la data corrente.
+Infine, imposta la frequenza e l’intervallo di date desiderati per l’attivazione del pubblico. Utilizza il menu a discesa **[!UICONTROL Frequenza]** per scegliere se il pubblico viene attivato una volta o aggiornato in base a una pianificazione ricorrente. Seleziona **[!UICONTROL Una volta]** per attivare il pubblico una sola volta oppure seleziona una frequenza ricorrente come **[!UICONTROL Giornaliera]**, **[!UICONTROL Ogni 2 giorni]**, **[!UICONTROL Ogni 3 giorni]**, **[!UICONTROL Ogni 4 giorni]**, **[!UICONTROL Ogni 5 giorni]**, **[!UICONTROL Ogni 6 giorni]**, **[!UICONTROL Ogni 2 settimane]**, **[!UICONTROL Ogni 3 settimane]** o **[!UICONTROL Mensile]**.
 
-![Flusso di lavoro di attivazione del pubblico con la sezione Frequenza evidenziata.](/help/assets/collaborate/activate/audience-frequency.png)
+![Il menu a discesa Frequenza nel flusso di lavoro di attivazione del pubblico mostra le opzioni disponibili, tra cui Una volta al giorno, ogni 2-6 giorni, ogni 2-3 settimane e Ogni mese.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Utilizza il campo **[!UICONTROL Intervallo date]** per definire quando inizia e termina la pianificazione dell&#39;attivazione.
 
 Se sei soddisfatto delle tue selezioni, seleziona **[!UICONTROL Attiva]** per completare il flusso di lavoro.
 
@@ -100,7 +98,7 @@ All’interno di ogni pubblico inviato, puoi visualizzare le metriche seguenti:
 | **[!UICONTROL Conteggio identità]** | Il numero di identità nel pubblico. |
 | **[!UICONTROL Identità sovrapposte]** | Il numero di identità sovrapposte tra questo pubblico e la popolazione totale di profili nell’inventario del collaboratore. |
 | **[!UICONTROL Creato]** | La data in cui il pubblico è stato inviato inizialmente. |
-| **[!UICONTROL Ultimo invio]** | La data dell’ultimo invio del pubblico al tuo collaboratore. |
+| **[!UICONTROL Ultimo invio]** | La data in cui il pubblico è stato reso disponibile per l’ultima volta al tuo collaboratore tramite il flusso di lavoro di attivazione, da un’attivazione una tantum o da una pianificazione ricorrente. |
 | **[!UICONTROL Corrispondenza chiavi]** | Indica la chiave di corrispondenza utilizzata per il pubblico. |
 
 ## Visualizzare il pubblico attivato {#view-activated-audiences}
@@ -115,7 +113,7 @@ All’interno di ogni pubblico attivato, puoi visualizzare le metriche seguenti:
 | **[!UICONTROL Stato]** | Lo stato del pubblico attivato. |
 | **[!UICONTROL Conteggio identità]** | Il numero di identità attivate, in base alle identità sovrapposte quando il collaboratore ha inviato il pubblico. |
 | **[!UICONTROL Creato]** | La data in cui il pubblico è stato attivato. |
-| **[!UICONTROL Ultimo aggiornamento]** | La data dell’ultimo aggiornamento del pubblico, in base alla pianificazione di aggiornamento scelta durante l’attivazione. |
+| **[!UICONTROL Ultimo aggiornamento]** | La data dell’ultimo aggiornamento del pubblico, in base alla frequenza selezionata durante l’attivazione. |
 | **[!UICONTROL Destinazione]** | La destinazione in cui è stato attivato il pubblico. |
 | **[!UICONTROL Corrispondenza chiavi]** | Indica la chiave di corrispondenza utilizzata per il pubblico. |
 
