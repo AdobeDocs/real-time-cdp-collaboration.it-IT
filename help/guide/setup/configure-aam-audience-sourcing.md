@@ -104,7 +104,7 @@ La schermata **[!UICONTROL Mapping]** è di sola lettura. Collaboration mappa au
 
 È possibile rivedere la mappatura, ma non modificarla in questa fase. Seleziona **[!UICONTROL Avanti]** per continuare.
 
-![Aggiungi flusso di lavoro pubblico nel passaggio &quot;Mappa campi&quot; che mostra i campi sorgente mappati ai campi di identità di destinazione ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![Aggiungi flusso di lavoro pubblico nel passaggio &quot;Mappa campi&quot; che mostra i campi sorgente mappati ai campi di identità di destinazione &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### Pianifica aggiornamento dati {#schedule-data-refresh}
 
