@@ -2,18 +2,14 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3752
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +47,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 
 Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Per ulteriori informazioni su tutte le origini disponibili, vedere [Panoramica delle origini](./source-overview.md).
 
-Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
+Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager o [!DNL Databricks Delta Share], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
 
 Tutte le impostazioni configurate per una connessione dati di Experience Platform vengono applicate a tutti i tipi di pubblico originati da tale connessione.
 
@@ -72,6 +68,7 @@ Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili inc
 * **Amazon Web Services**: collegati all&#39;archiviazione Amazon S3 per generare i dati del pubblico direttamente dai bucket S3. Per istruzioni dettagliate, consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
 * **Snowflake**: utilizza il data warehouse di Snowflake per estrarre facilmente i dati sul pubblico. Consulta la guida [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md).
 * **Google Cloud Storage**: connettiti ai bucket GCS per i dati del pubblico di origine. Per istruzioni dettagliate, consulta la guida [Configurare GCS per Audience sourcing](./configure-gcs-audience-sourcing.md).
+* **[!DNL Databricks Delta Share]**: connettiti a [!DNL Databricks Delta Share] per acquisire i dati del pubblico di prime parti dal tuo ambiente [!DNL Databricks]. Consulta la guida [Configure [!DNL Databricks Delta Share] for audience sourcing](./configure-databricks-audience-sourcing.md).
 * **Adobe Audience Manager**: esegui il Source dei segmenti di pubblico da Adobe Audience Manager. Per iniziare, consulta la guida [Configurare Adobe Audience Manager per Audience sourcing](./configure-aam-audience-sourcing.md).
 
 Seleziona l&#39;origine dati e quindi **[!UICONTROL Successivo]**.
@@ -90,7 +87,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -145,7 +142,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 
 Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la [configurazione account](./onboard-account.md#set-up-match-keys).
 
-Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/unified-identity-support).
+Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione di mappare i campi di origine ai campi di destinazione.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -155,7 +152,7 @@ Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
