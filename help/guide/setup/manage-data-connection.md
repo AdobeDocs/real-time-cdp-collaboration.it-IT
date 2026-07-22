@@ -12,7 +12,7 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
 ht-degree: 7%
@@ -154,7 +154,7 @@ Al termine, controlla gli aggiornamenti e seleziona **[!UICONTROL Salva]** per a
 
 ![La finestra di dialogo Pianificazione evidenzia gli aggiornamenti e l&#39;opzione Salva.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## Elimina connessione dati
+## Elimina connessione dati {#delete-data-connection}
 
 L’eliminazione di una connessione dati rimuoverà tutti i tipi di pubblico sottostanti, le impostazioni associate e l’utilizzo in Collaboration. Questa azione non può essere annullata.
 

@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 
 Una connessione dati è la sorgente da cui si acquisiscono i tipi di pubblico in Collaboration. Per ulteriori informazioni su tutte le origini disponibili, vedere [Panoramica delle origini](./source-overview.md).
 
-Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
+Le sezioni seguenti descrivono la selezione di **Adobe Experience Platform** e il completamento dei passaggi specifici di Experience Platform (sandbox, governance e consenso). Se si sceglie CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager o [!DNL Databricks Delta Share], utilizzare la guida collegata in [Seleziona origine dati](#select-data-source) per l&#39;opzione.
 
 Tutte le impostazioni configurate per una connessione dati di Experience Platform vengono applicate a tutti i tipi di pubblico originati da tale connessione.
 
@@ -72,7 +72,8 @@ Scegliere quindi l&#39;origine per la connessione dati. Le fonti disponibili inc
 * **Amazon Web Services**: collegati all&#39;archiviazione Amazon S3 per generare i dati del pubblico direttamente dai bucket S3. Per istruzioni dettagliate, consulta la guida [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
 * **Snowflake**: utilizza il data warehouse di Snowflake per estrarre facilmente i dati sul pubblico. Consulta la guida [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md).
 * **Google Cloud Storage**: connettiti ai bucket GCS per i dati del pubblico di origine. Per istruzioni dettagliate, consulta la guida [Configurare GCS per Audience sourcing](./configure-gcs-audience-sourcing.md).
-* **Adobe Audience Manager** (_Disponibile a breve_): Source i tuoi segmenti di pubblico da Adobe Audience Manager.
+* **[!DNL Databricks Delta Share]**: connettiti a [!DNL Databricks Delta Share] per acquisire i dati del pubblico di prime parti dal tuo ambiente [!DNL Databricks]. Consulta la guida [Configure [!DNL Databricks Delta Share] for audience sourcing](./configure-databricks-audience-sourcing.md).
+* **Adobe Audience Manager**: esegui il Source dei segmenti di pubblico da Adobe Audience Manager. Per iniziare, consulta la guida [Configurare Adobe Audience Manager per Audience sourcing](./configure-aam-audience-sourcing.md).
 
 Seleziona l&#39;origine dati e quindi **[!UICONTROL Successivo]**.
 
