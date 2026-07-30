@@ -2,19 +2,15 @@
 title: Attiva tipi di pubblico
 description: Scopri come attivare i tipi di pubblico in Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4b38559f30c55f4cb1607d373fb1318416382c32
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1078
 ht-degree: 2%
 
 ---
@@ -27,7 +23,9 @@ ht-degree: 2%
 >
 >L&#39;area di lavoro **[!UICONTROL Attiva]** è disponibile solo se il caso di utilizzo **Attivazione pubblico** è stato abilitato [durante il processo di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./manage-projects.md#project-use-cases).
 
-L’attivazione del pubblico consente di attivare i tipi di pubblico da utilizzare nelle campagne. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings). Dopo aver [individuato i tipi di pubblico migliori per la campagna](./discover.md), attiva i tipi di pubblico per renderli disponibili per l&#39;utilizzo. Quando attivi un pubblico, questo viene inviato alla destinazione preconfigurata del tuo collaboratore, ad esempio Adobe Experience Platform, dove diventa disponibile per l’utilizzo nelle campagne. Per ulteriori informazioni sulla configurazione delle destinazioni, consulta la guida [panoramica delle destinazioni](../destinations/overview.md).
+Puoi utilizzare l’attivazione del pubblico per attivare il pubblico a scopo di campagna. L&#39;attivazione può essere eseguita da uno dei collaboratori a seconda delle impostazioni di attivazione del pubblico [configurate nella connessione](/help/guide/connect/establishing-connections.md#configure-connection-settings). Dopo aver [individuato i tipi di pubblico migliori per la campagna](./discover.md), attiva i tipi di pubblico per renderli disponibili per l&#39;utilizzo. Quando attivi un pubblico, questo viene inviato alla destinazione preconfigurata del tuo collaboratore, ad esempio Adobe Experience Platform, dove diventa disponibile per l’utilizzo nelle campagne. Per ulteriori informazioni sulla configurazione delle destinazioni, consulta la guida [panoramica delle destinazioni](../destinations/overview.md).
+
+Per una spiegazione concettuale di dove si inserisce l&#39;attivazione nei flussi di lavoro supportati, consulta [Panoramica sui tipi di pubblico](../setup/audiences-overview.md).
 
 ## Attiva nuovi tipi di pubblico {#activate-new-audiences}
 

@@ -2,18 +2,14 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 I tipi di pubblico sono gruppi specifici di utenti o clienti segmentati in base a vari attributi. Questi consentono ai collaboratori di collaborare su marketing mirato ed esperienze personalizzate per campagne pubblicitarie più efficaci. Questa guida illustra come individuare il pubblico in Real-Time CDP Collaboration, visualizzare la dashboard dei tipi di pubblico e gestire i singoli tipi di pubblico.
+
+Per una spiegazione concettuale dei tipi di pubblico in Collaboration, vedi [Panoramica sui tipi di pubblico](../setup/audiences-overview.md).
 
 ## Tipi di pubblico di Source in Collaboration {#source-audiences}
 
@@ -91,7 +89,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -146,7 +144,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 
 Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la [configurazione account](./onboard-account.md#set-up-match-keys).
 
-Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/unified-identity-support).
+Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione di mappare i campi di origine ai campi di destinazione.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -156,7 +154,7 @@ Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
@@ -239,7 +237,7 @@ Ogni pubblico contiene una panoramica delle seguenti informazioni:
 | **[!UICONTROL Nome]** | Il nome del pubblico. |
 | **[!UICONTROL Identità]** | Indica il numero di identità presenti nel pubblico. Tieni presente che se lo stesso profilo ha due o più identità e queste vengono utilizzate come chiavi di corrispondenza nel progetto, il profilo verrà visualizzato due volte nel conteggio. |
 | **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. Uno stato **[!UICONTROL In sospeso]** indica che il pubblico è stato originato di recente e che le identità non sono ancora state popolate. I tipi di pubblico di origine verranno compilati con profili dopo l’aggiornamento iniziale, che in genere si verifica entro 24 ore dalla configurazione della connessione dati. |
-| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
+| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. |
 | **[!UICONTROL Connessione dati]** | La connessione dati da cui proviene il pubblico. Puoi selezionare il nome per visualizzare la connessione dati. |
 | **[!UICONTROL Accesso alla connessione]** | Definisce se il pubblico è privato o pubblico. I tipi di pubblico sono rilevabili nei rapporti di sovrapposizione e possono essere attivati all’interno di un progetto. |
 | **[!UICONTROL Creato]** | Indica quando il pubblico è stato inizialmente originato in Collaboration. |
@@ -265,7 +263,7 @@ Per ogni singolo pubblico vengono visualizzate le seguenti informazioni:
 | Elemento | Descrizione |
 |----------|---------|
 | **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. |
-| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
+| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. |
 | **[!UICONTROL Connessione dati]** | La connessione dati da cui proviene il pubblico. |
 | **[!UICONTROL Ultimo aggiornamento]** | Indica la data e l’ora dell’ultimo aggiornamento del pubblico in Collaboration. Non si riferisce all’ultimo aggiornamento del pubblico, ma piuttosto all’ultima modifica della configurazione o dei metadati del pubblico |
 | **[!UICONTROL Ultimo aggiornamento eseguito da]** | Indica l’ultimo utente che ha aggiornato il pubblico. |

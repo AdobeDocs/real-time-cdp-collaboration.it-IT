@@ -2,18 +2,15 @@
 title: Creare e gestire i progetti
 description: Scopri come creare e gestire i progetti in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 TQID: https://experienceleague.adobe.com/IZIkK4lv29vqrah48fsJsnMOFtyh7rOo1IT2yLOW9Ec
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 702
 ht-degree: 11%
 
 ---
@@ -23,6 +20,8 @@ ht-degree: 11%
 {{limited-availability-release-note}}
 
 I progetti sono il fulcro del flusso di lavoro in Adobe Real-Time CDP Collaboration. Dopo aver stabilito la connessione con i collaboratori, crea un progetto per eseguire i calcoli di sovrapposizione dei tipi di pubblico e scoprire i tipi di pubblico rilevanti per le campagne.
+
+Per una panoramica sul modo in cui i tipi di pubblico vengono originati in Collaboration e utilizzati nei progetti per Discover, Activate e Measure, vedi [Panoramica sui tipi di pubblico](../setup/audiences-overview.md).
 
 >[!TIP]
 >
