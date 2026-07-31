@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 I tipi di pubblico sono gruppi specifici di utenti o clienti segmentati in base a vari attributi. Questi consentono ai collaboratori di collaborare su marketing mirato ed esperienze personalizzate per campagne pubblicitarie più efficaci. Questa guida illustra come individuare il pubblico in Real-Time CDP Collaboration, visualizzare la dashboard dei tipi di pubblico e gestire i singoli tipi di pubblico.
+
+Per una spiegazione concettuale dei tipi di pubblico in Collaboration, vedi [Panoramica sui tipi di pubblico](../setup/audiences-overview.md).
 
 ## Tipi di pubblico di Source in Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Ogni pubblico contiene una panoramica delle seguenti informazioni:
 | **[!UICONTROL Nome]** | Il nome del pubblico. |
 | **[!UICONTROL Identità]** | Indica il numero di identità presenti nel pubblico. Tieni presente che se lo stesso profilo ha due o più identità e queste vengono utilizzate come chiavi di corrispondenza nel progetto, il profilo verrà visualizzato due volte nel conteggio. |
 | **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. Uno stato **[!UICONTROL In sospeso]** indica che il pubblico è stato originato di recente e che le identità non sono ancora state popolate. I tipi di pubblico di origine verranno compilati con profili dopo l’aggiornamento iniziale, che in genere si verifica entro 24 ore dalla configurazione della connessione dati. |
-| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
+| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. |
 | **[!UICONTROL Connessione dati]** | La connessione dati da cui proviene il pubblico. Puoi selezionare il nome per visualizzare la connessione dati. |
 | **[!UICONTROL Accesso alla connessione]** | Definisce se il pubblico è privato o pubblico. I tipi di pubblico sono rilevabili nei rapporti di sovrapposizione e possono essere attivati all’interno di un progetto. |
 | **[!UICONTROL Creato]** | Indica quando il pubblico è stato inizialmente originato in Collaboration. |
@@ -265,7 +267,7 @@ Per ogni singolo pubblico vengono visualizzate le seguenti informazioni:
 | Elemento | Descrizione |
 |----------|---------|
 | **[!UICONTROL Stato]** | Indica se il pubblico è attivo e può essere utilizzato nei progetti. |
-| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. Nell’attuale versione di Collaboration, Experience Platform è l’unica origine supportata. |
+| **[!UICONTROL Source]** | Indica da dove è stato originato il pubblico. |
 | **[!UICONTROL Connessione dati]** | La connessione dati da cui proviene il pubblico. |
 | **[!UICONTROL Ultimo aggiornamento]** | Indica la data e l’ora dell’ultimo aggiornamento del pubblico in Collaboration. Non si riferisce all’ultimo aggiornamento del pubblico, ma piuttosto all’ultima modifica della configurazione o dei metadati del pubblico |
 | **[!UICONTROL Ultimo aggiornamento eseguito da]** | Indica l’ultimo utente che ha aggiornato il pubblico. |

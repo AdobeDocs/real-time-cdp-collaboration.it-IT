@@ -12,18 +12,18 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1548
 ht-degree: 14%
 
 ---
 
 # Configurare Adobe Experience Platform come destinazione
 
-{{limited-availability-release-note}}
-
 Configura questa destinazione per attivare il pubblico dal progetto a Adobe Experience Platform. L’attivazione dei tipi di pubblico in Adobe Experience Platform consente di sfruttare le funzionalità della piattaforma per la segmentazione, l’analisi e l’attivazione dei tipi di pubblico tra vari canali di marketing. Per ulteriori informazioni su Adobe Experience Platform, consulta la [panoramica di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/home){target="_blank"}.
+
+Adobe Experience Platform utilizza un flusso di lavoro di configurazione specifico per la destinazione diverso dal flusso di lavoro di destinazione dell&#39;archiviazione cloud descritto in [Configurare e gestire le destinazioni dell&#39;archiviazione cloud](./manage-destinations.md).
 
 >[!WARNING]
 >
@@ -31,13 +31,11 @@ Configura questa destinazione per attivare il pubblico dal progetto a Adobe Expe
 
 ## Configurare la destinazione {#configure-destination}
 
-Per configurare Adobe Experience Platform come destinazione, passare a **[!UICONTROL Configurazione]** e selezionare la scheda **[!UICONTROL Destinazioni personali]**. Selezionare **[!UICONTROL Configurazione]** per Adobe Experience Platform.
+Per configurare Adobe Experience Platform come destinazione, passare all&#39;area di lavoro **[!UICONTROL Activation]**, selezionare la scheda **[!UICONTROL Catalog]** e selezionare **[!UICONTROL Configura]** per Adobe Experience Platform.
 
-![L&#39;area di lavoro Destinazioni personali con l&#39;opzione Configura evidenziata per la destinazione Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![La scheda Catalogo visualizza le schede del provider di destinazione con la scheda Adobe Experience Platform evidenziata.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 Viene visualizzato il flusso di lavoro **[!UICONTROL Crea destinazione]**.
-
-![Flusso di lavoro per la creazione della destinazione per Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Configurare la sandbox {#configure-sandbox}
 
@@ -138,24 +136,24 @@ Una volta completata la mappatura di tutte le chiavi di corrispondenza, controll
 
 Quando sei soddisfatto della tua configurazione, seleziona **[!UICONTROL Crea destinazione]**. Viene visualizzato un messaggio di conferma che indica che la destinazione è stata creata correttamente.
 
-## Using Adobe Experience Platform as a destination
+## Utilizzo di Adobe Experience Platform come destinazione
 
-Once you&#39;ve configured Experience Platform as a destination, you can begin [activating audiences](../collaborate/activate.md) to the platform through your projects. Currently, the activation process is a single-step process initiated by the collaborator. For example, when an advertiser activates an audience, it is sent to the publisher’s pre-configured destination (Experience Platform). The publisher does not need to take any additional steps to send the audience to the destination. The same holds true for the brand-to-brand collaboration pattern.
+Dopo aver configurato Experience Platform come destinazione, puoi iniziare a [attivare i tipi di pubblico](../collaborate/activate.md) nella piattaforma tramite i tuoi progetti. Attualmente, il processo di attivazione è un processo in un unico passaggio avviato dal collaboratore. Ad esempio, quando un inserzionista attiva un pubblico, questo viene inviato alla destinazione preconfigurata dell’editore (Experience Platform). L’editore non deve effettuare alcuna operazione aggiuntiva per inviare il pubblico alla destinazione. Lo stesso vale per il modello di collaborazione brand-to-brand.
 
 >[!IMPORTANT]
 >
->You **must** configure Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the **[!UICONTROL Activate]** tab within a project, but will not be activated to Experience Platform.
+>**devi** configurare Experience Platform come destinazione *prima* che il tuo collaboratore attivi un pubblico. Se la destinazione non è configurata, il pubblico verrà inviato all&#39;utente e sarà visibile nella scheda **[!UICONTROL Attiva]** a livello di progetto, ma non sarà attivato in Experience Platform.
 
-After the audience is activated, it will be available in [Audience Portal](#audience-portal) in Experience Platform with Real-Time CDP Collaboration as the origin.  These audiences can then be used in campaigns and customer engagement.
+Dopo l&#39;attivazione, il pubblico sarà disponibile in [Audience Portal](#audience-portal) in Experience Platform con Real-Time CDP Collaboration come origine. Questi tipi di pubblico possono quindi essere utilizzati nelle campagne e nel coinvolgimento dei clienti.
 
 ### Audience Portal {#audience-portal}
 
-Now that you have configured Adobe Experience Platform as a destination, you can view the activated audiences in the Audience Portal. Audience Portal is a central hub within Adobe Experience Platform that allows you to view and manage your audiences. Audience portal now provides Real-Time CDP Collaboration as an origin when filtering your audiences.
+Dopo aver configurato Adobe Experience Platform come destinazione, puoi visualizzare i tipi di pubblico attivati nel Portale pubblico. Audience Portal è un hub centrale all’interno di Adobe Experience Platform che consente di visualizzare e gestire i tipi di pubblico. Audience Portal ora fornisce Real-Time CDP Collaboration come origine per filtrare i tipi di pubblico.
 
 >[!IMPORTANT]
 >
->You are responsible for applying any necessary data usage labels to the audiences you activate to Adobe Experience Platform. For more information, refer to the [data usage labels](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"} guide.
+>È tua responsabilità applicare tutte le etichette di utilizzo dei dati necessarie ai tipi di pubblico attivati in Adobe Experience Platform. Per ulteriori informazioni, consulta la guida [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
-![The Audience Portal with Real-Time CDP Collaboration as an origin in the filter options.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
+![Il portale del pubblico con Real-Time CDP Collaboration come origine nelle opzioni di filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-To learn more about Audience Portal, refer to the [Audience Portal overview](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"} guide.
+Per ulteriori informazioni su Audience Portal, consulta la guida [Panoramica di Audience Portal](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

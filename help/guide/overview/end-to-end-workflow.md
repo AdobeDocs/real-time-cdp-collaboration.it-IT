@@ -11,7 +11,7 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -29,11 +29,11 @@ Ad Adobe Real-Time CDP Collaboration, il flusso di lavoro end-to-end varia in ba
 Prima di iniziare, assicurati di avere una solida comprensione di questi concetti chiave:
 
 - **Modelli Collaboration**: questi modelli definiscono il modo in cui i collaboratori collaborano. Esistono cinque modelli distinti:
-   - [inserzionista-editore](./collaboration-patterns.md#advertiser-to-publisher)
-   - [brand-to-brand](./collaboration-patterns.md#brand-to-brand)
-   - [partner inserzionista-dati](./collaboration-patterns.md#advertiser-to-data-partner)
-   - [da agenzia a editore](./collaboration-patterns.md#agency-to-publisher)
-   - [piattaforma da inserzionista a agente](./collaboration-patterns.md#advertiser-to-agency-platform)
+  - [inserzionista-editore](./collaboration-patterns.md#advertiser-to-publisher)
+  - [brand-to-brand](./collaboration-patterns.md#brand-to-brand)
+  - [partner inserzionista-dati](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [da agenzia a editore](./collaboration-patterns.md#agency-to-publisher)
+  - [piattaforma da inserzionista a agente](./collaboration-patterns.md#advertiser-to-agency-platform)
 - **Ruoli account**: i ruoli account determinano le funzionalità all&#39;interno della piattaforma. Devono allinearsi agli obiettivi, al marchio e agli obiettivi della tua organizzazione. Sono disponibili quattro ruoli account: [inserzionista](./roles.md#advertiser), [editore](./roles.md#publisher), [agenzia](./roles.md#agency) e [partner dati](./roles.md#data-partner).
 - **Casi d&#39;uso**: i casi d&#39;uso definiscono i modi in cui puoi sfruttare Collaboration per raggiungere i tuoi obiettivi di marketing. Esistono tre casi di utilizzo di collaborazione: [Discover](./use-cases.md#discover), [Activate](./use-cases.md#activate) e [Measure](./use-cases.md#measure).
 
@@ -41,32 +41,32 @@ Questa guida utilizza tre collaboratori fittizi per illustrare il flusso di lavo
 
 - **[!UICONTROL Luma]**: un marchio di abbigliamento sportivo. Sono un inserzionista che vuole raggiungere tipi di pubblico specifici tramite campagne di marketing mirate.
 - **[!UICONTROL Tubo TV]**: provider di streaming digitale. Sono un editore che fornisce dati sul pubblico per l’utilizzo da parte degli inserzionisti.
-- **[!UICONTROL Fit Apparel]**: Another athletic apparel brand. They are a second advertiser that wants to collaborate to share audience data and insights for enhanced marketing efforts.
-- **[!UICONTROL Agency99]**: A media agency. They manage multiple client accounts within their workspace, and connect with publishers and advertisers.
-- **[!UICONTROL DataM8]**: a third-party data provider. They provide audience data for use by advertisers.
-- **[!UICONTROL Holdco]**: an agency holding company marketing and advertising services platform that&#39;s used by internal agency teams to manage client campaigns.
+- **[!UICONTROL Abbigliamento adatto]**: altra marca di abbigliamento sportivo. Si tratta di un secondo inserzionista che desidera collaborare per condividere i dati sul pubblico e le informazioni per migliorare le attività di marketing.
+- **[!UICONTROL Agenzia99]**: agenzia di comunicazione. Gestiscono più account client all’interno della propria area di lavoro e si connettono con editori e inserzionisti.
+- **[!UICONTROL DataM8]**: provider di dati di terze parti. Forniscono dati sul pubblico per l’utilizzo da parte degli inserzionisti.
+- **[!UICONTROL Holdco]**: piattaforma di servizi di marketing e pubblicitari per società holding utilizzata da team di agenzie interne per gestire le campagne dei clienti.
 
-## Advertiser-to-publisher workflow {#advertiser-to-publisher-workflow}
+## Flusso di lavoro da inserzionista a editore {#advertiser-to-publisher-workflow}
 
-[!UICONTROL Luma], an athletic retail company, wants to form a connection with [!UICONTROL TV Tube], a digital streaming provider, to reach specific audiences through targeted marketing campaigns.
+[!UICONTROL Luma], una società di vendita al dettaglio di atletica, desidera stabilire una connessione con [!UICONTROL TV Tube], un provider di streaming digitale, per raggiungere tipi di pubblico specifici tramite campagne di marketing mirate.
 
-To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL TV Tube] creates an account with the publisher role.
+Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo di inserzionista, mentre [!UICONTROL TV Tube] crea un account con il ruolo di editore.
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
+Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL TV Tube] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Solo [!UICONTROL TV Tube] attiverà i tipi di pubblico per le campagne di marketing, pertanto è necessario [configurare una destinazione](../destinations/manage-destinations.md).
 
-Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
+Una volta che entrambi i collaboratori hanno configurato i loro account, sono pronti a [creare una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma. [!UICONTROL Luma] utilizza la funzionalità [individua collaboratori](../connect/discover-collaborators.md) per trovare [!UICONTROL TV Tube] e avviare una richiesta di connessione. Dopo che [!UICONTROL TV Tube] ha accettato la richiesta di connessione, [!UICONTROL Luma] configura le impostazioni di connessione per definire la modalità di collaborazione. [!UICONTROL TV Tube] accetta la richiesta di connessione per stabilire un collegamento sicuro tra i due marchi.
 
-After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
+Una volta stabilita la connessione, [!UICONTROL Luma] [crea un progetto](../collaborate/manage-projects.md) per avviare la collaborazione con [!UICONTROL TV Tube]. Durante la configurazione del progetto, scelgono i casi di utilizzo di collaborazione più adatti ai loro obiettivi: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) e [Measure](../collaborate/measure.md).
 
-[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [Activate](../collaborate/activate.md) these audiences.
+[!UICONTROL Luma] sfrutta il caso d&#39;uso [Discover](../collaborate/discover.md) per ottenere informazioni approfondite sui dati del pubblico di [!UICONTROL TV Tube]. Una volta che [!UICONTROL Luma] ha identificato i segmenti del pubblico di destinazione, [attiva](../collaborate/activate.md) questi tipi di pubblico.
 
-After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [Measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign.
+Dopo aver attivato i tipi di pubblico, [!UICONTROL TV Tube] esegue campagne di marketing mirate e carica i dati in [Misura](../collaborate/measure.md) i risultati per valutare l&#39;efficacia della campagna.
 
-## Brand-to-brand workflow {#brand-to-brand-workflow}
+## Flusso di lavoro da marchio a marchio {#brand-to-brand-workflow}
 
-[!UICONTROL Fit Apparel], an athletic apparel brand, wants to collaborate with [!UICONTROL Luma], another athletic apparel brand, to share audience data and insights for enhanced marketing efforts.
+[!UICONTROL Fit Apparel], un marchio di abbigliamento sportivo, desidera collaborare con [!UICONTROL Luma], un altro marchio di abbigliamento sportivo, per condividere dati e approfondimenti sul pubblico per attività di marketing avanzate.
 
-After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] need to [create a data connection and source audiences](../setup/onboard-audiences.md). Both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] will activate audiences for marketing campaigns, so they both need to [configure a destination](../setup/manage-destinations.md).
+Dopo aver stabilito i propri account, sia [!UICONTROL Adatta abbigliamento] che [!UICONTROL Luma] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Sia [!UICONTROL Adatta abbigliamento] che [!UICONTROL Luma] attiveranno i tipi di pubblico per le campagne di marketing, pertanto entrambi devono [configurare una destinazione](../destinations/manage-destinations.md).
 
 Dopo aver ottenuto i tipi di pubblico, [!UICONTROL Adatta abbigliamento] e [!UICONTROL Luma] [formano una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma per condividere in modo sicuro i dati sul pubblico. A tale scopo, è necessario utilizzare la funzionalità [invito alla connessione privata](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] condivide il proprio codice di connessione con [!UICONTROL Adatta abbigliamento], che lo utilizza per avviare una richiesta di connessione. Dopo che [!UICONTROL Luma] ha accettato la richiesta di connessione, [!UICONTROL Adatta abbigliamento] configura le impostazioni di connessione per definire la modalità di collaborazione. Nella configurazione, [!UICONTROL Adatta abbigliamento] specifica che entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing. Per completare la connessione, [!UICONTROL Luma] accetta la richiesta di stabilire un collegamento sicuro tra i due brand.
 
@@ -80,7 +80,7 @@ Infine, dopo aver eseguito le campagne, entrambi i brand caricano i dati in [Mis
 
 [!UICONTROL Luma], un&#39;azienda di vendita al dettaglio sportiva, desidera connettersi con [!DNL Amazon Marketing Cloud] ([!DNL AMC]) per migliorare le proprie funzionalità di marketing sfruttando gli strumenti di risoluzione identità e targeting di [!DNL AMC]. Luma dispone già di un account [!DNL Amazon Advertising] attivo ed è approvato per l&#39;utilizzo di [!DNL AMC].
 
-Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo inserzionista. Dopo aver stabilito il proprio account, [!UICONTROL Luma] deve [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Poiché [!UICONTROL Luma] attiverà i tipi di pubblico per le campagne di marketing, è necessario [configurare una destinazione](../setup/manage-destinations.md).
+Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo inserzionista. Dopo aver stabilito il proprio account, [!UICONTROL Luma] deve [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Poiché [!UICONTROL Luma] attiverà i tipi di pubblico per le campagne di marketing, è necessario [configurare una destinazione](../destinations/manage-destinations.md).
 
 Una volta che [!UICONTROL Luma] ha configurato il suo account, è possibile [creare una connessione](../connect/establishing-connections.md) con [!DNL AMC] nella piattaforma. [!UICONTROL Luma] utilizza la funzionalità [individua collaboratori](../connect/discover-collaborators.md) per trovare [!UICONTROL Amazon Marketing Cloud] e [avviare una richiesta di connessione](../connect/advertising-platforms/amc.md). Dopo l&#39;autenticazione e l&#39;autorizzazione della connessione tramite la pagina di accesso [!DNL Amazon], la connessione con [!DNL AMC] viene stabilita.
 
@@ -94,7 +94,7 @@ Una volta stabilita la connessione, [!UICONTROL Luma] [crea un progetto](../coll
 
 Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo inserzionista, mentre [!UICONTROL DataM8] crea un account con il ruolo partner dati.
 
-Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL DataM8] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing, pertanto devono [configurare una destinazione](../setup/manage-destinations.md).
+Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL DataM8] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing, pertanto devono [configurare una destinazione](../destinations/manage-destinations.md).
 
 Una volta che entrambi i collaboratori hanno configurato i loro account, sono pronti a [creare una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma. [!UICONTROL Luma] utilizza la funzionalità [individua collaboratori](../collaborate/discover.md) per trovare [!UICONTROL DataM8] e avviare una richiesta di connessione. Dopo che [!UICONTROL DataM8] ha accettato la richiesta di connessione, [!UICONTROL Luma] configura le impostazioni di connessione per definire la modalità di collaborazione. [!UICONTROL DataM8] accetta la richiesta di connessione per stabilire un collegamento sicuro tra i due collaboratori.
 
@@ -110,7 +110,7 @@ Una volta stabilita la connessione, [!UICONTROL Luma] [crea un progetto](../coll
 
 Per iniziare, [!UICONTROL Agency99] deve [creare un account](../setup/onboard-account.md) con il ruolo di agenzia, mentre [!UICONTROL TV Tube] crea un account con il ruolo di editore.
 
-Dopo aver stabilito i propri account, sia [!UICONTROL Agency99] che [!UICONTROL TV Tube] devono [creare una connessione dati e un pubblico di origine](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurerà account secondari client e dati client di origine nella propria area di lavoro. Solo [!UICONTROL TV Tube] attiverà i tipi di pubblico per le campagne di marketing, pertanto è necessario [configurare una destinazione](../setup/manage-destinations.md).
+Dopo aver stabilito i propri account, sia [!UICONTROL Agency99] che [!UICONTROL TV Tube] devono [creare una connessione dati e un pubblico di origine](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurerà account secondari client e dati client di origine nella propria area di lavoro. Solo [!UICONTROL TV Tube] attiverà i tipi di pubblico per le campagne di marketing, pertanto è necessario [configurare una destinazione](../destinations/manage-destinations.md).
 
 Una volta che entrambi i collaboratori hanno configurato i loro account, sono pronti a [creare una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma. [!UICONTROL Agency99] utilizza la funzionalità [individua collaboratori](../collaborate/discover.md) per trovare [!UICONTROL TV Tube] e avviare una richiesta di connessione. [!UICONTROL Agency99] eseguirà questa operazione per uno o più client che desiderano collaborare con [!UICONTROL TV Tube]. Dopo che [!UICONTROL TV Tube] ha accettato le richieste di connessione, [!UICONTROL Agency99] configura le impostazioni di connessione per definire la modalità di collaborazione. [!UICONTROL TV Tube] accetta le richieste di connessione per stabilire un collegamento sicuro tra i due marchi.
 
@@ -126,7 +126,7 @@ Dopo aver attivato i tipi di pubblico, [!UICONTROL TV Tube] esegue campagne di m
 
 Per iniziare, [!UICONTROL Luma] deve [creare un account](../setup/onboard-account.md) con il ruolo inserzionista, mentre [!UICONTROL Holdco] crea un account con il ruolo di agenzia. 
 
-Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL Holdco] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing, pertanto devono [configurare una destinazione](../setup/manage-destinations.md). 
+Dopo aver stabilito i propri account, sia [!UICONTROL Luma] che [!UICONTROL Holdco] devono [creare una connessione dati e i tipi di pubblico di origine](../setup/onboard-audiences.md). Entrambi i collaboratori possono attivare i tipi di pubblico per le campagne di marketing, pertanto devono [configurare una destinazione](../destinations/manage-destinations.md). 
 
 Una volta che entrambi i collaboratori hanno configurato i loro account, sono pronti a [creare una connessione](../connect/establishing-connections.md) all&#39;interno della piattaforma. [!UICONTROL Luma] utilizza la funzionalità [individua collaboratori](../collaborate/discover.md) per trovare [!UICONTROL Holdco] e avviare una richiesta di connessione. Dopo che [!UICONTROL Holdco] ha accettato la richiesta di connessione, [!UICONTROL Luma] configura le impostazioni di connessione per definire la modalità di collaborazione.
 

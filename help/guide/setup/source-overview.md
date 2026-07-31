@@ -2,16 +2,18 @@
 title: Panoramica sulle origini
 description: Scopri i connettori sorgente in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 6%
 
 ---
 
 # Panoramica sulle origini
 
 Ad Adobe Real-Time CDP Collaboration, per sorgente (o connessione dati) si intende il luogo da cui provengono i dati sul pubblico. Puoi connetterti a vari tipi di origine, ad esempio applicazioni Adobe, archivi basati su cloud o file dal sistema locale, per [generare e gestire i tipi di pubblico](./onboard-audiences.md) per i tuoi progetti Collaboration. Durante il flusso di lavoro di audience sourcing, puoi scegliere e impostare l’origine preferita in base alle esigenze della tua organizzazione.
+
+Per una panoramica concettuale del modo in cui i tipi di pubblico, le origini, le connessioni dati, i progetti e le destinazioni si adattano in Collaboration, consulta la [panoramica sui tipi di pubblico](./audiences-overview.md).
 
 ## Collega un’origine {#connect-a-source}
 

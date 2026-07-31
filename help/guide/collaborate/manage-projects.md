@@ -11,9 +11,9 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 702
 ht-degree: 11%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 11%
 {{limited-availability-release-note}}
 
 I progetti sono il fulcro del flusso di lavoro in Adobe Real-Time CDP Collaboration. Dopo aver stabilito la connessione con i collaboratori, crea un progetto per eseguire i calcoli di sovrapposizione dei tipi di pubblico e scoprire i tipi di pubblico rilevanti per le campagne.
+
+Per una panoramica sul modo in cui i tipi di pubblico vengono originati in Collaboration e utilizzati nei progetti per Discover, Activate e Measure, vedi [Panoramica sui tipi di pubblico](../setup/audiences-overview.md).
 
 >[!TIP]
 >
