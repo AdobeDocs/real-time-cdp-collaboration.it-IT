@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
+source-wordcount: 2054
 ht-degree: 3%
 
 ---
@@ -32,13 +32,15 @@ Queste note sulla versione descrivono le funzionalità rilasciate in Adobe Real-
 
 ## Luglio 2026 {#july-2026}
 
-Real-Time CDP Collaboration ora supporta ulteriori opzioni self-service di determinazione dell’origine del pubblico.
+Real-Time CDP Collaboration ora supporta opzioni aggiuntive di self-service per l’origine del pubblico, oltre a flussi di lavoro di attivazione e configurazione della destinazione più semplici.
 
 **Funzioni nuove o aggiornate**
 
 | Funzione | Descrizione |
 | ------- | ----------- |
 | Origine del pubblico self-service da [!DNL Databricks Delta Share] e Adobe Audience Manager | Ora puoi creare tipi di pubblico di prime parti direttamente da [!DNL Databricks Delta Share] o inserire segmenti Adobe Audience Manager idonei in Collaboration. Per le istruzioni di configurazione, vedere le seguenti guide: <ul><li>[Configura [!DNL Databricks Delta Share] per audience sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurare Adobe Audience Manager per l&#39;origine del pubblico](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Attivazione manuale dei tipi di pubblico ricevuti | Ora puoi attivare manualmente i tipi di pubblico ricevuti da un collaboratore a una destinazione configurata e scegliere quando eseguire l’attivazione. In questo modo i destinatari hanno un maggiore controllo sulla distribuzione del pubblico. Per istruzioni dettagliate, consulta [Attiva pubblico](../collaborate/activate.md). |
+| Destinazioni di archiviazione cloud self-service | Ora puoi configurare e gestire le destinazioni di archiviazione cloud supportate direttamente dall’area di lavoro Activation e utilizzarle per attivare i tipi di pubblico ricevuti. Per le istruzioni di installazione, consulta [Configurare e gestire le destinazioni dell&#39;archiviazione cloud](../destinations/manage-destinations.md). |
 
 {style="table-layout:auto"}
 
