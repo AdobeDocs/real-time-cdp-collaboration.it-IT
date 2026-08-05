@@ -2,20 +2,16 @@
 title: Scopri le sovrapposizioni e confronta i tipi di pubblico
 description: Scopri le sovrapposizioni tra il pubblico di e quello dei tuoi collaboratori. Scopri come scoprire i tipi di pubblico migliori da utilizzare nelle campagne.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 17%
+source-wordcount: 2137
+ht-degree: 16%
 
 ---
 
@@ -51,6 +47,10 @@ Per iniziare a utilizzare la scheda **[!UICONTROL Discover]** all&#39;interno de
 
 Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confrontare le sovrapposizioni tra te e il pubblico del tuo collaboratore.
 
+>[!IMPORTANT]
+>
+>I tipi di pubblico con meno di 1000 identità sovrapposte non restituiscono alcun risultato e viene visualizzato un errore.
+
 >[!NOTE]
 >
 >Questa area di lavoro **[!UICONTROL Discover]** non è rilevante per le collaborazioni con piattaforme pubblicitarie. Attualmente, Amazon Marketing Cloud è l’unica piattaforma pubblicitaria disponibile in Real-Time CDP Collaboration. Per ulteriori informazioni sull&#39;area di lavoro [!DNL AMC] **[!UICONTROL Discover]**, leggere la [guida di Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
@@ -85,6 +85,8 @@ Una volta soddisfatti questi prerequisiti, puoi iniziare a esplorare e confronta
 Utilizza la sezione confronto tipi di pubblico per ottenere informazioni dettagliate sulla sovrapposizione tra i tipi di pubblico dell’utente e quelli del collaboratore. Per modificare la selezione del pubblico, utilizza il selettore a discesa nella parte superiore della sezione **[!UICONTROL Confronta tipi di pubblico]**. Puoi selezionare uno o tutti i tipi di pubblico e uno o tutti i tipi di pubblico del tuo collaboratore da confrontare tra loro.
 
 ![L&#39;area di lavoro di individuazione con il selettore del pubblico evidenziato nella sezione Confronta tipi di pubblico.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 Nella sezione confrontare tipi di pubblico, puoi visualizzare le metriche seguenti, basate sulle chiavi di corrispondenza concordate tra te e il tuo collaboratore per il progetto:
 

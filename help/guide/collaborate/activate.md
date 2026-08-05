@@ -4,16 +4,12 @@ description: Scopri come inviare tipi di pubblico ai collaboratori e attivare ma
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +54,10 @@ Nella sezione **[!UICONTROL Tipi di pubblico inviati a [collaboratore]]**, selez
 ![Scheda Attiva a livello di progetto quando non è stato inviato alcun pubblico. Il messaggio di visualizzazione vuoto spiega che non hai inviato un pubblico e visualizza un pulsante Invia pubblico.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 Verrà aperto il flusso di lavoro **[!UICONTROL Invia pubblico]**. Utilizza il selettore del pubblico per trovare un pubblico, oppure seleziona **[!UICONTROL Sfoglia i tipi di pubblico]** per confrontare i tipi di pubblico disponibili.
+
+>[!IMPORTANT]
+>
+>Per l’attivazione sono disponibili solo i tipi di pubblico con più di 1000 identità sovrapposte. Se le sovrapposizioni di pubblico sono vicine alla soglia di identità 1000, l’attivazione potrebbe non riuscire.
 
 ![Il flusso di lavoro Invia tipi di pubblico con un selettore di pubblico e un pulsante Sfoglia tipi di pubblico. Il flusso di lavoro consente al mittente di scegliere un pubblico prima di configurare le chiavi di corrispondenza e le impostazioni di accesso.](/help/assets/collaborate/activate/audience-activation.png)
 
