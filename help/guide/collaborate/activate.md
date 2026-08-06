@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -58,6 +58,10 @@ Nella sezione **[!UICONTROL Tipi di pubblico inviati a [collaboratore]]**, selez
 ![Scheda Attiva a livello di progetto quando non è stato inviato alcun pubblico. Il messaggio di visualizzazione vuoto spiega che non hai inviato un pubblico e visualizza un pulsante Invia pubblico.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 Verrà aperto il flusso di lavoro **[!UICONTROL Invia pubblico]**. Utilizza il selettore del pubblico per trovare un pubblico, oppure seleziona **[!UICONTROL Sfoglia i tipi di pubblico]** per confrontare i tipi di pubblico disponibili.
+
+>[!IMPORTANT]
+>
+>Per l’attivazione sono disponibili solo i tipi di pubblico con più di 1000 identità sovrapposte. Se le sovrapposizioni di pubblico sono vicine alla soglia di identità 1000, l’attivazione potrebbe non riuscire.
 
 ![Il flusso di lavoro Invia tipi di pubblico con un selettore di pubblico e un pulsante Sfoglia tipi di pubblico. Il flusso di lavoro consente al mittente di scegliere un pubblico prima di configurare le chiavi di corrispondenza e le impostazioni di accesso.](/help/assets/collaborate/activate/audience-activation.png)
 
