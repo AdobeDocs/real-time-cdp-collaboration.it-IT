@@ -2,22 +2,15 @@
 title: Note sulla versione più recente di Real-Time CDP Collaboration
 description: Segui le ultime versioni di Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
+source-wordcount: 2131
 ht-degree: 3%
 
 ---
@@ -26,9 +19,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Ultimo aggiornamento**: luglio 2026.
+**Ultimo aggiornamento**: agosto 2026.
 
 Queste note sulla versione descrivono le funzionalità rilasciate in Adobe Real-Time CDP Collaboration. I rilasci di Collaboration funzionano su un modello di consegna continua, che consente una cadenza di rilascio mensile approssimativa. Queste note sulla versione vengono aggiornate spesso, quindi assicurati di controllarle regolarmente.
+
+## Agosto 2026 {#august-2026}
+
+Real-Time CDP Collaboration ora supporta il reporting di misurazione [!DNL Amazon Marketing Cloud] (AMC), che consente di misurare le prestazioni della campagna Amazon Ads dall&#39;interno di un progetto [!DNL AMC].
+
+**Funzioni nuove o aggiornate**
+
+| Funzione | Descrizione |
+| ------- | ----------- |
+| [!DNL AMC] reporting di misurazione | Misura le prestazioni delle campagne Amazon Ads utilizzando i dati di [!DNL AMC] direttamente in Collaboration. Dalla scheda [!UICONTROL Misura] in un progetto [!DNL AMC], puoi creare i rapporti **Riepilogo campagna** e **Attribuzione** per valutare le prestazioni della campagna e comprendere l&#39;attribuzione della conversione. Per ulteriori informazioni, vedere [Creare rapporti di misurazione di Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
 
 ## Luglio 2026 {#july-2026}
 
@@ -134,7 +139,7 @@ Real-time CDP Collaboration ora supporta la collaborazione brand-to-brand. I col
 
 * Real-Time CDP Collaboration è ora disponibile per i clienti in **Australia** e **Nuova Zelanda**. È disponibile automaticamente per i clienti Real-Time CDP Prime e Ultimate in queste aree geografiche.
 * Real-Time CDP Collaboration ora offre [destinazioni self-service](../destinations/overview.md) tramite la scheda **[!UICONTROL Destinazioni personali]** nella sezione **[!UICONTROL Configurazione]**. Le destinazioni consentono di attivare tipi di pubblico in piattaforme di terze parti, come reti pubblicitarie o piattaforme di gestione dei dati, per raggiungere i clienti su vari canali. Attualmente, sono supportate solo le destinazioni Adobe Experience Platform. Se ti interessa configurare una destinazione diversa, contatta il tuo rappresentante Adobe. Per ulteriori informazioni sulle destinazioni, consulta la guida [panoramica sulle destinazioni](../destinations/overview.md).
-  * Le destinazioni aggiungono inoltre il supporto per visualizzare i tipi di pubblico di Collaboration nel [portale del pubblico di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+  * Le destinazioni aggiungono inoltre il supporto per visualizzare i tipi di pubblico di Collaboration nel [portale del pubblico di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Ora puoi modificare la frequenza di aggiornamento del pubblico per le connessioni dati esistenti in Collaboration. Attualmente, puoi scegliere di aggiornare i tipi di pubblico ogni giorno oppure ogni due o sei giorni. Per ulteriori informazioni su come modificare la frequenza di aggiornamento del pubblico, consulta la guida [gestire le connessioni dati](../setup/manage-data-connection.md#scheduling).
 * Le suddivisioni dei crediti tra collaboratori sono ora impostate per ogni caso d’uso selezionato all’interno della connessione. È possibile impostare regole di consumo credito diverse per ogni caso d’uso per controllare meglio come vengono utilizzati i crediti. Per ulteriori informazioni sulla funzionalità di divisione del credito, consulta la guida alle [impostazioni di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sul modo in cui vengono utilizzati i crediti, consulta la guida [tipi di attività di credito](../setup/my-activity.md#types-of-activities). <br> ![Schermata delle impostazioni di connessione che mostra la funzionalità di divisione del credito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Gli editori possono ora impostare i nomi e gli ID degli inserzionisti prima di accettare le impostazioni di connessione da un inserzionista. Gli editori possono impostare nomi e ID in base al sistema interno, che può essere diverso dai nomi e dagli ID dell’inserzionista. Per ulteriori informazioni sull&#39;aggiunta di nomi e ID inserzionisti, leggere la guida alle [impostazioni di connessione](../connect/establishing-connections.md#connection-settings.md). <br> ![Schermata delle impostazioni di connessione che mostra i nomi e gli ID degli inserzionisti dell&#39;impostazione del server di pubblicazione.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -146,7 +151,7 @@ Real-time CDP Collaboration ora supporta la collaborazione brand-to-brand. I col
 
 ## Marzo 2025 {#march-2025}
 
-* Quando [si crea un&#39;origine per il pubblico](/help/guide/setup/onboard-audiences.md) in Collaboration, è ora possibile impostare una frequenza di aggiornamento del pubblico da **ogni giorno a sei giorni** per gestire meglio l&#39;[attività di credito di Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities). Per ulteriori informazioni, consulta la guida [gestire tipi di pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico."){width="250" align="center" zoomable="yes"}
+* Quando [si crea un&#39;origine per il pubblico](/help/guide/setup/onboard-audiences.md) in Collaboration, è ora possibile impostare una frequenza di aggiornamento del pubblico da **ogni giorno a sei giorni** per gestire meglio l&#39;[attività di credito di Gestione dell&#39;audience](/help/guide/setup/my-activity.md#types-of-activities). Per ulteriori informazioni, consulta la guida [gestire tipi di pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Schermata di pianificazione che mostra intervalli di frequenza diversi per l&#39;aggiornamento dell&#39;iscrizione al pubblico."){width="250" align="center" zoomable="yes"}
 * Quando stabilisci una connessione con un collaboratore, ora puoi scegliere tra **casi d&#39;uso** predefiniti. Il caso d’uso selezionato determina le sezioni di progetto e le funzionalità del prodotto che diventano disponibili. Per ulteriori informazioni, consulta la guida [gestisci progetti](/help/guide/collaborate/manage-projects.md#project-use-cases).
   * *Measurement* abilita la sezione del progetto **Measure**.
   * *L&#39;individuazione del pubblico* abilita la sezione del progetto **Discover**.
