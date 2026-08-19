@@ -2,19 +2,15 @@
 title: Gestisci connessioni dati
 description: Scopri come gestire le connessioni dati, tra cui le chiavi di corrispondenza, la pianificazione, i casi d’uso e il filtro del pubblico in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 7%
 
 ---
@@ -109,6 +105,8 @@ Quindi, seleziona il campo di origine vuoto. Viene visualizzata la finestra di d
 Scegli il campo di origine desiderato, seguito da **[!UICONTROL Seleziona]**.
 
 ![Finestra di dialogo Seleziona campo di origine con l&#39;opzione GAID selezionata.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+Nell&#39;opzione **[!UICONTROL Attributi profilo]**, alcuni campi di origine sono modellati all&#39;interno di un elenco, che è un array di oggetti. Puoi espandere questi campi elenco e selezionare un campo nidificato al loro interno da mappare a una chiave di corrispondenza. Per ulteriori informazioni, consulta la guida [map fields](./onboard-audiences.md#map-fields).
 
 Nella finestra di dialogo **[!UICONTROL Corrispondenza chiavi]**, utilizza il menu a discesa per mappare il nuovo campo di origine a un campo di destinazione. Tutti i campi di destinazione disponibili sono le chiavi di corrispondenza configurate per l&#39;account Collaborator. Se non trovi il campo di destinazione necessario, [modifica le chiavi di corrispondenza dell&#39;account](./onboard-account.md#edit-match-keys) per aggiungerlo.
 

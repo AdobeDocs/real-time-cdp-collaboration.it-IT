@@ -2,19 +2,15 @@
 title: Source e gestire i tipi di pubblico
 description: Scopri come individuare e gestire i tipi di pubblico in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -93,7 +89,7 @@ Successivamente, assicurati che le azioni di marketing corrette siano impostate 
 
 Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5 e C9. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
-Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Ulteriori informazioni sulle etichette di utilizzo dei dati [C4, C5 e C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Quando la casella di controllo è ***enabled***, tutti i dati etichettati in Experience Platform come descritto in precedenza vengono esclusi e **not** vengono portati in Collaboration.
 * Se la casella di controllo ***è disabilitata***, i dati originati da Experience Platform non sono soggetti a restrizioni.
@@ -148,7 +144,7 @@ Quindi, fornisci un nome e una descrizione per la connessione dati. Queste infor
 
 Quindi, seleziona i campi sorgente da mappare ai campi di destinazione in Collaboration. I campi di destinazione disponibili saranno basati sulle chiavi di corrispondenza selezionate durante la [configurazione account](./onboard-account.md#set-up-match-keys).
 
-Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/unified-identity-support).
+Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante la configurazione dell&#39;account, l&#39;elemento [!DNL Demdex ID] viene estratto e mappato automaticamente da ECID e non è necessario eseguire alcuna azione. Per ulteriori informazioni su [!DNL Demdex IDs], vedere la guida di [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con l&#39;opzione di mappare i campi di origine ai campi di destinazione.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -158,7 +154,7 @@ Se hai selezionato [!DNL Demdex ID (ECID)] come chiave di corrispondenza durante
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
+**[!UICONTROL I campi di Source]** sono spazi dei nomi di identità e attributi di Experience Platform. Questi includono entrambi gli spazi dei nomi di identità [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=it#standard){target="_blank"} e [personalizzati](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. Includono inoltre attributi di profilo presenti nello [schema di unione](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=it){target="_blank"} e appartenenti alla classe XDM Individual Profile.
 
 I campi Source vengono mappati sui campi target definiti in Collaboration.
 
@@ -172,7 +168,23 @@ Per iniziare la mappatura dei campi, seleziona il campo di origine vuoto accanto
 
 ![Finestra di dialogo Seleziona campo di origine con le opzioni e-mail visualizzate.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** a per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Selezionare un campo di origine e-mail senza hash, quindi selezionare **[!UICONTROL Applica trasformazione]**.
+Alcuni attributi di profilo sono modellati all&#39;interno di un elenco, che è un array di oggetti (mostrato come `Object[]` nella finestra di dialogo). Gli identificatori chiave o gli attributi spesso risiedono in questi record ripetuti, ad esempio un numero di conto o un identificatore del veicolo.
+
+Nell&#39;opzione **[!UICONTROL Attributi profilo]**, espandi il campo elenco nella finestra di dialogo **[!UICONTROL Seleziona campo di origine]**, quindi seleziona il campo nidificato da mappare a una chiave di corrispondenza. Espandere `devices` e selezionare `Device ID`. Il campo nidificato compila quindi il campo di origine per la riga di mappatura e lo mappi a un campo di destinazione nello stesso modo di qualsiasi altro campo di origine.
+
+Se un profilo ha più valori nel campo nidificato, Collaboration rileva e conta ogni valore singolarmente. Non è necessario appiattire o ristrutturare i dati in anticipo.
+
+![La finestra di dialogo Seleziona campo di origine con l&#39;elenco dei dispositivi è stata espansa e il campo ID dispositivo è stato selezionato per la mappatura.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>La selezione di un campo nidificato all’interno di un elenco presenta le seguenti limitazioni:
+>
+>* Puoi selezionare campi nidificati solo per le chiavi di corrispondenza. La selezione di un campo nidificato come attributo non è supportata.
+>* È possibile selezionare un campo nidificato per elenco alla volta.
+>* Nella finestra di dialogo vengono visualizzati elenchi di valori semplici, anziché elenchi di oggetti, ma non è possibile selezionarli.
+
+Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Selezionare un campo di origine e-mail senza hash, quindi selezionare **[!UICONTROL Applica trasformazione]**.
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con i campi di origine e-mail mappati al campo di destinazione, con Applica trasformazione attivata per uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
