@@ -1,6 +1,6 @@
 ---
-title: Measure performance
-description: Measure the performance of your campaigns across different channels. Learn how to use and interpret various reports.
+title: Misurare le prestazioni
+description: Misura le prestazioni delle campagne su canali diversi. Scopri come utilizzare e interpretare vari rapporti.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
@@ -12,14 +12,14 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2776
 ht-degree: 5%
 
 ---
 
-# Measure performance
+# Misurare le prestazioni
 
 {{limited-availability-release-note}}
 
@@ -27,18 +27,18 @@ ht-degree: 5%
 >
 >L&#39;area di lavoro **[!UICONTROL Measure]** è disponibile solo se il caso di utilizzo **Measurement** è stato abilitato [durante il processo di connessione](../connect/establishing-connections.md#connection-settings). Per ulteriori informazioni sui casi d&#39;uso, consulta la guida [gestisci progetti](./manage-projects.md#project-use-cases).
 
-Learn about the available reports in Adobe Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
+Scopri i rapporti disponibili in Adobe Real-Time CDP Collaboration e come misurare e analizzare le prestazioni delle campagne di marketing su vari canali.
 
 ## Prerequisiti {#prerequisites}
 
-Before you can access the measurement reports in Collaboration, you must:
+Prima di poter accedere ai rapporti di misurazione in Collaboration, è necessario:
 
-* [Connect](/help/guide/connect/establishing-connections.md) with a collaborator with the **Measurement** use case enabled
-* Collaborate on at least one project with your collaborator. Scopri come [creare un progetto](/help/guide/collaborate/manage-projects.md#create-project).
+* [Connetti](/help/guide/connect/establishing-connections.md) con un collaboratore con il caso d&#39;uso **Misurazione** abilitato
+* Collabora ad almeno un progetto con il tuo collaboratore. Scopri come [creare un progetto](/help/guide/collaborate/manage-projects.md#create-project).
 * Esegui la campagna e assicurati che sia fornito l&#39;ID [campagna per la campagna](../collaborate/manage-projects.md#manage-campaign-id):
-   * Se sei un editore, inserisci l’ID campagna collegato alla campagna dell’inserzionista.
-   * If you are an advertiser, request that your collaborator (publisher) provide the Campaign ID. Questa operazione è necessaria per [generare report nell&#39;area di lavoro di misura](#create-measurement-report).
-* [Upload measurement data](/help/guide/setup/onboard-measurement-data.md) into Collaboration if you want to [create Attribution reports](#create-attribution-report).
+  * Se sei un editore, inserisci l’ID campagna collegato alla campagna dell’inserzionista.
+  * Se sei un inserzionista, richiedi al tuo collaboratore (editore) di fornire l’ID campagna. Questa operazione è necessaria per [generare report nell&#39;area di lavoro di misura](#create-measurement-report).
+* [Carica i dati di misurazione](/help/guide/setup/onboard-measurement-data.md) in Collaboration se desideri [creare rapporti di attribuzione](#create-attribution-report).
 
 ## Visualizzazione dei rapporti {#view-reports}
 
@@ -52,9 +52,9 @@ Before you can access the measurement reports in Collaboration, you must:
 >title="ID campagna"
 >abstract="Segnaposto per aggiungere informazioni rilevanti nell’interfaccia utente su cosa sono gli ID campagna."
 
-To view the reports available in the measurement tab:
+Per visualizzare i rapporti disponibili nella scheda Misurazione:
 
-1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]**.
+1. Passa a **[!UICONTROL Collabora]** > **[!UICONTROL Progetti personali]**.
 2. Per il progetto desiderato e selezionare **[!UICONTROL Visualizza]**.
 3. Nel progetto, seleziona la scheda **[!UICONTROL Misura]**.
 
@@ -109,11 +109,11 @@ Scopri quale mezzo sta guidando le impression per la tua creatività. Questo pu�
 
 ### Conversioni cumulative {#cumulative-conversions}
 
-Questa vista fornisce una suddivisione dettagliata degli eventi di conversione che scegli di misurare in formato tabulare. La tabella include:
+Questa vista fornisce una suddivisione dettagliata degli eventi di conversione che scegli di misurare in formato tabulare. I risultati vengono calcolati al livello **ID campagna**. La tabella include:
 
 * **Evento di conversione**: nome di ogni evento di conversione che si sta monitorando.
-* **Conteggio conversioni**: conteggio totale delle conversioni verificatesi per ogni evento.
-* **Entrate stimate**: valore stimato attribuito a ciascun evento di conversione.
+* **Conteggio conversioni**: conteggio totale delle conversioni verificatesi per ogni evento, per l&#39;ID campagna.
+* **Valore/i di conversione**: valore attribuito a ciascun evento di conversione, per l&#39;ID campagna.
 
 Consulta questa tabella per valutare l’efficacia della campagna nel condurre le azioni desiderate.
 
@@ -124,6 +124,16 @@ Consulta questa tabella per valutare l’efficacia della campagna nel condurre l
 Questo grafico fornisce un raggruppamento giornaliero delle conversioni per ogni evento impostato durante la creazione di un rapporto di attribuzione. Utilizza questa visualizzazione per scoprire i pattern giornalieri, identificare i periodi di attività di conversione alta o bassa e confrontare il modo in cui diversi eventi di conversione vengono eseguiti nella timeline della campagna.
 
 ![Conversioni per giorno.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### Conversioni per posizionamento {#conversions-by-placement}
+
+Questa tabella fornisce un **raggruppamento a livello di ID posizionamento** degli eventi di conversione selezionati per il rapporto di attribuzione. Un singolo ID campagna può includere più ID posizionamento, quindi utilizza questa vista per vedere come si raggruppano le conversioni all’interno di una campagna. Per ogni evento di conversione selezionato, la tabella mostra le conversioni attribuite a ciascun posizionamento e il valore di conversione corrispondente. La tabella include:
+
+* **Nome o ID posizionamento**: l&#39;identificatore del posizionamento in cui è stata eseguita la creazione.
+* **Conteggio conversioni**: il conteggio delle conversioni attribuite al posizionamento per ogni evento di conversione selezionato al momento della creazione del report. Un posizionamento può visualizzare fino a tre eventi di conversione, che corrispondono al numero massimo di eventi di conversione consentiti per rapporto.
+* **Valore di conversione**: il valore attribuito a ogni evento di conversione per il posizionamento specifico.
+
+![Conversioni per posizionamento.](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## Crea un rapporto di misurazione {#create-measurement-report}
 

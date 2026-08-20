@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -172,7 +172,23 @@ Per iniziare la mappatura dei campi, seleziona il campo di origine vuoto accanto
 
 ![Finestra di dialogo Seleziona campo di origine con le opzioni e-mail visualizzate.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** a per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Selezionare un campo di origine e-mail senza hash, quindi selezionare **[!UICONTROL Applica trasformazione]**.
+Alcuni attributi di profilo sono modellati all&#39;interno di un elenco, che è un array di oggetti (mostrato come `Object[]` nella finestra di dialogo). Gli identificatori chiave o gli attributi spesso risiedono in questi record ripetuti, ad esempio un numero di conto o un identificatore del veicolo.
+
+Nell&#39;opzione **[!UICONTROL Attributi profilo]**, espandi il campo elenco nella finestra di dialogo **[!UICONTROL Seleziona campo di origine]**, quindi seleziona il campo nidificato da mappare a una chiave di corrispondenza. Espandere `devices` e selezionare `Device ID`. Il campo nidificato compila quindi il campo di origine per la riga di mappatura e lo mappi a un campo di destinazione nello stesso modo di qualsiasi altro campo di origine.
+
+Se un profilo ha più valori nel campo nidificato, Collaboration rileva e conta ogni valore singolarmente. Non è necessario appiattire o ristrutturare i dati in anticipo.
+
+![La finestra di dialogo Seleziona campo di origine con l&#39;elenco dei dispositivi è stata espansa e il campo ID dispositivo è stato selezionato per la mappatura.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>La selezione di un campo nidificato all’interno di un elenco presenta le seguenti limitazioni:
+>
+>* Puoi selezionare campi nidificati solo per le chiavi di corrispondenza. La selezione di un campo nidificato come attributo non è supportata.
+>* È possibile selezionare un campo nidificato per elenco alla volta.
+>* Nella finestra di dialogo vengono visualizzati elenchi di valori semplici, anziché elenchi di oggetti, ma non è possibile selezionarli.
+
+Per gestire l&#39;origine di un campo senza hash in un campo di destinazione con hash, utilizzare l&#39;opzione **[!UICONTROL Applica trasformazione]**. Ad esempio, per aggiungere un secondo campo e-mail, seleziona l&#39;opzione **[!UICONTROL Aggiungi campo]** per aggiungere una nuova riga, quindi seleziona **[!UICONTROL E-mail con hash]** per il campo di destinazione. Selezionare un campo di origine e-mail senza hash, quindi selezionare **[!UICONTROL Applica trasformazione]**.
 
 ![L&#39;area di lavoro Aggiungi tipi di pubblico con i campi di origine e-mail mappati al campo di destinazione, con Applica trasformazione attivata per uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
