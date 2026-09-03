@@ -6,7 +6,7 @@ badgelimitedavailability: label="Disponibilità limitata" type="Informative" url
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -88,12 +88,12 @@ Nella schermata di selezione dell&#39;origine dati sono elencati tutti i tipi di
 
 ![Il flusso di lavoro Aggiungi pubblico visualizza la schermata di selezione dell&#39;origine dati con Condivisione Delta database selezionata e Successivo evidenziato.](../../assets/setup/databricks-audience-sourcing/databricks-data-source-selection.png)
 
-### Connetti [!DNL Delta Share] {#connect-delta-share}
+### Connetti la tua [!DNL Delta Share] {#connect-delta-share}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Consulta la guida all&#39;origine di [!DNL Databricks Delta Share] per istruzioni su come configurare la condivisione per l&#39;origine del pubblico"
+>abstract="Consulta la guida all’acquisizione di [!DNL Databricks Delta Share] per istruzioni su come configurare la condivisione per l’acquisizione del pubblico"
 
 Fornisci i dettagli necessari per consentire a Collaboration di accedere a [!DNL Delta Share]. Immettere il provider, la condivisione, lo schema e i dettagli della tabella da [!DNL Databricks Delta Share]. La tabella di appartenenza richiesta deve essere disponibile nello schema condiviso. Se utilizzi una tabella di metadati, questa deve essere disponibile anche nello stesso schema condiviso.
 Dopo aver immesso le informazioni richieste, selezionare **[!UICONTROL Connetti]**.
