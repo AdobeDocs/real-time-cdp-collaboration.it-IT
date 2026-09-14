@@ -2,23 +2,25 @@
 title: Amazon Marketing Cloud
 description: Scopri come collaborare con Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 9%
-
+source-wordcount: '699'
+ht-degree: 19%
 ---
-
 # Amazon Marketing Cloud
 
 {{limited-availability-release-note}}
@@ -40,28 +42,28 @@ Dopo aver creato una connessione con [!DNL Amazon Marketing Cloud] ([!DNL AMC]),
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="ID risolti"
->abstract="Il numero di ID che la risoluzione Amazon delle identità è stata in grado di risolvere utilizzando i dati sul pubblico."
+>abstract="Numero di ID che sono stati risolti dal servizio Identity Resolution di Amazon utilizzando i dati del tuo pubblico."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="ID annuncio esposto e sovrapposto"
->abstract="Rappresenta il numero di &quot;ID risolti&quot; dal pubblico caricato che sono stati esposti a un annuncio tramite Amazon Ads."
+>abstract="Rappresenta il numero di “ID risolti” dal pubblico caricato che sono anche stati esposti a un annuncio tramite Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="Sovrapposizione %"
->abstract="La proporzione di &quot;ID risolti&quot; che sono stati esposti a un annuncio tramite Amazon Ads."
+>abstract="Percentuale di “ID risolti” che sono stati esposti a un annuncio tramite Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Raggruppamento per annuncio pubblicitario Amazon"
->abstract="Raggruppamento degli &quot;ID sovrapposti esposti agli annunci&quot; raggiunti dal prodotto sponsorizzato da Amazon Ads e/o dal DSP di Amazon Ads."
+>abstract="Raggruppamento di “ID sovrapposti ed esposti ad annunci” raggiunti dal prodotto sponsorizzato da Amazon Ads e/o dalla DSP di Amazon Ads."
 
 Nella sezione **[!UICONTROL Discover]**, puoi confrontare il pubblico AMC con tutti i consumatori raggiunti dai tuoi annunci Amazon Ads. Puoi anche visualizzare i segmenti di targeting di Amazon con cui il pubblico ha le sovrapposizioni più elevate, considerando solo le impression di DSP (questi segmenti possono essere targetizzati solo in DSP).
 
 >[!IMPORTANT]
 >
->I dati sul pubblico vengono elaborati dai tipi di pubblico caricati sul tuo account [!DNL Amazon Ads]. Per informazioni su come inviare e utilizzare la funzionalità Destinazioni di Experience Platform per inviare i tuoi tipi di pubblico al tuo account [!DNL Amazon Ads], leggi la [guida alla connessione di Amazon Ads](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>I dati sul pubblico vengono elaborati dai tipi di pubblico caricati sul tuo account [!DNL Amazon Ads]. Per informazioni su come inviare e utilizzare la funzionalità Destinazioni di Experience Platform per inviare i tuoi tipi di pubblico al tuo account [!DNL Amazon Ads], leggi la [guida alla connessione di Amazon Ads](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Sezione di individuazione in un progetto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 

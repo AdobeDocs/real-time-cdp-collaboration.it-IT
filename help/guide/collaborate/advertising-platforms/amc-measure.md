@@ -4,14 +4,12 @@ description: Scopri come creare e interpretare i rapporti di misurazione per le 
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapporti di misurazione, riepilogo della campagna, attribuzione, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 5%
-
+ht-degree: 12%
 ---
-
 
 # Crea [!DNL Amazon Marketing Cloud] report di misurazione {#amc-measurement-reports}
 
@@ -43,12 +41,12 @@ Se la campagna necessaria non è elencata, verificare che appartenga all&#39;acc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Intervallo di date"
->abstract="Imposta le date di inizio e di fine per i dati della campagna da includere nel rapporto. L’intervallo di date è limitato a un intervallo di lookback di 365 giorni con un massimo di 90 giorni. Puoi creare rapporti solo sulle campagne passate."
+>abstract="Imposta le date di inizio e fine dei dati della campagna da includere nel rapporto. L’intervallo di date è limitato a un intervallo di lookback di 365 giorni con una durata massima di 90 giorni. Puoi creare rapporti solo sulle campagne passate."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="Data di esecuzione"
->abstract="Data in cui viene eseguito il report. Deve essere almeno un giorno dopo la data di fine del rapporto e può essere fino a 46 giorni in futuro."
+>abstract="Data in cui viene eseguito il rapporto. Deve essere almeno un giorno dopo la data di fine del rapporto e al massimo 46 giorni nel futuro."
 
 >[!NOTE]
 >
@@ -81,7 +79,7 @@ Tutti i [!DNL AMC] report includono un **[!UICONTROL riepilogo campagna]**. Faco
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="Eventi di conversione"
->abstract="Seleziona fino a tre eventi di conversione da includere nel rapporto di attribuzione. Gli eventi disponibili vengono rilevati automaticamente dall&#39;istanza [!DNL AMC]. Se non viene visualizzato alcun evento, è possibile che nell&#39;istanza [!DNL AMC] non siano presenti eventi di conversione registrati e che l&#39;attribuzione non sia disponibile."
+>abstract="Seleziona fino a tre eventi di conversione da includere nel rapporto di attribuzione. Gli eventi disponibili vengono individuati automaticamente dall’istanza [!DNL AMC]. Se non viene visualizzato alcun evento, è possibile che nell’istanza [!DNL AMC] non siano presenti eventi di conversione registrati e che l’attribuzione non sia disponibile."
 
 >[!NOTE]
 >
