@@ -7,17 +7,19 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3970
-ht-degree: 15%
-
+source-wordcount: '3970'
+ht-degree: 16%
 ---
-
 # Source e gestire i tipi di pubblico
 
 {{limited-availability-release-note}}
@@ -43,7 +45,7 @@ Dalla scheda **[!UICONTROL Tipi di pubblico]** nell&#39;area di lavoro **[!UICON
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Azioni di marketing"
->abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L&#39;azione di marketing <strong>Data Collaboration</strong> supporta le etichette di utilizzo dei dati C4, C5, C9, S1, S2, PSPD e RHD. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Quando la casella di controllo è <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilizza le azioni di marketing per controllare quali dati del pubblico importare in Real-Time CDP Collaboration da Experience Platform. L’azione di marketing <strong>Collaborazione sui dati</strong> supporta le etichette di utilizzo dei dati C4, C5, C9, S1, S2, PSPD e RHD. L’azione di marketing <strong>Data science</strong> supporta l’etichetta di utilizzo dati C9.</p> <p> <ul><li> Quando la casella di controllo è <em>abilitata</em>, tutti i dati contrassegnati con le etichette richiamate in precedenza in Experience Platform vengono esclusi e <strong>non</strong> vengono inseriti in Real-Time CDP Collaboration.</li><li> Quando la casella di controllo è <em>disabilitata</em>, non esiste alcuna restrizione sui dati provenienti da Experience Platform che possono essere importati in Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it" text="Panoramica sulle etichette di utilizzo dei dati"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=it" text="Glossario delle etichette di utilizzo dei dati"
 
@@ -91,7 +93,7 @@ Dopo aver selezionato l’origine dati, devi selezionare la sandbox che include 
 
 Successivamente, assicurati che le azioni di marketing corrette siano impostate sui dati di origine. È inoltre necessario fornire il consenso per i dati provenienti da Experience Platform da utilizzare per la collaborazione sui dati.
 
-Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L&#39;azione di marketing **[!UICONTROL Data Collaboration]** supporta le etichette di utilizzo dei dati C4, C5, C9, S1, S2, PSPD e RHD. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
+Utilizza le azioni di marketing per controllare quali dati del pubblico inserire in Collaboration da Experience Platform. L’azione di marketing **[!UICONTROL Collaborazione sui dati]** supporta le etichette di utilizzo dei dati C4, C5, C9, S1, S2, PSPD e RHD. L’azione di marketing **[!UICONTROL Data science]** supporta l’etichetta di utilizzo dati C9.
 
 Ulteriori informazioni sulle [etichette di utilizzo dati C4, C5, C9, S1, S2, PSPD e RHD](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
