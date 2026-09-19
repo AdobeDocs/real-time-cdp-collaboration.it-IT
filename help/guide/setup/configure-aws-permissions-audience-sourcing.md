@@ -1,13 +1,12 @@
 ---
 title: Configurare le autorizzazioni di AWS per Audience Sourcing
-description: Scopri come configurare le autorizzazioni di AWS Identity and Access Management (IAM) per concedere ad Adobe un accesso sicuro e in sola lettura al tuo  [!DNL Amazon S3]  bucket per l’audience sourcing in Real-Time CDP Collaboration.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: Scopri come configurare le autorizzazioni di AWS Identity and Access Management (IAM) per concedere ad Adobe un accesso sicuro e in sola lettura al bucket [!DNL Amazon S3] per l’origine del pubblico in Real-Time CDP Collaboration.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # Configurare le autorizzazioni di AWS per Audience sourcing
 
 Usa questa guida per configurare i criteri e i ruoli di AWS Identity and Access Management (IAM) che consentono ad Adobe di accedere in modo sicuro e in sola lettura al bucket Amazon S3. Questo accesso consente a Real-Time CDP Collaboration di originare i tipi di pubblico dal bucket S3.
