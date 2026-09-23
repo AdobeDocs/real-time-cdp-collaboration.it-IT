@@ -132,7 +132,7 @@ Quando sei pronto, seleziona **[!UICONTROL Invia al partner]** per inviare il pu
 
 Quando invii un pubblico di espansione, Collaboration lo consegna al tuo collaboratore in base all’impostazione di attivazione configurata per la connessione:
 
-* Se è abilitata l&#39;attivazione automatica **1}, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
+* Se è abilitata l&#39;attivazione automatica **1&rbrace;, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
 <!-- Beta release: automatic activation is the only available activation setting. Uncomment the manual activation guidance below when manual activation is introduced with the GA release. -->
 <!-- * If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it. -->
 
