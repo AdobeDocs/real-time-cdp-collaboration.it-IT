@@ -1,12 +1,12 @@
 ---
 title: Creare tipi di pubblico di espansione in Espandi
 description: Scopri come creare tipi di pubblico di espansione da un pubblico di seed utilizzando la popolazione di pubblico di un collaboratore in Adobe Real-Time CDP Collaboration.
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# Creare tipi di pubblico di espansione in Espandi
+# (Beta) Creare tipi di pubblico di espansione in Espandi
 
 Utilizza la scheda **[!UICONTROL Espandi]** all&#39;interno di un progetto per creare un pubblico di espansione da uno dei tuoi tipi di pubblico. Collaboration utilizza la popolazione di pubblico del tuo collaboratore per trovare profili simili al pubblico di partenza, consentendoti di raggiungere nuovi potenziali clienti senza esporre i dati di pubblico sottostanti del tuo collaboratore. Il pubblico di espansione risultante viene inviato al tuo collaboratore per l’attivazione.
 
@@ -132,7 +132,7 @@ Quando sei pronto, seleziona **[!UICONTROL Invia al partner]** per inviare il pu
 
 Quando invii un pubblico di espansione, Collaboration lo consegna al tuo collaboratore in base all’impostazione di attivazione configurata per la connessione:
 
-* Se è abilitata l&#39;attivazione automatica **1&rbrace;, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
+* Se è abilitata l&#39;attivazione automatica **1}, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
 <!-- Beta release: automatic activation is the only available activation setting. Uncomment the manual activation guidance below when manual activation is introduced with the GA release. -->
 <!-- * If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it. -->
 
