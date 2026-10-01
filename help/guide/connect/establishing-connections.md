@@ -2,7 +2,7 @@
 title: Stabilire connessioni con i collaboratori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
