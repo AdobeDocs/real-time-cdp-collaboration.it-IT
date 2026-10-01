@@ -2,24 +2,27 @@
 title: Stabilire connessioni con i collaboratori
 description: Dopo aver individuato i potenziali collaboratori, scopri come stabilire connessioni e iniziare a collaborare ai progetti.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
+    internal-label: Insights
+source-git-commit: a2fb1c4e32556881f4300989c9890ae7dbefad8b
 workflow-type: tm+mt
-source-wordcount: 3459
+source-wordcount: '3459'
 ht-degree: 9%
-
 ---
-
 # Stabilire connessioni con i collaboratori {#establishing-connections}
 
 {{limited-availability-release-note}}
@@ -320,7 +323,7 @@ Selezionare **[!UICONTROL Accetta]** per continuare la connessione. Lo stato del
 
 ## Invita un collaboratore non autorizzato (Starter) {#invite-non-licensed-collaborator}
 
-Segui i passaggi seguenti per invitare il tuo partner non autorizzato a partecipare a Real-Time CDP Collaboration [!DNL Starter]. Gli inviti vengono inviati direttamente all’indirizzo e-mail del collaboratore e devono essere accettati prima di poter stabilire una connessione. Per ulteriori dettagli su Collaboration [!DNL Starter] e una panoramica dettagliata del processo, consultare la [[!DNL Starter] documentazione di panoramica](../overview/starter-overview.md).
+Segui i passaggi seguenti per invitare il tuo partner non autorizzato a partecipare a Real-Time CDP Collaboration [!DNL Starter]. Gli inviti vengono inviati direttamente all&#39;indirizzo e-mail del collaboratore e devono essere accettati prima di poter stabilire una connessione. Per ulteriori dettagli su Collaboration [!DNL Starter] e una panoramica dettagliata del processo, consultare la [[!DNL Starter] documentazione di panoramica](../overview/starter-overview.md).
 
 Prima di avviare il processo di invito, raccogliere le informazioni seguenti dal collaboratore:
 
