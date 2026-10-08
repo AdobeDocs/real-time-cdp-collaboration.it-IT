@@ -2,7 +2,7 @@
 title: Pubblico Source dall'archiviazione [!DNL Azure] in Real-Time CDP Collaboration
 description: Dati del pubblico di prime parti di Source da Azure Blob Storage o Azure Data Lake Storage Gen2 in Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
