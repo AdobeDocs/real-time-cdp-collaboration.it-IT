@@ -1,16 +1,17 @@
 ---
 title: Configura [!DNL Snowflake] per Audience Sourcing
-description: Scopri come configurare e collegare  [!DNL Snowflake Secure Data Share]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
+description: Scopri come configurare e collegare [!DNL Snowflake Secure Data Share] come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 6%
-
 ---
-
 # Configura [!DNL Snowflake] per audience sourcing
 
 Scopri come configurare e collegare [!DNL Snowflake Secure Data Share] nell&#39;interfaccia utente di Adobe Real-Time CDP Collaboration per l&#39;origine dei dati sul pubblico per l&#39;analisi di attivazione e sovrapposizione.
@@ -28,10 +29,10 @@ Prima di configurare la connessione [!DNL Snowflake], verificare di soddisfare i
 * Hai creato [!DNL Snowflake Share] e configurato le autorizzazioni necessarie nel tuo account [!DNL Snowflake] per concedere l&#39;accesso Adobe al tuo [!DNL Snowflake Secure Data Share]. Scopri [come configurare [!DNL Snowflake] le autorizzazioni](#set-up-snowflake-permissions).
 * Sono pronti i seguenti [!DNL Snowflake Share] valori:
 
-   * **Nome condivisione**
-   * **Identificatore account**
-   * **Schema**
-   * **Visualizza**
+  * **Nome condivisione**
+  * **Identificatore account**
+  * **Schema**
+  * **Visualizza**
 
 * I dati sul pubblico in [!DNL Snowflake Secure Data Share] devono soddisfare i requisiti di formato descritti nella [Guida alle specifiche di Audience Sourcing (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf).
 * Tutte le chiavi di corrispondenza nel file del pubblico [!DNL Snowflake] devono essere abilitate anche per il tuo account Collaboration. Scopri come [abilitare le chiavi di corrispondenza](./onboard-account.md#set-up-match-keys) o [aggiungere nuove chiavi di corrispondenza](./onboard-account.md#edit-match-keys) al tuo account.

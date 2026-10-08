@@ -1,15 +1,16 @@
 ---
-title: Pubblico Source da  [!DNL Azure]  archiviazione in Real-Time CDP Collaboration
+title: Pubblico Source dall'archiviazione [!DNL Azure] in Real-Time CDP Collaboration
 description: Dati del pubblico di prime parti di Source da Azure Blob Storage o Azure Data Lake Storage Gen2 in Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2051'
 ht-degree: 3%
-
 ---
-
 # Tipi di pubblico di Source dall’archiviazione Azure
 
 Connetti [!DNL Azure Blob Storage] o [!DNL Azure Data Lake Storage] (ADLS) Gen2 ad Adobe Real-Time CDP Collaboration per generare i dati del pubblico di prime parti per l’analisi di attivazione e sovrapposizione.
@@ -61,7 +62,7 @@ Tutte le chiavi di corrispondenza presenti nei file del pubblico devono essere a
 
 Prepara i seguenti valori prima di avviare il flusso di lavoro di configurazione.
 
-| Valore | Descrizione | Esempio di archiviazione BLOB di Azure | Esempio ADLS Gen2 |
+| Elemento “value” | Descrizione | Esempio di archiviazione BLOB di Azure | Esempio ADLS Gen2 |
 | ------------------- | ------------------------ | -------------------------------------- | -------------------------------------- |
 | **Account di archiviazione** | Nome dell&#39;account di archiviazione [!DNL Azure] che ospita i file del pubblico. | `customerdatastore` | `datalake-prod` |
 | **Contenitore** | Per [!DNL Azure Blob Storage], il contenitore di archiviazione che contiene i file del pubblico. Per [!DNL Azure Data Lake Storage] Gen2, immettere il nome del file system ADLS Gen2 nel campo **[!UICONTROL Contenitore]**. | `audience-ingest` | `audiences` |

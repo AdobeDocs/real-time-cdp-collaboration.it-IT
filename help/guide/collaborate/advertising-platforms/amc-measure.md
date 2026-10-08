@@ -4,8 +4,11 @@ description: Scopri come creare e interpretare i rapporti di misurazione per le 
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, rapporti di misurazione, riepilogo della campagna, attribuzione, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 12%
@@ -117,7 +120,7 @@ Per ulteriori informazioni sull&#39;interpretazione dei risultati del report, ve
 
 I seguenti vincoli si applicano a tutti i report di misurazione [!DNL AMC].
 
-| Vincolo | Elemento “value” |
+| Vincolo | Valore |
 | --- | --- |
 | Inizio primo intervallo di date del rapporto | 365 giorni prima della data corrente |
 | Fine ultimo intervallo di date del rapporto | 45 giorni dopo la data corrente. Utilizza questa opzione per preconfigurare un rapporto per una campagna ancora in esecuzione che si concluderà entro i prossimi 45 giorni; il rapporto viene eseguito automaticamente alla data di esecuzione pianificata dopo la fine della campagna. |

@@ -1,14 +1,15 @@
 ---
 title: Configura [!DNL Amazon S3] per Audience Sourcing
-description: Scopri come configurare e collegare l'archiviazione  [!DNL Amazon S3]  come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
+description: Scopri come configurare e collegare l'archiviazione [!DNL Amazon S3] come origine dati self-service per acquisire i dati sul pubblico in Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # Configura [!DNL Amazon S3] per audience sourcing
 
 Scopri come configurare e collegare l&#39;archiviazione [!DNL Amazon S3] nell&#39;interfaccia utente di Adobe Real-Time CDP Collaboration per l&#39;origine dei dati sul pubblico per l&#39;analisi di attivazione e sovrapposizione.
@@ -31,15 +32,15 @@ Prima di configurare la connessione dati S3, verifica quanto segue:
 * Hai accesso a un bucket **[!DNL Amazon S3]attivo** contenente file di pubblico conformi alla **[specifica di origine del pubblico (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Hai creato un **ruolo IAM** in AWS che concede l&#39;autorizzazione di Adobe per accedere al tuo bucket utilizzando il metodo **ruolo presunto** (non chiavi di accesso/segreto). Per istruzioni dettagliate, consulta **[Configurare le autorizzazioni di AWS per Audience sourcing](./configure-aws-permissions-audience-sourcing.md)**. Il ruolo IAM deve includere le seguenti autorizzazioni:
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * Sono pronti i seguenti valori:
 
-   * **Nome risorsa Amazon (ARN) per ruolo IAM**
-   * **Nome bucket S3**
-   * **Percorso cartella** (il prefisso della directory contenente i file del pubblico)
+  * **Nome risorsa Amazon (ARN) per ruolo IAM**
+  * **Nome bucket S3**
+  * **Percorso cartella** (il prefisso della directory contenente i file del pubblico)
 
 >[!NOTE]
 >

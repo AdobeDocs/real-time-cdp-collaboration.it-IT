@@ -1,7 +1,10 @@
 ---
 title: Creare tipi di pubblico di espansione in Espandi
 description: Scopri come creare tipi di pubblico di espansione da un pubblico di seed utilizzando la popolazione di pubblico di un collaboratore in Adobe Real-Time CDP Collaboration.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%
@@ -132,7 +135,7 @@ Quando sei pronto, seleziona **[!UICONTROL Invia al partner]** per inviare il pu
 
 Quando invii un pubblico di espansione, Collaboration lo consegna al tuo collaboratore in base all’impostazione di attivazione configurata per la connessione:
 
-* Se è abilitata l&#39;attivazione automatica **1&rbrace;, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
+* Se è abilitata l&#39;attivazione automatica **1}, Collaboration attiva automaticamente il pubblico di espansione nella destinazione configurata del collaboratore e lo visualizza nella relativa [scheda Attiva](./activate.md#activated-audiences).**
 <!-- Beta release: automatic activation is the only available activation setting. Uncomment the manual activation guidance below when manual activation is introduced with the GA release. -->
 <!-- * If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it. -->
 
