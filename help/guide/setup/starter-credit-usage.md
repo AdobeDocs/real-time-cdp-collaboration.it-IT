@@ -1,16 +1,17 @@
 ---
 title: Utilizzo e consumo del credito in Real-Time CDP Collaboration [!DNL Starter]
-description: Comprendere il funzionamento dell'utilizzo e del consumo del credito in Adobe Real-Time CDP Collaboration [!DNL Starter].
+description: Comprendere il funzionamento dell'utilizzo e del consumo del credito nell'Adobe Real-Time CDP Collaboration [!DNL Starter].
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
-source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
-
 ---
-
 # Utilizzo e consumo del credito in Real-Time CDP Collaboration [!DNL Starter]
 
 Questa documentazione fornisce dettagli sull&#39;utilizzo dei crediti quando si partecipa all&#39;Adobe Real-Time CDP Collaboration [!DNL Starter] come utente invitato. Ulteriori informazioni su chi è responsabile dell’utilizzo del credito e importanti considerazioni sull’accesso e la gestione.
@@ -27,8 +28,8 @@ Collaboration **non** applica automaticamente l&#39;utilizzo o la disponibilità
 
 * In qualità di utente invitato, devi coordinarti direttamente con l’organizzazione o il partner che ti ha invitato per discutere dell’utilizzo del credito.
 * L&#39;organizzazione che invita è responsabile della decisione di:
-   * Quando è possibile accedere e utilizzare le funzioni di Collaboration
-   * Quali sono i limiti, le restrizioni o la governance relativi al consumo di credito?
+  * Quando è possibile accedere e utilizzare le funzioni di Collaboration
+  * Quali sono i limiti, le restrizioni o la governance relativi al consumo di credito?
 
 >[!IMPORTANT]
 >

@@ -2,13 +2,14 @@
 title: Requisiti di connessione della destinazione
 description: Esamina le informazioni di connessione necessarie per configurare le destinazioni supportate in Real-Time CDP Collaboration.
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # Requisiti di connessione della destinazione
 
 Prima di configurare una destinazione in Real-Time CDP Collaboration, è necessario ottenere le credenziali e le informazioni di connessione richieste dal provider di destinazione.

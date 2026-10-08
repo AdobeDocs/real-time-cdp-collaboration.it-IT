@@ -1,15 +1,16 @@
 ---
 title: Configura [!DNL Databricks Delta Share] per Audience Sourcing
-description: Scopri come configurare e connettere  [!DNL Databricks Delta Share] per l'audience sourcing in Real-Time CDP Collaboration.
+description: Scopri come configurare e connettere [!DNL Databricks Delta Share] per l'audience sourcing in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2816'
+source-wordcount: '2818'
 ht-degree: 2%
-
 ---
-
 
 # Configura [!DNL Databricks Delta Share] per audience sourcing
 

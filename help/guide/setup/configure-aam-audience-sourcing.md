@@ -3,13 +3,14 @@ title: Configurare Adobe Audience Manager per Audience Sourcing
 description: Scopri come connettere Adobe Audience Manager come origine di dati per poter individuare in Real-Time CDP Collaboration i tipi di pubblico di prime parti idonei.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 0%
-
 ---
-
 
 # Configurare Adobe Audience Manager per l’audience sourcing
 

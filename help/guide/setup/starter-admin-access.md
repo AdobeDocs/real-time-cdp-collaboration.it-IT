@@ -1,16 +1,17 @@
 ---
-title: 'Configura l''accesso amministratore per l''onboarding di Collaboration [!DNL Starter] '
-description: Scopri come configurare l’accesso come amministratore per Adobe Real-Time CDP Collaboration [!DNL Starter] utilizzando Admin Console in Adobe Experience Cloud.
+title: Configura l'accesso amministratore per l'onboarding di Collaboration [!DNL Starter]
+description: Scopri come configurare l'accesso come amministratore per l'Adobe Real-Time CDP Collaboration [!DNL Starter] utilizzando Admin Console in Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 2%
-
 ---
-
 # Configura l&#39;accesso amministratore per l&#39;onboarding di Collaboration [!DNL Starter]
 
 In qualità di primo utente della tua organizzazione ad accedere a Adobe Experience Platform tramite Collaboration [!DNL Starter], sei responsabile della configurazione e della gestione dell&#39;accesso per il tuo team. Per iniziare a lavorare in Real-Time CDP Collaboration, devi concederti le autorizzazioni di amministratore e utente necessarie. Leggi questa guida per scoprire come configurare l’accesso richiesto in Admin Console in modo da poter gestire le autorizzazioni per le collaborazioni nell’interfaccia Autorizzazioni.
@@ -41,7 +42,7 @@ Leggere questa sezione per concedere a se stessi i privilegi di amministratore p
 
 #### Accedere ad Admin Console {#access-admin-console}
 
-Per iniziare, accedi a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con le tue credenziali. Puoi visualizzare un elenco dei prodotti disponibili nella sezione **[!UICONTROL Accesso rapido]**. Seleziona **[!UICONTROL Admin Console]**.
+Per iniziare, accedi ad [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con le tue credenziali. Puoi visualizzare un elenco dei prodotti disponibili nella sezione **[!UICONTROL Accesso rapido]**. Seleziona **[!UICONTROL Admin Console]**.
 
 ![Home page di Adobe Experience Cloud con Admin Console evidenziato.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
@@ -80,30 +81,30 @@ La procedura seguente illustra come iniziare a configurare l’accesso utente:
 
 Ora sei nel dashboard prodotto **[!UICONTROL Adobe Experience Platform]**. Passa alla scheda **[!UICONTROL Utenti]**, quindi seleziona **[!UICONTROL Aggiungi utenti]**.
 
-![Adobe Experience Platform product dashboard with the Users tab and the Add users option highlighted.](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
+![Dashboard di prodotto di Adobe Experience Platform con la scheda Utenti e l&#39;opzione Aggiungi utenti evidenziate.](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
 
-The **[!UICONTROL Add users to this product]** dialog appears, prompting you to enter your name, user group or email address. Fill in the values, then select your account from the dropdown list.
+Viene visualizzata la finestra di dialogo **[!UICONTROL Aggiungi utenti a questo prodotto]**, in cui viene richiesto di immettere il nome, il gruppo di utenti o l&#39;indirizzo e-mail. Inserisci i valori, quindi seleziona l’account dall’elenco a discesa.
 
-![Add users to this product dialog displays your account&#39;s information and the Products option highlighted.](../../assets/setup/starter/admin-access/add-users-to-product.png){zoomable="yes"}
+![Nella finestra di dialogo Aggiungi utenti a questo prodotto vengono visualizzate le informazioni dell&#39;account e l&#39;opzione Prodotti evidenziata.](../../assets/setup/starter/admin-access/add-users-to-product.png){zoomable="yes"}
 
-Next, select the add icon ![Add icon](../../assets/icons/plus.png) under **[!UICONTROL Products]**.
+Quindi, seleziona l&#39;icona Aggiungi ![Icona Aggiungi](../../assets/icons/plus.png) in **[!UICONTROL Prodotti]**.
 
-A dialog appears with a list of available [product profiles](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html). Select **[!UICONTROL AEP-Default-All-Users]** and **[!UICONTROL Default Production All Access]**. Then select **[!UICONTROL Apply]**.
+Viene visualizzata una finestra di dialogo con un elenco di [profili di prodotto](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html) disponibili. Selezionare **[!UICONTROL AEP-Default-All-Users]** e **[!UICONTROL Default Production All Access]**. Quindi selezionare **[!UICONTROL Applica]**.
 
-![Select product profiles dialog displays the product profiles selected and the Apply option highlighted.](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
+![Nella finestra di dialogo Seleziona profili di prodotto vengono visualizzati i profili di prodotto selezionati e l&#39;opzione Applica evidenziata.](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 
-Finally, select **[!UICONTROL Save]** to finish adding new user to the product.
+Infine, seleziona **[!UICONTROL Salva]** per completare l&#39;aggiunta di un nuovo utente al prodotto.
 
-![Add users to this product dialog with the Save option highlighted.](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
+![Aggiungi utenti alla finestra di dialogo di questo prodotto con l&#39;opzione Salva evidenziata.](../../assets/setup/starter/admin-access/save-user.png){zoomable="yes"}
 
-After you have user access, navigate back to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. Confirm that **[!UICONTROL Permissions]** and **[!UICONTROL Real-Time CDP Collaboration]** are available under **[!UICONTROL Quick access]**.
+Dopo aver ottenuto l&#39;accesso come utente, torna a [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}. Verificare che **[!UICONTROL Autorizzazioni]** e **[!UICONTROL Real-Time CDP Collaboration]** siano disponibili in **[!UICONTROL Accesso rapido]**.
 
-![Adobe Experience Cloud home screen showing both Permissions and Real-Time CDP Collaboration listed under Quick access and highlighted.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![La schermata iniziale di Adobe Experience Cloud mostra sia le autorizzazioni che Real-Time CDP Collaboration elencati in Accesso rapido ed evidenziati.](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >
->If **[!UICONTROL Permissions]** and **[!UICONTROL Real-Time CDP Collaboration]** don&#39;t appear in **[!UICONTROL Quick access]**, try signing out and back in.
+>Se **[!UICONTROL Autorizzazioni]** e **[!UICONTROL Real-Time CDP Collaboration]** non vengono visualizzati in **[!UICONTROL Accesso rapido]**, prova a disconnetterti e ad accedere di nuovo.
 
 ## Passaggi successivi {#next-steps}
 
-You now have both **administrator access** and **user access** to enter Permissions where you can define roles, assign specific permissions, and manage user access for Collaboration features and resources. For step-by-step instructions, refer to the [Permission controls guide](./starter-permission-controls.md).
+Ora disponi sia di **accesso amministratore** che di **accesso utente** per immettere autorizzazioni in cui definire ruoli, assegnare autorizzazioni specifiche e gestire l&#39;accesso utente per le funzioni e le risorse di Collaboration. Per istruzioni dettagliate, fare riferimento alla [Guida ai controlli delle autorizzazioni](./starter-permission-controls.md).

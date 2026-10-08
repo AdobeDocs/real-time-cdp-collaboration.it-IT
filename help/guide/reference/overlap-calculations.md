@@ -3,13 +3,14 @@ title: Calcolo dei conteggi e delle percentuali di sovrapposizione
 description: Scopri come vengono calcolati i conteggi e le percentuali di sovrapposizione in varie aree di Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '882'
 ht-degree: 1%
-
 ---
-
 
 # Calcolo dei conteggi e delle percentuali di sovrapposizione
 
