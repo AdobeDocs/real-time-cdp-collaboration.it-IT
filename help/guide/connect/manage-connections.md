@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 1%
 ---
 # Gestire le connessioni {#manage-connections}
@@ -38,7 +38,9 @@ Viene visualizzata l&#39;area di lavoro delle impostazioni di connessione, in cu
 
 ### Configurare una destinazione di attivazione automatica {#configure-auto-activation-destination}
 
-In qualità di collaboratore ricevente, puoi selezionare una destinazione che Collaboration utilizza per attivare automaticamente i tipi di pubblico inviati tramite la connessione. Prima di iniziare, assicurati di disporre di almeno una destinazione attiva. Per istruzioni sulla configurazione delle destinazioni, consulta la [panoramica delle destinazioni](../destinations/overview.md).
+In qualità di collaboratore ricevente, puoi selezionare una destinazione che Collaboration utilizza per attivare automaticamente i tipi di pubblico inviati tramite la connessione. Se non configuri una destinazione di attivazione automatica, devi attivare manualmente i tipi di pubblico ricevuti.
+
+Prima di iniziare, assicurati di disporre di almeno una destinazione attiva. Per istruzioni sulla configurazione delle destinazioni, consulta la [panoramica delle destinazioni](../destinations/overview.md).
 
 Nell&#39;area di lavoro delle impostazioni della connessione, passare a **[!UICONTROL Controllo attivazione]** e selezionare **[!UICONTROL MODIFICA]**. Quindi, scegli una **[!UICONTROL destinazione di attivazione automatica]** dal menu a discesa e seleziona **[!UICONTROL Salva]** per confermare.
 
