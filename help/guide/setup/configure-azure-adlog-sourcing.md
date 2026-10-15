@@ -2,7 +2,7 @@
 title: Configura l'archiviazione [!DNL Azure] per advertising exposure sourcing
 description: Dati sull’esposizione pubblicitaria (ad log) di Source provenienti dallo storage Azure Data Lake o dallo storage Blob in Real-Time CDP Collaboration per misurazioni incentrate sulla privacy.
 keywords: Real-Time CDP Collaboration; origine registro annunci; [!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'
