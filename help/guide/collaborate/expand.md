@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico di espansione da un pubblico di
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta) Creare tipi di pubblico di espansione in Espandi
@@ -15,12 +15,14 @@ Utilizza la scheda **[!UICONTROL Espandi]** all&#39;interno di un progetto per c
 
 ## Prerequisiti {#prerequisites}
 
-Prima di poter utilizzare la scheda **[!UICONTROL Espandi]**, è necessario disporre di:
+Prima di utilizzare la scheda **[!UICONTROL Espandi]**, completa i seguenti prerequisiti:
 
-* [Originato](/help/guide/setup/onboard-audiences.md) almeno un pubblico da utilizzare come pubblico di seed
-* [Connesso](/help/guide/connect/establishing-connections.md) a un collaboratore
-* [Ha creato un progetto](/help/guide/collaborate/manage-projects.md) con quel collaboratore
-* Se ricevi un pubblico di espansione, una [destinazione](/help/guide/destinations/overview.md) configurata per ricevere i tipi di pubblico attivati
+* [Source almeno un pubblico](/help/guide/setup/onboard-audiences.md) da utilizzare come pubblico di seed.
+* [Connessione con un collaboratore](/help/guide/connect/establishing-connections.md).
+* [Crea un progetto](/help/guide/collaborate/manage-projects.md) con tale collaboratore.
+* Se ricevi tipi di pubblico di espansione, [configura una destinazione di attivazione automatica](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) per la connessione. Devi disporre di una destinazione attiva prima di configurare l&#39;attivazione automatica.
+
+Per informazioni dettagliate sull&#39;invio e l&#39;attivazione dei tipi di pubblico ricevuti, vedere [Attiva tipi di pubblico](/help/guide/collaborate/activate.md).
 
 ## Espandi panoramica {#expand-overview}
 
