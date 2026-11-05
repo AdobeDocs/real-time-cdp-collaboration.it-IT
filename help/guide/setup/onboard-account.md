@@ -2,7 +2,7 @@
 title: Configurare e gestire l’account
 description: Scopri come configurare e gestire vari aspetti dell’account in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 13%
-
 ---
-
 # Configurare e gestire l’account
 
 {{limited-availability-release-note}}
@@ -59,7 +57,7 @@ Per iniziare a configurare l&#39;account, devi prima impostare i dettagli dell&#
 * L&#39;**[!UICONTROL Area]** viene impostata automaticamente in base al tuo account Adobe Experience Cloud. Questo non può essere modificato in alcun momento.
 * Aggiungi un **[!UICONTROL indirizzo e-mail di contatto]** per il tuo account. Deve essere un indirizzo e-mail basato su team o ruolo. Gli indirizzi e-mail personali non devono essere forniti.
 * Carica un **[!UICONTROL Logo]** per il tuo account. Attualmente, sono supportate le immagini di tipo SVG. Questo è facoltativo, ma il caricamento di un logo aiuta a rappresentare visivamente il tuo marchio nell’interfaccia di Collaboration
-* Seleziona un&#39;immagine per l&#39;immagine di intestazione dell&#39;account.
+* Seleziona un’immagine per l’intestazione dell’account.
 
 >[!NOTE]
 >
@@ -105,6 +103,10 @@ Nella tabella seguente vengono visualizzate le chiavi di corrispondenza supporta
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>I campi Nome e Indirizzo postale utilizzati per la risoluzione delle identità [!DNL Epsilon Core ID] non sono configurati come chiavi di corrispondenza a livello di account. Mappa questi campi durante la configurazione di una connessione dati per il pubblico. Per ulteriori informazioni, vedere [Mappa campi](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >Le chiavi di corrispondenza selezionate durante la configurazione dell&#39;account determineranno le chiavi di corrispondenza disponibili all&#39;interno delle connessioni. Sebbene sia possibile [rimuovere le chiavi di corrispondenza indesiderate](../connect/establishing-connections.md#connection-settings) durante la configurazione della connessione, non è possibile aggiungere le chiavi di corrispondenza dopo che è stata stabilita una connessione. È importante selezionare **tutte** le chiavi di corrispondenza che si intende utilizzare nelle campagne future durante la configurazione dell&#39;account.
@@ -130,7 +132,6 @@ Gli ID persona sono collegati direttamente a un singolo profilo. Gli ID attualme
 * **[!UICONTROL Telefono con hash]**
 * **[!UICONTROL ID CRM]**
 * **[!UICONTROL ID fedeltà]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### ID dispositivo
 
@@ -151,13 +152,9 @@ Gli ID partner sono identificatori forniti da partner esterni per la riconciliaz
 >
 >L&#39;integrazione di Adobe con [!DNL AdFixus] associa gli [!UICONTROL ID AdFixus] univoci per ciascun account a un formato con codifica Adobe comune. Queste mappature vengono utilizzate per identificare sovrapposizioni tra collaboratori. Quando si attivano tipi di pubblico con **[!UICONTROL ID AdFixus]**, vengono utilizzati gli ID originali. Il formato codificato da Adobe non lascia mai Collaboration.
 
-Quando selezioni **[!UICONTROL ID AdFixus]**, dovrai fornire l&#39;ID corrispondente dal tuo partner esterno nella sezione **[!UICONTROL Credenziali account]**. Questa opzione sarà disponibile solo *dopo* l&#39;attivazione di **[!UICONTROL ID AdFixus]**. Immetti l&#39;ID AdFixus nel campo **[!UICONTROL ID account]**, assicurandoti di verificare la precisione del valore.
+Quando selezioni **[!UICONTROL ID AdFixus]**, dovrai fornire l&#39;ID corrispondente dal tuo partner esterno nella sezione **[!UICONTROL Credenziali account]**. Questa opzione sarà disponibile solo *dopo* l&#39;attivazione di **[!UICONTROL ID AdFixus]**. Immetti l&#39;ID AdFixus nel campo **[!UICONTROL ID account]**, assicurandoti di verificare la precisione del valore. Dopo aver selezionato tutte le chiavi di corrispondenza desiderate, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;account.
 
 ![La finestra di dialogo Corrispondenza chiavi con ID AdFixus è attivata ed è evidenziata la sezione Credenziali account.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-Dopo aver selezionato tutte le chiavi di corrispondenza desiderate, seleziona **[!UICONTROL Completa]** per completare il flusso di lavoro di configurazione dell&#39;account.
-
-![Viene visualizzata la sezione Imposta area di lavoro account con chiavi di corrispondenza.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Modifica account {#edit-account}
 
