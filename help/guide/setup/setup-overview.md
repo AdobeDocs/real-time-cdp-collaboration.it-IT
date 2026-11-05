@@ -11,13 +11,11 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
+source-git-commit: 6a7fb27f1b657e9053025207cf571b918509a4f8
 workflow-type: tm+mt
-source-wordcount: 119
-ht-degree: 21%
-
+source-wordcount: '125'
+ht-degree: 20%
 ---
-
 # Panoramica della sezione di configurazione
 
 {{limited-availability-release-note}}
@@ -31,5 +29,6 @@ Utilizza la funzionalità nella sezione di configurazione per:
 * [Configurare e gestire l’account](/help/guide/setup/onboard-account.md)
 * [Source e gestire i tipi di pubblico](/help/guide/setup/onboard-audiences.md)
 * [Gestisci connessioni dati](/help/guide/setup/manage-data-connection.md)
+* [Impostare e gestire la risoluzione delle identità](/help/guide/setup/identity-resolution.md)
 * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
 * [Visualizzare i registri di audit](/help/guide/setup/audit-logs.md)

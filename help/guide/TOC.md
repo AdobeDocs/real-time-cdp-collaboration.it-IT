@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti ed editori, semplificando gli insight sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
+source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 31%
+source-wordcount: '269'
+ht-degree: 30%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -34,6 +34,7 @@ ht-degree: 31%
     * [Configurare la condivisione Delta dei database per Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configurare Adobe Audience Manager per l’audience sourcing](./setup/configure-aam-audience-sourcing.md)
   * [Gestisci connessioni dati](./setup/manage-data-connection.md)
+  * [Impostare e gestire la risoluzione delle identità](./setup/identity-resolution.md)
   * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Percorsi incrociati di identità](./setup/identity-crosswalk.md)
   * [Aggiungere e gestire i dati di misurazione](./setup/onboard-measurement-data.md)
