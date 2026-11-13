@@ -178,6 +178,6 @@ Per risolvere i problemi relativi ai dati di origine, allâ€™esportazione e allâ€
 
 ## Passaggi successivi {#next-steps}
 
-Dopo aver acquisito e convalidato gli attributi, crea tipi di pubblico in [!DNL Adobe Real-Time CDP] combinando segnali di arricchimento con dati di prime parti. Per ulteriori informazioni, consulta la [guida di Audience Builder](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Dopo aver acquisito e convalidato gli attributi, crea tipi di pubblico in [!DNL Adobe Real-Time CDP] combinando segnali di arricchimento con dati di prime parti. Per ulteriori informazioni, consulta la [guida di Audience Builder](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Per attivare i tipi di pubblico per le destinazioni, la personalizzazione o i percorsi di clienti, consulta la [guida all&#39;attivazione dei tipi di pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Per attivare i tipi di pubblico per le destinazioni, la personalizzazione o i percorsi di clienti, consulta la [guida all&#39;attivazione dei tipi di pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
