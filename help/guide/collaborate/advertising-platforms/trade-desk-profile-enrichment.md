@@ -4,9 +4,9 @@ description: Scopri come esportare attributi di arricchimento di contenuti multi
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Utilizzare il feed di dati del registro delle impression Raw Event Data Stream (REDS) da [!DNL The Trade Desk] per esportare gli attributi di arricchimento e il contesto multimediale a pagamento nei profili di prime parti.
 
-Dopo che il file CSV arriva nella destinazione di esportazione [!DNL Amazon S3], acquisiscilo in [!DNL Adobe Real-Time CDP]. In questa versione, l’esportazione del file non aggiorna automaticamente i profili né attiva le esperienze. L&#39;arricchimento automatico del profilo a [!DNL Adobe Real-Time CDP] sarà una funzione in una versione successiva.
+Dopo che il file CSV arriva nella destinazione di esportazione [!DNL Amazon S3], acquisiscilo in [!DNL Adobe Real-Time CDP]. In questa versione, l’esportazione del file non aggiorna automaticamente i profili né attiva le esperienze. L&#39;arricchimento automatico del profilo in [!DNL Adobe Real-Time CDP] è pianificato per una versione successiva.
 
 L’esposizione degli annunci aggiunge contesto ai profili dei clienti. Non conferma il coinvolgimento, l’intento di acquisto o interessi a lungo termine.
 
@@ -30,7 +30,7 @@ Prima di iniziare, rivolgiti all’amministratore, al team multimediale e al tea
 
 ### Autorizza il feed di origine {#authorize-source-feed}
 
-Completare la lettera di accesso fornita da [!DNL The Trade Desk] per autorizzare [!DNL The Trade Desk] a inviare i registri REDS direttamente ad Adobe.
+Per autorizzare la consegna del registro REDS direttamente ad Adobe, completare la lettera di accesso fornita da [!DNL The Trade Desk].
 
 [!DNL The Trade Desk] esegue il provisioning del feed di origine e Adobe configura l&#39;accesso e l&#39;acquisizione. Prima di creare un progetto, verifica che la connessione sia attiva e che il feed sia pronto.
 
@@ -46,49 +46,53 @@ Completa la lettera di accesso nella finestra di dialogo della connessione e sal
 
 ### Connettersi con il partner {#connect-partner}
 
-Connettiti a [!DNL The Trade Desk] e aggiungi le informazioni dell&#39;inserzionista:
+Per connettersi con [!DNL The Trade Desk], apri **[!UICONTROL Individua collaboratori]** in **[!UICONTROL Connetti]** e cerca il partner.
 
-1. In **[!UICONTROL Connect]**, apri **[!UICONTROL Discover collaboratori]**.
-1. Cerca [!DNL The Trade Desk].
-   ![Il catalogo collaboratori elenca [!DNL The Trade Desk] e la relativa opzione [!UICONTROL Connetti].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Seleziona **[!UICONTROL Connetti]** per [!DNL The Trade Desk] e segui le istruzioni nella finestra di dialogo della connessione.
-   ![Nella finestra di dialogo della connessione sono illustrate l&#39;autorizzazione REDS e la configurazione dell&#39;ID partner per [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. Dopo che la connessione è attiva, apri **[!UICONTROL Impostazioni connessione]**. In **[!UICONTROL Informazioni inserzionista]**, seleziona **[!UICONTROL Modifica]** per aggiornare le informazioni esistenti o **[!UICONTROL Aggiungi]** per immettere nuove informazioni.
-   ![Le impostazioni di connessione attive mostrano [!UICONTROL Informazioni sull&#39;inserzionista] e il controllo [!UICONTROL Modifica].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Immetti l&#39;ID partner e il nome del partner in **[!UICONTROL ID partner]** e **[!UICONTROL Nome partner]**, quindi seleziona **[!UICONTROL Salva]**. Trova il tuo Partner ID nell&#39;account [!DNL The Trade Desk] in **[!UICONTROL Identificatori postazione]**.
-   ![La finestra di dialogo Informazioni inserzionista ha richiesto campi ID partner e Nome partner e un controllo [!UICONTROL Salva].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![Il catalogo collaboratori elenca [!DNL The Trade Desk] e la relativa opzione [!UICONTROL Connetti].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-Dopo aver attivato la connessione e aver salvato le informazioni dell’inserzionista, attendi la conferma che Adobe abbia ricevuto i registri REDS. Quindi crea un progetto.
+Seleziona **[!UICONTROL Connetti]** per [!DNL The Trade Desk] e segui le istruzioni nella finestra di dialogo della connessione.
+
+![Nella finestra di dialogo della connessione sono illustrate l&#39;autorizzazione REDS e la configurazione dell&#39;ID partner per [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+Dopo che la connessione è attiva, apri **[!UICONTROL Impostazioni connessione]** e passa a **[!UICONTROL Informazioni inserzionista]**. Per aggiornare le informazioni esistenti, selezionare **[!UICONTROL Modifica]**. Per immettere nuove informazioni, selezionare **[!UICONTROL Aggiungi]**.
+
+![Le impostazioni di connessione attive mostrano [!UICONTROL Informazioni sull&#39;inserzionista] e il controllo [!UICONTROL Modifica].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+Per salvare le informazioni sull&#39;inserzionista, immetti l&#39;ID e il nome del partner in **[!UICONTROL ID partner]** e **[!UICONTROL Nome partner]**, quindi seleziona **[!UICONTROL Salva]**. L&#39;ID partner viene visualizzato in **[!UICONTROL Identificatori postazione]** nel tuo account [!DNL The Trade Desk].
+
+![La finestra di dialogo Informazioni inserzionista ha richiesto campi ID partner e Nome partner e un controllo [!UICONTROL Salva].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+Dopo aver salvato le informazioni dell’inserzionista, attendi che Adobe confermi la ricezione dei registri REDS prima di creare un progetto.
 
 ### Creare un progetto {#create-project}
 
-Crea un progetto per la connessione:
+Per creare un progetto, vai a **[!UICONTROL Collabora]** e seleziona **[!UICONTROL Progetti personali]**, quindi **[!UICONTROL Crea un progetto]** o l&#39;icona Aggiungi (![Aggiungi un progetto.](/help/assets/icons/plus.png)).
 
-1. In **[!UICONTROL Collaborazione]**, selezionare **[!UICONTROL Progetti personali]**.
-1. Selezionare **[!UICONTROL Crea progetto]** o l&#39;icona Aggiungi (![Aggiungi progetto.](/help/assets/icons/plus.png)).
-1. In **[!UICONTROL Crea progetto]**, selezionare [!DNL The Trade Desk] da **[!UICONTROL Collaborator]**.
-   ![Il modulo [!UICONTROL Crea progetto] elenca [!DNL The Trade Desk] e include i campi relativi al nome del progetto, alla descrizione e all&#39;immagine.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Immetti un **[!UICONTROL nome progetto]** e una **[!UICONTROL descrizione]**, quindi scegli un&#39;immagine per identificare il progetto.
-1. Seleziona **[!UICONTROL Crea]**.
+In **[!UICONTROL Crea progetto]**, selezionare [!DNL The Trade Desk] da **[!UICONTROL Collaborator]**.
+
+![Il modulo [!UICONTROL Crea progetto] elenca [!DNL The Trade Desk] e include i campi relativi al nome del progetto, alla descrizione e all&#39;immagine.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+Per identificare il progetto, immetti un **[!UICONTROL nome progetto]** e una **[!UICONTROL descrizione]**, quindi seleziona un&#39;immagine. Al termine dei dettagli del progetto, selezionare **[!UICONTROL Crea]**.
 
 Per informazioni generali sulla gestione dei progetti, vedere la [Guida alla creazione e alla gestione dei progetti](/help/guide/collaborate/manage-projects.md).
 
 ## Selezionare ed esportare gli attributi {#select-export-attributes}
 
-Esporta attributi di arricchimento dal progetto:
+Per selezionare gli attributi di arricchimento per l&#39;esportazione, aprire il progetto e selezionare **[!UICONTROL Arricchisci]**. Per comprendere la disponibilità del segnale, rivedere i valori di copertura per ciascun attributo prima di selezionare gli attributi che si desidera utilizzare.
+
+![La pagina [!UICONTROL Arricchisci] raggruppa i segnali selezionabili per categoria e visualizza i valori di copertura.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Apri il progetto e seleziona **[!UICONTROL Arricchisci]**.
-1. Rivedi i valori di copertura per ogni attributo per comprendere la disponibilità del segnale.
-1. Seleziona gli attributi da utilizzare per l’arricchimento.
-   ![La pagina [!UICONTROL Arricchisci] raggruppa i segnali selezionabili per categoria e visualizza i valori di copertura.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Selezionare la destinazione di esportazione [!DNL Amazon S3] configurata per l&#39;output di arricchimento. Per configurare una destinazione, vedere [Configurare e gestire le destinazioni dell&#39;archiviazione cloud](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Rivedi gli attributi e la destinazione selezionati, quindi seleziona **[!UICONTROL Esporta attributi]**.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Selezionare la destinazione di esportazione [!DNL Amazon S3] configurata per l&#39;output di arricchimento. Se devi configurare una destinazione, consulta [Configurare e gestire le destinazioni dell&#39;archiviazione cloud](/help/guide/destinations/manage-destinations.md).
 
-L’invio di un’esportazione avvia la consegna se la destinazione è configurata correttamente. Verificare la corretta consegna del file all&#39;esterno di [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+Rivedi gli attributi e la destinazione selezionati, quindi seleziona **[!UICONTROL Esporta attributi]**.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+L’invio di un’esportazione avvia la consegna se la destinazione è configurata correttamente. Dopo aver inviato l&#39;esportazione, verificare la corretta consegna del file all&#39;esterno di [!DNL Adobe Real-Time CDP Collaboration].
 
 Adobe elabora gli attributi di arricchimento quando crei un progetto e poi settimanalmente. Ogni esecuzione utilizza gli ultimi 90 giorni di dati disponibili [!DNL The Trade Desk]. Ogni esportazione include gli attributi selezionati dall&#39;esecuzione completata più recente. Per esportare gli attributi aggiornati, richiedi un’altra esportazione al termine di un’esecuzione successiva.
 
@@ -121,13 +125,13 @@ I segnali geografici descrivono il contesto pubblicitario anziché una posizione
 
 ### Copertura degli attributi {#attribute-coverage}
 
-La copertura descrive la frequenza con cui i record elaborati includono un valore di attributo. Per i segnali sì/no, ad esempio **[!UICONTROL CTV esposto]**, la copertura conta i record con un valore true. La copertura non indica le percentuali di corrispondenza di identità o la proporzione di profili di prime parti che riceveranno un attributo.
+La copertura descrive la frequenza con cui i record elaborati includono un valore di attributo. Per i segnali sì/no, ad esempio **[!UICONTROL CTV esposto]**, la copertura conta i record con un valore true. La copertura non indica percentuali di corrispondenza di identità o la proporzione di profili di prime parti che ricevono un attributo.
 
 La corrispondenza delle identità, la disponibilità del segnale di origine e l’acquisizione influiscono sugli aggiornamenti del profilo. La copertura non conferma il completamento dell’esportazione o gli aggiornamenti del profilo.
 
 ### Ambito flusso di lavoro {#workflow-scope}
 
-Utilizza il catalogo curato per arricchire i dati da [!DNL The Trade Desk]. Non è possibile esportare registri non elaborati o creare espressioni di attributi personalizzati. Non sono supportate altre integrazioni di piattaforme lato domanda (DSP) e piattaforme lato offerta (SSP).
+Per arricchire i dati da [!DNL The Trade Desk], utilizza il catalogo curato. Non è possibile esportare registri non elaborati o creare espressioni di attributi personalizzati. Non sono supportate altre integrazioni di piattaforme lato domanda (DSP) e piattaforme lato offerta (SSP).
 
 Questo flusso di lavoro non supporta l’individuazione delle opportunità di arricchimento, l’analisi di sovrapposizione del pubblico o la misurazione di attribuzione e incrementalità.
 
@@ -154,11 +158,11 @@ Verifica l’esportazione separatamente dagli aggiornamenti del profilo:
 1. Acquisisci il file utilizzando le mappature di identità e schema confermate per la sandbox e il set di dati di destinazione.
 1. Rivedi i risultati dell’acquisizione e verifica che un campione dei profili previsti contenga gli attributi di arricchimento.
 
-L’esportazione di un file non conferma che l’acquisizione abbia aggiornato i profili. Acquisisci separatamente ogni esportazione successiva per aggiornare i profili.
+L’esportazione di un file non conferma che l’acquisizione abbia aggiornato i profili. Per aggiornare i profili, acquisisci separatamente ogni esportazione successiva.
 
 ## Risoluzione dei problemi di arricchimento {#troubleshoot-enrichment}
 
-Utilizza questi controlli per risolvere i problemi relativi ai dati di origine, all’esportazione e all’acquisizione:
+Per risolvere i problemi relativi ai dati di origine, all’esportazione e all’acquisizione, utilizza i controlli seguenti:
 
 | Problema | Cosa controllare |
 | --- | --- |
