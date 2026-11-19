@@ -1,15 +1,15 @@
 ---
 title: Configura [!DNL Databricks Delta Share] per Audience Sourcing
-description: Scopri come configurare e connettere [!DNL Databricks Delta Share] per l'audience sourcing in Real-Time CDP Collaboration.
+description: Scopri come configurare e connettere [!DNL Databricks Delta Share] per l'audience sourcing in Real-Time CDP Collaboration, inclusa la condivisione della cronologia.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilità limitata" type="Informative" url="https://helpx.adobe.com/it/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 2%
+source-wordcount: '3294'
+ht-degree: 1%
 ---
 
 # Configura [!DNL Databricks Delta Share] per audience sourcing
@@ -18,7 +18,7 @@ Utilizzare questa guida per connettere [!DNL Databricks Delta Share] a tipi di p
 
 Quando connetti [!DNL Databricks Delta Share], Collaboration legge i dati del pubblico direttamente dalla condivisione del catalogo Unity. Al termine della determinazione dell&#39;origine, è possibile utilizzare i tipi di pubblico per l&#39;attivazione e l&#39;analisi di sovrapposizione nei progetti di collaborazione.
 
-Questa guida spiega come preparare i prerequisiti, connettere [!DNL Delta Share], specificare le tabelle di origine, mappare i campi di identità e verificare che l&#39;origine del pubblico venga avviata correttamente.
+Questa guida spiega come completare i prerequisiti, connettere [!DNL Delta Share], specificare le tabelle di origine, mappare i campi di identità e verificare che l&#39;origine del pubblico venga avviata correttamente.
 
 I tipi di pubblico originati da [!DNL Databricks] seguono le stesse regole di governance e gestione dei dati dei tipi di pubblico originati da Adobe Experience Platform e da altre origini cloud supportate.
 
@@ -44,20 +44,21 @@ Per istruzioni dettagliate sulla pubblicazione di una condivisione in Adobe, con
 
 Struttura le tabelle dei tipi di pubblico in modo che Collaboration possa individuare i tipi di pubblico e mappare correttamente le identità.
 
-* **Tabella di appartenenza (obbligatoria):** Tabella all&#39;interno dello schema condiviso contenente una riga per coppia profilo-pubblico. Questa tabella deve includere una colonna mappabile a `AUDIENCE_ID` e almeno una colonna chiave di corrispondenza supportata. Collaboration utilizza questa tabella per l’anteprima dei dati sorgente e la mappatura dei campi.
+* **Tabella di appartenenza (obbligatoria):** Tabella all&#39;interno dello schema condiviso contenente una riga per coppia profilo-pubblico. Questa tabella deve includere una colonna `AUDIENCE_ID` e almeno una colonna chiave di corrispondenza supportata. Collaboration utilizza questa tabella per l’anteprima dei dati sorgente e la mappatura dei campi.
 * **Tabella metadati (facoltativa):** Se si gestisce un catalogo separato di tipi di pubblico (una riga per pubblico con ID pubblico, nome, conteggi o metadati simili), è possibile fornire questa tabella in modo che Collaboration legga le definizioni dei tipi di pubblico da essa invece di dedurre ID di pubblico distinti dalla sola tabella appartenenze.
 * **Chiavi di corrispondenza supportate:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID` e altre chiavi di corrispondenza abilitate per il tuo account Collaboration.
 * **Requisiti di hashing:** tutti i valori chiave di corrispondenza devono essere tagliati, in minuscolo e con hash SHA256 prima di essere archiviati in [!DNL Databricks]. Collaboration non esegue l’hashing o la normalizzazione dei dati prima dell’acquisizione.
 * **Coerenza colonna:** La tabella di appartenenza deve esporre nomi di colonna stabili che Collaboration può mappare alle chiavi di corrispondenza abilitate.
+* **Condivisione della cronologia (scelta consigliata):** Per migliorare le prestazioni dell&#39;origine, in particolare per le tabelle di grandi dimensioni, abilitare la condivisione della cronologia durante la condivisione delle tabelle dei tipi di pubblico. La condivisione della cronologia consente a Collaboration di leggere i dati in parallelo utilizzando una versione coerente della tabella. Senza la condivisione della cronologia, l’audience sourcing viene completato utilizzando un processo più lento e a query singola. Per ulteriori informazioni, vedere [Attiva condivisione cronologia](#enable-history-sharing).
 
 Tutte le chiavi di corrispondenza presenti nella tabella di appartenenza devono essere abilitate anche per l’account Collaboration. Per aggiungere o abilitare le chiavi di corrispondenza, vedere [Configurare le chiavi di corrispondenza](./onboard-account.md#set-up-match-keys).
 
 ### Valori richiesti prima di iniziare {#required-values}
 
-Preparare i valori seguenti prima di avviare la configurazione guidata.
+Prepara i seguenti valori prima di avviare il flusso di lavoro di configurazione.
 
 
-| Valore | Descrizione |
+| Elemento “value” | Descrizione |
 | ----- | ----------- |
 | Nome provider | Identificatore del provider utilizzato da Adobe nel catalogo Unity per accedere a [!DNL Delta Share]. Questo valore può essere fornito dall&#39;amministratore [!DNL Databricks] o dal contatto per l&#39;onboarding di Adobe. Questo valore non corrisponde all&#39;URL dell&#39;area di lavoro [!DNL Databricks]. |
 | Nome condivisione | Nome di [!DNL Delta Share] pubblicato in Adobe. |
@@ -69,7 +70,7 @@ Preparare i valori seguenti prima di avviare la configurazione guidata.
 
 ## Configura la connessione [!DNL Databricks] {#configure-databricks-connection}
 
-Il flusso di lavoro di configurazione è una procedura guidata in più passaggi all&#39;interno dell&#39;area di lavoro **[!UICONTROL Configurazione]**. Completa ogni passaggio in sequenza.
+Il flusso di lavoro di configurazione include più passaggi nell&#39;area di lavoro **[!UICONTROL Configurazione]**. Completa ogni passaggio in sequenza.
 
 ### Aggiungi una nuova connessione dati {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaboration convalida la condivisione e la monta nell’area di lavoro di Adob
 | **[!UICONTROL Nome provider]** | Il nome del provider di Unity Catalog utilizzato da Adobe per utilizzare la condivisione. Vedi [Valori richiesti prima di iniziare](#required-values). |
 | **[!UICONTROL Nome condivisione]** | Nome di [!DNL Delta Share] pubblicato in Adobe. |
 | **[!UICONTROL Schema]** | Lo schema all’interno della condivisione che contiene le tabelle del pubblico. |
-| **[!UICONTROL Tabella dati]** | Il nome della tabella all’interno dello schema che contiene le righe di appartenenza al pubblico (una riga per profilo in un pubblico). |
+| **[!UICONTROL Tabella di appartenenza]** | Il nome della tabella all’interno dello schema che contiene le righe di appartenenza al pubblico (una riga per profilo in un pubblico). |
 | **[!UICONTROL Tabella metadati]** | La tabella che elenca i tipi di pubblico (una riga per pubblico). |
 
 
-![Il flusso di lavoro Aggiungi pubblico mostra il modulo di condivisione connessione dei database con il nome del provider, il nome della condivisione, lo schema, la tabella dati e i campi della tabella metadati e il pulsante Avanti disponibile.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![Il flusso di lavoro Aggiungi pubblico visualizza il modulo di condivisione di connessione Database con il nome del provider, il nome della condivisione, lo schema, la tabella di appartenenza e i campi della tabella metadati e il pulsante Avanti disponibile.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 Se non è possibile trovare la condivisione o se lo schema non è ancora visibile, viene visualizzato un messaggio di errore. Verificare i valori con l&#39;amministratore [!DNL Databricks] e riprovare.
 
@@ -171,7 +172,7 @@ Viene visualizzata una finestra di dialogo di conferma che indica che Collaborat
 
 ## Rivedere i tipi di pubblico originati {#review-sourced-audiences}
 
-Dopo aver completato la configurazione guidata, Collaboration inizia a determinare l&#39;origine dei tipi di pubblico dalle tabelle [!DNL Databricks] in modo asincrono. Passa a **[!UICONTROL Configurazione] > [!UICONTROL I miei tipi di pubblico]** per monitorare l&#39;avanzamento. Il processo di determinazione origine non viene completato immediatamente. Il tempo necessario dipende dalle dimensioni dei dati.
+Dopo aver completato il flusso di lavoro di configurazione, Collaboration inizia a raccogliere i tipi di pubblico dalle tabelle [!DNL Databricks] in modo asincrono. Passa a **[!UICONTROL Configurazione] > [!UICONTROL I miei tipi di pubblico]** per monitorare l&#39;avanzamento. Il processo di determinazione origine non viene completato immediatamente. Il tempo necessario dipende dalle dimensioni dei dati.
 
 ### Monitorare l’avanzamento di audience sourcing {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Mentre Collaboration recupera i dati del pubblico, un banner nella parte superio
 
 >[!TIP]
 >
->Il tempo di Audience sourcing varia in base alle dimensioni della tabella di appartenenza e all’utilizzo di una tabella di metadati per l’individuazione del pubblico. I set di dati più grandi potrebbero richiedere più tempo per essere visualizzati nell&#39;area di lavoro **[!UICONTROL Tipi di pubblico]**.
+>Per migliorare le prestazioni di audience sourcing, in particolare per tabelle di grandi dimensioni, abilita la condivisione della cronologia. Questo consente a Collaboration di leggere i dati in parallelo da una versione di tabella coerente. Tuttavia, le condivisioni cross-cloud utilizzano un processo a query singola, anche quando è abilitata la condivisione della cronologia.
+>
+>Il tempo necessario per il sourcing del pubblico dipende anche da fattori quali le dimensioni della tabella di appartenenza e l’individuazione del pubblico basata sui metadati. I set di dati più grandi potrebbero richiedere più tempo per essere visualizzati in **[!UICONTROL I miei tipi di pubblico]**. Per ulteriori informazioni, vedere [Attiva condivisione cronologia](#enable-history-sharing).
 
 ### Visualizzare i dettagli del pubblico di origine {#view-audience-details}
 
@@ -216,11 +219,13 @@ Per esaminare la connessione stessa, incluse le relative chiavi di corrispondenz
 
 Tieni presente i seguenti vincoli durante la configurazione e l&#39;utilizzo di [!DNL Databricks Delta Share] audience sourcing:
 
-* **Solo condivisione nativa:** L&#39;interfaccia utente supporta solo la condivisione nativa da database a database [!DNL Delta Sharing]. I flussi di autenticazione Bearer-token e OIDC non sono disponibili nella configurazione guidata.
-* **Nessun browser di tabelle nella procedura guidata:** Immettere manualmente i nomi delle tabelle. Collaboration convalida i nomi delle tabelle durante l&#39;anteprima delle tabelle, ma non elenca automaticamente tutte le tabelle della condivisione.
+* **Solo condivisione nativa:** L&#39;interfaccia utente supporta solo la condivisione nativa da database a database [!DNL Delta Sharing]. I flussi di autenticazione Bearer-token e OIDC non sono disponibili nel flusso di lavoro di configurazione.
+* **Voce nome tabella manuale:** È necessario immettere manualmente i nomi delle tabelle. Collaboration convalida i nomi delle tabelle durante l&#39;anteprima delle tabelle, ma non elenca automaticamente tutte le tabelle della condivisione.
 * **Limite righe tabella metadati:** Quando utilizzi una tabella metadati per l&#39;individuazione del pubblico, Collaboration importa fino a 100.000 righe di pubblico da tale tabella. Se il catalogo supera questo limite, contatta il supporto Adobe.
 * **Vincoli chiave di corrispondenza:** Una volta abilitata una chiave di corrispondenza per una connessione dati, non è possibile rimuoverla. È possibile aggiungere le chiavi di corrispondenza a una connessione esistente, ma non disattivarle o eliminarle. Per modificare le chiavi di corrispondenza attive, è necessario [eliminare la connessione dati](./manage-data-connection.md#delete-data-connection) e crearne una nuova.
 * **Tabella di appartenenza richiesta:** Anche quando si utilizza una tabella di metadati per l&#39;individuazione del pubblico, è necessario specificare una tabella di appartenenza. Collaboration legge le righe di identità dalla tabella delle appartenenze durante l’acquisizione.
+* **Condivisione della cronologia consigliata per le tabelle di grandi dimensioni:** Per migliorare le prestazioni dell&#39;origine per le tabelle di grandi dimensioni, abilitare la condivisione della cronologia. Questo consente a Collaboration di leggere i dati in parallelo. Senza la condivisione della cronologia, l&#39;origine utilizza un processo a query singola più lento. Per ulteriori informazioni, vedere [Attiva condivisione cronologia](#enable-history-sharing).
+* **Condivisioni cross-cloud:** quando il provider [!DNL Databricks] e l&#39;area di lavoro Adobe utilizzano ambienti cloud diversi, l&#39;origine utilizza un processo a query singola indipendentemente dal fatto che la condivisione della cronologia sia abilitata o meno. Ciò si applica, ad esempio, quando il provider utilizza [!DNL Azure] e l&#39;area di lavoro di Adobe utilizza AWS. Non è richiesta alcuna configurazione aggiuntiva.
 
 ## Risoluzione dei problemi {#troubleshooting}
 
@@ -240,16 +245,32 @@ Utilizzare questa sezione per risolvere i problemi che si verificano durante o d
 
 **Stato dei blocchi di convalida della mappatura dei campi**
 
-* Verificare che la tabella di appartenenza includa una colonna mappabile a **`AUDIENCE_ID`**.
-* Assicurati che almeno due campi di identità siano completamente mappati (sorgente e destinazione).
+* Verificare che la tabella di appartenenza includa una colonna `AUDIENCE_ID` e almeno una colonna chiave di corrispondenza supportata.
+* Conferma che almeno una chiave di corrispondenza supportata abbia mappato sia un campo di origine che un campo di destinazione.
 * Utilizza **[!UICONTROL Anteprima dati di origine]** per verificare che i nomi delle colonne corrispondano alle chiavi di corrispondenza abilitate.
 
 **I tipi di pubblico non vengono visualizzati o l&#39;origine richiede più tempo del previsto**
 
+* Verificare che le tabelle siano condivise con la cronologia. Eseguire `SHOW ALL IN SHARE <share_name>;` e verificare che `history_sharing` sia `ENABLED`. Se la condivisione della cronologia è disabilitata, aggiungere nuovamente la tabella con `WITH HISTORY`. Per ulteriori informazioni, vedere [Attiva condivisione cronologia](#enable-history-sharing).
 * Il tempo di determinazione origine viene scalato in base al volume dei dati. È previsto un tempo di elaborazione esteso per le tabelle di appartenenza di grandi dimensioni.
 * Se i tipi di pubblico non vengono visualizzati entro 24 ore, controllare la scheda **[!UICONTROL Le mie connessioni dati]** per verificare la presenza di indicatori di errore sulla connessione.
 * Verifica che la struttura della tabella di appartenenza e le mappature dei campi corrispondano ai requisiti in [Prepara i dati del pubblico](#prepare-audience-data).
 * Se il problema persiste, contatta l’Assistenza clienti di Adobe e fornisci il nome della connessione dati e i dettagli della tabella.
+
+**Impossibile abilitare la condivisione della cronologia**
+
+Se l&#39;area di lavoro rifiuta il comando `ALTER TABLE`, rimuovere la tabella dalla condivisione e aggiungerla con la cronologia. Sostituisci `<share_name>`, `<catalog>`, `<schema>` e `<table>` con il nome della condivisione e gli identificatori della tabella.
+
+>[!IMPORTANT]
+>
+> Non rimuovere e aggiungere nuovamente una tabella mentre è in corso un’esecuzione di Adobe sourcing.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Dopo aver aggiunto nuovamente la tabella, [verificare che la condivisione della cronologia sia abilitata](#enable-history-sharing).
 
 **La connessione dati mostra uno stato di errore dopo l&#39;esecuzione iniziale**
 
@@ -273,28 +294,62 @@ Prepara quanto segue nell&#39;area di lavoro [!DNL Databricks]:
 * Un [!DNL Delta Share] contenente lo schema e le tabelle che Collaboration leggerà.
 * Una tabella di appartenenza con una riga per coppia profilo-pubblico e colonne per **`AUDIENCE_ID`** e chiavi di corrispondenza.
 * Una tabella di metadati facoltativa se intendi utilizzare l’individuazione del pubblico basata sui metadati.
+* Condivisione della cronologia abilitata per ogni tabella della condivisione (scelta consigliata).
 
 ### Pubblicare la condivisione {#publish}
 
 Segui le [!DNL Databricks Delta Sharing] procedure della tua organizzazione per concedere all&#39;account consumer di Adobe l&#39;accesso alla condivisione. I passaggi esatti dipendono dal modello di distribuzione e governance di [!DNL Databricks]. In generale:
 
 1. In Unity Catalog, crea o identifica la condivisione contenente lo schema e le tabelle del pubblico.
-2. Aggiungi lo schema (o singole tabelle) alla condivisione.
+2. Aggiungere lo schema o le singole tabelle alla condivisione Database. Adobe consiglia di abilitare la condivisione della cronologia per ogni tabella. Per ulteriori informazioni, vedere [Attiva condivisione cronologia](#enable-history-sharing).
 3. Concedi la condivisione all&#39;account consumer [!DNL Databricks] di Adobe utilizzando la condivisione nativa da database a database.
-4. Verifica con il tuo contatto Adobe che la condivisione sia visibile sul lato consumer e annota il nome del provider e il nome della condivisione per la configurazione guidata di Collaboration.
-5. Per la documentazione del prodotto [!DNL Databricks] in [!DNL Delta Sharing], consulta la [documentazione sulla condivisione Delta dei databrick](https://docs.databricks.com/aws/en/delta-sharing).
+4. Verifica con il tuo contatto Adobe che la condivisione sia visibile sul lato consumer e annota il nome del provider e il nome della condivisione per il flusso di lavoro di configurazione di Collaboration.
+
+>[!NOTE]
+>
+> Per istruzioni sul prodotto, consulta la [documentazione sulla condivisione Delta dei databrick](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}.
+
+### Abilita condivisione cronologia {#enable-history-sharing}
+
+Per migliorare le prestazioni di sourcing per le tabelle di grandi dimensioni, abilita la condivisione della cronologia per ogni tabella del pubblico. Questo consente a Collaboration di leggere i dati in parallelo utilizzando una versione coerente della tabella. Senza la condivisione della cronologia, Collaboration utilizza un processo a query singola più lento.
+
+Le condivisioni cross-cloud utilizzano la sola query di lettura, anche con cronologia abilitata. Per ulteriori informazioni, vedere [Limitazioni note](#known-limitations).
+
+La condivisione della cronologia consente ad Adobe di accedere alle versioni precedenti delle tabelle condivise, ma non ad altre tabelle. Non è necessario concedere un accesso aggiuntivo quando si abilita la condivisione della cronologia per una tabella già condivisa con Adobe.
+
+Utilizzare i seguenti comandi SQL nell&#39;area di lavoro [!DNL Databricks]. Sostituisci `<share_name>`, `<catalog>`, `<schema>` e `<table>` con il nome della condivisione e gli identificatori della tabella.
+
+Per aggiungere una tabella con cronologia, eseguire le operazioni riportate di seguito.
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Per abilitare la condivisione della cronologia per una tabella già presente nella condivisione, eseguire le operazioni seguenti:
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Per verificare la condivisione della cronologia, eseguire le operazioni seguenti:
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+Confermare che `history_sharing` è `ENABLED` per ogni tabella del pubblico, inclusa la tabella dei metadati, se utilizzata. La condivisione della cronologia viene applicata alla successiva esecuzione dell&#39;origine.
 
 ### Raccogliere i dettagli di [!DNL Databricks] per Collaboration {#collect-databricks-details}
 
 Dopo aver pubblicato la condivisione, accertati di avere a disposizione il nome del provider, il nome della condivisione, lo schema e i nomi delle tabelle per il flusso di lavoro di configurazione di Collaboration.
 
-Raccogli i dettagli riportati di seguito prima di avviare la configurazione guidata di Collaboration.
+Raccogli i dettagli riportati di seguito prima di avviare il flusso di lavoro di configurazione del Collaboration.
 
 | Campo | Descrizione | Esempio |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | Nome provider | Identificatore del provider nel metastore Unity Catalog di Adobe (dall’onboarding di Adobe) | `your_org_provider` |
 | Nome condivisione | Nome del [!DNL Delta Share] pubblicato | `audience_share_prod` |
-| Schema | Schema | `collaboration_audiences` |
+| Schema | Schema all’interno della condivisione che contiene le tabelle del pubblico. | `collaboration_audiences` |
 | Tabella di appartenenza | Tabella con righe di appartenenza profilo-pubblico | `audience_members` |
 | Tabella metadati (facoltativa) | Tabella in cui sono elencati i tipi di pubblico (una riga per pubblico) | `audience_catalog` |
 
