@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration consente la condivisione continua e sicura dei dati e la collaborazione tra inserzionisti ed editori, semplificando gli insight sul pubblico in tempo reale e le strategie di marketing personalizzate.
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 30%
+source-wordcount: '283'
+ht-degree: 31%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,6 +33,7 @@ ht-degree: 30%
     * [Configurare Snowflake per l’audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
     * [Configurare la condivisione Delta dei database per Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configurare Adobe Audience Manager per l’audience sourcing](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[Accesso al pubblico e concessioni](./setup/virtual-audience-access.md)
   * [Gestisci connessioni dati](./setup/manage-data-connection.md)
   * [Impostare e gestire la risoluzione delle identità](./setup/identity-resolution.md)
   * [Tracciare le attività che consumano crediti](/help/guide/setup/my-activity.md)
@@ -72,6 +73,7 @@ ht-degree: 30%
   * [Configurare e gestire le destinazioni dell’archiviazione cloud](./destinations/manage-destinations.md)
   * [Requisiti della destinazione di archiviazione cloud](./destinations/cloud-storage-destination-requirements.md)
   * [Configurare Adobe Experience Platform come destinazione](./destinations/experience-platform.md)
+  * {hide-from-toc}[Attiva pubblico direttamente (1P)](./destinations/direct-audience-activation.md)
 * Autorizzazioni {#permissions}
   * [Panoramica](/help/guide/permissions/overview.md)
   * [Gestire l’accesso degli utenti](./permissions/manage-user-access.md)
