@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 14%
+ht-degree: 15%
 ---
 # Source e gestire i tipi di pubblico
 
